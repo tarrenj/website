@@ -1,0 +1,71 @@
+---
+title: Zen Cash
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/blog/:title/"
+    featured-image: ''
+    posts:
+    -
+    -
+    -
+email: mdlorey@gmail.com
+description: Zen Cash website
+baseurl:
+url: https://zencash.io/
+author:
+  name: Mike Lorey
+  email: mdlorey@gmail.com
+  uri:
+  bio:
+  facebook:
+  twitter: 
+  linkedin:
+  gplus:
+  youtube:
+future: true
+show_drafts: true
+lsi: false
+permalink: pretty
+paginate: 6
+paginate_path: "/blog/page:num/"
+excerpt_separator:
+markdown: kramdown
+cloudinary:
+  cloud_name: dw4i3sw5c
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+gems:
+- jekyll-feed
+- jekyll-gist
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-sass-converter
+exclude:
+- _dev
+- bower.json
+- Gemfile
+- Gemfile.lock
+- gulpfile.js
+- node_modules
+- package.json
+- README.md

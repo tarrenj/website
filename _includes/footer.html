@@ -1,0 +1,52 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <!-- <ul class="contact-list">
+          <li>{{ site.title }}</li>
+
+        </ul> -->
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+            {% if site.author.facebook %}
+            <li>
+              {% include icon-facebook.html username=site.author.facebook %}
+            </li>
+            {% endif %}
+            {% if site.author.twitter %}
+            <li>
+            {% include icon-twitter.html username=site.author.twitter %}
+            </li>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <li>
+              {% include icon-linkedin.html username=site.author.linkedin %}
+            </li>
+            {% endif %}
+            {% if site.author.gplus %}
+            <li>
+              {% include icon-gplus.html username=site.author.gplus %}
+            </li>
+            {% endif %}
+            {% if site.author.youtube %}
+            <li>
+              {% include icon-youtube.html username=site.author.youtube %}
+            </li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

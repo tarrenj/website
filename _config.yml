@@ -30,7 +30,7 @@ author:
   uri:
   bio:
   facebook:
-  twitter: 
+  twitter:
   linkedin:
   gplus:
   youtube:
@@ -66,6 +66,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - gulpfile.js
+- LICENSE.md
 - node_modules
 - package.json
 - README.md

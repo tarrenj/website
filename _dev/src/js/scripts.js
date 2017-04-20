@@ -13,6 +13,22 @@
 // 	});
 // });
 
+var header = $('.site-header');
+
+$(function() {
+    header.headroom({
+        "tolerance": 5,
+        "offset": 40,
+        "classes": {
+            "initial": "animated",
+            "pinned": "slideDown",
+            "unpinned": "slideUp",
+            "top": "headroom--top",
+            "notTop": "headroom--not-top"
+        }
+    });
+});
+
 // Smooth page scroll to an anchor on the same page
 $(function() {
     $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not(.quote-link)').click(function() {

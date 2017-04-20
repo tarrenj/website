@@ -2,64 +2,78 @@
     z-index: 100;
     position: fixed;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     .navbar {
-        padding: .5rem 0;
+      padding: .5rem 15px;
     }
     .navbar-brand {
-        font-size: 1.6rem;
+      font-size: 1rem;
+      line-height: 1;
     }
     .navbar-brand,
     .nav-link {
-        color: white;
-        &:hover,
-        &:focus,
-        &:active {
-            color: $light-blue;
-        }
+      color: white;
+      &:hover,
+      &:focus,
+      &:active {
+          color: $light-blue;
+      }
     }
     // &.is-active {
     //     background-color: rgba(#797572, 0.99);
     // }
 }
 
+.site-header {
+  background-color: transparent;
+  box-shadow: none;
+  @include transition(all 0.3s ease-in-out);
+  &.headroom--not-top {
+    background-color: $teal;
+    box-shadow: 0 1px 12px 1px rgba(0,0,0,0.1);
+    @include transition(all 0.3s ease-in-out);
+  }
+}
+
+
 body:not(#homepage) .site-header {
     background-color: rgba(#797572, 0.98);
 }
 
-#main-nav {
-    z-index: 101;
-}
-
-#mobile-nav {
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(#797572, 0.98);
-
-    visibility: hidden;
-    opacity: 0;
-    @include transition(all 0.3s ease-in-out);
-    &.visible {
-        visibility: visible;
-        opacity: 1;
-        @include transition(all 0.3s ease-in-out);
-    }
-    #navContents {
-        width: 100%;
-    }
-    .nav-item {
-        float: none;
-        margin: 10px 0;
-    }
-    .nav-link {
-        font-size: 1.6rem;
-        text-align: center;
-    }
-}
+// #main-nav {
+//     z-index: 101;
+// }
+//
+// #mobile-nav {
+//     z-index: 100;
+//     display: flex;
+//     align-items: center;
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//     height: 100vh;
+//     background-color: rgba(#797572, 0.98);
+//
+//     visibility: hidden;
+//     opacity: 0;
+//     @include transition(all 0.3s ease-in-out);
+//     &.visible {
+//         visibility: visible;
+//         opacity: 1;
+//         @include transition(all 0.3s ease-in-out);
+//     }
+//     #navContents {
+//         width: 100%;
+//     }
+//     .nav-item {
+//         float: none;
+//         margin: 10px 0;
+//     }
+//     .nav-link {
+//         font-size: 1.6rem;
+//         text-align: center;
+//     }
+// }
 
 .navbar-toggler {
     width: 50px;
@@ -84,22 +98,22 @@ body:not(#homepage) .site-header {
     background-color: white;
 }
 
-.hero {
-    color: white;
-    max-height: 100vh;
-    @include bgimagecover(transparent, '', center);
-    .overlay {
-        background-color: rgba(#797572, 0.5);
-        background-image: -webkit-linear-gradient(263deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), -webkit-linear-gradient(18deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), -webkit-radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
-        background-image: linear-gradient(-173deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), linear-gradient(72deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
-        background-blend-mode: multiply;
-    }
-    .btn {
-        margin-top: 15px;
-    }
-    @media (max-width: 565px) {
-        h1 {
-            font-size: 2.6rem;
-        }
-    }
-}
+// .hero {
+//     color: white;
+//     max-height: 100vh;
+//     @include bgimagecover(transparent, '', center);
+//     .overlay {
+//         background-color: rgba(#797572, 0.5);
+//         background-image: -webkit-linear-gradient(263deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), -webkit-linear-gradient(18deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), -webkit-radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
+//         background-image: linear-gradient(-173deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), linear-gradient(72deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
+//         background-blend-mode: multiply;
+//     }
+//     .btn {
+//         margin-top: 15px;
+//     }
+//     @media (max-width: 565px) {
+//         h1 {
+//             font-size: 2.6rem;
+//         }
+//     }
+// }

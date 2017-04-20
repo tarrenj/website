@@ -114,6 +114,7 @@ body:not(#homepage) .site-header {
         color: $teal;
         display: block;
         padding: .75rem 1.25rem;
+        position: relative;
         &:not(.collapsed) {
           color: white;
           background-color: darken($orange, 5%);
@@ -124,6 +125,34 @@ body:not(#homepage) .site-header {
           color: white;
           text-decoration: none;
           background-color: darken($orange, 5%);
+        }
+      }
+      .fa {
+        position: absolute;
+        right: .75rem;
+        top: 16px;
+      }
+      .fa-plus {
+        opacity: 0;
+        visibility: hidden;
+        @include transition(all 0.3s ease-in-out);
+      }
+      .fa-minus {
+        opacity: 1;
+        visibility: visible;
+        @include transition(all 0.3s ease-in-out);
+      }
+      .collapsed {
+        .fa-plus {
+          opacity: 1;
+          visibility: visible;
+          transform: rotate(90deg);
+          @include transition(all 0.3s ease-in-out);
+        }
+        .fa-minus {
+          opacity: 0;
+          visibility: hidden;
+          @include transition(all 0.3s ease-in-out);
         }
       }
     }
@@ -148,5 +177,95 @@ body:not(#homepage) .site-header {
   }
   .active {
     background-color: rgba($purple, 0.2);
+  }
+}
+
+footer {
+  padding: 1rem;
+  background-color: $gray;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  li {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1rem 1rem 0;
+  }
+}
+
+.card {
+  color: $text-color;
+  border: none;
+  border-radius: 0;
+  background-color: $gray;
+  box-shadow: 0 1px 12px 1px rgba(0,0,0,0.3);
+  .name {
+    color: $teal;
+    font-size: 1.4rem;
+  }
+  .title {
+    color: $darkteal;
+    font-weight: 500;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+.card-img-top {
+  border-radius: 0;
+  height: 240px;
+  @include bgimagecover(transparent, '../img/blog-placeholder.jpg', center);
+}
+.card-footer {
+  padding: 0 1.25rem 1.25rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  a {
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 1.1rem;
+    background-color: $teal;
+    border-radius: 5rem;
+    margin: 0 .25rem;
+    box-shadow: 0 1px 12px 1px rgba(0,0,0,0.1);
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $darkteal;
+      box-shadow: 0 1px 12px 1px rgba(0,0,0,0.3);
+    }
+  }
+}
+.joshua {
+  .card-img-top {
+    background-image: url('../img/people/josh.jpg');
+  }
+}
+.rob {
+  .card-img-top {
+    background-image: url('../img/people/rob.jpg');
+  }
+}
+.rolf {
+  .card-img-top {
+    background-image: url('../img/people/rolf.jpg');
+  }
+}
+.joseph {
+  .card-img-top {
+    background-image: url('../img/people/joe.jpg');
+  }
+}
+.anonymous {
+  .card-img-top {
+    background-image: url('../img/people/anon_profile.jpg');
   }
 }

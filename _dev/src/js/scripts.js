@@ -91,7 +91,10 @@ $(function() {
                 parent.className = parent.className.replace(/\bloading\b/,'');
             }, 200);
         }
-    });3
+    });
+
+    // Add plus and minus symbols to accordion tabs
+    $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
 });
 
 // $(function() {

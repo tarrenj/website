@@ -22,6 +22,7 @@
     "normalize-css": "^5.0.0",
     "animsition": "^4.0.2",
     "bLazy": "blazy#^1.8.2",
-    "headroom.js": "https://unpkg.com/headroom.js/bower.zip"
+    "headroom.js": "https://unpkg.com/headroom.js/bower.zip",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

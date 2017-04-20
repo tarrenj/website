@@ -1,22 +1,24 @@
 .btn {
     font-weight: bold;
+    border-radius: 0;
+    box-shadow: 0 1px 12px 1px rgba(0,0,0,0.1);
     @include transition(all 0.3s ease-in-out);
     &:hover,
     &:focus,
     &:active {
-        @include transition(all 0.3s ease-in-out);
+      box-shadow: 0 1px 12px 1px rgba(0,0,0,0.3);
+      @include transition(all 0.3s ease-in-out);
     }
 }
 
-.btn-ghost {
-    color: white;
-    border: 2px solid white;
-    &:hover,
-    &:focus,
-    &:active {
-        color: #797572;
-        background: white;
-    }
+.btn-primary {
+  background-color: darken($orange, 5%);
+  border: none;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $orange;
+  }
 }
 
 #mainNav {
@@ -93,6 +95,10 @@
   .container-fluid {
     max-width: 1800px;
   }
+  .img-fluid {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .featured-content {
@@ -142,6 +148,14 @@
   background-color: darken($orange, 5%);
   h1, h2, h3, h4 {
     color: white;
+    &.name {
+      color: $teal;
+    }
+  }
+  .card {
+    min-width: 300px;
+    max-width: 300px;
+    margin-bottom: 30px;
   }
 }
 

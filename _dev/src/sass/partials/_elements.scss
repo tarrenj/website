@@ -37,6 +37,7 @@
   margin-bottom: 0;
   overflow: hidden;
   padding: 4rem 2rem 6rem;
+  text-align: center;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
   h1, h2, h3, h4 {
     color: white;
@@ -72,7 +73,7 @@
   }
   h1 {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 2rem;
     strong {
@@ -85,19 +86,31 @@
     margin-bottom: 0;
   }
   @media (min-width: 576px) {
+    padding: 5rem 2rem 3rem;
+  }
+  @media (min-width: 768px) {
+    text-align: left;
     padding: 8rem 2rem 10rem;
+    h1 {
+      font-size: 2.4rem;
+    }
   }
 }
 
 .content-block {
+  text-align: center;
   background-color: $gray;
-  padding: 4rem 1rem;
+  padding: 2rem 0;
   .container-fluid {
     max-width: 1800px;
   }
   .img-fluid {
     display: block;
     margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    text-align: left;
+    padding: 4rem 1rem;
   }
 }
 
@@ -111,16 +124,34 @@
   .row:first-of-type {
     margin-bottom: 3rem;
     h2 {
-      margin-bottom: 0;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 0.75rem;
+      @media (min-width: 768px) {
+        font-size: 2.5rem;
+        text-align: left;
+        margin-bottom: 0;
+      }
     }
     p {
+      text-align: center;
       margin-bottom: 0;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
     }
   }
 }
 
 #zenBlock {
-  margin-top: -274px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  max-width: 130px;
+  @media (min-width: 768px) {
+    margin-top: -244px;
+    margin-bottom: 0;
+    max-width: none;
+  }
 }
 
 .feature-band {
@@ -143,14 +174,27 @@
   h1, h2, h3, h4 {
     color: darken($orange, 5%);
   }
+  .img-fluid {
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    @media (min-width: 768px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
 }
 
 #technology {
   .quote {
-    margin-top: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
     color: darken($orange, 5%);
     .lead {
       font-size: 2rem;
+    }
+    @media (min-width: 768px) {
+      margin-top: 6rem;
+      margin-bottom: 0;
     }
   }
 }
@@ -179,6 +223,23 @@
   background-position: center bottom;
   h1, h2, h3, h4 {
     color: white;
+  }
+}
+
+#links {
+  .btn {
+    @media (max-width: 767px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+#octocat {
+  max-width: none;
+  @media (max-width: 767px) {
+    max-width: 400px;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
   }
 }
 

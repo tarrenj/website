@@ -1,5 +1,5 @@
 ---
-title: Zen Cash
+title: Zen
 timezone: America/New_York
 collections:
   posts:
@@ -21,7 +21,7 @@ defaults:
     -
     -
 email: mdlorey@gmail.com
-description: Zen Cash website
+description: A globally accessible and anonymous blockchain
 baseurl:
 url: https://zencash.io/
 author:

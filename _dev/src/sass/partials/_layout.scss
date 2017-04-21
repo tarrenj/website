@@ -1,6 +1,6 @@
-body {
-    padding-top: 2rem;
-}
+// body {
+//     padding-top: 2rem;
+// }
 
 .b-lazy {
     @include transition(all 0.3s ease-in-out);
@@ -8,4 +8,8 @@ body {
 }
 .b-lazy.b-loaded {
     opacity: 1;
+}
+
+.row .row {
+  margin: 0;
 }

@@ -13,6 +13,22 @@
 // 	});
 // });
 
+var header = $('.site-header');
+
+$(function() {
+    header.headroom({
+        "tolerance": 5,
+        "offset": 40,
+        "classes": {
+            "initial": "animated",
+            "pinned": "slideDown",
+            "unpinned": "slideUp",
+            "top": "headroom--top",
+            "notTop": "headroom--not-top"
+        }
+    });
+});
+
 // Smooth page scroll to an anchor on the same page
 $(function() {
     $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not(.quote-link)').click(function() {
@@ -75,7 +91,10 @@ $(function() {
                 parent.className = parent.className.replace(/\bloading\b/,'');
             }, 200);
         }
-    });3
+    });
+
+    // Add plus and minus symbols to accordion tabs
+    $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
 });
 
 // $(function() {

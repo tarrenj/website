@@ -2,38 +2,151 @@
 layout: homepage
 ---
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+<div class="jumbotron">
+  <video poster="/assets/img/space-placeholder.jpg" id="bgvid" playsinline autoplay muted loop>
+    <source src="/assets/vid/space.webm" type="video/webm">
+    <source src="/assets/vid/space.mp4" type="video/mp4">
+  </video>
+  <div class="color-overlay"></div>
+  <div class="block-overlay"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>A <strong>globally accessible</strong> and <strong>anonymous</strong> blockchain for <strong>censorship-resistant</strong> communications and economic activity</h1>
       </div>
     </div>
+    <div class="row align-items-center">
+      <div class="col-md-6 text-md-right">
+        <h3>Launching May 23, 2017</h3>
+      </div>
+      <div class="col-md-6">
+        Zen will have a public launch event in<br />
+        NYC to coincide with Consensus 2017.<br />
+        Stay tuned for details.
+      </div>
+    </div>
+  </div>
+</div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+{% include about.html %}
+
+<div class="feature-band content-block">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3>A Communications System For All</h3>
+        <p>Zen is designed for facilitating widespread use across all audiences including: military, government, non-state, corporate, and individual use.</p>
+      </div>
+      <div class="col-4 col-md-2 text-center">
+        <i class="fa fa-folder-open" aria-hidden="true"></i>
+        Permanent
+      </div>
+      <div class="col-4 col-md-2 text-center">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        Globally Distributed
+      </div>
+      <div class="col-4 col-md-2 text-center">
+        <i class="fa fa-eye-slash" aria-hidden="true"></i>
+        Private
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="technology" class="content-block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Non-Fingerprintable Networking</h3>
+        <p>Zen is conceptually based upon censorship-resistant networking technologies. Designed for <strong>silent and undetectable operation in any environment</strong>; whether behind a massive IDS array, firewall, or in the middle of a tactical environment.</p>
+        <div class="quote">
+          <p class="lead text-center">
+            <strong>仕方が無い</strong><br />
+            <strong>[It is beyond control]</strong>
+          </p>
         </div>
       </div>
+      <div class="col-md-6">
+        <h4>Encrypted Peer-to-Peer Transport</h4>
+        <p>Existing technologies in the blockchain space do not secure communications between nodes and are not well suited to withstand network-layer censorship. This potentially enables man-in-the-middle attacks against a network and increases the risk for transaction malleability attacks. Zen strives for hardened communications in the most adverse environments by <strong>encrypting all traffic traversing the wire</strong>.</p>
+        <h4>State of the Art Obfuscated Global Tunneling</h4>
+        <p>Zen combines cutting-edge offensive security technologies in data exfiltration and sensor obfuscation to mask network activity. <strong>State of the art domain fronting enables direct access to the Zen network</strong> using encrypted HTTPS connections; all an observer sees is encrypted web traffic to high-reputation servers.</p>
+        <h4>Undetectable by Monitoring Arrays</h4>
+        <p>In non-domain-fronted environments, <strong>transport-layer obfuscation</strong> makes detection of traffic a very troublesome task. Traffic across the wire appears to be ambiguous in nature making Zen very difficult to censor.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-      <hr>
+<div class="feature-orange content-block">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center mb-5">
+      <div class="col-md-12 col-lg-8 col-xl-6 text-center">
+        <h3>Built-in Support for Large Datastores</h3>
+        <p class="lead mt-4">Zen integrates zero-knowledge communications with <strong>external persistent datastores</strong> for infinite possibilities. To put it simply, Zen is an irrevocable publishing platform.</p>
+        <p class="lead"><strong>Nothing can be lost, erased, denied, or censored.</strong></p>
+      </div>
+    </div>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-4">
+        <h4>InterPlanetary File System (IPFS) Integration</h4>
+        <p>IPFS is a <strong>peer-to-peer distributed file system</strong> that seeks to connect all computing devices with the same system of files. In some ways, IPFS is similar to the World Wide Web, but IPFS could be seen as a single BitTorrent swarm, exchanging objects within one Git repository.</p>
+      </div>
+      <div class="col-md-2">
+        <img class="img-fluid b-lazy" src="/assets/img/ipfs.png" data-src="/assets/img/ipfs.png" />
+      </div>
+      <div class="col-md-4">
+        <h4>Global Broadcast Network</h4>
+        <p>Zen is designed to be a near real-time global publishing platform for text, media, and binary data. Parties may exchange viewing keys for private access to organic zero-knowledge storage within the blockchain or instead use public areas. Zen is a <strong>global bulletin board that can never be censored</strong>.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-      <footer>
-        <p>&copy; Company 2017</p>
-      </footer>
-    </div> <!-- /container -->
+{% include team.html %}
+{% include team-mobile.html %}
+
+<div id="faqs" class="content-block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center">Frequently Asked Questions (FAQs)</h3>
+      </div>
+
+      {% include accordion.html %}
+
+    </div>
+  </div>
+</div>
+
+<div id="links" class="content-block">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-10 col-xl-8">
+        <div class="row align-items-center">
+          <!-- <div class="col-md-12">
+            <h3 class="text-center">Links</h3>
+          </div> -->
+          <div class="col-md-3">
+            <img id="octocat" class="img-fluid b-lazy pr-5" src="/assets/img/Octocat.png" data-src="/assets/img/Octocat.png" />
+          </div>
+          <div class="col-md">
+            <h5>Zencashio Github Page</h5>
+            <p>
+              The Zencashio Github page holds all development efforts for the wallet and other applications.
+            </p>
+            <a href="https://github.com/zencashio" class="btn btn-primary">Go to GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-md">
+            <h5>Zenclassic Github Page</h5>
+            <p>
+              The Zclassic Github page contains the code for Zclassic and the first open-source Equihash mining pool Z-Nomp.
+            </p>
+            <a href="https://github.com/z-classic" class="btn btn-primary">Go to GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

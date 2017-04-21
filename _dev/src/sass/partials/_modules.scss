@@ -73,6 +73,9 @@ body:not(#homepage) .site-header {
     position: absolute;
     top: 0;
     right: 15px;
+    @media (max-width: 767px) {
+      margin-top: 1px;
+    }
 }
 
 .hamburger {

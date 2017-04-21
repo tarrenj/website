@@ -17,6 +17,7 @@
   &:hover,
   &:focus,
   &:active {
+    color: white;
     background-color: $orange;
   }
 }
@@ -36,7 +37,7 @@
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  padding: 4rem 2rem 6rem;
+  padding: 4rem 2rem 3rem;
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
   h1, h2, h3, h4 {
@@ -199,7 +200,8 @@
   }
 }
 
-#team {
+#team,
+#team-mobile {
   color: white;
   background-color: darken($orange, 5%);
   h1, h2, h3, h4 {
@@ -214,6 +216,49 @@
     margin-bottom: 30px;
   }
 }
+
+#team {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+#team-mobile {
+  display: block;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+#team-accordion {
+  margin-bottom: 2rem;
+  .card {
+    min-width: none;
+    max-width: 450px;
+    margin: 15px auto;
+    .card-block {
+      border-top: 1px solid rgba(0, 0, 0, 0.121569);
+    }
+  }
+  .card-header {
+    display: flex;
+    padding: 0;
+    border-bottom: none;
+  }
+  .card-img-top {
+    display: flex;
+    height: auto;
+    min-width: 150px;
+    width: 150px;
+  }
+  .card-feature {
+    // display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
 
 #faqs {
   color: white;
@@ -240,6 +285,9 @@
     max-width: 400px;
     padding-left: 3rem;
     margin-bottom: 2rem;
+  }
+  @media (max-width: 575px) {
+    max-width: 100%;
   }
 }
 

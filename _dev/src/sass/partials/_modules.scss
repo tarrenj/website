@@ -147,7 +147,7 @@ body:not(#homepage) .site-header {
       a {
         color: $teal;
         display: block;
-        padding: .75rem 1.25rem;
+        padding: .75rem 2.25rem .75rem 1.25rem;
         position: relative;
         &:not(.collapsed) {
           color: white;
@@ -164,7 +164,7 @@ body:not(#homepage) .site-header {
       .fa {
         position: absolute;
         right: .75rem;
-        top: 16px;
+        top: 14px;
       }
       .fa-plus {
         opacity: 0;

@@ -285,7 +285,7 @@
 }
 
 #octocat {
-  max-width: none;
+  // max-width: none;
   @media (max-width: 767px) {
     max-width: 400px;
     padding-left: 3rem;

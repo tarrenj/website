@@ -61,8 +61,11 @@
 }
 
 
-body:not(#homepage) .site-header {
+body:not(#homepage) {
+  padding-top: 60px;
+  .site-header {
     background-color: rgba(#797572, 0.98);
+  }
 }
 
 .navbar-toggler {

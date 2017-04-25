@@ -28,6 +28,11 @@
     font-family: $header-font-family;
     font-weight: $header-font-weight;
   }
+  .dropdown.show {
+    .nav-link {
+      color: darken($orange, 5%);
+    }
+  }
 }
 
 .jumbotron {

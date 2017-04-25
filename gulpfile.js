@@ -65,7 +65,7 @@ gulp.task('sass', function () {
             onError: browserSync.notify
         }))
         .pipe(autoprefixer({ browsers: [ 'ie >= 10', 'android >= 4.1' ] }))
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write('/maps'))
         // .pipe(sourcemaps.write('/assets/css/maps'))
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
@@ -85,6 +85,7 @@ gulp.task('concat', function() {
         paths.bower + 'bLazy/blazy.min.js',
         paths.bower + 'headroom.js/dist/headroom.min.js',
         paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
+        paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',
         // paths.bower + 'animsition/dist/js/animsition.min.js',
         paths.src + 'js/vendor/*.js',
         paths.src + 'js/scripts.js'

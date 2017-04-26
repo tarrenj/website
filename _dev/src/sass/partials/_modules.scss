@@ -334,7 +334,20 @@ div.card-img-top {
 // email form
 #email-form {
   .form-group {
+    position: relative;
     flex-grow: 1;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+    &.has-warning {
+      input {
+        background-color: lighten($orange, 40%);
+        @include transition(all 0.3s ease-in-out);
+      }
+      .form-control-feedback {
+        color: white;
+      }
+    }
   }
   input {
     border-radius: 0;
@@ -342,10 +355,21 @@ div.card-img-top {
     box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 12px 1px;
     height: 50px;
     width: 100%;
+    @include transition(all 0.3s ease-in-out);
   }
   .btn {
     font-size: 1rem;
     height: 50px;
+    @media (max-width: 991px) {
+      margin-top: 1rem;
+    }
+  }
+  .form-control-feedback {
+    position: absolute;
+    top: 50px;
+    @media (max-width: 991px) {
+      position: relative;
+    }
   }
 }
 

@@ -117,6 +117,29 @@ $(window).on('load', function() {
   });
 });
 
+var $mcForm = $('#email-form');
+
+$mcForm.ajaxChimp({
+  url: $mcForm.attr('action'),
+  callback: callbackFunction
+});
+
+function callbackFunction (resp) {
+    if (resp.result === 'success') {
+      console.log('success');
+    } else if (resp.result === 'error') {
+      if (resp.msg.indexOf("is already subscribed") >= 0) {
+        console.log('already subscribed');
+      } else if (resp.msg.indexOf("Please enter a value") >= 0) {
+        console.log('no email address');
+      } else if (resp.msg.indexOf("Too many subscribe attempts") >= 0) {
+        console.log('too many attempts');
+      } else {
+        console.log(resp);
+      }
+    }
+}
+
 // $(function() {
 //     $('#contactForm').submit(function(event) {
 //         event.preventDefault();

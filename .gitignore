@@ -1,7 +1,7 @@
 .DS_Store
 .sass-cache
 .jekyll-metadata
-.bundler
+.bundle
 node_modules
 bower_components
 vendor

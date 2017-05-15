@@ -243,3 +243,16 @@ enquire.register("screen and (max-width:991px)", {
         $(navbarContents).appendTo('#navContainer');
     }
 });
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+$.ajax({
+  url: 'https://zencash.io/api/status',
+  dataType: 'json',
+  success: function(data) {
+    $('#currentBlock').text(numberWithCommas(data.info.blocks));
+    $('#blockLine').fadeIn();
+  }
+})

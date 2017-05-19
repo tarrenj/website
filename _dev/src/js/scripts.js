@@ -249,7 +249,7 @@ function numberWithCommas(x) {
 }
 
 $.ajax({
-  url: 'https://zencash.io/api/status',
+  url: 'https://aayanl.tech/insight-api/status',
   dataType: 'json',
   success: function(data) {
     $('#currentBlock').text(numberWithCommas(data.info.blocks));

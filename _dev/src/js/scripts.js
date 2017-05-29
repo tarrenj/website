@@ -44,7 +44,7 @@ $(function() {
         }
     });
 });
-
+/*
 $("#getting-started")
 .countdown("2017/05/23", function(event) {
   $(this).text(
@@ -116,7 +116,7 @@ $(window).on('load', function() {
     }
   });
 });
-
+*/
 var $mcForm = $('#email-form');
 
 $mcForm.ajaxChimp({
@@ -247,7 +247,7 @@ enquire.register("screen and (max-width:991px)", {
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
+/*
 $.ajax({
   url: 'https://aayanl.tech/insight-api/status',
   dataType: 'json',
@@ -256,3 +256,4 @@ $.ajax({
     $('#blockLine').fadeIn();
   }
 })
+*/

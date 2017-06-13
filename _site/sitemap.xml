@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://zencash.io//404</loc>
+<loc>https://zensystem.io//404</loc>
 </url>
 <url>
-<loc>https://zencash.io//</loc>
+<loc>https://zensystem.io//</loc>
 </url>
 <url>
-<loc>https://zencash.io//assets/Zen%20White%20Paper.pdf</loc>
-<lastmod>2017-05-26T12:59:46-04:00</lastmod>
+<loc>https://zensystem.io//mining-pools/</loc>
+</url>
+<url>
+<loc>https://zensystem.io//assets/Zen%20White%20Paper.pdf</loc>
+<lastmod>2017-06-13T11:30:08-04:00</lastmod>
 </url>
 </urlset>

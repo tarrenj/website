@@ -222,31 +222,32 @@
   }
 }
 
-#team {
-  display: none;
-  @media (min-width: 768px) {
-    display: block;
-  }
-}
-#team-mobile {
-  display: block;
-  @media (min-width: 768px) {
-    display: none;
-  }
-}
+// #team {
+//   display: none;
+//   @media (min-width: 768px) {
+//     display: block;
+//   }
+// }
+// #team-mobile {
+//   display: block;
+//   @media (min-width: 768px) {
+//     display: none;
+//   }
+// }
 
 #team-accordion {
   margin-bottom: 2rem;
   .card {
-    min-width: none;
+    min-width: 260px;
     max-width: 450px;
-    margin: 15px auto;
+    margin: 10px;
     .card-block {
       border-top: 1px solid rgba(0, 0, 0, 0.121569);
     }
   }
   .card-header {
     display: flex;
+    flex-grow: 1;
     padding: 0;
     border-bottom: none;
   }

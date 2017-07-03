@@ -287,6 +287,7 @@ div.card-img-top {
   border: none;
   border-radius: 0;
   a {
+    text-align: center;
     color: white;
     display: inline-block;
     height: 40px;
@@ -320,9 +321,64 @@ div.card-img-top {
     background-image: url('../img/people/jane.jpeg');
   }
 }
+.carlo {
+  .card-img-top {
+    background-image: url('../img/people/carlo.jpg');
+  }
+}
+.steven {
+  .card-img-top {
+    background-image: url('../img/people/steve.jpg');
+  }
+}
+.charles {
+  .card-img-top {
+    background-image: url('../img/people/charles.jpg');
+  }
+}
+.veritas {
+  .card-img-top {
+    background-image: url('../img/people/iohk1.png');
+  }
+}
+.lukas {
+  .card-img-top {
+    background-image: url('../img/people/lukas.JPG');
+  }
+}
+.jake {
+  .card-img-top {
+    background-image: url('../img/people/jake.png');
+  }
+}
 .mike {
   .card-img-top {
     background-image: url('../img/people/mike.jpg');
+  }
+}
+.anarch {
+  .card-img-top {
+    background-image: url('../img/people/anarch3.jpg');
+  }
+}
+.cronic {
+  .card-img-top {
+    background-image: url('../img/people/cronic.jpg');
+  }
+}
+.gustavo {
+  .card-img-top {
+    background-image: url('../img/people/gustavo.jpg');
+  }
+}
+.rosario {
+  .card-img-top {
+    background-image: url('../img/people/rosario.jpg');
+  }
+}
+.simran {
+  .card-img-top {
+    background-image: url('../img/people/simran.jpg');
   }
 }
 .anonymous {

@@ -36,6 +36,9 @@ author:
   youtube:
 links:
   bitcointalk: https://bitcointalk.org/index.php?topic=2047435.0
+wallets:
+  swing: https://github.com/vaklinov/zencash-swing-wallet-ui/releases/latest
+  eleos: https://github.com/ZencashOfficial/eleos/releases/latest
 future: true
 show_drafts: true
 lsi: false

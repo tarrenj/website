@@ -38,9 +38,33 @@ layout: homepage
             <input type="text" name="b_a2e6f8a8a8a21683874d560ea_d60b1a11f5" tabindex="-1" value="">
           </div>
         </form>
-        <p class="lead mt-5">
-          <i>BUY ZENCASH on Bittrex - The Coin That Can’t Be Silenced</i>
-        </p>
+
+        <div id="quickLinks">
+
+          <a class="btn btn-secondary" data-toggle="reveal" href="#buyZenCollapse">Buy ZenCash</a>
+          <a class="btn btn-secondary" data-toggle="reveal" href="#mineZenCollapse">Mine ZenCash</a>
+          <a class="btn btn-secondary" data-toggle="reveal" href="#downloadWallet">Download GUI Wallet</a>
+
+          <div class="card">
+            <div id="buyZenCollapse" class="reveal">
+              <div class="card-block">
+                {% include content/buy-zen.html %}
+              </div>
+            </div>
+            <div id="mineZenCollapse" class="reveal">
+              <div class="card-block">
+                {% include content/mine-zen.html %}
+              </div>
+            </div>
+            <div id="downloadWallet" class="reveal">
+              <div class="card-block">
+                {% include content/wallets.html %}
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </div>
@@ -168,7 +192,7 @@ layout: homepage
             <p>
               The ZenCashOfficial Github page holds all development efforts for the wallet and other applications.
             </p>
-            <a href="https://github.com/ZencashOfficial" class="btn btn-primary">Go to GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="{{site.links.github}}" class="btn btn-primary">Go to GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
           </div>
           {% comment %}
           <div class="col-md">

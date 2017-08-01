@@ -34,6 +34,21 @@ author:
   linkedin:
   gplus:
   youtube:
+links:
+  bitcointalk: https://bitcointalk.org/index.php?topic=2047435.0
+  blog: https://blog.zensystem.io/
+  facebook: https://www.facebook.com/zencash/
+  forum: https://forum.zensystem.io/
+  github: https://github.com/ZencashOfficial
+  medium: https://medium.com/zencash
+  reddit: https://www.reddit.com/r/ZenSys/
+  slack: https://slackinvite.zensystem.io/
+  telegram: https://t.me/zencash
+  twitter: https://twitter.com/zencashofficial
+  youtube: https://www.youtube.com/channel/UCQ0v_lUnZHIKUQUXJzfgqOg
+wallets:
+  swing: https://github.com/vaklinov/zencash-swing-wallet-ui/releases
+  eleos: https://github.com/ZencashOfficial/eleos/releases/latest
 future: true
 show_drafts: true
 lsi: false

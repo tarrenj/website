@@ -220,12 +220,28 @@
   }
 }
 
-#team,
-#team-mobile {
+#latest-news {
   color: white;
   background-color: darken($orange, 5%);
   h1, h2, h3, h4 {
     color: white;
+  }
+  .card {
+    a:not(.btn) {
+      color: $teal;
+    }
+  }
+  a {
+    color: white;
+  }
+}
+
+#team,
+#team-mobile {
+  // color: white;
+  background-color: #f2f2f2;
+  h1, h2, h3, h4 {
+    // color: white;
     &.name {
       color: $teal;
     }

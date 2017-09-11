@@ -13,3 +13,9 @@
 .row .row {
   margin: 0;
 }
+
+#blogPosts {
+  p {
+    word-wrap: break-word;
+  }
+}

@@ -124,22 +124,23 @@ $.ajax({
 })
 */
 
+if ( document.getElementById("blogPosts") ) {  
+  var listTemplate = document.getElementById("template-blog-post");
+  var templateHtml = listTemplate.innerHTML;
 
-var listTemplate = document.getElementById("template-blog-post");
-var templateHtml = listTemplate.innerHTML;
-
-$.ajax({
-  type: "GET",
-  url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
-  dataType: "json",
-  data: {
-    categories_exclude: [66, 52]
-  },
-  success: function(dataJSON) {
-    var dataObject = dataJSON;
-    document.getElementById("blogPosts").innerHTML = listCreateHtml(dataJSON);
-  }
-});
+  $.ajax({
+    type: "GET",
+    url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
+    dataType: "json",
+    data: {
+      categories_exclude: [66, 52]
+    },
+    success: function(dataJSON) {
+      var dataObject = dataJSON;
+      document.getElementById("blogPosts").innerHTML = listCreateHtml(dataJSON);
+    }
+  });
+}
 
 // Function to generate and returns the HTML.
 // Accepts an object as a parameter

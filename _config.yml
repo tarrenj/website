@@ -42,14 +42,14 @@ links:
   github: https://github.com/ZencashOfficial
   medium: https://medium.com/zencash
   reddit: https://www.reddit.com/r/ZenSys/
-  discord: https://discord.gg/mGn4m3
+  discord: https://discord.gg/CEbKY9w
   slack: https://slackinvite.zensystem.io/
   telegram: https://t.me/zencash
   twitter: https://twitter.com/zencashofficial
   youtube: https://www.youtube.com/channel/UCQ0v_lUnZHIKUQUXJzfgqOg
 wallets:
   swing: https://github.com/ZencashOfficial/zencash-swing-wallet-ui/releases
-  eleos: https://github.com/ZencashOfficial/eleos/releases/latest
+  arizen: https://github.com/ZencashOfficial/arizen/releases/latest
 future: true
 show_drafts: true
 lsi: false

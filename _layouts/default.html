@@ -34,6 +34,7 @@ layout: compress
         </script>
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
         {% else %}
+        {% include header-lp.html %}
         {{ content }}
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/landing-page.js"></script>
         {% endif %}

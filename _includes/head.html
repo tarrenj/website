@@ -23,6 +23,7 @@
       ga('create', 'UA-104158206-1', 'auto');
       ga('send', 'pageview');
   </script>
+  {% if page.type != 'landing-page' %}
   <script>
   window['_fs_debug'] = false;
   window['_fs_host'] = 'fullstory.com';
@@ -49,4 +50,5 @@
       <span class="label"><%= label.length < 6 ? label : label.substr(0, 3)  %></span>
     </div>
   </script>
+  {% endif %}
 </head>

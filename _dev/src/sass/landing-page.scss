@@ -3,21 +3,62 @@ The main SCSS file for everything, yep
 */
 
 @import "../../bower_components/normalize-css/normalize";
-@import "../../bower_components/bootstrap/scss/bootstrap";
+@import "vendor/bootstrap/bootstrap";
 // @import "../../bower_components/animsition/dist/css/animsition";
 
 @import "partials/variables";
 @import "partials/mixins";
 
 @import "vendor/animations";
-@import "vendor/flags";
-@import "vendor/hamburgers/hamburgers";
+// @import "vendor/flags";
+// @import "vendor/hamburgers/hamburgers";
 @import "vendor/font-awesome/font-awesome";
+@import "vendor/shards/shards";
 
-@import "partials/main";
+// @import "partials/main";
 @import "partials/base";
-@import "partials/layout";
+// @import "partials/layout";
 // @import "partials/syntax-highlighting";
 
-@import "partials/elements";
-@import "partials/modules";
+// @import "partials/elements";
+// @import "partials/modules";
+
+
+body:not(#homepage) {
+  padding-top: 0;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  &.bg-dark {
+    background-color: transparent !important;
+  }
+}
+.jumbotron {
+  height: 100vh;
+  border-radius: 0;
+  padding: 0;
+  @include bgimagecover(#59b2a1, 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', center);
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    color: white;
+    background-color: rgba(darken(#59b2a1, 10%), 0.8);
+    .display-3 {
+      font-weight: 600;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+      color: white;
+    }
+    .lead {
+      font-size: 2rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+.content-block {
+  padding: 2rem 0;
+}

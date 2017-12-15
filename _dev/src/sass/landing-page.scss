@@ -167,6 +167,10 @@ body:not(#homepage) {
   background-color: $teal;
   border-radius: 5rem;
 }
+.card-image {
+  display: block;
+  padding: 0 1.875rem 1.875rem;
+}
 
 .btn {
   font-weight: 500;

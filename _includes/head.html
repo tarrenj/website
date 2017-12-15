@@ -5,7 +5,11 @@
   <!-- SEO -->
   {% seo %}
   <!-- CSS -->
+  {% if page.type != 'landing-page' %}
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
+  {% else %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/landing-page.css">
+  {% endif %}
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/img/touch/apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
@@ -19,6 +23,7 @@
       ga('create', 'UA-104158206-1', 'auto');
       ga('send', 'pageview');
   </script>
+  {% if page.type != 'landing-page' %}
   <script>
   window['_fs_debug'] = false;
   window['_fs_host'] = 'fullstory.com';
@@ -45,4 +50,5 @@
       <span class="label"><%= label.length < 6 ? label : label.substr(0, 3)  %></span>
     </div>
   </script>
+  {% endif %}
 </head>

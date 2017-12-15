@@ -41,7 +41,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'concat', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'concat', 'concat-lp', 'jekyll-build'], function() {
     browserSync.init({
         port: 4000,
         ui: {
@@ -57,7 +57,7 @@ gulp.task('browser-sync', ['sass', 'concat', 'jekyll-build'], function() {
  * Compile files from _dev/src/sass into both _site/assets/css (for live injecting) and assets/css (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src(paths.src + 'sass/style.scss')
+    return gulp.src(paths.src + 'sass/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({
             outputStyle: 'compressed',
@@ -102,13 +102,34 @@ gulp.task('concat', function() {
         .pipe(gulp.dest(paths.dist + 'js'))
 });
 
+gulp.task('concat-lp', function() {
+    var jsFiles = [
+        paths.bower + 'jquery/dist/jquery.min.js',
+        paths.bower + 'underscore/underscore-min.js',
+        paths.bower + 'tether/dist/js/tether.min.js',
+        paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
+        paths.bower + 'enquire/dist/enquire.min.js',
+        paths.bower + 'bLazy/blazy.min.js',
+        paths.src + 'js/landing-page.js'
+    ]
+
+    return gulp.src(jsFiles)
+        .pipe(sourcemaps.init())
+        .pipe(concat('landing-page.js'))
+        .pipe(uglify())
+        .pipe(sourcemaps.write('/assets/js/maps'))
+        .pipe(gulp.dest('./_site/assets/js'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest(paths.dist + 'js'))
+});
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch(paths.src + 'sass/**/*.scss', ['sass']);
-    gulp.watch(paths.src + 'js/**/*.js', ['concat']);
+    gulp.watch(paths.src + 'js/**/*.js', ['concat', 'concat-lp']);
     gulp.watch([
         '*.{html,md,markdown}',
         '_layouts/**/*.html',

@@ -34,6 +34,15 @@ h3 {
   }
 }
 
+.section-title {
+  text-align: center;
+}
+h2.section-title {
+  font-size: 20px;
+  letter-spacing: 0.35rem;
+  margin-bottom: 5rem;
+}
+
 .site-header {
     z-index: 100;
     position: fixed;
@@ -379,4 +388,14 @@ h3 {
   animation-name: wobble;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+#features {
+  background-color: $darkblue;
+  background-image: url("../img/world-connections.png"), linear-gradient(180deg, $darkblue, #0086ee);
+  background-position: 50% 0px, 0px 0px;
+  background-size: 80%, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed, scroll;
+  padding: 100px 50px 160px;
 }

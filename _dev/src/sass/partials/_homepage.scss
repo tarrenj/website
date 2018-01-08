@@ -13,6 +13,18 @@ h3 {
   letter-spacing: 6px;
 }
 
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+    padding: 4px 0;
+    &:before {
+      content: "\2022";
+      margin-right: .5rem;
+    }
+  }
+}
+
 .btn {
   border: 0;
   border-radius: 0;
@@ -40,7 +52,15 @@ h3 {
 h2.section-title {
   font-size: 20px;
   letter-spacing: 0.35rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+}
+.subhead-large {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 100;
 }
 
 .site-header {
@@ -312,25 +332,31 @@ h2.section-title {
 }
 
 .body-links {
-  padding: 0 84px;
+  // padding: 0 84px;
   margin-bottom: 6rem;
+  .col {
+    padding: 0 2px;
+  }
 }
 .body-link {
   display: block;
-  margin-top: 4rem;
+  background-color: $lightgray;
+  padding: 60px 0 30px;
+  @include transition(all 0.3s ease-in-out);
   &:hover {
     text-decoration: none;
-    img,
-    h3 {
+    background-color: $teal;
+    @include transition(all 0.3s ease-in-out);
+    .feature-icon {
       transform: translateY(-5px);
       @include transition(all 0.3s ease-in-out);
     }
-    .arrow-down {
-      border-top-color: $lightteal;
+    .down-arrow {
+      opacity: 1;
       @include transition(all 0.3s ease-in-out);
     }
   }
-  img {
+  .feature-icon {
     max-width: 100px;
     transform: translateY(0);
     @include transition(all 0.3s ease-in-out);
@@ -342,13 +368,9 @@ h2.section-title {
     transform: translateY(0);
     @include transition(all 0.3s ease-in-out);
   }
-  .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-top: 160px solid $teal;
-    margin: -100px auto 0;
+  .down-arrow {
+    width: 19px;
+    opacity: 0;
     @include transition(all 0.3s ease-in-out);
   }
 }
@@ -372,15 +394,17 @@ h2.section-title {
 }
 
 .zentext {
+  color: $gray;
   padding: 5rem 0;
   img {
     max-width: 200px;
     margin: 0 auto;
   }
   h3 {
-    color: #a1a1a1;
+    color: $gray;
     font-size: 20px;
     letter-spacing: 5px;
+    margin-bottom: 5px;
   }
 }
 .zen-icon {
@@ -391,11 +415,46 @@ h2.section-title {
 }
 
 #features {
+  color: white;
   background-color: $darkblue;
   background-image: url("../img/world-connections.png"), linear-gradient(180deg, $darkblue, #0086ee);
   background-position: 50% 0px, 0px 0px;
   background-size: 80%, auto;
   background-repeat: no-repeat, repeat;
   background-attachment: fixed, scroll;
-  padding: 100px 50px 160px;
+  padding: 100px 50px 120px;
+  h3 {
+    color: white;
+    font-weight: 100;
+    text-transform: none;
+    letter-spacing: 0.2rem;
+  }
+  .feature-row {
+    padding: 2.4rem 0;
+    &:nth-of-type(even) {
+      text-align: right;
+    }
+  }
+}
+
+#technology {
+  color: white;
+  background-color: #1b2f59;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/nodes-bkg.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  padding: 160px 50px 120px;
+  h3 {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.15rem;
+  }
+  a {
+    color: $teal;
+    text-decoration: underline;
+  }
 }

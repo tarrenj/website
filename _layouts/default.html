@@ -10,7 +10,12 @@ layout: compress
     {% capture page_id %}{% if page.url == '/' %}homepage{% else %}{{ page.url | slugify }}{% endif %}{% endcapture %}
 
     <body id="{{ page_id }}">
-        {% if page.type != 'landing-page' %}
+        {% if page.type == 'homepage' %}
+        {% include header-rebrand.html %}
+        {{ content }}
+        {% include footer.html %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+        {% else if page.type != 'landing-page' %}
         {% include header.html %}
         {{ content }}
         {% include footer.html %}
@@ -33,6 +38,7 @@ layout: compress
           {% endraw %}
         </script>
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+
         {% else %}
         {% include header-lp.html %}
         {{ content }}

@@ -29,6 +29,7 @@ $(function() {
         }
     });
 });
+
 var $mcForm = $('#email-form');
 
 $mcForm.ajaxChimp({
@@ -124,7 +125,7 @@ $.ajax({
 })
 */
 
-if ( document.getElementById("blogPosts") ) {  
+if ( document.getElementById("blogPosts") && document.getElementById("template-blog-post") ) {
   var listTemplate = document.getElementById("template-blog-post");
   var templateHtml = listTemplate.innerHTML;
 

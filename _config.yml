@@ -87,3 +87,4 @@ exclude:
 - package.json
 - README.md
 - vendor
+- old-homepage.html

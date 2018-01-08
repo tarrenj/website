@@ -1,19 +1,31 @@
 ---
 layout: homepage
+type: homepage
 ---
 
 <div class="jumbotron">
-  <div id="bgvid"></div>
+  <div id="bgvid">
+    <video class="b-lazy" data-src="/assets/vid/cities.mp4" controls></video>
+    <video poster="/assets/vid/cities.jpg" id="bgvid" playsinline autoplay muted loop>
+      <source src="/assets/vid/cities.webm" type="video/webm">
+      <source src="/assets/vid/cities.mp4" type="video/mp4">
+    </video>
+  </div>
   <div class="color-overlay"></div>
-  <div class="block-overlay"></div>
 
-  <div class="container">
+  <div class="container content-block">
     <div class="row">
-      <div class="col-xs-12">
-         <h1>The world's <i>first</i> <strong>private, distributed, and reliable</strong> platform for communications, transactions, and publishing.</h1>
+      <div class="col">
+        <h1>Privacy Platform</h1>
+        <h3>That Allows Individuals to Privately Send</h3>
+        <h2>Money, Messages, and Media</h2>
+        <h3>Around the World</h3>
+        <p>
+          <a href="#" class="btn btn-lg btn-primary mt-5">Download</a>
+        </p>
       </div>
     </div>
-    <div class="row align-items-center justify-content-center">
+    <!--<div class="row align-items-center justify-content-center">
       <div class="col-md-8 text-center">
         <p class="lead mt-5">
           <i>Sign up below, then check your email to receive exclusive updates</i>
@@ -63,7 +75,7 @@ layout: homepage
         </div>
 
       </div>
-    </div>
+    </div>-->
   </div>
 </div>
 

@@ -77,6 +77,11 @@ $(function() {
     $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
 });
 
+$('.toggle-languages').click(function(event) {
+  event.preventDefault();
+  $('.language-sidebar').toggleClass('show');
+});
+
 $('[data-toggle="reveal"]').click(function(event) {
   var container = $('#quickLinks');
   var card = $('#quickLinks .card');

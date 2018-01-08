@@ -301,3 +301,40 @@ h3 {
     text-align: left;
   }
 }
+
+.body-links {
+  padding: 0 84px;
+  margin-bottom: 6rem;
+}
+.body-link {
+  display: block;
+  margin-top: 4rem;
+  &:hover {
+    text-decoration: none;
+    img,
+    h3 {
+      transform: translateY(-5px);
+      @include transition(all 0.3s ease-in-out);
+    }
+  }
+  img {
+    max-width: 100px;
+    transform: translateY(0);
+    @include transition(all 0.3s ease-in-out);
+  }
+  h3 {
+    color: $darkblue;
+    font-size: 16px;
+    margin-top: 1rem;
+    transform: translateY(0);
+    @include transition(all 0.3s ease-in-out);
+  }
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-top: 160px solid $teal;
+    margin: -100px auto 0;
+  }
+}

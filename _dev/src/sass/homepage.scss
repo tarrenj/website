@@ -13,10 +13,15 @@ $base-font-family: proxima-nova, sans-serif;
 $header-font-family: proxima-nova, sans-serif;
 $header-font-weight: 100;
 
+$teal: #69ffbd;
+$blue: #203768;
+$darkblue: #1B2F5A;
+
 @import "vendor/animations";
-@import "vendor/flags";
+// @import "vendor/flags";
 @import "vendor/hamburgers/hamburgers";
 @import "vendor/font-awesome/font-awesome";
+@import "vendor/shards/shards";
 
 @import "partials/main";
 @import "partials/base";

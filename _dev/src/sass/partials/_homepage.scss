@@ -26,7 +26,7 @@ h3 {
 }
 .btn-primary {
   color: black;
-  background-color: #69ffbd;
+  background-color: $teal;
   &:hover,
   &:focus {
     color: black;
@@ -49,16 +49,15 @@ h3 {
     }
     .navbar-brand,
     .nav-link {
-      color: white;
+      color: $teal;
+      font-weight: 400;
+      // text-transform: lowercase;
       &:hover,
       &:focus,
       &:active {
-          color: $light-blue;
+          color: #fff;
       }
     }
-    // &.is-active {
-    //     background-color: rgba(#797572, 0.99);
-    // }
     @media (max-width: 767px) {
       &.headroom--not-top {
         .navbar-brand {
@@ -84,16 +83,81 @@ h3 {
         }
       }
     }
+    @media (min-width: 992px) {
+      .navbar-toggleable-md {
+        .navbar-nav {
+          .nav-link {
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
 }
 
 .site-header {
   background-color: transparent;
   box-shadow: none;
+  border-bottom: 1px solid $darkblue;
   @include transition(all 0.3s ease-in-out);
   &.headroom--not-top {
-    background-color: darken($orange, 5%);
-    box-shadow: 0 1px 12px 1px rgba(0,0,0,0.2);
+    background-color: black;
+    border-bottom: 1px solid transparent;
     @include transition(all 0.3s ease-in-out);
+    &.slideUp {
+      box-shadow: none;
+      @include transition(all 0.3s ease-in-out);
+    }
+    &.slideDown {
+      box-shadow: 0 1px 12px 1px rgba(0,0,0,0.2);
+      @include transition(all 0.3s ease-in-out);
+    }
+  }
+}
+
+#mainNav,
+.navbar-nav {
+  align-items: center!important;
+}
+
+.dropdown-menu {
+  background-color: $darkblue;
+  border-radius: 0;
+}
+.dropdown-item {
+  color: $teal;
+  padding: 15px 60px;
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: $blue;
+  }
+}
+.dropdown-toggle {
+  &::after {
+    width: auto;
+    height: auto;
+    font-family: FontAwesome;
+    font-size: 0.75rem;
+    content: "\f078";
+    border: 0;
+    margin-top: -3px;
+  }
+}
+#chooseLanguage {
+  font-size: .75rem;
+  color: white;
+  border: 1px solid white;
+  padding: .625rem 1rem .5rem;
+  margin-left: 14px;
+  &::after {
+    display: none;
+  }
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: $darkblue;
+    border-color: $darkblue;
   }
 }
 
@@ -142,5 +206,23 @@ h3 {
     width: 100%;
     height: 100%;
     background: rgba(8, 22, 51, .6);
+  }
+}
+
+.social-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  .social-icon {
+    padding: 10px;
+    border-radius: 5rem;
+    img {
+      width: 35px;
+    }
+    &:hover,
+    &:focus {
+      background-color: $darkblue;
+    }
   }
 }

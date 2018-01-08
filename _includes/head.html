@@ -7,7 +7,7 @@
   <!-- CSS -->
   {% if page.type == 'landing-page' %}
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/landing-page.css">
-  {% else if page.type == 'homepage' %}
+  {% elsif page.type == 'homepage' %}
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/homepage.css">
   {% else %}
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
@@ -16,10 +16,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/img/touch/apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
 
-  {% if page.type != 'homepage' %}
-  <link href="https://fonts.googleapis.com/css?family=Exo+2:300,600|Roboto:300,500" rel="stylesheet">
-  {% else %}
+  {% if page.type == 'homepage' %}
   <link rel="stylesheet" href="https://use.typekit.net/elr1akh.css">
+  {% else %}
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:300,600|Roboto:300,500" rel="stylesheet">
   {% endif %}
 
   <script>

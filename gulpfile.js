@@ -82,7 +82,7 @@ gulp.task('concat', function() {
         paths.bower + 'jquery/dist/jquery.min.js',
         paths.bower + 'underscore/underscore-min.js',
         paths.bower + 'tether/dist/js/tether.min.js',
-        paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
+        // paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
         paths.bower + 'enquire/dist/enquire.min.js',
         paths.bower + 'bLazy/blazy.min.js',
         // paths.bower + 'headroom.js/dist/headroom.min.js',

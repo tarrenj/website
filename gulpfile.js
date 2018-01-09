@@ -9,6 +9,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
+    s3 = require('gulp-s3'),
+    env = require('./.env.json'),
     browserSync = require('browser-sync').create(),
     stream = browserSync.stream;
 
@@ -147,3 +149,17 @@ gulp.task('default', [
     'browser-sync',
     'watch'
 ]);
+
+gulp.task('deploy', function() {
+  console.log (env);
+
+  var AWS = {
+    "key":    env.AWS_ACCESS_KEY_ID,
+    "secret": env.AWS_SECRET_ACCESS_KEY,
+    "bucket": env.AWS_BUCKET,
+    "region": env.AWS_REGION
+  }
+
+  return gulp.src('_site/**')
+      .pipe(s3(AWS));
+})

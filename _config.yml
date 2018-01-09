@@ -79,6 +79,7 @@ gems:
 exclude:
 - _dev
 - bower.json
+- .env.json
 - Gemfile
 - Gemfile.lock
 - gulpfile.js

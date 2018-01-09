@@ -26,6 +26,7 @@ ul:not(.navbar-nav) {
 }
 
 .btn {
+  font-weight: 100;
   border: 0;
   border-radius: 0;
   text-transform: uppercase;
@@ -455,7 +456,7 @@ h2.section-title {
   }
   .feature-row {
     padding: 2.4rem 0;
-    &:nth-of-type(even) {
+    &.even {
       text-align: right;
     }
   }
@@ -603,4 +604,42 @@ h2.section-title {
     }
   }
 
+}
+
+#white-paper {
+  .container {
+    padding: 5rem 15px;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+#blog {
+  padding: 5rem 15px;
+}
+
+#use-zen {
+  background-color: #041435;
+  background-image: linear-gradient(180deg, rgba(4, 20, 53, .5), rgba(4, 20, 53, .5)), url('../img/use-zen.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  .section-title {
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 12px;
+    margin-bottom: 120px;
+  }
+  .lined-subtext {
+    color: white;
+    &:before,
+    &:after {
+      background-color: white;
+    }
+  }
 }

@@ -151,8 +151,6 @@ gulp.task('default', [
 ]);
 
 gulp.task('deploy', function() {
-  console.log (env);
-
   var AWS = {
     "key":    env.AWS_ACCESS_KEY_ID,
     "secret": env.AWS_SECRET_ACCESS_KEY,
@@ -162,4 +160,4 @@ gulp.task('deploy', function() {
 
   return gulp.src('_site/**')
       .pipe(s3(AWS));
-})
+});

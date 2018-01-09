@@ -716,6 +716,9 @@ h2.section-title {
       background-color: $green;
     }
   }
+  .core-team-row {
+    padding-bottom: 15px;
+  }
   div[class^='col-'] {
     padding: 15px;
   }
@@ -758,6 +761,21 @@ h2.section-title {
       &:focus {
         background-color: #36c083;
       }
+    }
+  }
+  .global-team {
+    padding-top: 109px;
+    background-color: #69ffbd;
+    .lined-subtext {
+      color: #185e94;
+      &:before,
+      &:after {
+        background-color: #185e94;
+      }
+    }
+    .team-map {
+      display: block;
+      margin: 0 auto;
     }
   }
 }

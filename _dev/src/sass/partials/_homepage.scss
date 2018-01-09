@@ -837,6 +837,7 @@ h2.section-title {
 
 @media (max-width: 575px) {
   .site-header {
+    border: 0;
     .navbar {
       padding: 0;
       background-color: black;
@@ -866,10 +867,68 @@ h2.section-title {
       width: 30px;
       background-color: $green;
     }
+    .navbar-collapse {
+      background-color: black;
+      .nav-item {
+        margin: 10px 0;
+        font-size: 16px;
+      }
+      #chooseLanguage {
+        font-size: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 0;
+        margin-bottom: 30px;
+      }
+    }
   }
   .jumbotron {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    #bgvid {
+      background-position: 15%;
+      video {
+        display: none;
+      }
+    }
+    .content-block {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: center;
+      align-content: center;
+    }
     h1 {
       font-size: 46px;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 18px;
+      max-width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h3 {
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+    .lead {
+      font-size: 1rem;
+    }
+    .featured-announcement {
+      padding: 15px 15px 5px;
+      .btn-lg {
+        padding: 10px 20px;
+      }
+    }
+    .social-sidebar {
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      right: auto;
+      width: 100%;
     }
   }
 }

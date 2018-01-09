@@ -39,7 +39,7 @@ ul:not(.navbar-nav) {
 }
 .btn-primary {
   color: black;
-  background-color: $teal;
+  background-color: $green;
   &:hover,
   &:focus {
     color: black;
@@ -104,7 +104,7 @@ h2.section-title {
     }
     .navbar-brand,
     .nav-link {
-      color: $teal;
+      color: $green;
       font-weight: 400;
       // text-transform: lowercase;
       &:hover,
@@ -180,7 +180,7 @@ h2.section-title {
   border-radius: 0;
 }
 .dropdown-item {
-  color: $teal;
+  color: $green;
   padding: 15px 60px;
   &:hover,
   &:focus {
@@ -290,7 +290,7 @@ h2.section-title {
   top: 0;
   right: 0;
   z-index: 101;
-  background-color: $teal;
+  background-color: $green;
   transform: translateX(300px);
   @include transition(all 0.3s ease-in-out);
   &.show {
@@ -370,7 +370,7 @@ h2.section-title {
   @include transition(all 0.3s ease-in-out);
   &:hover {
     text-decoration: none;
-    background-color: $teal;
+    background-color: $green;
     @include transition(all 0.3s ease-in-out);
     .feature-icon {
       transform: translateY(-5px);
@@ -479,7 +479,7 @@ h2.section-title {
     letter-spacing: 0.15rem;
   }
   a {
-    color: $teal;
+    color: $green;
     text-decoration: underline;
   }
 }
@@ -511,7 +511,7 @@ h2.section-title {
         content: '';
         height: 20px;
         width: 20px;
-        background-color: $teal;
+        background-color: $green;
         border-radius: 5rem;
       }
       &:before {
@@ -542,7 +542,7 @@ h2.section-title {
       justify-content: center;
       width: 150px;
       height: 150px;
-      background-color: $teal;
+      background-color: $green;
       border-radius: 5rem;
       img {
         max-width: 60%;
@@ -626,6 +626,9 @@ h2.section-title {
   background-attachment: scroll, fixed;
   padding-top: 150px;
   padding-bottom: 150px;
+  .container-fluid {
+    max-width: 1800px;
+  }
   .section-title {
     color: white;
     font-size: 60px;
@@ -645,17 +648,7 @@ h2.section-title {
   div[class^='col-'] {
     padding: 15px;
   }
-  .card {
-    display: flex;
-    height: 100%;
-    border-radius: 0;
-  }
   .card-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
     padding: 3rem 1.875rem;
     img {
       max-width: 60px;
@@ -676,7 +669,6 @@ h2.section-title {
     display: flex;
     background-color: #eee;
     padding: 0;
-    border-radius: 0;
     a {
       flex-grow: 1;
       color: #1b2f59;
@@ -685,13 +677,86 @@ h2.section-title {
       padding: 1.09375rem 1.875rem;
       &:hover,
       &:focus {
-        background-color: $teal;
+        background-color: $green;
       }
       .right-arrow {
         width: 10px;
         transform: rotate(-90deg);
         margin-left: 8px;
         margin-top: -3px;
+      }
+    }
+  }
+}
+
+.card {
+  display: flex;
+  height: 100%;
+  border-radius: 0;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.card-footer {
+  border-radius: 0;
+}
+
+#team {
+  background-color: #1b2f59;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  .lined-subtext {
+    color: $green;
+    &:before,
+    &:after {
+      background-color: $green;
+    }
+  }
+  div[class^='col-'] {
+    padding: 15px;
+  }
+  .card-body {
+    padding: 2.4rem 1.875rem;
+  }
+  .headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 5rem;
+  }
+  h3 {
+    color: #1b2f59;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 200;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  h4 {
+    text-transform: none;
+    color: #1b2f59;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .social-icons {
+    a {
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      line-height: 50px;
+      font-size: 30px;
+      color: white;
+      background-color: $green;
+      border-radius: 5rem;
+      margin: 6px 6px 0;
+      &:hover,
+      &:focus {
+        background-color: #36c083;
       }
     }
   }

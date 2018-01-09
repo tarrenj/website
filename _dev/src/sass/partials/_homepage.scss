@@ -41,9 +41,9 @@ section:not(#hero) {
   white-space: normal;
 }
 .btn-lg {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 4px;
-  padding: 20px 30px;
+  padding: 24px 34px;
 }
 .btn-primary {
   color: black;
@@ -81,6 +81,7 @@ h2.section-title {
   font-weight: 100;
   color: #185e94;
   margin-top: 1rem;
+  text-align: center;
   &:before,
   &:after {
     display: inline-block;
@@ -972,7 +973,10 @@ h2.section-title {
 }
 
 @media (max-width: 767px) {
-
+  #use-zen {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 991px) {

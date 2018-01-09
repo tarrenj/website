@@ -38,7 +38,7 @@ section.content {
 
 .zen-iohk {
   display: block;
-  max-width: 417px;
+  width: 417px;
   margin: 0 auto;
 }
 
@@ -65,10 +65,79 @@ section.content {
     line-height: 32px;
     font-weight: 100;
   }
+  .iohk-infographic {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#scalability {
+  background-color: #fff;
+  background-image: url("../img/crazy-lines.png"), linear-gradient(180deg, #f8f8f8, #fff);
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-repeat: no-repeat, repeat;
+  background-attachment: scroll, scroll;
+  text-align: center;
+  .scalability-logo {
+    width: 100px;
+    margin-bottom: 2rem;
+  }
 }
 
 #iohk {
   #use-zen {
     background-image: linear-gradient(180deg, #1b2f59, #1b2f59);
   }
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 767px) {
+  .btn-lg {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+  }
+  .interior-header {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    h1 {
+      font-size: 26px;
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+    }
+  }
+  section.content {
+    padding: 4rem 0 3rem;
+    h2 {
+      font-size: 22px;
+      line-height: 1.2;
+    }
+  }
+  .zen-iohk {
+    max-width: 60%;
+    margin-bottom: 3rem;
+  }
+  #infographic {
+    h2 {
+      font-size: 26px;
+      line-height: 1.4;
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 1199px) {
+
 }

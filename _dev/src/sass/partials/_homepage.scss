@@ -14,14 +14,16 @@ h3 {
   letter-spacing: 6px;
 }
 
-ul:not(.navbar-nav) {
-  list-style-type: none;
-  margin-left: 0;
-  li {
-    padding: 4px 0;
-    &:before {
-      content: "\2022";
-      margin-right: .5rem;
+section:not(#hero) {
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    li {
+      padding: 4px 0;
+      &:before {
+        content: "\2022";
+        margin-right: .5rem;
+      }
     }
   }
 }

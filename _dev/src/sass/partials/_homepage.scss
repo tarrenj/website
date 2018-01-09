@@ -729,6 +729,8 @@ h2.section-title {
     width: 150px;
     height: 150px;
     border-radius: 5rem;
+    @include bgimagecover(white, '', center);
+    @include grayscale_element(100%);
   }
   h3 {
     color: #1b2f59;
@@ -776,6 +778,19 @@ h2.section-title {
     .team-map {
       display: block;
       margin: 0 auto;
+    }
+  }
+  .team-rows {
+    padding-top: 4rem;
+    .headshot {
+      height: 100px;
+      width: 100px;
+    }
+    .card-body {
+      h3 {
+        margin-bottom: 8px;
+        font-size: 18px;
+      }
     }
   }
 }

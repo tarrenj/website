@@ -198,12 +198,16 @@ h2.section-title {
   }
 }
 .dropdown-toggle {
+  padding-right: 32px;
   &::after {
-    width: auto;
-    height: auto;
-    font-family: FontAwesome;
-    font-size: 0.75rem;
-    content: "\f078";
+    position: absolute;
+    bottom: 18px;
+    display: inline-block;
+    width: 12px;
+    height: 6.5px;
+    background-image: url('../img/icons/nav-arrow.png');
+    background-size: 12px;
+    background-repeat: no-repeat;
     border: 0;
   }
 }

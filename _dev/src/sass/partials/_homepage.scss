@@ -271,10 +271,19 @@ h2.section-title {
     background: rgba(8, 22, 51, .6);
   }
   .featured-announcement {
-    color: $green;
     border: 1px solid rgba(white, 0.5);
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 1.6rem;
     margin-top: 3rem;
+    .lead {
+      font-weight: 100;
+      font-size: 24px;
+    }
+    .text-link {
+      color: $green;
+      font-weight: 100;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
   }
 }
 
@@ -892,16 +901,6 @@ h2.section-title {
       }
     }
   }
-}
-
-@media (max-width: 767px) {
-  #use-zen {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 575px) {
   .jumbotron {
     flex-direction: column;
     padding-left: 0;
@@ -919,6 +918,47 @@ h2.section-title {
       justify-content: center;
       align-content: center;
     }
+    .social-sidebar {
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+      right: auto;
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+  }
+  #roadmap {
+    .entry-icon {
+      .icon-container {
+        height: 80px;
+        width: 80px;
+      }
+    }
+    .entry-text {
+      h3 {
+        font-size: 30px;
+        line-height: 1.4;
+      }
+    }
+  }
+  #team {
+    .card {
+      max-width: 340px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #use-zen {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .jumbotron {
     h1 {
       font-size: 46px;
       line-height: 1;
@@ -943,13 +983,6 @@ h2.section-title {
         padding: 10px 20px;
       }
     }
-    .social-sidebar {
-      flex-direction: row;
-      justify-content: center;
-      position: relative;
-      right: auto;
-      width: 100%;
-    }
   }
   #about {
     .body-link {
@@ -967,21 +1000,119 @@ h2.section-title {
         opacity: 1;
       }
     }
-    // .col {
-    //   // display: block;
-    //   // flex-grow: 0;
-    //   flex-basis: auto;
-    //   position: relative;
-    //   width: 50%;
-    //   padding: 10px;
-    // }
   }
-
+  .body-links {
+    margin-bottom: 3rem;
+  }
+  .zentext {
+    padding: 1rem 0;
+  }
+  .zen-icon {
+    max-width: 50%;
+    padding: 2rem 0;
+  }
+  .about-zen {
+    margin-bottom: 2rem;
+  }
+  #features {
+    padding: 3rem 1rem;
+    .feature-image {
+      display: block;
+      max-width: 40%;
+      margin: 0 auto 2rem;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .feature-row {
+      padding: 1.2rem 0;
+      &.even {
+        text-align: left;
+      }
+    }
+    .order-1 {
+      order: 12;
+    }
+    .order-12 {
+      order: 1;
+    }
+  }
+  h2.section-title {
+    margin-bottom: 2rem;
+  }
+  #technology {
+    padding: 3rem 1rem;
+    h3 {
+      font-size: 20px;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+    .mb-5 {
+      margin-bottom: 1rem !important;
+    }
+  }
+  .subhead-large {
+    font-size: 30px;
+    line-height: 1.4;
+  }
   #roadmap {
+    padding-top: 3rem;
+    .zencash-logo {
+      max-width: 70%;
+    }
+    .year-title {
+      margin: 2rem 0;
+      span {
+        font-size: 20px;
+        line-height: 1;
+        padding: 20px 40px 20px 50px;
+      }
+    }
+    .timeline-entry {
+      width: 100%;
+      margin: 2rem 0;
+      &.odd {
+        .entry-text {
+          padding-left: 2rem;
+        }
+      }
+      &.even {
+        .entry-text {
+          padding-right: 2rem;
+        }
+      }
+    }
     .entry-text {
       h3 {
-        font-size: 30px;
+        font-size: 24px;
       }
+    }
+    .entry-icon {
+      .icon-container {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+  #use-zen {
+    .section-title {
+      font-size: 30px;
+      letter-spacing: 1px;
+      line-height: 1.4;
+      margin-bottom: 3rem;
+    }
+  }
+  .lined-subtext {
+    font-size: 16px;
+  }
+  #team {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .global-team {
+      padding-top: 2rem;
+    }
+    .team-rows {
+      padding-top: 2rem;
     }
   }
 }

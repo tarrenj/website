@@ -268,7 +268,7 @@ h2.section-title {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(8, 22, 51, .6);
+    background: rgba(4, 20, 53, 0.7);
   }
   .featured-announcement {
     border: 1px solid rgba(white, 0.5);
@@ -907,6 +907,7 @@ h2.section-title {
     padding-right: 0;
     #bgvid {
       background-position: 15%;
+      background-image: url('../img/hero-bkg-mobile.jpg');
       video {
         display: none;
       }

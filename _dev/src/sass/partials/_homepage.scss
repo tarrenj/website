@@ -153,6 +153,9 @@ h2.section-title {
         .nav-link {
           padding-left: 20px;
           padding-right: 20px;
+          &.dropdown-toggle {
+            padding-right: 32px;
+          }
         }
       }
     }
@@ -198,7 +201,6 @@ h2.section-title {
   }
 }
 .dropdown-toggle {
-  padding-right: 32px;
   &::after {
     position: absolute;
     bottom: 18px;

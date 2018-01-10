@@ -31,7 +31,7 @@ $(function() {
 });
 
 $('.dropdown-toggle').dropdown();
-$('.dropdown-item').click(function() {
+$('#about-dropdown .dropdown-item').click(function() {
   $(this).parent().dropdown('toggle');
 });
 

@@ -16,7 +16,7 @@ $(function() {
 
 // Smooth page scroll to an anchor on the same page
 $(function() {
-    $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
+    $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -29,6 +29,14 @@ $(function() {
         }
     });
 });
+
+$('.dropdown-toggle').dropdown();
+$('.dropdown-item').click(function() {
+  $(this).parent().dropdown('toggle');
+});
+
+new WOW().init();
+
 var $mcForm = $('#email-form');
 
 $mcForm.ajaxChimp({
@@ -74,6 +82,11 @@ $(function() {
 
     // Add plus and minus symbols to accordion tabs
     $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
+});
+
+$('.toggle-languages').click(function(event) {
+  event.preventDefault();
+  $('.language-sidebar').toggleClass('show');
 });
 
 $('[data-toggle="reveal"]').click(function(event) {
@@ -124,7 +137,7 @@ $.ajax({
 })
 */
 
-if ( document.getElementById("blogPosts") ) {  
+if ( document.getElementById("blogPosts") && document.getElementById("template-blog-post") ) {
   var listTemplate = document.getElementById("template-blog-post");
   var templateHtml = listTemplate.innerHTML;
 

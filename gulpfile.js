@@ -9,6 +9,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
+    s3 = require('gulp-s3'),
+    // env = require('./.env.json'),
     browserSync = require('browser-sync').create(),
     stream = browserSync.stream;
 
@@ -80,12 +82,13 @@ gulp.task('concat', function() {
         paths.bower + 'jquery/dist/jquery.min.js',
         paths.bower + 'underscore/underscore-min.js',
         paths.bower + 'tether/dist/js/tether.min.js',
-        paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
+        // paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
         paths.bower + 'enquire/dist/enquire.min.js',
         paths.bower + 'bLazy/blazy.min.js',
+        paths.bower + 'wow/dist/wow.min.js',
         // paths.bower + 'headroom.js/dist/headroom.min.js',
         // paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
-        paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',
+        // paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',
         paths.bower + 'ajaxchimp/jquery.ajaxchimp.min.js',
         // paths.bower + 'animsition/dist/js/animsition.min.js',
         paths.src + 'js/vendor/*.js',
@@ -147,3 +150,15 @@ gulp.task('default', [
     'browser-sync',
     'watch'
 ]);
+
+gulp.task('deploy', function() {
+  var AWS = {
+    "key":    env.AWS_ACCESS_KEY_ID,
+    "secret": env.AWS_SECRET_ACCESS_KEY,
+    "bucket": env.AWS_BUCKET,
+    "region": env.AWS_REGION
+  }
+
+  return gulp.src('_site/**')
+      .pipe(s3(AWS));
+});

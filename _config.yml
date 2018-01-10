@@ -47,9 +47,10 @@ links:
   telegram: https://t.me/zencash
   twitter: https://twitter.com/zencashofficial
   youtube: https://www.youtube.com/channel/UCQ0v_lUnZHIKUQUXJzfgqOg
+  whitepaper: /assets/Zen%20White%20Paper.pdf
 wallets:
   swing: https://github.com/ZencashOfficial/zencash-swing-wallet-ui/releases
-  arizen: https://github.com/ZencashOfficial/arizen/releases/latest
+  arizen: https://github.com/ZencashOfficial/arizen/releases
 future: true
 show_drafts: true
 lsi: false
@@ -79,6 +80,7 @@ gems:
 exclude:
 - _dev
 - bower.json
+- .env.json
 - Gemfile
 - Gemfile.lock
 - gulpfile.js
@@ -87,3 +89,4 @@ exclude:
 - package.json
 - README.md
 - vendor
+- old-homepage.html

@@ -1,0 +1,67 @@
+<header class="site-header">
+  <nav class="navbar navbar-expand-lg">
+    <button class="hamburger hamburger--squeeze navbar-toggler hidden-lg-up" type="button"data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <a class="navbar-brand" href="/"><img class="b-lazy" src="/assets/img/zencash-logo.png" data-src="/assets/img/zencash-logo.png" /></a>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ml-auto">
+
+        {% if page.url == '/' %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
+          <div class="dropdown-menu" aria-labelledby="about">
+            <a class="dropdown-item" href="#features">Features</a>
+            <a class="dropdown-item" href="#roadmap">Roadmap</a>
+            <a class="dropdown-item" href="#white-paper">White Paper</a>
+            {% comment %}<a class="dropdown-item" href="#team">Team</a>{% endcomment %}
+            {% comment %}<a class="dropdown-item" href="#">FAQs</a>{% endcomment %}
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#use-zen">use zen</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="/">home</a>
+        </li>
+        {% endif %}
+
+        <li class="nav-item">
+          <a class="nav-link" href="/team/">team</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
+          <div class="dropdown-menu" aria-labelledby="community">
+            <a class="dropdown-item" href="{{site.links.twitter}}">Twitter</a>
+            <a class="dropdown-item" href="{{site.links.discord}}">Discord</a>
+            <a class="dropdown-item" href="{{site.links.telegram}}">Telegram</a>
+            <a class="dropdown-item" href="{{site.links.bitcointalk}}">Bitcointalk</a>
+            <a class="dropdown-item" href="{{site.links.blog}}">Blog</a>
+            <a class="dropdown-item" href="{{site.links.forum}}">Forum</a>
+            <a class="dropdown-item" href="{{site.links.github}}">GitHub</a>
+          </div>
+        </li>
+        {% comment %}
+        <li class="nav-item">
+          <a class="nav-link" href="#">resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">media</a>
+        </li>
+        {% endcomment %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{site.links.blog}}">blog</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">ENG</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

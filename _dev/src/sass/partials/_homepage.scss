@@ -233,6 +233,7 @@ h2.section-title {
 
 .jumbotron {
   display: flex;
+  flex-direction: column;
   align-items: center!important;
   position: relative;
   color: white;
@@ -240,7 +241,7 @@ h2.section-title {
   margin-bottom: 0;
   overflow: hidden;
   min-height: 100vh;
-  padding: 4rem 2rem 0;
+  padding: 4rem 0 0;
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
   h1, h2, h3, h4, h5, h6 {
@@ -292,13 +293,40 @@ h2.section-title {
       letter-spacing: 1px;
     }
   }
+  .content-block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+  }
+  .announcement-footer {
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    right: auto;
+    width: 100%;
+    background-color: #041435;
+    padding: 2rem 0;
+    p {
+      margin: 0;
+      font-weight: 100;
+    }
+    .btn {
+      letter-spacing: 2px;
+      margin-left: 2rem;
+    }
+  }
 }
 
 .social-sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: absolute;
+  top: 0;
   right: 10px;
+  height: 100%;
   .social-icon {
     padding: 10px;
     border-radius: 5rem;
@@ -488,8 +516,16 @@ h2.section-title {
   }
   .feature-row {
     padding: 2.4rem 0;
+    &.odd {
+      .content {
+        padding-left: 45px;
+      }
+    }
     &.even {
       text-align: right;
+      .content {
+        padding-right: 45px;
+      }
     }
   }
 }
@@ -577,8 +613,8 @@ h2.section-title {
       background-color: $green;
       border-radius: 5rem;
       img {
-        max-width: 60%;
-        max-height: 60%;
+        max-width: 50%;
+        max-height: 50%;
       }
     }
     .horizontal-line {
@@ -638,11 +674,21 @@ h2.section-title {
 
 }
 
+.btn {
+  .download-arrow {
+    width: 17px;
+  }
+}
+
 #white-paper {
   .container {
     padding: 5rem 15px;
     border-top: 1px solid $gray;
     border-bottom: 1px solid $gray;
+  }
+  .feature-icon {
+    width: 105px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -656,8 +702,8 @@ h2.section-title {
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   .container-fluid {
     max-width: 1800px;
   }
@@ -830,7 +876,7 @@ h2.section-title {
 
 .site-footer {
   color: white;
-  background-color: #000;
+  background-color: #041435;
   padding: 4rem 0;
   a {
     color: white;
@@ -960,6 +1006,21 @@ h2.section-title {
 }
 
 @media (max-width: 767px) {
+  .feature-row {
+    .icon {
+      img {
+        display: block;
+        max-width: 200px;
+        margin: 0 auto 2rem;
+      }
+    }
+    .order-1 {
+      order: 12;
+    }
+    .order-12 {
+      order: 1;
+    }
+  }
   #use-zen {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1035,15 +1096,17 @@ h2.section-title {
     }
     .feature-row {
       padding: 1.2rem 0;
+      &.odd {
+        .content {
+          padding-left: 15px;
+        }
+      }
       &.even {
         text-align: left;
+        .content {
+          padding-right: 15px;
+        }
       }
-    }
-    .order-1 {
-      order: 12;
-    }
-    .order-12 {
-      order: 1;
     }
   }
   h2.section-title {

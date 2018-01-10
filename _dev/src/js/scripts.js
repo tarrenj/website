@@ -35,6 +35,8 @@ $('.dropdown-item').click(function() {
   $(this).parent().dropdown('toggle');
 });
 
+new WOW().init();
+
 var $mcForm = $('#email-form');
 
 $mcForm.ajaxChimp({

@@ -85,6 +85,7 @@ gulp.task('concat', function() {
         // paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
         paths.bower + 'enquire/dist/enquire.min.js',
         paths.bower + 'bLazy/blazy.min.js',
+        paths.bower + 'wow/dist/wow.min.js',
         // paths.bower + 'headroom.js/dist/headroom.min.js',
         // paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
         // paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',

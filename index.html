@@ -23,7 +23,7 @@ type: homepage
         </p>{% endcomment %}
       </div>
     </div>
-    <div class="row justify-content-center">
+    {% comment %}<div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="featured-announcement">
           <p class="lead">
@@ -34,13 +34,19 @@ type: homepage
           </p>
         </div>
       </div>
-    </div>
+    </div>{% endcomment %}
   </div>
   <div class="social-sidebar">
     <a href="{{site.links.twitter}}" class="social-icon"><img src="/assets/img/icons/Twitter-Icon.png"></a>
     <a href="{{site.links.discord}}" class="social-icon"><img src="/assets/img/icons/Discord-Logo.png"></a>
     <a href="{{site.links.reddit}}" class="social-icon"><img src="/assets/img/icons/Reddit-Icon.png"></a>
     <a href="{{site.links.bitcointalk}}" class="social-icon"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
+  </div>
+  <div class="announcement-footer wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+    <p class="lead">
+      Excited to Announce R&amp;D Partnership with IOHK
+      <a href="/iohk/" class="btn btn-primary">Learn More</a>
+    </p>
   </div>
 </div>
 
@@ -138,10 +144,10 @@ type: homepage
       </div>
     </div>
     <div class="row justify-content-center feature-row odd">
-      <div class="col-md-2">
-        <img src="/assets/img/icons/technology.png" class="feature-image img-fluid">
+      <div class="col-md-2 icon">
+        <img src="/assets/img/icons/binoculars.png" class="feature-image img-fluid">
       </div>
-      <div class="col-md-10">
+      <div class="col-md-10 content">
         <h3>Designed for Long-Term Operation</h3>
         <ul>
           <li>21 million ZenCash cap - no premine, no ICO</li>
@@ -155,10 +161,10 @@ type: homepage
       </div>
     </div>
     <div class="row justify-content-center feature-row even">
-      <div class="col-md-2 order-12">
-        <img src="/assets/img/icons/technology.png" class="feature-image img-fluid">
+      <div class="col-md-2 order-12 icon">
+        <img src="/assets/img/icons/research.png" class="feature-image img-fluid">
       </div>
-      <div class="col-md-10 order-1">
+      <div class="col-md-10 order-1 content">
         <h3>With a Focus on Research and Development</h3>
         <p>
           <strong>Partnered with the Input Output Hong Kong (IOHK), a leading R&amp;D company</strong>
@@ -242,7 +248,7 @@ type: homepage
     <div class="timeline-entry odd">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/launch.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>ZenCash Launch</h3>
@@ -255,7 +261,7 @@ type: homepage
     <div class="timeline-entry even">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/updates.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Core Updates</h3>
@@ -270,7 +276,7 @@ type: homepage
     <div class="timeline-entry odd">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/wallet.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Wallets and Products</h3>
@@ -288,7 +294,7 @@ type: homepage
     <div class="timeline-entry even">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/encryption.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Secure Nodes</h3>
@@ -312,7 +318,7 @@ type: homepage
     <div class="timeline-entry odd">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/voting.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Wallets and Projects</h3>
@@ -328,7 +334,7 @@ type: homepage
     <div class="timeline-entry even">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/secure.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Secure Node</h3>
@@ -342,7 +348,7 @@ type: homepage
     <div class="timeline-entry odd">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/r-d.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Research and Development</h3>
@@ -368,7 +374,7 @@ type: homepage
     <div class="timeline-entry even">
       <div class="entry-icon">
         <div class="horizontal-line"></div>
-        <div class="icon-container"><img src="/assets/img/icons/philosophy.png" class="img-fluid" /></div>
+        <div class="icon-container"><img src="/assets/img/icons/scalability-study.png" class="img-fluid" /></div>
       </div>
       <div class="entry-text">
         <h3>Deliver to Market</h3>
@@ -388,11 +394,12 @@ type: homepage
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <p class="lead">
+        <img src="/assets/img/icons/whitepaper.png" class="feature-icon">
+        <p>
           White Paper is in revision. Original White Paper is nearly 80% satisfied:
         </p>
         <p>
-          <a href="{{site.links.whitepaper}}" class="btn btn-lg btn-primary"><i class="fa fa-download" aria-hidden="true"></i> Download White Paper</a>
+          <a href="{{site.links.whitepaper}}" class="btn btn-lg btn-primary"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> Download White Paper</a>
         </p>
       </div>
     </div>
@@ -403,11 +410,11 @@ type: homepage
   <div class="container">
     <div class="row">
       <div class="col text-center">
-        <p class="lead">
+        <p>
           Our Blog contains the latest Zen News!
         </p>
         <p>
-          <a href="https://blog.zensystem.io/" class="btn btn-lg btn-primary">Zen Blog</a>
+          <a href="https://blog.zensystem.io/" class="btn btn-lg btn-primary">Read The Zen Blog</a>
         </p>
       </div>
     </div>
@@ -418,7 +425,7 @@ type: homepage
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <h2 class="section-title">Get ZenCash</h2>
+        {% comment %}<h2 class="section-title">Get ZenCash</h2>{% endcomment %}
         <h2 class="lined-subtext">Buy Or Sell ZenCash</h2>
       </div>
     </div>
@@ -594,6 +601,7 @@ type: homepage
   </div>
 </section>
 
+{% comment %}
 <section id="team">
   <div class="container">
     <div class="row">
@@ -730,137 +738,4 @@ type: homepage
 <section id="media-mentions">
 
 </section>
-
-<!--
-<div class="feature-band content-block">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h3>Commerce and Communications for All</h3>
-        <p>Zen is leveraging a global community to build a private and secure platform for instantaneous communications and transactions.</p>
-      </div>
-      <div class="col-4 col-md-2 text-center">
-        <i class="fa fa-folder-open" aria-hidden="true"></i>
-        Permanent
-      </div>
-      <div class="col-4 col-md-2 text-center">
-        <i class="fa fa-globe" aria-hidden="true"></i>
-        Globally Distributed
-      </div>
-      <div class="col-4 col-md-2 text-center">
-        <i class="fa fa-eye-slash" aria-hidden="true"></i>
-        Private
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="technology" class="content-block">
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-6 text-center">
-        <h3>Designed for the World, and for the Future</h3>
-        <h5>Focusing on users and usability, ZenCash features:</h5>
-        <p><strong>International documentation and wallets in many languages<br />
-          Global governance with inclusive decision making<br />
-          Reliable funding for continuous improvement</strong>
-        </p>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-md-4">
-        <h4>Secure Nodes Provide International Resilience</h4>
-        <p>Zen is leveraging a global community to build a private and secure platform for instantaneous communications and transactions.</p>
-        <p>Zen Secure Nodes form the foundation of a distributed and resilient network for accessibility and usability anywhere in the world.</p>
-        <p>Secure Nodes will enable fully encrypted communications and network obfuscation so end-user activity is protected.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Funding for Continuous Operations and Development</h4>
-        <p>The ZenCash Treasury fund is generated by 8.5% of each block mining reward and is used for operations, development, and getting out the message of Zen to the World.</p>
-        <p>Treasury funds are held in trust and allocated by the Zen Blockchain Foundation, a non-profit entity entrusted with growing and maintaining the Zen ecosystem.</p>
-        <p>Zen Secure Node operations is encouraged and funded by a 3.5% redirection of block mining reward.</p>
-      </div>
-      <div class="col-md-4">
-        <h4>Promoting the Value of Individual Privacy Worldwide</h4>
-        <p>Our platform will be managed through an inclusive, global distribution of decision-making authority and collaborative effort.</p>
-        <p>We live in an information-based society where individuals outsource management of their most private data, unaware that their data HAS VALUE and that its security IS IMPORTANT.</p>
-        <p>We’re working to build infrastructure that users can use trust to secure and store their wealth, identification data, communications, and transactions.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="feature-orange content-block">
-  <div class="container-fluid">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-md-4">
-        <h4>Communicate Any Type or Size of Information</h4>
-        <p>Zen private messaging integrates with IPFS (<a href="https://ipfs.io/">https://ipfs.io/</a>) for distributed publishing and information access.</p>
-        <p>IPFS is the Distributed Web. A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.</p>
-        <p>Any type of information in multiple formats can be published to IPFS, then linked to and messaged by Zen private and secure communications.</p>
-      </div>
-      <div class="col-md-2">
-        <img class="img-fluid b-lazy" src="/assets/img/ipfs.png" data-src="/assets/img/ipfs.png" />
-      </div>
-      <div class="col-md-4">
-        <h4>Integrating with IPFS Helps Build the Internet’s Next Web</h4>
-        <p>IPFS remains true to the original vision of the open and flat web, and delivers the technology which makes that vision a reality.</p>
-        <p>IPFS powers the creation of diversely resilient networks which enable persistent availability with or without Internet backbone connectivity.</p>
-        <p>IPFS provides historic versioning (like git) and makes it simple to set up resilient networks for mirroring of data.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="latest-news" class="content-block">
-  <div class="container-fluid">
-    <div class="row align-items-center mb-3">
-      <div class="col-sm-12">
-        <h3 class="text-center">Latest News</h3>
-      </div>
-    </div>
-    <div id="blogPosts" class="row align-items-center">
-    </div>
-    <div class="row align-items-center mt-2">
-      <div class="col-sm-12 text-center">
-        <a href="{{site.links.blog}}">View all blog posts >></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="faqs" class="content-block">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h3 class="text-center">Zen Info</h3>
-      </div>
-
-      {% include accordion.html %}
-
-    </div>
-  </div>
-</div>
-
-<div id="links" class="content-block">
-  <div class="container-fluid">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-lg-10 col-xl-8">
-        <div class="row align-items-center justify-content-center">
-
-          <div class="col-md-3">
-            <img id="octocat" class="img-fluid b-lazy pr-5" src="/assets/img/Octocat.png" data-src="/assets/img/Octocat.png" />
-          </div>
-          <div class="col-md-5">
-            <h5>ZenCashOfficial Github Page</h5>
-            <p>
-              The ZenCashOfficial Github page holds all development efforts for the wallet and other applications.
-            </p>
-            <a href="{{site.links.github}}" class="btn btn-primary">Go to GitHub <i class="fa fa-github" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
--->
+{% endcomment %}

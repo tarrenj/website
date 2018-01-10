@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
     s3 = require('gulp-s3'),
-    env = require('./.env.json'),
+    // env = require('./.env.json'),
     browserSync = require('browser-sync').create(),
     stream = browserSync.stream;
 

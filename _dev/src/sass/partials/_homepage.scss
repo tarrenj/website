@@ -1029,6 +1029,13 @@ h2.section-title {
 }
 
 @media (max-width: 575px) {
+  section:not(#hero) {
+    ul {
+      li {
+        font-size: 16px;
+      }
+    }
+  }
   .jumbotron {
     h1 {
       font-size: 46px;
@@ -1052,6 +1059,15 @@ h2.section-title {
       padding: 15px 15px 5px;
       .btn-lg {
         padding: 10px 20px;
+      }
+    }
+    .announcement-footer {
+      span {
+        display: block;
+      }
+      .btn {
+        margin-left: 0;
+        margin-top: 1rem;
       }
     }
   }

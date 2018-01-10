@@ -60,7 +60,6 @@ section.content {
     letter-spacing: 0;
   }
   .lead {
-    color: $green;
     font-size: 28px;
     line-height: 32px;
     font-weight: 100;
@@ -68,6 +67,12 @@ section.content {
   .iohk-infographic {
     display: block;
     margin: 0 auto;
+    &.mobile {
+      display: none;
+    }
+    &.desktop {
+      display: block;
+    }
   }
 }
 
@@ -82,6 +87,21 @@ section.content {
   .scalability-logo {
     width: 100px;
     margin-bottom: 2rem;
+  }
+  h2 {
+    color: #185e94;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+  }
+  ul {
+    li {
+      color: #1b2f59;
+      font-size: 28px !important;
+      font-weight: 100;
+      padding: 1rem 0 !important;
+    }
   }
 }
 
@@ -124,6 +144,26 @@ section.content {
       font-size: 22px;
       line-height: 1.4;
     }
+    .iohk-infographic {
+      max-width: 500px;
+      &.mobile {
+        display: block;
+      }
+      &.desktop {
+        display: none;
+      }
+    }
+  }
+  #scalability {
+    h2 {
+      margin-bottom: 2rem;
+    }
+    ul {
+      li {
+        font-size: 18px !important;
+        padding: 0.4rem 0 !important;
+      }
+    }
   }
 }
 
@@ -164,5 +204,9 @@ section.content {
 }
 
 @media (max-width: 575px) {
-
+  #infographic {
+    .iohk-infographic {
+      max-width: 100%;
+    }
+  }
 }

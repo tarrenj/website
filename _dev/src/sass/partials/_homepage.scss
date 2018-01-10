@@ -23,6 +23,7 @@ section:not(#hero) {
     list-style-type: none;
     margin-left: 0;
     li {
+      font-size: 18px;
       padding: 4px 0;
       &:before {
         content: "\2022";

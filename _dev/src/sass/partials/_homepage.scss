@@ -959,6 +959,7 @@ h2.section-title {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
+    min-height: calc(100vh - 60px);
     #bgvid {
       background-position: 15%;
       background-image: url('../img/hero-bkg-mobile.jpg');

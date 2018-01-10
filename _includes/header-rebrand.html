@@ -9,6 +9,8 @@
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
+
+        {% if page.url == '/' %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
           <div class="dropdown-menu" aria-labelledby="about">
@@ -22,6 +24,12 @@
         <li class="nav-item">
           <a class="nav-link" href="#use-zen">use zen</a>
         </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="/">home</a>
+        </li>
+        {% endif %}
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
           <div class="dropdown-menu" aria-labelledby="community">

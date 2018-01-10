@@ -140,9 +140,9 @@ h2.section-title {
     .navbar-collapse {
       padding: 0 15px;
       background-color: darken($orange, 5%);
-      .nav-item:first-of-type {
-        padding-top: 15px;
-      }
+      // .nav-item:first-of-type {
+      //   padding-top: 15px;
+      // }
       .nav-item:last-of-type {
         padding-bottom: 15px;
       }
@@ -204,7 +204,7 @@ h2.section-title {
 .dropdown-toggle {
   &::after {
     position: absolute;
-    bottom: 18px;
+    top: 20px;
     display: inline-block;
     width: 12px;
     height: 6.5px;

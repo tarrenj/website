@@ -137,6 +137,18 @@ $.ajax({
 })
 */
 
+$.ajax({
+  url: 'https://securenodes.na.zensystem.io/api/grid/nodes',
+  dataType: 'json',
+  success: function(data) {
+    var nodeValue = data.userdata.global.total;
+    if ( $.isNumeric(nodeValue) ) {
+      $('#nodeCount').text(nodeValue);
+    }
+  }
+})
+
+
 if ( document.getElementById("blogPosts") && document.getElementById("template-blog-post") ) {
   var listTemplate = document.getElementById("template-blog-post");
   var templateHtml = listTemplate.innerHTML;

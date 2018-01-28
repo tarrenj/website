@@ -259,7 +259,20 @@ h2.section-title {
     font-size: 20px;
     line-height: 38px;
   }
+  #bgvid-bkg {
+    @include bgimagecover($darkteal, '../vid/cities.jpg', center);
+  }
   #bgvid {
+    video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translateX(-50%) translateY(-50%);
+    }
     position: absolute;
     top: 50%;
     left: 50%;

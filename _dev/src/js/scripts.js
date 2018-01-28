@@ -74,6 +74,9 @@ $(function() {
     var bLazy = new Blazy({
         success: function(element) {
             setTimeout(function() {
+                if ($('#bgvid')) {
+                  videoControl();
+                }
                 var parent = element.parentNode;
                 parent.className = parent.className.replace(/\bloading\b/,'');
             }, 200);
@@ -83,6 +86,23 @@ $(function() {
     // Add plus and minus symbols to accordion tabs
     $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
 });
+
+// Video background optimization
+function videoControl() {
+  var $videoContainer = $('#bgvid');
+  var $video = $('#bgvid video');
+  var videoHeight = $videoContainer.outerHeight();
+
+  $(window).scroll(function(){
+    var x = $(document).scrollTop();
+    if ($(document).scrollTop() > videoHeight) {
+      $video.get(0).pause();
+    } else if ($(document).scrollTop() < videoHeight ) {
+      $video.get(0).play();
+    }
+  });
+}
+// END Video background optimization
 
 $('.toggle-languages').click(function(event) {
   event.preventDefault();

@@ -233,7 +233,7 @@ function ShowProgressMessage(msg) {
 }
 
 function InitiateSpeedDetection() {
-    ShowProgressMessage("Loading the image, please wait...");
+    // ShowProgressMessage("Loading the image, please wait...");
     window.setTimeout(MeasureConnectionSpeed, 1);
 };
 
@@ -265,18 +265,18 @@ function MeasureConnectionSpeed() {
         var speedBps = (bitsLoaded / duration).toFixed(2);
         var speedKbps = (speedBps / 1024).toFixed(2);
         var speedMbps = (speedKbps / 1024).toFixed(2);
-        ShowProgressMessage([
-            "Your connection speed is:",
-            speedBps + " bps",
-            speedKbps + " kbps",
-            speedMbps + " Mbps"
-        ]);
+        // ShowProgressMessage([
+        //     "Your connection speed is:",
+        //     speedBps + " bps",
+        //     speedKbps + " kbps",
+        //     speedMbps + " Mbps"
+        // ]);
 
         if (speedMbps >= 1) {
-          console.log('should be fast enough');
+          // console.log('should be fast enough');
           $('#bgvid video').css('display', 'inline-block');
         } else {
-          console.log('not sure');
+          // console.log('not sure');
           $('#bgvid video').css('display', 'none');
         }
     }

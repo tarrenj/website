@@ -90,6 +90,7 @@ gulp.task('concat', function() {
         // paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
         // paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',
         paths.bower + 'ajaxchimp/jquery.ajaxchimp.min.js',
+        paths.bower + 'js-cookie/src/js.cookie.js',
         // paths.bower + 'animsition/dist/js/animsition.min.js',
         paths.src + 'js/vendor/*.js',
         paths.src + 'js/scripts.js'

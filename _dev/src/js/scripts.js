@@ -208,6 +208,24 @@ function listCreateHtml(dataObject) {
 }
 
 
+// Show newsletter optin if user hasn't subscribed or dismissed it in the last week
+
+// Cookies.remove('newsletterOptin');
+var newsletterCookie = Cookies.get('newsletterOptin');
+
+if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
+  $('#home-header').delay(2800).slideDown( 200, function() {
+    // Animation complete.
+  });
+}
+
+$('#home-header-close').click(function() {
+  $('#home-header').slideUp( 200, function() {
+    // console.log('set cookie');
+    Cookies.set('newsletterOptin', 'disabled', { expires: 7 });
+  });
+});
+
 
 
 // Connection speed test (approx)

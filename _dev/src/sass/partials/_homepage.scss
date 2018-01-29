@@ -183,6 +183,117 @@ h2.section-title {
   }
 }
 
+#home-header {
+  position: relative;
+  color: $text-color;
+  background-color: $green;
+  padding: 2.4rem 0 1rem;
+  h1, h2, h3, h4, h5 {
+    color: $teal;
+  }
+  #email-form .form-group.has-warning .form-control-feedback {
+    color: $text-color;
+  }
+  .lead {
+    margin-bottom: 12px;
+  }
+  .form-control,
+  .custom-select {
+    color: #ccc;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    background-color: $darkblue;
+    height: 50px;
+    padding: .375rem .75rem;
+    // padding: 1rem;
+  }
+  .form-group {
+    &:first-of-type {
+      width: 15%;
+      input {
+        width: 100%;
+      }
+    }
+    &:nth-of-type(2) {
+      width: 25%;
+      input {
+        width: 100%;
+      }
+    }
+    &:not(:first-of-type) {
+      margin-left: 10px;
+    }
+  }
+  .custom-select {
+    padding: .375rem 1.75rem .375rem .75rem;
+    background: $darkblue url('../img/select.svg') no-repeat right .75rem center;
+    background-size: 8px 10px;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ccc;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #ccc;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #ccc;
+  }
+  .form-control-feedback {
+    position: absolute;
+    bottom: 0;
+  }
+  .btn-primary {
+    background-color: #fff;
+    height: 50px;
+    letter-spacing: 4px;
+    padding: 0px 40px;
+    margin-left: 30px;
+  }
+}
+
+#home-header-close {
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  padding-top: 35px;
+  padding-right: 16px;
+  padding-left: 16px;
+  float: none;
+  clear: none;
+  background-color: transparent;
+  .x {
+    position: static;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    width: 41px;
+    height: 1px;
+    margin-left: -37px;
+    float: right;
+    background-color: #000;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+  }
+  .x2 {
+    margin-left: 0px;
+    float: right;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: left;
+  }
+}
+
 #mainNav,
 .navbar-nav {
   align-items: center!important;

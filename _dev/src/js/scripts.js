@@ -49,6 +49,8 @@ function callbackFunction (resp) {
       // console.log('success');
       $mcForm.fadeOut();
       $('#email-success').fadeIn();
+      // set cookie to subscribed
+      Cookies.set('newsletterOptin', 'subscribed', { expires: 365 });
     } else if (resp.result === 'error') {
       $('#email-form .form-group').addClass('has-warning');
       if (resp.msg.indexOf("is already subscribed") >= 0) {
@@ -212,8 +214,11 @@ function listCreateHtml(dataObject) {
 
 // Cookies.remove('newsletterOptin');
 var newsletterCookie = Cookies.get('newsletterOptin');
+var host = window.location.host;
 
-if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
+console.log(newsletterCookie);
+
+if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' || host === 'localhost:4000'  ) {
   $('#home-header').delay(2800).slideDown( 200, function() {
     // Animation complete.
   });

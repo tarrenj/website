@@ -252,12 +252,47 @@ h2.section-title {
     padding: 0px 40px;
     margin-left: 30px;
   }
+  @media (max-width: 991px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    #email-form {
+      .form-group {
+        width: calc(100% / 3);
+        margin: 0;
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+      .submit_container {
+        width: 100%;
+        margin-top: 24px;
+      }
+    }
+    .btn-primary {
+      margin-left: 0;
+    }
+    #home-header-close {
+      right: 4px;
+    }
+  }
+  @media (max-width: 575px) {
+    #email-form {
+      .form-group {
+        width: 100%;
+        padding-bottom: 8px;
+      }
+      .submit_container {
+        width: 100%;
+        margin-top: 18px;
+      }
+    }
+  }
 }
 
 #home-header-close {
   position: absolute;
   bottom: 15px;
   right: 30px;
+  z-index: 1000;
 
   display: block;
   width: 70px;

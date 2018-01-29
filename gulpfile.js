@@ -9,8 +9,10 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
-    s3 = require('gulp-s3'),
-    // env = require('./.env.json'),
+    s3 = require('gulp-s3-upload')(
+      {useIAM:true},  // or {} / null
+      { /* S3 Config */ }
+    ),
     browserSync = require('browser-sync').create(),
     stream = browserSync.stream;
 
@@ -18,7 +20,8 @@ var paths = {
     dev: './_dev/',
     src: './_dev/src/',
     bower: './_dev/bower_components/',
-    dist: './assets/'
+    dist: './assets/',
+    site: './_site/'
 }
 
 var messages = {
@@ -152,14 +155,16 @@ gulp.task('default', [
     'watch'
 ]);
 
-gulp.task('deploy', function() {
-  var AWS = {
-    "key":    env.AWS_ACCESS_KEY_ID,
-    "secret": env.AWS_SECRET_ACCESS_KEY,
-    "bucket": env.AWS_BUCKET,
-    "region": env.AWS_REGION
-  }
+// AWS_PROFILE=zen gulp upload
 
-  return gulp.src('_site/**')
-      .pipe(s3(AWS));
+gulp.task('upload', function() {
+    gulp.src(paths.site + '**')
+        .pipe(s3({
+            Bucket: 'zen-website', //  Required
+            ACL:    'public-read'  //  Needs to be user-defined
+        }, {
+            // S3 Constructor Options, ie:
+            maxRetries: 5
+        }))
+    ;
 });

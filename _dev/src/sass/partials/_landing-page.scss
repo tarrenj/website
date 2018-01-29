@@ -11,6 +11,10 @@
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
+  img.logo {
+    max-width: 450px;
+    margin-bottom: 1rem;
+  }
   h1 {
     color: white;
     font-size: 72px;
@@ -22,10 +26,39 @@
     margin-left: auto;
     margin-right: auto;
   }
+  h2 {
+    color: white;
+    font-size: 2rem;
+  }
 }
 
 section.content {
+  position: relative;
   padding: 7rem 4rem;
+  &.intro {
+    padding-top: 12rem;
+    h2 {
+      margin-bottom: 3rem;
+    }
+    p {
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  }
+  .intro-circle-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: -90px;
+    left: 50%;
+    margin-left: -125px;
+    background-color: white;
+    border-radius: 12rem;
+  }
   h2 {
     color: #041435;
     font-size: 42px;

@@ -652,8 +652,6 @@ h2.section-title {
 }
 
 .zentext {
-  color: $gray;
-  padding: 5rem 0;
   img {
     max-width: 200px;
     margin: 0 auto;
@@ -663,6 +661,23 @@ h2.section-title {
     font-size: 20px;
     letter-spacing: 5px;
     margin-bottom: 5px;
+  }
+  .zenlink {
+    color: $gray;
+    display: block;
+    position: relative;
+    height: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    p {
+      position: absolute;
+      width: 100%;
+    }
+    &:hover {
+      text-decoration: none;
+      background-color: rgba(27, 47, 89, .05);
+    }
   }
 }
 

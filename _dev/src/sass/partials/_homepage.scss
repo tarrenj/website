@@ -910,6 +910,35 @@ h2.section-title {
 
 #blog {
   padding: 5rem 15px;
+  .card-img-top {
+    &.hidden {
+      display: none;
+    }
+  }
+  .card {
+    text-align: left;
+  }
+  .card-body {
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    .category {
+      color: $text-color;
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      font-weight: 300;
+    }
+    .card-title {
+      text-transform: none;
+      font-weight: 600;
+      a {
+        color: $text-color;
+      }
+    }
+    .date {
+      margin-bottom: 0;
+    }
+  }
 }
 
 #use-zen {

@@ -175,19 +175,55 @@ if ( document.getElementById("nodeCount") ) {
 if ( document.getElementById("blogPosts") && document.getElementById("template-blog-post") ) {
   var listTemplate = document.getElementById("template-blog-post");
   var templateHtml = listTemplate.innerHTML;
+  var categoryObject;
+  var dataObject;
 
+  // get the categories and posts
   $.ajax({
     type: "GET",
-    url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
+    url: "https://blog.zensystem.io/wp-json/wp/v2/categories",
     dataType: "json",
     data: {
-      categories_exclude: [66, 52]
+      per_page: 50
     },
     success: function(dataJSON) {
-      var dataObject = dataJSON;
-      document.getElementById("blogPosts").innerHTML = listCreateHtml(dataJSON);
+      categoryObject = dataJSON;
+      var cleanCategories = {};
+      $.each(categoryObject, function( index, value ) {
+        cleanCategories[value.id] = value.name;
+      });
+      categoryObject = cleanCategories;
+      // get the posts
+      $.ajax({
+        type: "GET",
+        url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
+        dataType: "json",
+        data: {
+          categories_exclude: [67, 52, 95, 89, 66],
+          _embed: true
+        },
+        success: function(dataJSON) {
+          dataObject = dataJSON;
+          // update categories with the name instead of id
+          $.each(dataObject, function( index, value ) {
+            var categories = value.categories;
+            var cleanCategories = [];
+            $.each(categories, function( index, value ) {
+              cleanCategories.push( categoryObject[value] );
+            })
+            dataObject[index].categories = cleanCategories
+          });
+
+          console.log(dataJSON);
+          // build out the posts
+          document.getElementById("blogPosts").innerHTML = listCreateHtml(dataJSON);
+        }
+      });
+
     }
   });
+
+
 }
 
 // Function to generate and returns the HTML.
@@ -198,9 +234,39 @@ function listCreateHtml(dataObject) {
   for (key in dataObject) {
     var numberOfPosts = 3;
     if (key < numberOfPosts) {
-      listHtml += templateHtml.replace(/{{link}}/g, dataObject[key].link)
+      var visibilityClass = '';
+      var date = moment(dataObject[key].date).format('LL');
+      var category = '';
+      var categoryVisibility = '';
+      if ( dataObject[key].categories[0] ) {
+        category = dataObject[key].categories[0];
+        categoryVisibility = 'visible';
+      } else {
+        categoryVisibility = 'hidden';
+      }
+      var featured_image = dataObject[key]['_embedded']['wp:featuredmedia'];
+      // test for featured image and hide if there isn't one or is undefined because of forbidden characters used in image file name
+      if ( featured_image ) {
+        featured_image = dataObject[key]['_embedded']['wp:featuredmedia'][0]['source_url'];
+        if ( featured_image ) {
+          visibilityClass = 'visible';
+        } else {
+          featured_image = '';
+          visibilityClass = 'hidden';
+        }
+      } else {
+        featured_image = '';
+        visibilityClass = 'hidden';
+      }
+      listHtml += templateHtml.replace(/{{visibility_class}}/g, visibilityClass)
+                              .replace(/{{featured_image}}/g, featured_image)
+                              .replace(/{{link}}/g, dataObject[key].link)
                               .replace(/{{title}}/g, dataObject[key].title.rendered)
+                              .replace(/{{date}}/g, date)
+                              .replace(/{{category_visibility}}/g, categoryVisibility)
+                              .replace(/{{category}}/g, category)
                               .replace(/{{excerpt}}/g, dataObject[key].excerpt.rendered);
+
     } else {
 
     }

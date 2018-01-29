@@ -681,6 +681,19 @@ h2.section-title {
   }
 }
 
+.about-zen-interior {
+  padding-bottom: 8rem;
+  .zentext {
+    .zenlink {
+      background-color: rgba(27, 47, 89, .05);
+      max-width: none;
+      &:hover {
+        background-color: $green;
+      }
+    }
+  }
+}
+
 .wobble {
   animation-name: wobble;
   animation-duration: 4s;

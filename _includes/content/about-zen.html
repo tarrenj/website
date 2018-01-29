@@ -1,0 +1,48 @@
+<div class="container-fluid about-zen-interior">
+  <div class="row justify-content-center align-items-center text-center">
+
+    <div class="col-lg-8">
+      <div class="row justify-content-center align-items-center text-center">
+        {% if page.product != 'zencash' %}
+        <div class="col zentext">
+          <a class="zenlink" href="/zencash/">
+            <img src="/assets/img/icons/zencash.png" />
+            <h3>For Money</h3>
+          </a>
+        </div>
+        {% endif %}
+        {% if page.product != 'zenchat' %}
+        <div class="col zentext">
+          <a class="zenlink" href="/zenchat/">
+            <img src="/assets/img/icons/zenchat.png" />
+            <h3>For Messaging</h3>
+          </a>
+        </div>
+        {% endif %}
+        {% if page.product != 'zenpub' %}
+        <div class="col zentext">
+          <a class="zenlink" href="/zenpub/">
+            <img src="/assets/img/icons/zenpub.png" />
+            <h3>For Media</h3>
+            <p>
+              (in development)
+            </p>
+          </a>
+        </div>
+        {% endif %}
+        {% if page.product != 'zenhide' %}
+        <div class="col zentext">
+          <a class="zenlink" href="/zenhide/">
+            <img src="/assets/img/icons/zenhide.png" />
+            <h3>For Web Traffic</h3>
+            <p>
+              (in development)
+            </p>
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</div>

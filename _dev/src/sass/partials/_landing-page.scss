@@ -37,6 +37,7 @@ section.content {
   padding: 7rem 4rem;
   &.intro {
     padding-top: 12rem;
+    padding-bottom: 3rem;
     h2 {
       margin-bottom: 3rem;
     }
@@ -58,6 +59,9 @@ section.content {
     margin-left: -125px;
     background-color: white;
     border-radius: 12rem;
+    img {
+      width: 150px;
+    }
   }
   h2 {
     color: #041435;

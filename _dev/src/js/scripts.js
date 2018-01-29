@@ -214,11 +214,10 @@ function listCreateHtml(dataObject) {
 
 // Cookies.remove('newsletterOptin');
 var newsletterCookie = Cookies.get('newsletterOptin');
-var host = window.location.host;
-
-console.log(newsletterCookie);
-
-if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' || host === 'localhost:4000'  ) {
+// var host = window.location.host;
+//
+// if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' || host === 'localhost:4000' ) {
+if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
   $('#home-header').delay(2800).slideDown( 200, function() {
     // Animation complete.
   });

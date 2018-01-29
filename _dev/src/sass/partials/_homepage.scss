@@ -55,6 +55,16 @@ section:not(#hero) {
     background-color: #fff;
   }
 }
+.btn-ghost {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: $blue;
+  }
+}
 
 .section-title {
   text-align: center;
@@ -576,7 +586,7 @@ h2.section-title {
 
 .body-links {
   // padding: 0 84px;
-  margin-bottom: 6rem;
+  // margin-bottom: 6rem;
   .col {
     padding: 0 2px;
   }
@@ -633,7 +643,8 @@ h2.section-title {
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  margin-bottom: 6rem;
+  padding: 4rem 15px;
+  // margin-bottom: 6rem;
 }
 
 .zentext {
@@ -644,7 +655,7 @@ h2.section-title {
     margin: 0 auto;
   }
   h3 {
-    color: $gray;
+    color: $blue;
     font-size: 20px;
     letter-spacing: 5px;
     margin-bottom: 5px;
@@ -656,6 +667,15 @@ h2.section-title {
   animation-name: wobble;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+#about {
+  .lead.section-title {
+    color: $darkblue;
+    font-size: 28px;
+    line-height: 1.6;
+    padding: 4rem 0;
+  }
 }
 
 #features {

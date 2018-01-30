@@ -59,6 +59,25 @@ section:not(#hero) {
     background-color: #fff;
   }
 }
+.btn-inverse {
+  color: $darkblue;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid $darkblue;
+  padding: 1.4rem 3rem;
+  .right-arrow {
+    width: 10px;
+    transform: rotate(-90deg);
+    margin-left: 8px;
+    margin-top: -3px;
+  }
+  &:hover,
+  &:focus {
+    color: $darkblue;
+    background-color: $green;
+    border-color: $green;
+  }
+}
 .btn-ghost {
   color: white;
   background-color: transparent;
@@ -743,6 +762,24 @@ h2.section-title {
       }
     }
   }
+  .content {
+    p {
+      font-size: 1.2rem;
+      strong {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+section#features {
+  ul {
+    li {
+      font-weight: 100;
+      font-size: 1.2rem;
+      padding: .6rem 0;
+    }
+  }
 }
 
 #technology {
@@ -762,11 +799,32 @@ h2.section-title {
     line-height: 32px;
     letter-spacing: 0;
   }
-  a {
+  a:not(.btn) {
     color: $green;
     text-decoration: underline;
   }
-
+  .technology-cards {
+    .card {
+      color: $text-color;
+      .icon {
+        img {
+          height: 80px;
+          width: auto;
+        }
+      }
+      h3 {
+        color: $text-color;
+        font-weight: 100;
+      }
+      p {
+        font-weight: 300;
+        line-height: 1.8;
+      }
+    }
+    .card-body {
+      justify-content: flex-start;
+    }
+  }
 }
 section#technology {
   ul {

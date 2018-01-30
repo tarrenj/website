@@ -175,6 +175,33 @@ section.content {
   }
 }
 
+#zencash {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .6), rgba(4, 20, 53, .6)), url('../img/bkg/zencash.jpg');
+    background-position: 0px 0px, 50% 50%;
+  }
+}
+#zenchat {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/zenchat.jpg');
+    background-size: auto, cover;
+  }
+}
+#zenpub {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/zenpub.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+}
+#zenhide {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .2), rgba(4, 20, 53, .2)), url('../img/bkg/zenhide.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+}
+
 @media (max-width: 1199px) {
 
 }

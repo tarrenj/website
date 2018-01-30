@@ -1122,6 +1122,10 @@ section#tech {
       font-size: 22px;
     }
   }
+}
+
+#mining-pools,
+#use-zen {
   div[class^='col-'] {
     padding: 15px;
   }
@@ -1146,6 +1150,7 @@ section#tech {
     display: flex;
     background-color: #eee;
     padding: 0;
+    border-radius: 0;
     a {
       flex-grow: 1;
       color: #1b2f59;

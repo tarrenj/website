@@ -1,0 +1,31 @@
+{
+  "core": [
+    {
+      "name": "Rob Viglione",
+      "title": "Economist",
+      "photo": "/assets/img/people/rob.jpg",
+      "social": {
+        "twitter": "https://twitter.com/robviglione",
+        "linkedin": "https://www.linkedin.com/in/robert-viglione-2780634/"
+      }
+    },
+    {
+      "name": "Rolf Versluis",
+      "title": "Business Operations",
+      "photo": "/assets/img/people/rolf.jpg",
+      "social": {
+        "twitter": "https://twitter.com/RolfVersluis",
+        "linkedin": "https://www.linkedin.com/in/rolfversluis/"
+      }
+    },
+    {
+      "name": "Jane Lippencott",
+      "title": "Asia Operations",
+      "photo": "/assets/img/people/jane.jpeg",
+      "social": {
+        "twitter": "https://twitter.com/janehk",
+        "linkedin": "https://www.linkedin.com/in/jane-lippencott-999060a2/"
+      }
+    }
+  ]
+}

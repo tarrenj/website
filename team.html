@@ -1,6 +1,61 @@
 ---
-layout: page-fw
-type: interior
+layout: homepage
+type: homepage
 ---
 
+<section class="interior-header">
+  <div class="page-title wow fadeInDown" data-wow-duration="1.5s">
+    <h1>Team</h1>
+  </div>
+</section>
+
+<section class="content">
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-8 col-lg-7">
+        <h2>ZenCash founders and team come from a wide variety of backgrounds and experience, and are dedicated to empowering individuals worldwide.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid team-cards">
+    <div class="row">
+      <div class="col">
+        <h2 class="lined-subtext">Core Team</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+
+      {% for person in site.data.team.core %}
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="headshot b-lazy" data-src="{{person.photo}}"></div>
+              <h3>{{person.name}}</h3>
+              <h4>{{person.title}}</h4>
+              <div class="social-icons">
+                <a href="{{person.social.twitter}}"><i class="fa fa-twitter"></i></a>
+                <a href="{{person.social.linkedin}}"><i class="fa fa-linkedin-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <h2 class="lined-subtext">Advisors, Partners, Team Leads, Operations, and Engineering Teams</h2>
+        <p class="lead text-center">
+          Coming Soon...
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+{% comment %}
 {% include team.html %}
+{% endcomment %}

@@ -1249,7 +1249,7 @@ section#tech {
   border-radius: 0;
 }
 
-#team {
+#team-overview {
   background-color: #1b2f59;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -1338,6 +1338,73 @@ section#tech {
     }
   }
 }
+
+#team {
+  section.content {
+    padding: 5rem 0 0;
+  }
+  .team-cards {
+    color: white;
+    background-color: $darkblue;
+    margin-top: 4rem;
+    padding: 3rem 15px;
+    .lined-subtext {
+      color: $green;
+      &::before,
+      &::after {
+        background-color: $green;
+      }
+    }
+    div[class^='col-'] {
+      padding: 15px;
+    }
+    .card-body {
+      padding: 2.4rem 1.875rem;
+    }
+    .headshot {
+      width: 150px;
+      height: 150px;
+      border-radius: 5rem;
+      @include bgimagecover(white, '', center);
+      @include grayscale_element(100%);
+    }
+    h3 {
+      color: #1b2f59;
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: 200;
+      letter-spacing: 0;
+      text-transform: none;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      text-transform: none;
+      color: #1b2f59;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .social-icons {
+      text-align: center;
+      a {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 30px;
+        color: white;
+        background-color: $green;
+        border-radius: 5rem;
+        margin: 6px 6px 0;
+        &:hover,
+        &:focus {
+          background-color: #36c083;
+        }
+      }
+    }
+  }
+}
+
 
 .site-footer {
   color: white;
@@ -1462,7 +1529,7 @@ section#tech {
       }
     }
   }
-  #team {
+  #team-overview {
     .card {
       max-width: 340px;
       margin-left: auto;
@@ -1659,7 +1726,7 @@ section#tech {
   .lined-subtext {
     font-size: 16px;
   }
-  #team {
+  #team-overview {
     padding-top: 3rem;
     padding-bottom: 3rem;
     .global-team {

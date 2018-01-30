@@ -90,7 +90,7 @@ section.content {
       max-height: 150px;
     }
   }
-  h2 {
+  h2:not(.lined-subtext) {
     color: $darkblue;
     font-size: 42px;
     line-height: 56px;
@@ -192,7 +192,7 @@ section.content {
     }
   }
   section.content {
-    h2 {
+    h2:not(.lined-subtext) {
       font-size: 24px;
       line-height: 1.2;
       margin-bottom: 0;
@@ -246,7 +246,7 @@ section.content {
   }
   section.content {
     padding: 4rem 0 3rem;
-    h2 {
+    h2:not(.lined-subtext) {
       font-size: 22px;
       line-height: 1.2;
     }

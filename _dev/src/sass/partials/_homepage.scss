@@ -59,6 +59,14 @@ section:not(#hero) {
     background-color: #fff;
   }
 }
+.btn-secondary {
+  color: $text-color;
+  background-color: #f3f3f3;
+  &:hover {
+    color: $text-color;
+    background-color: $green;
+  }
+}
 .btn-inverse {
   color: $darkblue;
   font-weight: 600;
@@ -782,7 +790,7 @@ section#features {
   }
 }
 
-#technology {
+#tech {
   color: white;
   background-color: #1b2f59;
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/nodes-bkg.jpg");
@@ -826,7 +834,7 @@ section#features {
     }
   }
 }
-section#technology {
+section#tech {
   ul {
     li {
       font-weight: 100;
@@ -1520,7 +1528,7 @@ section#technology {
   h2.section-title {
     margin-bottom: 2rem;
   }
-  #technology {
+  #tech {
     padding: 3rem 1rem;
     h3 {
       font-size: 20px;

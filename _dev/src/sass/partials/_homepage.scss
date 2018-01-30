@@ -24,8 +24,9 @@ section:not(#hero) {
     list-style-type: none;
     margin-left: 0;
     li {
-      font-size: 18px;
-      padding: 4px 0;
+      font-size: 22px;
+      font-weight: 300;
+      padding: .5rem 0;
       margin-left: 20px;
       &:before {
         position: absolute;
@@ -774,7 +775,7 @@ h2.section-title {
     p {
       font-size: 1.2rem;
       strong {
-        font-weight: 600;
+        font-weight: 700;
       }
     }
   }
@@ -986,6 +987,66 @@ section#tech {
   .feature-icon {
     width: 105px;
     margin-bottom: 1rem;
+  }
+}
+
+#resources {
+  background-color: #f8f8f8;
+  background-image: url("../img/crazy-lines.png");
+  background-position: 0px 0px;
+  background-size: 960px;
+  padding: 8rem 0;
+  .subhead-image {
+    max-width: 520px;
+    margin-bottom: 2rem;
+  }
+  h2.subhead {
+    color: $darkblue;
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 100;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .card {
+    h3 {
+      color: $darkblue;
+      font-size: 1.2rem;
+    }
+    p {
+      font-weight: 300;
+    }
+    .btn {
+      margin-top: 1rem;
+    }
+    .btn-lg {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .inline-buttons {
+      .btn {
+        margin-left: 6px;
+        margin-right: 6px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+  .card-body {
+    padding: 3rem 1.5rem 2.25rem;
+  }
+}
+
+#media-mentions {
+  background-color: $darkblue;
+  padding: 4rem 0;
+  .lined-subtext {
+    color: $green;
+    width: 100%;
+    &::before,
+    &::after {
+      background-color: $green;
+    }
   }
 }
 

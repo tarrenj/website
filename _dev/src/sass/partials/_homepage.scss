@@ -766,6 +766,21 @@ h2.section-title {
     color: $green;
     text-decoration: underline;
   }
+
+}
+section#technology {
+  ul {
+    li {
+      font-weight: 100;
+      font-size: 1.2rem;
+      &:only-of-type {
+        margin-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 #roadmap {
@@ -910,18 +925,20 @@ h2.section-title {
 
 #blog {
   padding: 5rem 15px;
+  background-color: #eee;
   .card-img-top {
+    border-radius: 0;
     &.hidden {
       display: none;
     }
   }
   .card {
     text-align: left;
+    margin-bottom: 40px;
   }
   .card-body {
     align-items: flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     .category {
       color: $text-color;
       font-size: 1.1rem;

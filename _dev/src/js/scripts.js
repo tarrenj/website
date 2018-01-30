@@ -213,8 +213,6 @@ if ( document.getElementById("blogPosts") && document.getElementById("template-b
             })
             dataObject[index].categories = cleanCategories
           });
-
-          console.log(dataJSON);
           // build out the posts
           document.getElementById("blogPosts").innerHTML = listCreateHtml(dataJSON);
         }

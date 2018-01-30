@@ -228,7 +228,7 @@ h2.section-title {
 #home-header {
   position: relative;
   color: $text-color;
-  background-color: $green;
+  background-color: white;
   padding: 2.4rem 0 1rem;
   h1, h2, h3, h4, h5 {
     color: $teal;
@@ -241,10 +241,10 @@ h2.section-title {
   }
   .form-control,
   .custom-select {
-    color: #ccc;
+    color: $text-color;
     border: 1px solid #cccccc;
     border-radius: 0;
-    background-color: $darkblue;
+    background-color: #f3f3f3;
     height: 50px;
     padding: .375rem .75rem;
     // padding: 1rem;
@@ -268,7 +268,7 @@ h2.section-title {
   }
   .custom-select {
     padding: .375rem 1.75rem .375rem .75rem;
-    background: $darkblue url('../img/select.svg') no-repeat right .75rem center;
+    background: #f3f3f3 url('../img/select.svg') no-repeat right .75rem center;
     background-size: 8px 10px;
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -288,7 +288,7 @@ h2.section-title {
     bottom: 0;
   }
   .btn-primary {
-    background-color: #fff;
+    // background-color: #fff;
     height: 50px;
     letter-spacing: 4px;
     padding: 0px 40px;

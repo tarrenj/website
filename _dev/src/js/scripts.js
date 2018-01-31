@@ -96,10 +96,10 @@ function videoControl() {
   var videoHeight = $videoContainer.outerHeight();
 
   $(window).scroll(function(){
-    var x = $(document).scrollTop();
-    if ($(document).scrollTop() > videoHeight) {
+    var $x = $(document).scrollTop();
+    if ($x > videoHeight) {
       $video.get(0).pause();
-    } else if ($(document).scrollTop() < videoHeight ) {
+    } else if ($x < videoHeight ) {
       $video.get(0).play();
     }
   });

@@ -447,9 +447,7 @@ h2.section-title {
     font-size: 20px;
     line-height: 38px;
   }
-  #bgvid-bkg {
-    @include bgimagecover($darkteal, '../vid/cities.jpg', center);
-  }
+  @include bgimagecover($darkteal, '../vid/cities.jpg', center);
   #bgvid {
     video {
       position: absolute;

@@ -76,9 +76,6 @@ $(function() {
     var bLazy = new Blazy({
         success: function(element) {
             setTimeout(function() {
-                if ($('#bgvid')) {
-                  videoControl();
-                }
                 var parent = element.parentNode;
                 parent.className = parent.className.replace(/\bloading\b/,'');
             }, 200);
@@ -89,22 +86,7 @@ $(function() {
     $('#accordion .card-header a').append('<i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i>');
 });
 
-// Video background optimization
-function videoControl() {
-  var $videoContainer = $('#bgvid');
-  var $video = $('#bgvid video');
-  var videoHeight = $videoContainer.outerHeight();
 
-  $(window).scroll(function(){
-    var $x = $(document).scrollTop();
-    if ($x > videoHeight) {
-      $video.get(0).pause();
-    } else if ($x < videoHeight ) {
-      $video.get(0).play();
-    }
-  });
-}
-// END Video background optimization
 
 $('.toggle-languages').click(function(event) {
   event.preventDefault();
@@ -318,6 +300,8 @@ function ShowProgressMessage(msg) {
   }
 }
 
+
+// Video background optimization
 function InitiateSpeedDetection() {
   // ShowProgressMessage("Loading the image, please wait...");
   window.setTimeout(MeasureConnectionSpeed, 1);
@@ -357,13 +341,47 @@ function MeasureConnectionSpeed() {
     //     speedKbps + " kbps",
     //     speedMbps + " Mbps"
     // ]);
-
-    if (speedMbps >= 1) {
-      // console.log('should be fast enough');
-      $('#bgvid video').css('display', 'inline-block');
-    } else {
-      // console.log('not sure');
-      $('#bgvid video').css('display', 'none');
-    }
+    initBlazyVid(speedMbps);
   }
 }
+
+function initBlazyVid(speedMbps) {
+  // If basic speed test looks good
+  // Init a new instance of bLazy using a different selector for vids
+  if (speedMbps >= 1) {
+    // console.log('should be fast enough');
+    var bLazyVid = new Blazy({
+      selector: '.b-lazy-vid',
+      success: function(element) {
+        setTimeout(function() {
+          if ($('#bgvid')) {
+            videoControl();
+          }
+          var parent = element.parentNode;
+          parent.className = parent.className.replace(/\bloading\b/,'');
+        }, 200);
+      }
+    });
+  } else {
+    // console.log('not sure');
+    $('#bgvid video').css('display', 'none');
+  }
+}
+
+function videoControl() {
+  var $videoContainer = $('#bgvid');
+  var $video = $('#bgvid video');
+  var videoHeight = $videoContainer.outerHeight();
+
+  $(window).scroll(function(){
+    var $x = $(document).scrollTop();
+    if ($x > videoHeight) {
+      // console.log('pause');
+      $video.get(0).pause();
+    } else if ($x < videoHeight ) {
+      // console.log('play');
+      $video.get(0).play();
+    }
+  });
+}
+// END Video background optimization

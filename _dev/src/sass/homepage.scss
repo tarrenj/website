@@ -3,7 +3,6 @@ The main SCSS file for everything, yep
 */
 
 @import "../../bower_components/normalize-css/normalize";
-@import "../../bower_components/animate.css/animate";
 @import "vendor/bootstrap/bootstrap";
 // @import "../../bower_components/animsition/dist/css/animsition";
 
@@ -23,6 +22,7 @@ $gray: #a1a1a1;
 $lightgray: #f3f3f3;
 
 @import "vendor/animations";
+@import "../../bower_components/animate.css/animate";
 // @import "vendor/flags";
 @import "vendor/hamburgers/hamburgers";
 @import "vendor/font-awesome/font-awesome";

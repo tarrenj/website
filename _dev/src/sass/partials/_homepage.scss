@@ -19,6 +19,8 @@ h3 {
 }
 
 section:not(#hero) {
+  position: relative;
+  overflow: hidden;
   ul {
     position: relative;
     list-style-type: none;
@@ -743,9 +745,9 @@ h2.section-title {
 #features {
   color: white;
   background-color: $darkblue;
-  background-image: url("../img/world-connections.png"), linear-gradient(180deg, $darkblue, #0086ee);
-  background-position: 50% 0px, 0px 0px;
-  background-size: 80%, auto;
+  background-image: url("../img/world-connections.jpg"), linear-gradient(180deg, $darkblue, $darkblue);
+  background-position: 113% 0px, 0px 0px;
+  background-size: auto, auto;
   background-repeat: no-repeat, repeat;
   background-attachment: fixed, scroll;
   padding: 100px 50px 120px;
@@ -797,7 +799,7 @@ section#features {
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
-  padding: 160px 50px 120px;
+  padding: 160px 50px 0;
   h3 {
     color: white;
     font-weight: 700;
@@ -811,25 +813,40 @@ section#features {
     text-decoration: underline;
   }
   .technology-cards {
-    .card {
-      color: $text-color;
-      .icon {
-        img {
-          height: 80px;
-          width: auto;
-        }
-      }
-      h3 {
-        color: $text-color;
-        font-weight: 100;
-      }
-      p {
-        font-weight: 300;
-        line-height: 1.8;
+    background-color: #041435;
+    margin-left: -65px;
+    margin-right: -65px;
+    .col {
+      padding: 120px 5%;
+    }
+    .icon {
+      background-color: $green;
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      border-radius: 5rem;
+      padding: 15px 0;
+      text-align: center;
+      img {
+        height: 70px;
+        width: auto;
       }
     }
-    .card-body {
-      justify-content: flex-start;
+    h3 {
+      color: $green;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      font-size: 24px;
+    }
+    p {
+      font-weight: 100;
+      line-height: 1.8;
+      font-size: 22px;
+    }
+    .btn-inverse {
+      color: $green;
+      border-color: $green;
+      margin-top: 1.4rem;
     }
   }
 }

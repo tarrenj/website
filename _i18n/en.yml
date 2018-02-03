@@ -1,0 +1,29 @@
+global:
+  english: English
+  korean: Korean
+homepage:
+  hero:
+    subtitle: The Secure Platform for Money, Messages, and Media
+    announcement: Excited to Announce R&D Partnership with IOHK
+    announcement-button: Learn More
+  about:
+    title: Zen is a privacy platform with the latest privacy technology, a self-sustaining funding model, and building a protocol-level Decentralized Autonomous Organization (DAO).
+    products:
+      zencash: For Money
+      zenchat: For Messaging
+      zenpub: For Media
+      zenhide: For Web Traffic
+      development: (in development)
+      nav:
+        - title: Features
+          link: '#features'
+          icon: /assets/img/icons/features.png
+        - title: Roadmap
+          link: '#roadmap'
+          icon: /assets/img/icons/roadmap.png
+        - title: Team
+          link: '#team'
+          icon: /assets/img/icons/team.png
+        - title: White Paper
+          link: '#white-paper'
+          icon: /assets/img/icons/whitepaper.png

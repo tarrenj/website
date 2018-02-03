@@ -142,6 +142,7 @@ gulp.task('watch', function () {
         '*.{html,md,markdown}',
         '_layouts/**/*.html',
         '_includes/**/*.html',
+        '_i18n/**/*',
         '_posts/*',
         'blog/*'
     ], ['jekyll-rebuild']);

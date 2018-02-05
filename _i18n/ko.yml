@@ -110,3 +110,6 @@ homepage:
             - 네트워크 스택 익명성을 위한 Dandelion++ 통합
             - 확장성 솔루션
             - 보안노드에 게시 된 IPFS
+  whitepaper:
+    subtitle: 백서 개정중입니다. 원본 백서는 거의 80%가 동일 할 것입니다
+    button: 백서 다운로드

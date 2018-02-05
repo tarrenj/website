@@ -113,3 +113,29 @@ homepage:
   whitepaper:
     subtitle: 백서 개정중입니다. 원본 백서는 거의 80%가 동일 할 것입니다
     button: 백서 다운로드
+securenodes:
+  hero:
+    title: ZenCash는 화폐와 메시지들 그리고 미디어에 대한 프라이버시를 존중하고 있습니다
+    subtitle: 보안노드는 ZenCash의 네트워크를 보다 더 분산되고 탄력적인 블록체인으로 만들어줍니다
+    cta: 보안노드 설치 지침
+  requirements:
+    title: 요구사항
+    cta: 보안노드 설치 지침
+    list:
+      - title: 42 $의 ZEN
+        subtitle: 노드당 명백한 주소에 있어야 합니다
+        icon: /assets/img/icons/vector-1.png
+      - title: TLS 인증서
+        subtitle: 알려진 기관에서 발급 된 인증서가 필요합니다
+        icon: /assets/img/icons/vector-3.png
+      - title: 컴퓨팅상의 문제
+        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+        icon: /assets/img/icons/vector-2.png
+      - title: ZenCash 블록체인
+        subtitle: ZenCash 블록체인에 관한 모든 사본을 유지해야합니다
+        icon: /assets/img/icons/vector-4.png
+      - title: 92% 이상의 구동률
+        subtitle: 적어도 92% 이상의 구동률로 노드를 증가시키고 가동시켜야합니다
+        icon: /assets/img/icons/vector-1.png
+  footer:
+    title: ZenCash 사고 팔기

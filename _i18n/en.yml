@@ -113,3 +113,29 @@ homepage:
   whitepaper:
     subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
     button: Download White Paper
+securenodes:
+  hero:
+    title: ZenCash is Private Money, Messages, Media
+    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
+    cta: Instructions to Set Up Secure Nodes
+  requirements:
+    title: Requirements
+    cta: Instructions to Set Up Secure Nodes
+    list:
+      - title: 42 $ZEN
+        subtitle: in transparent address per node
+        icon: /assets/img/icons/vector-1.png
+      - title: TLS Certificate
+        subtitle: from a known Certificate Authority
+        icon: /assets/img/icons/vector-3.png
+      - title: Computational Challenge
+        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+        icon: /assets/img/icons/vector-2.png
+      - title: ZenCash Blockchain
+        subtitle: Maintain a full copy of the ZenCash Blockchain
+        icon: /assets/img/icons/vector-4.png
+      - title: 92%+ Uptime
+        subtitle: Keep the node up and running at least 92% of the time
+        icon: /assets/img/icons/vector-1.png
+  footer:
+    title: Buy or Sell ZenCash

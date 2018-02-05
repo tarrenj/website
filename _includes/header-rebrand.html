@@ -28,6 +28,16 @@
             <option value="Russian">Russian</option>
             <option value="Spanish">Spanish</option>
           </select>
+
+          <select class="custom-select custom-select-lg">
+            <option selected value="">Country...</option>
+            {% for country in site.data.countryNames %}
+            <option value="{{country[1]}}">
+              {{country[1]}}
+            </option>
+            {% endfor %}
+          </select>
+
         </div>
         <div class="submit_container clear">
           <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">

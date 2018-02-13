@@ -7,7 +7,7 @@
     </button>
     <div class="col-sm-12 text-center flex-column justify-content-center">
       <p class="lead">
-        ZenCash is an exciting new project! Sign up to receive exclusive updates.
+        Sign up to receive exclusive updates!
       </p>
 
       <p id="email-success" style="display: none;">
@@ -22,14 +22,15 @@
           <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="Your email address">
         </div>
         <div class="form-group">
+          {% comment %}
           <select name="MMERGE5" class="custom-select custom-select-lg" id="mce-MMERGE5">
             <option selected value="">Language...</option>
             <option value="English">English</option>
             <option value="Russian">Russian</option>
             <option value="Spanish">Spanish</option>
           </select>
-
-          <select class="custom-select custom-select-lg">
+          {% endcomment %}
+          <select name="MMERGE3" class="custom-select custom-select-lg" id="mce-MMERGE3">
             <option selected value="">Country...</option>
             {% for country in site.data.countryNames %}
             <option value="{{country[1]}}">
@@ -60,33 +61,32 @@
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
-
+        
         {% if page.url == '/' %}
+        {% assign link_base = '' %}
+        {% else %}
+        {% assign link_base = '/' %}
+        {% endif %}
+
         <li class="nav-item dropdown" id="about-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
           <div class="dropdown-menu" aria-labelledby="about">
-            <a class="dropdown-item" href="#features">Features</a>
-            <a class="dropdown-item" href="#roadmap">Roadmap</a>
-            <a class="dropdown-item" href="#white-paper">White Paper</a>
-            {% comment %}<a class="dropdown-item" href="#team">Team</a>{% endcomment %}
+            <a class="dropdown-item" href="{{link_base}}#features">Features</a>
+            <a class="dropdown-item" href="{{link_base}}#roadmap">Roadmap</a>
+            <a class="dropdown-item" href="{{link_base}}#team-overview">Team</a>
+            <a class="dropdown-item" href="{{link_base}}#white-paper">White Paper</a>
             {% comment %}<a class="dropdown-item" href="#">FAQs</a>{% endcomment %}
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#team-overview">team</a>
+          <a class="nav-link" href="/exchanges/">get zencash</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#use-zen">use zen</a>
-        </li>
-        {% else %}
-        <li class="nav-item">
-          <a class="nav-link" href="/">home</a>
+          <a class="nav-link" href="/wallets/">use zen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/team/">team</a>
+          <a class="nav-link" href="/mining-pools/">mine zen</a>
         </li>
-        {% endif %}
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
           <div class="dropdown-menu" aria-labelledby="community">
@@ -104,10 +104,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#">resources</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">media</a>
-        </li>
         {% endcomment %}
+        <li class="nav-item">
+          <a class="nav-link" href="http://support.zencash.com/">support</a>
+        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#blog">blog</a>
         </li>

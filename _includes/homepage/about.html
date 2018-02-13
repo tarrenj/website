@@ -1,4 +1,20 @@
 <section id="about">
+  
+  <div class="container-fluid body-links">
+    <div class="row justify-content-center align-items-center text-center">
+
+      {% for item in site.translations[site.lang].homepage.about.products.nav %}
+        <div class="col">
+          <a href="{{ item.link }}" class="body-link">
+            <img src="{{ item.icon }}" class="feature-icon">
+            <h3>{{ item.title }}</h3>
+            <img src="/assets/img/icons/down-arrow.png" class="down-arrow">
+          </a>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
 
   <div class="container-fluid wow fadeIn">
     <div class="row justify-content-center align-items-center text-center">
@@ -51,21 +67,14 @@
       </div>
     </div>
   </div>
-
-  <div class="container-fluid body-links">
+  
+  <div class="container-fluid zencash-video">
     <div class="row justify-content-center align-items-center text-center">
-
-      {% for item in site.translations[site.lang].homepage.about.products.nav %}
-        <div class="col">
-          <a href="{{ item.link }}" class="body-link">
-            <img src="{{ item.icon }}" class="feature-icon">
-            <h3>{{ item.title }}</h3>
-            <img src="/assets/img/icons/down-arrow.png" class="down-arrow">
-          </a>
-        </div>
-      {% endfor %}
-
+      <div class="col-lg-6">
+        <a href="https://youtu.be/Z5rymnt6njg">
+          <img class="img-fluid" src="/assets/img/zencash-video-thumbnail.jpg" />
+        </a>
+      </div>
     </div>
   </div>
-
 </section>

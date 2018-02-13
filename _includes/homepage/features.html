@@ -1,24 +1,30 @@
 <section id="features">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col">
         <h2 class="section-title wow fadeIn">{% translate homepage.features.title %}</h2>
       </div>
     </div>
     <div class="row justify-content-center feature-row odd wow fadeInLeft">
-      <div class="col-md-10 content">
-        {% translate_file homepage/features-1.md %}
+      <div class="col-md-4">
+        <img class="img-fluid" src="/assets/img/icons/zen-stack.png">
       </div>
-      <div class="col-md-2">
+      <div class="col-md-8 content">
+        {% translate_file homepage/features-1.md %}
       </div>
     </div>
     <div class="row justify-content-center feature-row even wow fadeInRight">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-10 content">
+      <div class="col-md-8 content">
         {% translate_file homepage/features-2.md %}
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="/assets/img/icons/iohk.png">
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <div class="col text-center">
         <p>
-          <a href="/iohk/" class="btn btn-lg btn-primary mt-3">{% translate homepage.features.cta %}p</a>
+          <a href="/iohk/" class="btn btn-lg btn-primary mt-3">{% translate homepage.features.cta %}</a>
         </p>
       </div>
     </div>

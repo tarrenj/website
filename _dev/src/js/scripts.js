@@ -18,16 +18,30 @@ $(function() {
 $(function() {
     $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        } else {
+          // Link to id on the target page
+          window.location.href = this.pathname + this.hash;
         }
     });
+    
+    if (window.location.hash) {
+      var target = $(window.location.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
 });
 
 $('.dropdown-toggle').dropdown();

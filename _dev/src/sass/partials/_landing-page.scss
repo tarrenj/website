@@ -8,6 +8,11 @@
       text-transform: uppercase;
     }
     #bgvid {
+      animation-name: fadeIn;
+      animation-fill-mode: both;
+      animation-delay: 1.5s;
+      animation-duration: 5s;
+      
       height: 100%;
       width: 100%;
       video {

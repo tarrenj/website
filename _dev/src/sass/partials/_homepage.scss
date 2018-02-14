@@ -450,6 +450,20 @@ h2.section-title {
   }
   @include bgimagecover($darkteal, '../vid/cities.jpg', center);
   #bgvid {
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    @include bgimagecover($darkteal, '../vid/cities.jpg', center);
     video {
       position: absolute;
       top: 50%;
@@ -460,15 +474,6 @@ h2.section-title {
       height: auto;
       transform: translateX(-50%) translateY(-50%);
     }
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
-    @include bgimagecover($darkteal, '../vid/cities.jpg', center);
   }
   .color-overlay {
     position: absolute;
@@ -1458,6 +1463,10 @@ section#tech {
   }
 }
 
+#error {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 .site-footer {
   color: white;

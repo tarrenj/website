@@ -49,9 +49,12 @@ $('#about-dropdown .dropdown-item').click(function() {
   $(this).parent().dropdown('toggle');
 });
 
-new WOW({
-  mobile: false
-}).init();
+
+AOS.init();
+
+// new WOW({
+//   mobile: false
+// }).init();
 
 var $mcForm = $('#email-form');
 

@@ -963,6 +963,7 @@ section#tech {
 }
 
 #roadmap {
+  overflow: hidden;
   padding: 100px 0 0;
   .zencash-logo {
     max-width: 338px;
@@ -1094,7 +1095,7 @@ section#tech {
   .container {
     padding: 5rem 15px;
     border-top: 1px solid $gray;
-    border-bottom: 1px solid $gray;
+    // border-bottom: 1px solid $gray;
   }
   .feature-icon {
     width: 105px;
@@ -1208,6 +1209,9 @@ section#tech {
   .container-fluid {
     max-width: 1800px;
   }
+  .subhead-large {
+    color: $green;
+  }
   // .section-title {
   //   color: white;
   //   font-size: 60px;
@@ -1238,7 +1242,7 @@ section#tech {
   }
   .use-zen-link-block {
     display: block;
-    max-width: 300px;
+    // max-width: 340px;
     margin: 0 auto;
     padding: 3rem 0;
     &:hover {
@@ -1251,7 +1255,7 @@ section#tech {
     h4 {
       color: white;
       font-weight: 700;
-      font-size: 20px;
+      font-size: 16px;
       letter-spacing: 6px;
       margin-top: 20px;
       margin-bottom: 0;
@@ -1271,10 +1275,14 @@ section#tech {
       }
     }
   }
+  // .feature-row {
+  //   max-width: 1000px;
+  //   margin: 0 auto;
+  // }
   .feature-item {
     margin: 3rem 0;
     h4 {
-      color: white;
+      color: $green;
       font-weight: 700;
       font-size: 28px;
       margin-top: 0;
@@ -1284,15 +1292,24 @@ section#tech {
     ul {
       li {
         color: white;
-        font-weight: 100;
+        font-weight: 400;
         font-size: 22px;
+        line-height: 1.3;
         padding: 0;
+        padding-bottom: 1.4rem;
+        margin-left: 0;
+        &:before {
+          display: none;
+        }
       }
     }
     p {
       color: white;
       font-weight: 100;
       font-size: 22px;
+    }
+    a {
+      color: $green;
     }
   }
 }
@@ -1362,9 +1379,18 @@ section#tech {
 }
 
 #team-overview {
-  background-color: #1b2f59;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  background-color: $darkblue;
+  padding-top: 0;
+  padding-bottom: 0;
+  h2 {
+    color: $darkblue;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+  .subhead-large {
+    color: $darkblue;
+  }
   .lined-subtext {
     color: $green;
     &:before,
@@ -1423,6 +1449,7 @@ section#tech {
   }
   .global-team {
     padding-top: 109px;
+    padding-bottom: 100px;
     background-color: #69ffbd;
     .lined-subtext {
       color: #185e94;
@@ -1434,6 +1461,12 @@ section#tech {
     .team-map {
       display: block;
       margin: 0 auto;
+    }
+    .btn-inverse {
+      &:hover,
+      &:focus {
+        background-color: white;
+      }
     }
   }
   .team-rows {
@@ -1525,9 +1558,24 @@ section#tech {
 .site-footer {
   color: white;
   background-color: #041435;
-  padding: 4rem 0;
-  a {
+  padding: 6rem 0 3rem;
+  h2, h3 {
     color: white;
+    font-size: 1rem;
+    letter-spacing: 5px;
+  }
+  h2 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+  }
+  a {
+    color: $green;
+  }
+  .nav-item {
+    font-size: 1rem;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .social-media-list {
     display: flex;
@@ -1548,6 +1596,61 @@ section#tech {
     img {
       max-height: 35px;
       max-width: 35px;
+    }
+  }
+  #email-form-footer {
+    padding: 1.4rem;
+    .form-control {
+      color: white;
+      font-weight: 400;
+      height: 50px;
+      background-color: #1b2f59;
+      border: 0;
+      border-radius: 0;
+      padding: .75rem;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: darken(white, 35%);
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: darken(white, 35%);
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: darken(white, 35%);
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: darken(white, 35%);
+    }
+    .select2-container--default {
+      .select2-selection--single {
+        font-weight: 400;
+        height: 50px;
+        background-color: #1b2f59;
+        border: 0;
+        border-radius: 0;
+        padding: .75rem;
+        text-align: left;
+      }
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+      color: darken(white, 35%);
+      padding-left: 0;
+      &:not([title="Your Country..."]) {
+        color: white;
+      }
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+      height: 50px;
+      width: 36px;
+    }
+    .btn {
+      padding: 0.85rem 2rem;
+      margin-top: .5rem;
+    }
+  }
+  .copyright {
+    small {
+      color: #185e94;
     }
   }
 }

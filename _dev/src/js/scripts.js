@@ -50,7 +50,9 @@ $('#about-dropdown .dropdown-item').click(function() {
 });
 
 
-AOS.init();
+AOS.init({
+  offset: 200
+});
 
 // animate circle dots image on page scroll
 $(window).scroll(function() {
@@ -61,6 +63,8 @@ $(window).scroll(function() {
 // new WOW({
 //   mobile: false
 // }).init();
+
+$('.custom-select').select2();
 
 var $mcForm = $('#email-form');
 
@@ -93,6 +97,41 @@ function callbackFunction (resp) {
       } else {
         console.log(resp);
         $('#email-form .form-control-feedback').text('Oops. Not sure what went wrong. Please try again soon.');
+      }
+    }
+}
+
+var $mcFormFooter = $('#email-form-footer');
+
+$mcFormFooter.ajaxChimp({
+  url: $mcFormFooter.attr('action'),
+  callback: callbackFunctionFooter
+});
+
+function callbackFunctionFooter (resp) {
+    if (resp.result === 'success') {
+      // console.log('success');
+      $mcFormFooter.fadeOut();
+      $('#email-success-footer').fadeIn();
+      // set cookie to subscribed
+      Cookies.set('newsletterOptin', 'subscribed', { expires: 365 });
+    } else if (resp.result === 'error') {
+      $('#email-form-footer .form-group').addClass('has-warning');
+      if (resp.msg.indexOf("is already subscribed") >= 0) {
+        // console.log('already subscribed');
+        $('#email-form-footer .form-control-feedback').text("Looks like you're already subscribed.");
+      } else if (resp.msg.indexOf("Please enter a value") >= 0) {
+        // console.log('no email address');
+        $('#email-form-footer .form-control-feedback').text('Please enter an email address.');
+      } else if (resp.msg.indexOf("Too many subscribe attempts") >= 0) {
+        // console.log('too many attempts');
+        $('#email-form-footer .form-control-feedback').text('Please wait 5 mintutes and try again.');
+      } else if (resp.msg.indexOf("must contain a single @") >= 0 || resp.msg.indexOf("domain portion of the email address is invalid") >= 0) {
+        // console.log('invalid email address');
+        $('#email-form-footer .form-control-feedback').text('Please enter a valid email address.');
+      } else {
+        console.log(resp);
+        $('#email-form-footer .form-control-feedback').text('Oops. Not sure what went wrong. Please try again soon.');
       }
     }
 }
@@ -271,7 +310,8 @@ if ( document.getElementById("blogPosts") && document.getElementById("template-b
         url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
         dataType: "json",
         data: {
-          categories_exclude: [67, 52, 95, 89, 66],
+          // categories_include: [1, 33, 39, 48, 56, 57, 63, 72, 73],
+          categories_exclude: [52, 66, 67, 89, 95, 119, 120, 121, 122],
           _embed: true
         },
         success: function(dataJSON) {

@@ -15,6 +15,37 @@ type: homepage
     </div>
   </div>
   
+  {% for group in site.data.team.groups %}
+  <div class="container-fluid team-section" id="{{group.slug}}">
+    <div class="row justify-content-center align-items-center">
+      <div class="col">
+        <h2 class="lined-subtext">{{group.name}}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center team-group">
+      {% for member in group.members %}
+      <div class="col-lg-4">
+        <div class="team-card">
+          <div class="headshot b-lazy" data-src="{{member.photo}}"></div>
+          <h3>{{member.name}}</h3>
+          <div class="title">
+            {{member.title}}
+          </div>
+          <div class="bio">
+            {{member.bio}}
+          </div>
+          <div class="social-links">
+            {% for link in member.social %}
+              {{link[0]}} - {{link[1]}} <br />
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  
   <div class="container-fluid team-section" id="engineering">
     <div class="row justify-content-center align-items-center">
       <div class="col">

@@ -1551,8 +1551,17 @@ section#tech {
     }
   }
   .team-card {
+    height: 100%;
     text-align: center;
     background-color: white;
+    .headshot {
+      width: 150px;
+      height: 150px;
+      border-radius: 5rem;
+      margin: 0 auto;
+      @include bgimagecover(white, '', center);
+      // @include grayscale_element(100%);
+    }
   }
 }
 

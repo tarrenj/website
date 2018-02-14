@@ -1,31 +1,46 @@
 {
-  "core": [
+  "groups": [
     {
-      "name": "Rob Viglione",
-      "title": "Economist",
-      "photo": "/assets/img/people/rob.jpg",
-      "social": {
-        "twitter": "https://twitter.com/robviglione",
-        "linkedin": "https://www.linkedin.com/in/robert-viglione-2780634/"
-      }
-    },
-    {
-      "name": "Rolf Versluis",
-      "title": "Business Operations",
-      "photo": "/assets/img/people/rolf.jpg",
-      "social": {
-        "twitter": "https://twitter.com/RolfVersluis",
-        "linkedin": "https://www.linkedin.com/in/rolfversluis/"
-      }
-    },
-    {
-      "name": "Jane Lippencott",
-      "title": "Asia Operations",
-      "photo": "/assets/img/people/jane.jpeg",
-      "social": {
-        "twitter": "https://twitter.com/janehk",
-        "linkedin": "https://www.linkedin.com/in/jane-lippencott-999060a2/"
-      }
+      "name": "Engineering",
+      "slug": "engineering",
+      "members": [
+        {
+          "name": "Rob Viglione",
+          "order": 1,
+          "photo": "/assets/img/people/rob.jpg",
+          "title": "Team Lead",
+          "bio": "Rob is a former physicist and mathematician with experience working on Bitshares, BlockPay, Zclassic, Seasteading and Bitgate. He's currently a PhD Candidate in Finance researching cryptofinance and teaching “Bitcoin & Blockchain Applications in Finance.\n\nRob holds an MBA in Finance & Marketing and the PMP certification. He is a passionate libertarian who advocates peace, freedom, and respect for individual life.",
+          "social": {
+            "twitter": "robviglione",
+            "linkedin": "robert-viglione-2780634",
+            "discord": "finpunk"
+          }
+        },
+        {
+          "name": "Rolf Versluis",
+          "order": 2,
+          "photo": "/assets/img/people/rolf.jpg",
+          "title": "Chief Engineer",
+          "bio": "Rolf is an experienced business owner in the IT industry and owns a mid-size mining operation.\n\nWith prior experience at Cisco systems, the semiconductor industry, and as a nuclear trained officer in the US Submarine force, Rolf brings leadership, management, and technical operational expertise to the Zen organization",
+          "social": {
+            "twitter": "RolfVersluis",
+            "linkedin": "rolfversluis",
+            "discord": "blockops"
+          }
+        },
+        {
+          "name": "Alberto Garoffolo",
+          "order": 3,
+          "photo": "/assets/img/people/anon_profile.jpg",
+          "title": "Sr Software Architect",
+          "bio": "",
+          "social": {
+            "twitter": "agaroffolo",
+            "linkedin": "alberto-garoffolo-576554",
+            "discord": ""
+          }
+        }
+      ]
     }
   ]
 }

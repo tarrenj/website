@@ -890,6 +890,60 @@ section#features {
       color: $green;
       border-color: $green;
       margin-top: 1.4rem;
+      &:hover,
+      &:focus {
+        color: $darkblue;
+      }
+    }
+  }
+  .stats-section {
+    background-color: #041435;
+    margin-left: -65px;
+    margin-right: -65px;
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .circle-dots {
+      margin-top: 130px;
+      margin-bottom: 30px;
+      h2 {
+        margin-bottom: 0;
+        font-size: 24px;
+      }
+      img {
+        width: 250px;
+        will-change: transform;
+        margin-top: -142px;
+      }
+    }
+    .stats {
+      text-align: center;
+      padding: 3rem 0 6rem;
+      .stats-headline {
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        // Keep words on separate lines
+        word-spacing: 9999999px;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid white;
+      }
+      .stats-data {
+        color: $green;
+        font-size: 3rem;
+        font-weight: 100;
+        span {
+          display: block;
+        }
+        .price-bitcoin {
+          font-size: 1.2rem;
+          font-weight: 400;
+        }
+      }
     }
   }
 }

@@ -52,6 +52,12 @@ $('#about-dropdown .dropdown-item').click(function() {
 
 AOS.init();
 
+// animate circle dots image on page scroll
+$(window).scroll(function() {
+  var theta = $(window).scrollTop() / 75 % Math.PI;
+  $('#circle-dots-img').css({ transform: 'rotate(' + theta + 'rad)' });
+});
+
 // new WOW({
 //   mobile: false
 // }).init();
@@ -167,11 +173,76 @@ if ( document.getElementById("nodeCount") ) {
     success: function(data) {
       var nodeValue = data.userdata.global.total;
       if ( $.isNumeric(nodeValue) ) {
-        $('#nodeCount').text(nodeValue);
+        var nodes = numberWithCommas(nodeValue);
+        $('#nodeCount').text(nodes);
+        $('#secureNodes .stats-data').text(nodes);
       }
     }
-  })
+  });
 }
+
+if ( document.getElementById("circSupply") ) {
+  $.ajax({
+    url: 'https://explorer.zensystem.io/insight-api-zen/status?q=getTotalSupply',
+    dataType: 'json',
+    success: function(data) {
+      if ( $.isNumeric(data.supply) ) {
+        var supply = numberWithCommas( Math.ceil(data.supply) );
+        $('#circSupply .stats-data').text(supply);
+      }
+    }
+  });
+}
+
+// CORS error
+// if ( document.getElementById("currentPrice") ) {
+//   $.ajax({
+//     url: 'https://bittrex.com/api/v1.1/public/getmarketsummary?market=btc-zen',
+//     dataType: 'json',
+//     success: function(data) {
+//       console.log(data)
+//       // if ( $.isNumeric(data.supply) ) {
+//       //   var supply = numberWithCommas( Math.ceil(data.supply) );
+//       //   $('#circSupply .stats-data').text(supply);
+//       // }
+// 
+//       // Get Bitcoin price in USD
+// 
+//     }
+//   });
+// }
+// 
+// $.ajax({
+//   url: 'https://api.coindesk.com/v1/bpi/currentprice.json',
+//   dataType: 'json',
+//   success: function(data) {
+//     console.log('One BTC is worth $' + data.bpi.USD.rate + ' USD')
+//     // if ( $.isNumeric(data.supply) ) {
+//     //   var supply = numberWithCommas( Math.ceil(data.supply) );
+//     //   $('#circSupply .stats-data').text(supply);
+//     // }
+//   }
+// });
+// 
+// 
+// // CORS error
+// $.ajax({
+//   url: 'https://miningpoollists.com/zencash/data.php',
+//   dataType: 'json',
+//   success: function(data) {
+//     console.log(data)
+//     // if ( $.isNumeric(data.supply) ) {
+//     //   var supply = numberWithCommas( Math.ceil(data.supply) );
+//     //   $('#circSupply .stats-data').text(supply);
+//     // }
+//   }
+// });
+
+
+
+
+
+
 
 if ( document.getElementById("blogPosts") && document.getElementById("template-blog-post") ) {
   var listTemplate = document.getElementById("template-blog-post");

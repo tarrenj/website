@@ -755,6 +755,7 @@ h2.section-title {
 }
 
 #features {
+  overflow: hidden;
   color: white;
   background-color: $darkblue;
   background-image: url("../img/world-connections.jpg"), linear-gradient(180deg, $darkblue, $darkblue);

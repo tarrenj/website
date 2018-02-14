@@ -1513,10 +1513,53 @@ section#tech {
   }
 }
 
-#team {
-  section.content {
-    padding: 5rem 0 0;
+#team-details {
+  background-color: #041435;
+  background-image: linear-gradient(180deg, rgba(4, 20, 53, .8), rgba(4, 20, 53, .8)), url('../img/bkg/team.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  .interior-subheader {
+    h1 {
+      text-transform: uppercase;
+    }
+    h4 {
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 5px;
+    }
   }
+  .team-section {
+    margin-top: 4rem;
+    .lined-subtext {
+      color: $green;
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin-bottom: 1.6rem;
+      &:before,
+      &:after {
+        background-color: $green;
+      }
+    }
+  }
+  .team-group {
+    div[class^="col-"] {
+      padding: 1px;
+    }
+  }
+  .team-card {
+    text-align: center;
+    background-color: white;
+  }
+}
+
+#team {
+  // section.content {
+  //   padding: 5rem 0 0;
+  // }
   .team-cards {
     color: white;
     background-color: $darkblue;

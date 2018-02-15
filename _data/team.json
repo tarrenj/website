@@ -54,6 +54,17 @@
           }
         },
         {
+          "name": "Nicola Onassis",
+          "photo": "",
+          "title": "Team Lead",
+          "bio": "Nicola is an experienced technical manager with 20 years of software engineering and 15+ years of architecture development. His work spans many aspects of technology development –from web platform architecture to system integration, database architecture to data warehousing, API architecture to system engineering, and more. Nicola co-founded Code Particle with De Girolami and Schiro and since then has been in charge of training and mentoring new developers and interns, leading the client side and database team, architecting platforms for different startups like Viddy, Symptify, Boldride, integration system and UI frameworks for different customers like Crowdstrike, Tenable, Activision.\n\nNicola expertise is in Database architecture (both SQL and no-SQL) and clients side UI-X frameworks implementation.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
           "name": "Idan Gelbourt",
           "photo": "",
           "title": "Sr Software Developer",
@@ -65,47 +76,157 @@
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Wayne Dawson",
+          "photo": "/assets/img/people/wayne.jpg",
+          "title": "Sr Software Developer",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "waynedawson",
+            "discord": "waynettwan"
+          }
+        },
+        {
+          "name": "William Wolf",
+          "photo": "/assets/img/people/will.jpg",
+          "title": "Sr Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "throughnothing",
             "discord": ""
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Anarch",
+          "photo": "/assets/img/people/anarch3.jpg",
+          "title": "Sr Software Developer",
           "bio": "",
           "social": {
             "twitter": "",
             "linkedin": "",
-            "discord": ""
+            "discord": "anarch3, UTC -5"
           }
         },
         {
-          "name": "",
+          "name": "Joseph Nicholas Alcantara",
           "photo": "",
-          "title": "",
+          "title": "Software Developer",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
-            "discord": ""
+            "linkedin": "joseph-nicholas-alcantara-43586195",
+            "discord": "JosephNic"
           }
         },
         {
-          "name": "",
+          "name": "Pat",
           "photo": "",
-          "title": "",
+          "title": "Software Developer",
           "bio": "",
           "social": {
             "twitter": "",
             "linkedin": "",
-            "discord": ""
+            "discord": "Pat"
+          }
+        },
+        {
+          "name": "Devman",
+          "photo": "",
+          "title": "Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "devman"
+          }
+        },
+        {
+          "name": "Lukas Bures",
+          "photo": "/assets/img/people/lukas.jpg",
+          "title": "Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "bureslukas",
+            "discord": "lukas"
+          }
+        },
+        {
+          "name": "Kendrick Tan",
+          "photo": "/assets/img/people/kendrick.jpg",
+          "title": "Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "kendricktrh",
+            "linkedin": "tankendrick",
+            "discord": "kendrick"
+          }
+        },
+        {
+          "name": "Robin Guyard",
+          "photo": "",
+          "title": "Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Robin 'Gniar'"
+          }
+        },
+        {
+          "name": "Cronic",
+          "photo": "/assets/img/people/cronic.jpg",
+          "title": "Infrastructure Manager",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "cronic"
+          }
+        },
+        {
+          "name": "James McCourt Cordingley",
+          "photo": "",
+          "title": "Infrastructure",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "macZenTeam"
+          }
+        },
+        {
+          "name": "Jake Tarren",
+          "photo": "/assets/img/people/jake.jpg",
+          "title": "Infrastructure",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Smrtz, UTC-5"
+          }
+        },
+        {
+          "name": "Johncarlo Maddalena",
+          "photo": "",
+          "title": "Testing",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "psyrax, UTC +11"
+          }
+        },
+        {
+          "name": "Spencer Whetstone",
+          "photo": "",
+          "title": "Testing",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "garnetandblock",
+            "discord": "spencer"
           }
         }
       ]

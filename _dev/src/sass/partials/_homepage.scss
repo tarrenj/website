@@ -1625,6 +1625,10 @@ section#tech {
         font-weight: 700;
         a {
           color: $text-color;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           &:hover,
           &:focus {
             color: $lightblue;

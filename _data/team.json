@@ -391,36 +391,36 @@
       "slug": "operations",
       "members": [
         {
-          "name": "",
+          "name": "Cogent Law",
           "photo": "",
-          "title": "",
+          "title": "Legal",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/company/10780416/",
             "discord": ""
           }
         },
         {
-          "name": "",
+          "name": "Kirk Phillips",
           "photo": "",
-          "title": "",
+          "title": "Accounting",
           "bio": "",
           "social": {
-            "twitter": "",
-            "linkedin": "",
+            "twitter": "thebitcoincpa",
+            "linkedin": "kirk-phillips-cpa",
             "discord": ""
           }
         },
         {
-          "name": "",
+          "name": "Jeremy Wan",
           "photo": "",
-          "title": "",
+          "title": "Operations Intern",
           "bio": "",
           "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": ""
+            "twitter": "Mimish53",
+            "linkedin": "jeremy-wan-557ba1107",
+            "discord": "Jmiii"
           }
         }
       ]

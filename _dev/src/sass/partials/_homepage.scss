@@ -1678,7 +1678,14 @@ section#tech {
     }
   }
   #team-details-modal {
+    background-color: rgba(4,20,53,0);
+    @include transition(all 0.3s ease-in-out);
+    &.show {
+      background-color: rgba(4,20,53,0.6);
+      @include transition(all 0.3s ease-in-out);
+    }
     .modal-dialog {
+      height: 100%;
       margin: 0 auto;
       @media (min-width: 576px) {
         max-width: 650px;

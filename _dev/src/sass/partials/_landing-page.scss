@@ -109,7 +109,7 @@
   padding-top: 4rem;
   h1 {
     color: white;
-    text-transform: none;
+    // text-transform: none;
     letter-spacing: 0;
     font-size: 5rem;
   }
@@ -278,16 +278,6 @@ section.content {
     background-image: linear-gradient(180deg, rgba(4, 20, 53, .2), rgba(4, 20, 53, .2)), url('../img/bkg/zenhide.jpg');
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
-  }
-}
-
-#wallets {
-  .about-zen-interior {
-    padding: 15px 3rem;
-  }
-  .col-lg-8 {
-    max-width: 100%;
-    flex: 0 0 100%;
   }
 }
 

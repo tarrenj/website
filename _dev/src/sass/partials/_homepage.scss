@@ -1383,6 +1383,14 @@ section#tech {
       font-weight: 700;
       display: block;
       padding: 1.09375rem 1.875rem;
+      &:not(:only-of-type) {
+        &:first-of-type {
+          border-right: 0.5px solid #041435;
+        }
+        &:last-of-type {
+          border-left: 0.5px solid #041435;
+        }
+      }
       &:hover,
       &:focus {
         background-color: $green;

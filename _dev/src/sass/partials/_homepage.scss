@@ -747,6 +747,12 @@ h2.section-title {
 
 .about-zen-interior {
   padding-bottom: 8rem;
+  &.full-width {
+    padding-bottom: 0;
+    .col {
+      padding: 0 1px;
+    }
+  }
   .zentext {
     .zenlink {
       background-color: rgba(27, 47, 89, .05);

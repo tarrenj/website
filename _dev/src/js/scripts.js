@@ -386,6 +386,50 @@ function listCreateHtml(dataObject) {
 }
 
 
+$('#team-details-modal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget); // Button that triggered the modal
+  var group = button.data('group'); // Extract info from data-* attributes
+  var name = button.data('name');
+  var headshot = button.data('headshot');
+  var title = button.data('title');
+  var bio = button.data('bio');
+  var twitter = button.data('twitter');
+  var linkedin = button.data('linkedin');
+  var discord = button.data('discord');
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  // modal.find('.modal-title').text('New message to ' + recipient)
+  // modal.find('.modal-body input').val(recipient)
+  modal.find('#modal-name').text(name);
+  modal.find('#modal-title').text(title);
+  modal.find('#modal-bio').html(bio);
+
+  if ( twitter.length > 0 ) {
+    var twitterLink = modal.find('.social-links .twitter a').attr('href') + twitter;
+    modal.find('.social-links .twitter a').attr('href', twitterLink);
+  } else {
+    modal.find('.social-links .twitter').css('display', 'none');
+  }
+  
+  if ( linkedin.length > 0 ) {
+    var linkedinLink = modal.find('.social-links .linkedin a').attr('href') + linkedin;
+    modal.find('.social-links .linkedin a').attr('href', linkedinLink);
+  } else {
+    modal.find('.social-links .linkedin').css('display', 'none');
+  }
+  
+  if ( discord.length > 0 ) {
+    var discordHtml = '<img src="/assets/img/icons/team/discord.png" />@' + discord;
+    modal.find('.social-links .discord a').html(discordHtml);
+  } else {
+    modal.find('.social-links .discord').css('display', 'none');
+  }
+
+})
+
+
+
 // Show newsletter optin if user hasn't subscribed or dismissed it in the last week
 
 // Cookies.remove('newsletterOptin');

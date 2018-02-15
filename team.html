@@ -3,7 +3,6 @@ layout: homepage
 type: homepage
 ---
 
-
 <section class="content" id="team-details">
 
   <div class="container-fluid">
@@ -27,26 +26,48 @@ type: homepage
       <div class="col-lg-4">
         <div class="team-card">
           <div class="team-bio">
-            <div class="headshot b-lazy" data-src="{{member.photo}}"></div>
+            {% if member.photo.size > 0 %}
+            {% assign headshot = member.photo %}
+            {% else %}
+            {% assign headshot = '/assets/img/people/anon_profile.jpg' %}
+            {% endif %}
+            <div class="headshot b-lazy" data-src="{{headshot}}"></div>
             <h3>{{member.name}}</h3>
-            <div class="title">
-              {{member.title}}
+            <div class="title">{{member.title}}</div>
+            <div class="profile-link">
+              {% if member.bio.size > 0 %}
+              <button type="button" class="btn btn-link"
+                data-toggle="modal"
+                data-target="#team-details-modal"
+                data-group="{{group.name}}"
+                data-name="{{member.name}}"
+                data-headshot="{{headshot}}"
+                data-title="{{member.title}}"
+                data-bio="{{member.bio | newline_to_br}}"
+                data-twitter="{{member.social.twitter}}"
+                data-linkedin="{{member.social.linkedin}}"
+                data-discord="{{member.social.discord}}"
+              >
+                Read {{member.name | truncatewords: 1, ""}}'s Bio
+              </button>
+              {% endif %}
             </div>
-            {% comment %}
-            <div class="bio">
-              {{member.bio}}
-            </div>
-            {% endcomment %}
           </div>
           <div class="social-links">
             {% if member.social.twitter.size > 0 %}
-              <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}">Twitter</a>
+              <div class="social-link twitter background">
+                <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}"><img src="/assets/img/icons/team/twitter.png" /></a>
+              </div>
             {% endif %}
             {% if member.social.linkedin.size > 0 %}
-              <a href="{{site.data.team.social.linkedin}}{{member.social.linkedin}}">LinkedIn</a>
+              <div class="social-link linkedin background">
+                <a href="{{site.data.team.social.linkedin}}{{member.social.linkedin}}"><img src="/assets/img/icons/team/linkedin.png" /></a>
+              </div>
             {% endif %}
             {% if member.social.discord.size > 0 %}
-              <a href="{{site.data.team.social.discord}}">Discord @{{member.social.discord}}</a>
+              <div class="social-link discord">
+                <a href="{{site.data.team.social.discord}}"><img src="/assets/img/icons/team/discord.png" />@{{member.social.discord}}</a>
+              </div>
             {% endif %}
           </div>
         </div>
@@ -56,6 +77,7 @@ type: homepage
   </div>
   {% endfor %}
   
+  {% comment %}
   <div class="container-fluid team-section" id="engineering">
     <div class="row justify-content-center align-items-center">
       <div class="col">
@@ -225,46 +247,42 @@ type: homepage
       </div>
     </div>
   </div>
-  {% comment %}
-  <div class="container-fluid team-cards">
-    <div class="row">
-      <div class="col">
-        <h2 class="lined-subtext">Core Team</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center align-items-center">
-
-      {% for person in site.data.team.core %}
-        <div class="col-lg-3">
-          <div class="card">
-            <div class="card-body">
-              <div class="headshot b-lazy" data-src="{{person.photo}}"></div>
-              <h3>{{person.name}}</h3>
-              <h4>{{person.title}}</h4>
-              <div class="social-icons">
-                <a href="{{person.social.twitter}}"><i class="fa fa-twitter"></i></a>
-                <a href="{{person.social.linkedin}}"><i class="fa fa-linkedin-square"></i></a>
-              </div>
+  {% endcomment %}
+  
+  <div class="modal fade" id="team-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button id="team-details-close" class="btn" data-dismiss="modal" aria-label="Close">
+            <div class="x" aria-hidden="true"></div>
+            <div class="x x2" aria-hidden="true"></div>
+          </button>
+          <h3 id="modal-name"></h3>
+          <div id="modal-title"></div>
+          <div id="modal-bio">Bio</div>
+          
+          {% comment %}
+          <div id="modal-group">Group</div>
+          <div id="modal-headshot">Headshot</div>
+          <div id="modal-twitter">Twitter</div>
+          <div id="modal-linkedin">LinkedIn</div>
+          <div id="modal-discord">Discord</div>
+          {% endcomment %}
+          
+          <div class="social-links">
+            <div class="social-link twitter background">
+              <a href="{{site.data.team.social.twitter}}"><img src="/assets/img/icons/team/twitter.png" /></a>
+            </div>
+            <div class="social-link linkedin background">
+              <a href="{{site.data.team.social.linkedin}}"><img src="/assets/img/icons/team/linkedin.png" /></a>
+            </div>
+            <div class="social-link discord">
+              <a href="{{site.data.team.social.discord}}"><img src="/assets/img/icons/team/discord.png" /></a>
             </div>
           </div>
         </div>
-      {% endfor %}
-
-    </div>
-
-    <div class="row mt-5">
-      <div class="col text-center">
-        <h2 class="lined-subtext">Advisors, Partners, Team Leads, Operations, and Engineering Teams</h2>
-        <p class="lead">
-          Coming Soon...
-        </p>
-        <p class="mt-5">
-          <a href='/team-archive/' class="btn btn-lg btn-primary">Old Team Page</a>
-        </p>
       </div>
     </div>
-
   </div>
-  {% endcomment %}
   
 </section>

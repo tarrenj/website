@@ -11,7 +11,6 @@
       "members": [
         {
           "name": "Rob Viglione",
-          "order": 1,
           "photo": "/assets/img/people/rob.jpg",
           "title": "Team Lead",
           "bio": "Rob is a former physicist and mathematician with experience working on Bitshares, BlockPay, Zclassic, Seasteading and Bitgate. He's currently a PhD Candidate in Finance researching cryptofinance and teaching “Bitcoin & Blockchain Applications in Finance.\n\nRob holds an MBA in Finance & Marketing and the PMP certification. He is a passionate libertarian who advocates peace, freedom, and respect for individual life.",
@@ -23,7 +22,6 @@
         },
         {
           "name": "Rolf Versluis",
-          "order": 2,
           "photo": "/assets/img/people/rolf.jpg",
           "title": "Chief Engineer",
           "bio": "Rolf is an experienced business owner in the IT industry and owns a mid-size mining operation.\n\nWith prior experience at Cisco systems, the semiconductor industry, and as a nuclear trained officer in the US Submarine force, Rolf brings leadership, management, and technical operational expertise to the Zen organization",
@@ -35,13 +33,150 @@
         },
         {
           "name": "Alberto Garoffolo",
-          "order": 3,
-          "photo": "/assets/img/people/anon_profile.jpg",
+          "photo": "/assets/img/people/alberto.jpg",
           "title": "Sr Software Architect",
           "bio": "",
           "social": {
             "twitter": "agaroffolo",
             "linkedin": "alberto-garoffolo-576554",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Pier Stabillini",
+          "photo": "",
+          "title": "Software Manager",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "pier-stabilini-3a532a1",
+            "discord": "ps71"
+          }
+        },
+        {
+          "name": "Idan Gelbourt",
+          "photo": "",
+          "title": "Sr Software Developer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "idan-b-y-86907165",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "User Experience",
+      "slug": "user-experience",
+      "members": [
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
             "discord": ""
           }
         }

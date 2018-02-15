@@ -166,7 +166,7 @@
         {
           "name": "Robin Guyard",
           "photo": "",
-          "title": "Software Developer",
+          "title": "Software Developer Intern",
           "bio": "",
           "social": {
             "twitter": "",
@@ -284,6 +284,228 @@
     {
       "name": "Marketing",
       "slug": "marketing",
+      "members": [
+        {
+          "name": "Rosario Pabst",
+          "photo": "/assets/img/people/rosario.jpg",
+          "title": "Operations & Marketing Director",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "rosario-pabst",
+            "discord": "zench1ck"
+          }
+        },
+        {
+          "name": "Ross Kenyon",
+          "photo": "/assets/img/people/ross.jpg",
+          "title": "Communication Strategy",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "rmkenyon",
+            "discord": ""
+          }
+        },
+        {
+          "name": "James Coleman-Powell",
+          "photo": "/assets/img/people/james.jpg",
+          "title": "Marketing Technology Lead",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "jamescolemanpowell",
+            "discord": "jcp"
+          }
+        },
+        {
+          "name": "Lucy Bruce",
+          "photo": "/assets/img/people/lucy.jpg",
+          "title": "Marketing Analyst",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Medar",
+          "photo": "",
+          "title": "Content Creation",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "MedaR"
+          }
+        },
+        {
+          "name": "Linda Baksija",
+          "photo": "/assets/img/people/linda.jpg",
+          "title": "Artist",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "linda-bucksey-9ab67466",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Marko Orcic",
+          "photo": "/assets/img/people/marko.jpg",
+          "title": "Graphic Designer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "marko-orcic-10a9aa70",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Crypto Media Hub",
+          "photo": "/assets/img/people/cmh.jpg",
+          "title": "Brand, Social Media, Ads",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/company/9471175/",
+            "discord": "CMH-Miguel"
+          }
+        },
+        {
+          "name": "Wachsman PR",
+          "photo": "/assets/img/people/wachsman.jpg",
+          "title": "Public Relations  & Conference Support",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "members": [
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Business Development",
+      "slug": "business-development",
+      "members": [
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Partners",
+      "slug": "partners",
+      "members": [
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "",
+          "photo": "",
+          "title": "",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Advisors",
+      "slug": "advisors",
       "members": [
         {
           "name": "",

@@ -56,17 +56,22 @@ type: homepage
           <div class="social-links">
             {% if member.social.twitter.size > 0 %}
               <div class="social-link twitter background">
-                <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}"><img src="/assets/img/icons/team/twitter.png" /></a>
+                <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}" target="_blank"><img src="/assets/img/icons/team/twitter.png" /></a>
               </div>
             {% endif %}
             {% if member.social.linkedin.size > 0 %}
+              {% if member.social.linkedin contains "https://www.linkedin.com/company" %}
+              {% assign linkedin = member.social.linkedin %}
+              {% else %}
+              {% assign linkedin = site.data.team.social.linkedin | append: member.social.linkedin %}
+              {% endif %}
               <div class="social-link linkedin background">
-                <a href="{{site.data.team.social.linkedin}}{{member.social.linkedin}}"><img src="/assets/img/icons/team/linkedin.png" /></a>
+                <a href="{{linkedin}}" target="_blank"><img src="/assets/img/icons/team/linkedin.png" /></a>
               </div>
             {% endif %}
             {% if member.social.discord.size > 0 %}
               <div class="social-link discord">
-                <a href="{{site.data.team.social.discord}}"><img src="/assets/img/icons/team/discord.png" />@{{member.social.discord}}</a>
+                <a href="{{site.data.team.social.discord}}" target="_blank"><img src="/assets/img/icons/team/discord.png" />@{{member.social.discord}}</a>
               </div>
             {% endif %}
           </div>
@@ -99,13 +104,13 @@ type: homepage
           
           <div class="social-links">
             <div class="social-link twitter background">
-              <a href="{{site.data.team.social.twitter}}"><img src="/assets/img/icons/team/twitter.png" /></a>
+              <a href="{{site.data.team.social.twitter}}" target="_blank"><img src="/assets/img/icons/team/twitter.png" /></a>
             </div>
             <div class="social-link linkedin background">
-              <a href="{{site.data.team.social.linkedin}}"><img src="/assets/img/icons/team/linkedin.png" /></a>
+              <a href="{{site.data.team.social.linkedin}}" target="_blank"><img src="/assets/img/icons/team/linkedin.png" /></a>
             </div>
             <div class="social-link discord">
-              <a href="{{site.data.team.social.discord}}"><img src="/assets/img/icons/team/discord.png" /></a>
+              <a href="{{site.data.team.social.discord}}" target="_blank"><img src="/assets/img/icons/team/discord.png" /></a>
             </div>
           </div>
         </div>

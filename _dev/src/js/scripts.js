@@ -413,7 +413,11 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   }
   
   if ( linkedin.length > 0 ) {
-    var linkedinLink = modal.find('.social-links .linkedin a').attr('href') + linkedin;
+    if ( linkedin.startsWith('https://www.linkedin.com/company') ) {
+      var linkedinLink = linkedin;
+    } else {
+      var linkedinLink = modal.find('.social-links .linkedin a').attr('href') + linkedin;
+    }
     modal.find('.social-links .linkedin a').attr('href', linkedinLink);
   } else {
     modal.find('.social-links .linkedin').css('display', 'none');

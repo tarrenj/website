@@ -236,38 +236,55 @@
       "slug": "user-experience",
       "members": [
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Gustavo Fialho",
+          "photo": "/assets/img/people/gustavo.jpg",
+          "title": "User Experience Director",
           "bio": "",
           "social": {
             "twitter": "",
             "linkedin": "",
-            "discord": ""
+            "discord": "rocket"
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Mike Lorey",
+          "photo": "/assets/img/people/mike.jpg",
+          "title": "Sr Front-End Engineer",
           "bio": "",
           "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": ""
+            "twitter": "mdlorey",
+            "linkedin": "mikelorey",
+            "discord": "mdlorey"
           }
         },
         {
-          "name": "",
+          "name": "Jonathan Dumaine",
           "photo": "",
-          "title": "",
+          "title": "Front-End Engineer",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Dum"
+          }
+        },
+        {
+          "name": "Vitalik Denim",
+          "photo": "",
+          "title": "User Experience Designer",
           "bio": "",
           "social": {
             "twitter": "",
             "linkedin": "",
             "discord": ""
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "slug": "marketing",
+      "members": [
         {
           "name": "",
           "photo": "",

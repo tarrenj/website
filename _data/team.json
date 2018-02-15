@@ -46,7 +46,7 @@
           "name": "Pier Stabillini",
           "photo": "",
           "title": "Software Manager",
-          "bio": "",
+          "bio": "Pier started using a computer at age 11 learning Basic and 6502 Assembly on Apple II. Today he has 20+ years of experience in software architecture and development with a strong Java, J2EE, C, GoLang, Python, data grid and networking expertise. Pier has designed and developed real time networking frameworks and high performance stacks used in financial applications, audio and video conference and in the automotive industry. His main areas of interest are cryptocurrencies, decentralized and distributed systems, networking protocols, audio and video encoders, embedded devices, kernel and system programming.",
           "social": {
             "twitter": "",
             "linkedin": "pier-stabilini-3a532a1",
@@ -79,7 +79,7 @@
           "name": "Wayne Dawson",
           "photo": "/assets/img/people/wayne.jpg",
           "title": "Sr Software Developer",
-          "bio": "",
+          "bio": "Wayne has an MS in Electrical Engineering and 30+ years experience as a software developer. He began working with alternative currencies in 2000 when he was involved with e-gold, and has written multiple other web-based currency systems.\n\nWayne teaches electronics and programming, and became involved with cryptocurrencies after buying an ASIC miner from a fellow libertarian in 2014. He believes decentralized blockchain technologies are making the world freer, more just, and more inclusive.",
           "social": {
             "twitter": "",
             "linkedin": "waynedawson",
@@ -90,7 +90,7 @@
           "name": "William Wolf",
           "photo": "/assets/img/people/will.jpg",
           "title": "Sr Software Developer",
-          "bio": "",
+          "bio": "Professional developer/engineer for 12+ years, currently leading payments engineering team at Airbnb. Will has worked on the founding teams of several startups, grown and managed engineering teams from 1 to 30+, built scalable high-volume web-based email hosting solutions, a distributed, scalable cloud computing platform called OpenStack, and global payments systems and infrastructure. Will has been involved in Bitcoin and the crypto space since 2011 and has made contributions to many open source blockchain tools, libraries, and systems.",
           "social": {
             "twitter": "",
             "linkedin": "throughnothing",
@@ -101,7 +101,7 @@
           "name": "Anarch",
           "photo": "/assets/img/people/anarch3.jpg",
           "title": "Sr Software Developer",
-          "bio": "",
+          "bio": "anarch is a self-taught programmer who has been a project maintainer for various projects ranging from simple password generators to complex cryptocurrencies. Also a twitter addict.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -142,10 +142,10 @@
           }
         },
         {
-          "name": "Lukas Bures",
+          "name": "Lukáš Bureš",
           "photo": "/assets/img/people/lukas.jpg",
           "title": "Software Developer",
-          "bio": "",
+          "bio": "Lukáš is currently a PhD candidate in cybernetics at the University of West Bohemia and teaching “Computer Vision Methods,” and has an MSc in Cybernetics. He has interests in cryptocurrency, artificial intelligence, security, machine learning, data mining, and computer vision. Lukáš is fully proficiency in many programming languages and with many development libraries and tools.",
           "social": {
             "twitter": "",
             "linkedin": "bureslukas",
@@ -156,7 +156,7 @@
           "name": "Kendrick Tan",
           "photo": "/assets/img/people/kendrick.jpg",
           "title": "Software Developer",
-          "bio": "",
+          "bio": "Kendrick is a self taught programmer and his areas of interests are machine learning, blockchain, functional programming, and infosec. Doing his free time, he has built a brainfuck interpreter in haskell, a self driving RC car, as well as a face indexer for instagram. He also likes taking photos of his favorite feline: <a href='https://www.instagram.com/mr.miso.oz/'>https://www.instagram.com/mr.miso.oz/</a>",
           "social": {
             "twitter": "kendricktrh",
             "linkedin": "tankendrick",
@@ -178,7 +178,7 @@
           "name": "Cronic",
           "photo": "/assets/img/people/cronic.jpg",
           "title": "Infrastructure Manager",
-          "bio": "",
+          "bio": "cronic is an experienced Linux sysadmin who originally started off in the telecommunications industry. He specializes in virtualization technologies, storage and application containerization. He'll be supporting the Dev Team with creating and running a continuous deployment pipeline and make sure the infrastructure keeps running. He's passionate about privacy in the digital age and prefers to stay pseudonymous.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -200,7 +200,7 @@
           "name": "Jake Tarren",
           "photo": "/assets/img/people/jake.jpg",
           "title": "Infrastructure",
-          "bio": "",
+          "bio": "Jake is a volunteer with the development team. He's currently heading up the communications and outreach for the dev team, and plans on taking on more development intensive roles. His day job is a Red Team Engineer at NASA, where he routinely breaks things.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -239,7 +239,7 @@
           "name": "Gustavo Fialho",
           "photo": "/assets/img/people/gustavo.jpg",
           "title": "User Experience Director",
-          "bio": "",
+          "bio": "Gustavo is a web developer and entrepreneur with extensive experience supporting cryptocurrency projects. When not in front of a computer he can be found cycling up hills sporting his Pantani Jersey. He believes life should be kept simple and enjoys helping others.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -250,7 +250,7 @@
           "name": "Mike Lorey",
           "photo": "/assets/img/people/mike.jpg",
           "title": "Sr Front-End Engineer",
-          "bio": "",
+          "bio": "Mike is a notable software engineer, marketing technologist, and social entrepreneur. His focus lies at the intersection between raw creative and technical skills, bending the conceptual into the tangible things that other people want or need.\n\nMike holds an MBA in Marketing and is a self-taught programmer.",
           "social": {
             "twitter": "mdlorey",
             "linkedin": "mikelorey",
@@ -289,7 +289,7 @@
           "name": "Rosario Pabst",
           "photo": "/assets/img/people/rosario.jpg",
           "title": "Operations & Marketing Director",
-          "bio": "",
+          "bio": "Rosario has over 12 years experience as a technology project manager for satellite, aircraft, and software systems. She has demonstrated expertise in all aspects of project management, leading cross-functional teams, and implementing both Agile and Lean methods. Rosario has a M.S. in Systems Engineering and the PMP certification.",
           "social": {
             "twitter": "",
             "linkedin": "rosario-pabst",
@@ -300,7 +300,7 @@
           "name": "Ross Kenyon",
           "photo": "/assets/img/people/ross.jpg",
           "title": "Communication Strategy",
-          "bio": "",
+          "bio": "Ross Kenyon is a blockchain professional with a background in academia, filmmaking, and business development. He has worked with Tezos, Sweetbridge, Nori, and Blue Frontiers.",
           "social": {
             "twitter": "",
             "linkedin": "rmkenyon",
@@ -341,10 +341,10 @@
           }
         },
         {
-          "name": "Linda Baksija",
+          "name": "Linda Bajista",
           "photo": "/assets/img/people/linda.jpg",
-          "title": "Artist",
-          "bio": "",
+          "title": "Graphic Designer",
+          "bio": "Linda is a passionate graphic designer with 'can do' attitude. She has 8 years experience working on web and print projects across EMEAI regions. She loves to travel and always are up for new challenges.",
           "social": {
             "twitter": "",
             "linkedin": "linda-bucksey-9ab67466",
@@ -366,7 +366,7 @@
           "name": "Crypto Media Hub",
           "photo": "/assets/img/people/cmh.jpg",
           "title": "Brand, Social Media, Ads",
-          "bio": "",
+          "bio": "Crypto Media Hub is a leading cryptocurrency marketing firm with deep expertise in multimedia marketing, advertising, and growth hacking. The firm was founded in 2015 by Tatiana Moroz, an active member of the bitcoin community; the ZenCash support team includes Chief Marketing Officer Cally Ulbricht, who has a track record of proven results for new-to-market companies, and cypherpunk Chief Technology Officer Brian Sovryn.",
           "social": {
             "twitter": "",
             "linkedin": "https://www.linkedin.com/company/9471175/",
@@ -433,7 +433,7 @@
           "name": "Rowan Stone",
           "photo": "/assets/img/people/rowan.jpg",
           "title": "Business Development Director",
-          "bio": "",
+          "bio": "Rowan is an experienced business manager who owns and operates a mid-sized mining operation in Scotland.\n\nWith a background in mechanical engineering and IT as well as business development and commercial management, Rowan brings a wealth of experience to the Zen Organisation.",
           "social": {
             "twitter": "RowanRK6",
             "linkedin": "rowan-stone-alterchain",
@@ -455,7 +455,7 @@
           "name": "Davit Mrelashvili",
           "photo": "/assets/img/people/davit.jpg",
           "title": "Region Lead: Eastern Europe",
-          "bio": "",
+          "bio": "Davit is a seasoned business executive with and entrepreneur originally from Georgia. He has a vast experience in working with post-Soviet states, ranging from exporting used German cars to there as his side business during residency training, to negotiating clinical trials in Georgia, Russia and Ukraine, as part of his Chief Medical Officer duties in a biomedical startup.\n\nDavit has both MD and MBA degrees, and graduated from the Singularity University executive program. He has increased his involvement in future technologies and fintech, and is passionate about making the economy more individualized, efficient, and friction-free.",
           "social": {
             "twitter": "",
             "linkedin": "davit-mrelashvili-md-mba-5b4039121",
@@ -466,7 +466,7 @@
           "name": "Arno Pfefferling",
           "photo": "/assets/img/people/arno.jpg",
           "title": "Region Lead: Germany",
-          "bio": "",
+          "bio": "Arno was born, raised and now works in the Free State of Saxony (Germany) as a manufacturing engineer. His career path is placed in the semiconductor industry for more than 5 years, which gives him a direct view in the fabrication of leading edge integrated circuits.\n\nTo keep high integrity and enable continuous improvement in manufacturing processes, Arno gained a B. Eng. in Microtechnology and M.Sc. in Electronic- and Sensormaterials from the Technical University Bergakademie Freiberg. The will to break technology boundaries naturally brought him to blockchain technology, which he views as a game-changing opportunity for society.",
           "social": {
             "twitter": "mrceebo",
             "linkedin": "arno-pfefferling-65382590",
@@ -477,7 +477,7 @@
           "name": "Andreas Widerøe",
           "photo": "/assets/img/people/andreas.jpg",
           "title": "Region Lead: Scandinavia",
-          "bio": "",
+          "bio": "Andreas is an IT professional and an entrepreneur. He studied computer science at the University of Oslo before he started working as a technical engineer and hostmaster for a well known ISP in Norway. He went on to become a senior consultant and CTO for a second and third company. Besides this he is an entrepreneur and have started several companies over the years ranging from IT and media to real estate. Today he works as the CEO of young consultancy firm specializing in the new EU privacy law (GDPR). He is also an avid skateboarder and surfer.",
           "social": {
             "twitter": "",
             "linkedin": "andreas-wider%C3%B8e-7061a1b9",
@@ -499,7 +499,7 @@
           "name": "Said Mammdov",
           "photo": "/assets/img/people/said.jpg",
           "title": "Country Manager: Turkey",
-          "bio": "",
+          "bio": "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
           "social": {
             "twitter": "",
             "linkedin": "said-mammadov-8699905",
@@ -532,7 +532,7 @@
           "name": "Adnan Javed",
           "photo": "/assets/img/people/adnan.jpg",
           "title": "Country Manager: Australia",
-          "bio": "",
+          "bio": "Adnan is based out of Australia and holds formal Legal and Engineering qualifications. He has worked on numerous blockchain projects to date including large scale bespoke blockchain projects across internet of things, finance and payments sectors. 3 years ago he discovered Bitcoin which led him to explore blockchain applications and use cases. He has a keen interest in how blockchain technology will advance in shaping all industry sectors from an adoption, regulatory and policy perspective.",
           "social": {
             "twitter": "",
             "linkedin": "adnan-javed",
@@ -543,7 +543,7 @@
           "name": "Jin Cai",
           "photo": "/assets/img/people/jin.jpg",
           "title": "Country Manager: China",
-          "bio": "",
+          "bio": "Jin is an veteran in capital markets, mainly focusing in China mainland, Hong Kong, and USA. Previously an investment director at Huawei Technologies, a leading global information and communications technology (ICT) solutions provider, Jin has over 15 years experience of asset management, private equity, and business development.\n\nJin holds Dual Bachelor's degree in Economics and Law from Nankai University, China and has an MBA in Finance from Rice University.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -554,7 +554,7 @@
           "name": "Jose Faisca",
           "photo": "/assets/img/people/jose.jpg",
           "title": "Country Manager: Portugal",
-          "bio": "",
+          "bio": "Jose is an independent technology advisor and consultant with over 30 years of experience in the IT business. Experienced university professor and researcher in the field of computer science and new technologies. His polyglot philosophy makes him invested in a variety of technology ecosystems. Exploring emergent decentralized technologies such as the Blockchain since early 2013. His current projects focus on the concept of a decentralized semantic identity using the Blockchain and building communities and education on decentralized technologies.",
           "social": {
             "twitter": "",
             "linkedin": "jgfaisca",
@@ -565,7 +565,7 @@
           "name": "Taiga Ikuta",
           "photo": "/assets/img/people/taiga.jpg",
           "title": "Country Representative: Japan",
-          "bio": "",
+          "bio": "Taiga is a freelance translator and writer. After dropping out of Keio University, he set out to travel abroad to discover different cultures and the beauty the world has to offer. His natural curiosity then led him to the crypto industry, which he believes has the potential to bring about the positive paradigm shift in the way our society operates.\n\nCurrently he is registered with Glova and Rozetta, translation agencies based in Tokyo, working on various types of documents ranging from textbooks to magazine articles to government publications.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -598,7 +598,7 @@
           "name": "Hugh Ayara",
           "photo": "/assets/img/people/hugh.jpg",
           "title": "Country Representative: Kenya",
-          "bio": "",
+          "bio": "An adrenaline junkie and sustainable development living crusader with unquenchable thirst for digital marketing expertise of 4 years keeping at the forefront of digital trends. He is also passionate about community development.",
           "social": {
             "twitter": "",
             "linkedin": "hugh-ayara-82ab5a77",
@@ -609,7 +609,7 @@
           "name": "Jane Lippencott",
           "photo": "/assets/img/people/jane.jpg",
           "title": "Academic Programs Lead",
-          "bio": "",
+          "bio": "Jane is a budding entrepreneur with active projects in Asia & Africa who is passionate about community building & financial inclusion. Her experience ranges from financial analysis in asset & wealth management to marketing, strategy, innovation, & partnerships in venture capital & FinTech startups. She is currently pursuing degrees in international business, data analytics, & finance, & is based in Asia.",
           "social": {
             "twitter": "janehk",
             "linkedin": "janelippencott",
@@ -665,7 +665,7 @@
           "name": "Charles Hoskinson",
           "photo": "/assets/img/people/charles.jpg",
           "title": "Strategic Advisor",
-          "bio": "",
+          "bio": "Charles is the CEO of IOHK, the blockchain industry’s leading R&amp;D firm. He is a technology entrepreneur and mathematician, co-founder of Bitshares, Ethereum, and IOHK. Charles was the founding chairman of the Bitcoin Foundation’s education committee and established the Cryptocurrency Research Group in September of 2013. His current projects focus on education of cryptocurrency topics, evangelism of decentralization and making cryptographic tools easier to use for the mainstream.",
           "social": {
             "twitter": "",
             "linkedin": "charleshoskinson1",
@@ -676,7 +676,7 @@
           "name": "Steven Nerayoff",
           "photo": "/assets/img/people/steve.jpg",
           "title": "Strategic Advisor",
-          "bio": "",
+          "bio": "Steven is an entrepreneur, disruptor, and venture capitalist interested in smart cities, technology startups, and blockchain. He has tremendous industry experience supporting Ethereum, Lisk, and Zcash. Steve is also the Founder of CloudParc, a disruptive smart-city platform using machine vision and AI.",
           "social": {
             "twitter": "",
             "linkedin": "nerayoff",

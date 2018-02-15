@@ -1160,6 +1160,8 @@ section#tech {
     h3 {
       color: $darkblue;
       font-size: 1.2rem;
+      letter-spacing: 4px;
+      line-height: 1.4;
     }
     p {
       font-weight: 300;
@@ -1181,6 +1183,7 @@ section#tech {
     }
   }
   .card-body {
+    justify-content: flex-start;
     padding: 3rem 1.5rem 2.25rem;
   }
 }

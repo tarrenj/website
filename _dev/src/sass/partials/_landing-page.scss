@@ -280,6 +280,39 @@ section.content {
     background-size: auto, cover;
   }
 }
+#mining-pools {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/zenchat.jpg');
+    background-size: auto, cover;
+  }
+  strong {
+    a {
+      color: #185e94;
+    }
+    font-weight: 700;
+  }
+  .pool-list {
+    background-color: #041435;
+    padding: 4rem 0;
+  }
+}
+#resources {
+  .card {
+    h3 {
+      color: #1B2F5A;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      line-height: 1.4;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .card-body {
+    padding: 3rem 1.5rem 2.25rem;
+  }
+}
 
 @media (max-width: 1199px) {
 

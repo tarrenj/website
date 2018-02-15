@@ -3,6 +3,34 @@
   "url": "https://zenmine.pro/"
 },
 {
+  "name": "Luckpool",
+  "url": "http://www.luckpool.org/"
+},
+{
+  "name": "ZHash.pro",
+  "url": "https://zhash.pro/"
+},
+{
+  "name": "Miningspeed",
+  "url": "http://zen.miningspeed.com/"
+},
+{
+  "name": "Mining Pool Hub",
+  "url": "https://miningpoolhub.com/"
+},
+{
+  "name": "ZenPool.org",
+  "url": "https://zenpool.org/"
+},
+{
+  "name": "CloudPools",
+  "url": "http://zen.cloudpools.net/"
+},
+{
+  "name": "TreeFrog Mines",
+  "url": "https://treefrogmines.com/"
+},
+{
   "name": "Cryptobroker",
   "url": "https://pool.cryptobroker.io/zen/"
 },
@@ -11,23 +39,11 @@
   "url": "https://minez.zone/"
 },
 {
-  "name": "Luckpool",
-  "url": "http://www.luckpool.org/"
-},
-{
-  "name": "Miningspeed",
-  "url": "http://zen.miningspeed.com/"
-},
-{
   "name": "SG Pool",
   "url": "https://www.sgpool.net/"
 },
 {
-  "name": "Zpool",
-  "url": "http://www.zpool.ca/"
-},
-{
-  "name": "ZenCash Pool Sexy",
+  "name": "SG ZenCash Pool Sexy",
   "url": "http://zen.pool.sexy"
 },
 {
@@ -39,24 +55,12 @@
   "url": "https://zen.suprnova.cc/"
 },
 {
-  "name": "Clover mining SOLO ZEN pool",
-  "url": "http://zencoin.su"
-},
-{
   "name": "Owl Miners' Club",
   "url": "http://zen.owlminingclub.com/"
 },
 {
-  "name": "ZHASH.PRO",
-  "url": "https://zhash.pro/"
-},
-{
   "name": "Miner Maniac",
   "url": "http://www.minermaniac.com/"
-},
-{
-  "name": "Mining.SG",
-  "url": "https://pool.mining.sg/"
 },
 {
   "name": "Nibiru Pool",
@@ -67,16 +71,8 @@
   "url": "http://zen.blocksuckernation.com/"
 },
 {
-  "name": "ZenPool.org",
-  "url": "https://zenpool.org/"
-},
-{
   "name": "Catspool",
   "url": "http://zen.catspool.org/"
-},
-{
-  "name": "HODLPool",
-  "url": "http://equihash.hodlpool.com"
 },
 {
   "name": "2miners",

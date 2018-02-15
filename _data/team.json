@@ -430,9 +430,20 @@
       "slug": "business-development",
       "members": [
         {
-          "name": "",
+          "name": "Rowan Stone",
+          "photo": "/assets/img/people/rowan.jpg",
+          "title": "Business Development Director",
+          "bio": "",
+          "social": {
+            "twitter": "RowanRK6",
+            "linkedin": "rowan-stone-alterchain",
+            "discord": "rowan"
+          }
+        },
+        {
+          "name": "Adam Locklin",
           "photo": "",
-          "title": "",
+          "title": "Business Development Manager",
           "bio": "",
           "social": {
             "twitter": "",
@@ -441,25 +452,168 @@
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Davit Mrelashvili",
+          "photo": "/assets/img/people/davit.jpg",
+          "title": "Region Lead: Eastern Europe",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "davit-mrelashvili-md-mba-5b4039121",
+            "discord": "Davit"
+          }
+        },
+        {
+          "name": "Arno Pfefferling",
+          "photo": "/assets/img/people/arno.jpg",
+          "title": "Region Lead: Germany",
+          "bio": "",
+          "social": {
+            "twitter": "mrceebo",
+            "linkedin": "arno-pfefferling-65382590",
+            "discord": "mrceebo"
+          }
+        },
+        {
+          "name": "Andreas Widerøe",
+          "photo": "/assets/img/people/andreas.jpg",
+          "title": "Region Lead: Scandinavia",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "andreas-wider%C3%B8e-7061a1b9",
+            "discord": "wodfer"
+          }
+        },
+        {
+          "name": "Levis Caycedo",
+          "photo": "",
+          "title": "Region Lead: North America",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "leviscaycedo",
             "discord": ""
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Said Mammdov",
+          "photo": "/assets/img/people/said.jpg",
+          "title": "Country Manager: Turkey",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "said-mammadov-8699905",
+            "discord": "saidtm"
+          }
+        },
+        {
+          "name": "Angie Villareal",
+          "photo": "/assets/img/people/angie.jpg",
+          "title": "Country Manager: Mexico",
           "bio": "",
           "social": {
             "twitter": "",
             "linkedin": "",
+            "discord": "AngieVillarreal"
+          }
+        },
+        {
+          "name": "Luca Cermelli",
+          "photo": "/assets/img/people/luca.jpg",
+          "title": "Country Manager: Italy",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "cermelli",
+            "discord": "Luca Cermelli"
+          }
+        },
+        {
+          "name": "Adnan Javed",
+          "photo": "/assets/img/people/adnan.jpg",
+          "title": "Country Manager: Australia",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "adnan-javed",
+            "discord": "AJ"
+          }
+        },
+        {
+          "name": "Jin Cai",
+          "photo": "/assets/img/people/jin.jpg",
+          "title": "Country Manager: China",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Jinc"
+          }
+        },
+        {
+          "name": "Jose Faisca",
+          "photo": "/assets/img/people/jose.jpg",
+          "title": "Country Manager: Portugal",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "jgfaisca",
+            "discord": "jgfaisca"
+          }
+        },
+        {
+          "name": "Taiga Ikuta",
+          "photo": "/assets/img/people/taiga.jpg",
+          "title": "Country Representative: Japan",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Taiga"
+          }
+        },
+        {
+          "name": "Sebastian Dienst",
+          "photo": "",
+          "title": "Country Representative: Japan",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "sebastiandienst",
+            "discord": "Sebastian"
+          }
+        },
+        {
+          "name": "Ruben Elizondo",
+          "photo": "",
+          "title": "Country Representative: Mexico",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "UANL91"
+          }
+        },
+        {
+          "name": "Hugh Ayara",
+          "photo": "/assets/img/people/hugh.jpg",
+          "title": "Country Representative: Kenya",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "hugh-ayara-82ab5a77",
             "discord": ""
+          }
+        },
+        {
+          "name": "Jane Lippencott",
+          "photo": "/assets/img/people/jane.jpg",
+          "title": "Academic Programs Lead",
+          "bio": "",
+          "social": {
+            "twitter": "janehk",
+            "linkedin": "janelippencott",
+            "discord": "Jane"
           }
         }
       ]
@@ -469,35 +623,35 @@
       "slug": "partners",
       "members": [
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Code Particle",
+          "photo": "/assets/img/people/code_particle.jpg",
+          "title": "Software Team",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/company/620857/",
             "discord": ""
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "IOHK Contract",
+          "photo": "/assets/img/people/iohk.jpg",
+          "title": "Research & Development",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/company/6385405/",
             "discord": ""
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "InfoPulse",
+          "photo": "/assets/img/people/infopulse.jpg",
+          "title": "Sr Software Team",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/company/8642/",
             "discord": ""
           }
         }
@@ -508,35 +662,24 @@
       "slug": "advisors",
       "members": [
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Charles Hoskinson",
+          "photo": "/assets/img/people/charles.jpg",
+          "title": "Strategic Advisor",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
+            "linkedin": "charleshoskinson1",
             "discord": ""
           }
         },
         {
-          "name": "",
-          "photo": "",
-          "title": "",
+          "name": "Steven Nerayoff",
+          "photo": "/assets/img/people/steve.jpg",
+          "title": "Strategic Advisor",
           "bio": "",
           "social": {
             "twitter": "",
-            "linkedin": "",
-            "discord": ""
-          }
-        },
-        {
-          "name": "",
-          "photo": "",
-          "title": "",
-          "bio": "",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
+            "linkedin": "nerayoff",
             "discord": ""
           }
         }

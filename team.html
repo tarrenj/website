@@ -26,18 +26,28 @@ type: homepage
       {% for member in group.members %}
       <div class="col-lg-4">
         <div class="team-card">
-          <div class="headshot b-lazy" data-src="{{member.photo}}"></div>
-          <h3>{{member.name}}</h3>
-          <div class="title">
-            {{member.title}}
-          </div>
-          <div class="bio">
-            {{member.bio}}
+          <div class="team-bio">
+            <div class="headshot b-lazy" data-src="{{member.photo}}"></div>
+            <h3>{{member.name}}</h3>
+            <div class="title">
+              {{member.title}}
+            </div>
+            {% comment %}
+            <div class="bio">
+              {{member.bio}}
+            </div>
+            {% endcomment %}
           </div>
           <div class="social-links">
-            {% for link in member.social %}
-              {{link[0]}} - {{link[1]}} <br />
-            {% endfor %}
+            {% if member.social.twitter.size > 0 %}
+              <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}">Twitter</a>
+            {% endif %}
+            {% if member.social.linkedin.size > 0 %}
+              <a href="{{site.data.team.social.linkedin}}{{member.social.linkedin}}">LinkedIn</a>
+            {% endif %}
+            {% if member.social.discord.size > 0 %}
+              <a href="{{site.data.team.social.discord}}">Discord @{{member.social.discord}}</a>
+            {% endif %}
           </div>
         </div>
       </div>

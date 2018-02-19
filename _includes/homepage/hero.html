@@ -17,35 +17,23 @@
         {% endif %}
         <h2>{% translate homepage.hero.subtitle %}</h2>
         <p>
-          <a href="/wallets/" class="btn btn-lg btn-ghost mt-4 mr-2">Get a Wallet</a>
-          <a href="/exchanges/" class="btn btn-lg btn-ghost mt-4 ml-2">Buy ZenCash</a>
+          <a href="{{site.baseurl}}/wallets/" class="btn btn-lg btn-ghost mt-4 mr-2">Get a Wallet</a>
+          <a href="{{site.baseurl}}/exchanges/" class="btn btn-lg btn-ghost mt-4 ml-2">Buy ZenCash</a>
         </p>
       </div>
     </div>
-    {% comment %}<div class="row justify-content-center">
-      <div class="col-lg-10">
-        <div class="featured-announcement">
-          <p class="lead">
-            Excited to Announce R&amp;D Partnership with IOHK
-          </p>
-          <p>
-            <a href="/iohk/" class="text-link mt-1">Learn More</a>
-          </p>
-        </div>
-      </div>
-    </div>{% endcomment %}
   </div>
   <div class="social-sidebar animated slideInRight">
-    <a href="{{site.links.twitter}}" class="social-icon"><img src="/assets/img/icons/Twitter-Icon.png"></a>
-    <a href="{{site.links.discord}}" class="social-icon"><img src="/assets/img/icons/Discord-Logo.png"></a>
-    <a href="{{site.links.reddit}}" class="social-icon"><img src="/assets/img/icons/Reddit-Icon.png"></a>
-    <a href="{{site.links.bitcointalk}}" class="social-icon"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
-    <a href="{{site.links.youtube}}" class="social-icon"><img src="/assets/img/icons/Youtube-Icon.png"></a>
+    <a href="{{site.links.twitter}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Twitter-Icon.png"></a>
+    <a href="{{site.links.discord}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Discord-Logo.png"></a>
+    <a href="{{site.links.reddit}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Reddit-Icon.png"></a>
+    <a href="{{site.links.bitcointalk}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
+    <a href="{{site.links.youtube}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Youtube-Icon.png"></a>
   </div>
   <div class="announcement-footer animated slideIn">
     <p class="lead">
       <span>{% translate homepage.hero.announcement %}</span>
-      <a href="/iohk/" class="btn btn-primary">{% translate homepage.hero.announcement-button %}</a>
+      <a href="{{site.baseurl}}/iohk/" class="btn btn-primary">{% translate homepage.hero.announcement-button %}</a>
     </p>
   </div>
 </div>
@@ -57,7 +45,7 @@
   </a>
   <ul>
     <li>
-      <a href="{{site.url}}">English</a>
+      <a href="{{site.baseurl_root}}">English</a>
     </li>
     <li>
       <a href="https://ru.zensystem.io/">Russian</a>

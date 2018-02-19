@@ -57,15 +57,15 @@
             <span class="hamburger-inner"></span>
         </span>
     </button>
-    <a class="navbar-brand" href="/"><img class="b-lazy" src="/assets/img/zencash-logo.png" data-src="/assets/img/zencash-logo.png" /></a>
+    <a class="navbar-brand" href="{{site.baseurl}}/"><img class="b-lazy" src="/assets/img/zencash-logo.png" data-src="/assets/img/zencash-logo.png" /></a>
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
-        
+
         {% if page.url == '/' %}
         {% assign link_base = '' %}
         {% else %}
-        {% assign link_base = '/' %}
+        {% capture link_base %}{{site.baseurl}}/{% endcapture %}
         {% endif %}
 
         <li class="nav-item dropdown" id="about-dropdown">
@@ -79,25 +79,25 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/exchanges/">get zencash</a>
+          <a class="nav-link" href="{{site.baseurl}}/exchanges/">get zencash</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/wallets/">use zen</a>
+          <a class="nav-link" href="{{site.baseurl}}/wallets/">use zen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/mining-pools/">mine zen</a>
+          <a class="nav-link" href="{{site.baseurl}}/mining-pools/">mine zen</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
           <div class="dropdown-menu" aria-labelledby="community">
-            <a class="dropdown-item" href="{{site.links.twitter}}">Twitter</a>
-            <a class="dropdown-item" href="{{site.links.discord}}">Discord</a>
-            <a class="dropdown-item" href="{{site.links.telegram}}">Telegram</a>
-            <a class="dropdown-item" href="{{site.links.reddit}}">Reddit</a>
-            <a class="dropdown-item" href="{{site.links.bitcointalk}}">Bitcointalk</a>
-            <a class="dropdown-item" href="{{site.links.blog}}">Blog</a>
-            <a class="dropdown-item" href="{{site.links.forum}}">Forum</a>
-            <a class="dropdown-item" href="{{site.links.github}}">GitHub</a>
+            <a class="dropdown-item" href="{{site.links.twitter}}" target="_blank">Twitter</a>
+            <a class="dropdown-item" href="{{site.links.discord}}" target="_blank">Discord</a>
+            <a class="dropdown-item" href="{{site.links.telegram}}" target="_blank">Telegram</a>
+            <a class="dropdown-item" href="{{site.links.reddit}}" target="_blank">Reddit</a>
+            <a class="dropdown-item" href="{{site.links.bitcointalk}}" target="_blank">Bitcointalk</a>
+            <a class="dropdown-item" href="{{site.links.blog}}" target="_blank">Blog</a>
+            <a class="dropdown-item" href="{{site.links.forum}}" target="_blank">Forum</a>
+            <a class="dropdown-item" href="{{site.links.github}}" target="_blank">GitHub</a>
           </div>
         </li>
         {% comment %}
@@ -108,9 +108,9 @@
         <li class="nav-item">
           <a class="nav-link" href="http://support.zencash.com/">support</a>
         </li>
-        
+
         <li class="nav-item">
-          <a class="nav-link" href="#blog">blog</a>
+          <a class="nav-link" href="{{link_base}}#blog">blog</a>
         </li>
 
         <li class="nav-item dropdown">

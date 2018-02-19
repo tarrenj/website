@@ -31,7 +31,7 @@ $(function() {
           window.location.href = this.pathname + this.hash;
         }
     });
-    
+
     if (window.location.hash) {
       var target = $(window.location.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -244,13 +244,13 @@ if ( document.getElementById("circSupply") ) {
 //       //   var supply = numberWithCommas( Math.ceil(data.supply) );
 //       //   $('#circSupply .stats-data').text(supply);
 //       // }
-// 
+//
 //       // Get Bitcoin price in USD
-// 
+//
 //     }
 //   });
 // }
-// 
+//
 // $.ajax({
 //   url: 'https://api.coindesk.com/v1/bpi/currentprice.json',
 //   dataType: 'json',
@@ -262,8 +262,8 @@ if ( document.getElementById("circSupply") ) {
 //     // }
 //   }
 // });
-// 
-// 
+//
+//
 // // CORS error
 // $.ajax({
 //   url: 'https://miningpoollists.com/zencash/data.php',
@@ -359,17 +359,16 @@ function listCreateHtml(dataObject) {
       if ( featured_image ) {
         featured_image = dataObject[key]['_embedded']['wp:featuredmedia'][0]['source_url'];
         if ( featured_image ) {
-          visibilityClass = 'visible';
+          // visibilityClass = 'visible';
         } else {
-          featured_image = '';
-          visibilityClass = 'hidden';
+          featured_image = '/assets/img/blog-placeholder.jpg';
+          // visibilityClass = 'hidden';
         }
       } else {
-        featured_image = '';
-        visibilityClass = 'hidden';
+        featured_image = '/assets/img/blog-placeholder.jpg';
+        // visibilityClass = 'hidden';
       }
-      listHtml += templateHtml.replace(/{{visibility_class}}/g, visibilityClass)
-                              .replace(/{{featured_image}}/g, featured_image)
+      listHtml += templateHtml.replace(/{{featured_image}}/g, featured_image)
                               .replace(/{{link}}/g, dataObject[key].link)
                               .replace(/{{title}}/g, dataObject[key].title.rendered)
                               .replace(/{{date}}/g, date)
@@ -411,7 +410,7 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   } else {
     modal.find('.social-links .twitter').css('display', 'none');
   }
-  
+
   if ( linkedin.length > 0 ) {
     if ( linkedin.startsWith('https://www.linkedin.com/company') ) {
       var linkedinLink = linkedin;
@@ -422,7 +421,7 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   } else {
     modal.find('.social-links .linkedin').css('display', 'none');
   }
-  
+
   if ( discord.length > 0 ) {
     var discordHtml = '<img src="/assets/img/icons/team/discord.png" />@' + discord;
     modal.find('.social-links .discord a').html(discordHtml);

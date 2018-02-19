@@ -53,12 +53,13 @@ section:not(#hero) {
   padding: 24px 34px;
 }
 .btn-primary {
-  color: black;
+  color: #1b2f59;
   background-color: $green;
   &:hover,
   &:focus {
-    color: black;
-    background-color: #fff;
+    color: #1b2f59;
+    background-color: #95ffd0;
+    box-shadow: none;
   }
 }
 .btn-secondary {
@@ -94,9 +95,12 @@ section:not(#hero) {
   border: 2px solid white;
   &:hover,
   &:focus {
-    color: white;
-    background-color: $blue;
+    color: $darkblue;
+    background-color: white;
   }
+}
+.card {
+  box-shadow: none;
 }
 
 .section-title {
@@ -753,11 +757,8 @@ h2.section-title {
 
 .about-zen-interior {
   padding-bottom: 8rem;
-  &.full-width {
-    padding-bottom: 0;
-    .col {
-      padding: 0 1px;
-    }
+  .col {
+    padding: 0 1px;
   }
   .zentext {
     .zenlink {
@@ -772,8 +773,11 @@ h2.section-title {
 
 .wobble {
   animation-name: wobble;
-  animation-duration: 4s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .zen-icon {
@@ -807,7 +811,7 @@ h2.section-title {
   h3 {
     color: $green;
     font-size: 2.2rem;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: none;
     letter-spacing: 0;
   }
@@ -843,7 +847,7 @@ h2.section-title {
 section#features {
   ul {
     li {
-      font-weight: 400;
+      font-weight: 100;
       font-size: 1.4rem;
       padding: .6rem 0;
     }
@@ -980,7 +984,7 @@ section#features {
         span {
           display: block;
         }
-        .price-bitcoin {
+        .subtext {
           font-size: 1.2rem;
           font-weight: 400;
         }
@@ -1145,7 +1149,7 @@ section#tech {
 }
 
 #resources {
-  background-color: #f8f8f8;
+  background-color: darken(#f8f8f8, 1%);
   background-image: url("../img/crazy-lines.png");
   background-position: 0px 0px;
   background-size: 960px;
@@ -1225,8 +1229,9 @@ section#tech {
     padding: 20px;
     .category {
       color: $text-color;
-      font-size: 1.1rem;
-      margin-bottom: 0;
+      font-size: 1rem;
+      letter-spacing: 3px;
+      margin-bottom: .3rem;
       font-weight: 300;
     }
     .card-title {
@@ -1234,6 +1239,11 @@ section#tech {
       font-weight: 600;
       a {
         color: $darkblue;
+        &:hover,
+        &:focus {
+          color: #185e94;
+          text-decoration: underline;
+        }
       }
     }
     .date {
@@ -1915,6 +1925,12 @@ section#tech {
   }
   a {
     color: $green;
+    &.nav-link {
+      line-height: 52px;
+      min-height: 52px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
     &:hover {
       color: lighten($green, 25%);
     }
@@ -1932,7 +1948,9 @@ section#tech {
       display: flex;
       align-items: center;
       span {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 30px;
         height: 30px;
         margin-right: .8rem;
@@ -2014,6 +2032,7 @@ section#tech {
     .btn {
       padding: 0.85rem 2rem;
       margin-top: .5rem;
+      letter-spacing: 4px;
     }
   }
   .copyright {

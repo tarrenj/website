@@ -441,17 +441,6 @@
           }
         },
         {
-          "name": "Adam Locklin",
-          "photo": "",
-          "title": "Business Development Manager",
-          "bio": "",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": ""
-          }
-        },
-        {
           "name": "Davit Mrelashvili",
           "photo": "/assets/img/people/davit.jpg",
           "title": "Region Lead: Eastern Europe",
@@ -537,28 +526,6 @@
             "twitter": "",
             "linkedin": "adnan-javed",
             "discord": "AJ"
-          }
-        },
-        {
-          "name": "Jin Cai",
-          "photo": "/assets/img/people/jin.jpg",
-          "title": "Country Manager: China",
-          "bio": "Jin is an veteran in capital markets, mainly focusing in China mainland, Hong Kong, and USA. Previously an investment director at Huawei Technologies, a leading global information and communications technology (ICT) solutions provider, Jin has over 15 years experience of asset management, private equity, and business development.\n\nJin holds Dual Bachelor's degree in Economics and Law from Nankai University, China and has an MBA in Finance from Rice University.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": "Jinc"
-          }
-        },
-        {
-          "name": "Jose Faisca",
-          "photo": "/assets/img/people/jose.jpg",
-          "title": "Country Manager: Portugal",
-          "bio": "Jose is an independent technology advisor and consultant with over 30 years of experience in the IT business. Experienced university professor and researcher in the field of computer science and new technologies. His polyglot philosophy makes him invested in a variety of technology ecosystems. Exploring emergent decentralized technologies such as the Blockchain since early 2013. His current projects focus on the concept of a decentralized semantic identity using the Blockchain and building communities and education on decentralized technologies.",
-          "social": {
-            "twitter": "",
-            "linkedin": "jgfaisca",
-            "discord": "jgfaisca"
           }
         },
         {

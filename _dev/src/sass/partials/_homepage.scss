@@ -2181,6 +2181,9 @@ section#tech {
       }
     }
     .announcement-footer {
+      .lead {
+        flex-direction: column;
+      }
       span {
         display: block;
       }

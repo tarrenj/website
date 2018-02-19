@@ -1,6 +1,7 @@
 ---
 layout: homepage
 type: homepage
+title: Team
 ---
 
 <section class="content" id="team-details">
@@ -13,7 +14,7 @@ type: homepage
       </div>
     </div>
   </div>
-  
+
   {% for group in site.data.team.groups %}
   <div class="container-fluid team-section" id="{{group.slug}}" data-aos="fade-down">
     <div class="row justify-content-center align-items-center">
@@ -81,7 +82,7 @@ type: homepage
     </div>
   </div>
   {% endfor %}
-  
+
   <div class="modal fade" id="team-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -93,7 +94,7 @@ type: homepage
           <h3 id="modal-name"></h3>
           <div id="modal-title"></div>
           <div id="modal-bio">Bio</div>
-          
+
           {% comment %}
           <div id="modal-group">Group</div>
           <div id="modal-headshot">Headshot</div>
@@ -101,7 +102,7 @@ type: homepage
           <div id="modal-linkedin">LinkedIn</div>
           <div id="modal-discord">Discord</div>
           {% endcomment %}
-          
+
           <div class="social-links">
             <div class="social-link twitter background">
               <a href="{{site.data.team.social.twitter}}" target="_blank"><img src="/assets/img/icons/team/twitter.png" /></a>
@@ -117,5 +118,5 @@ type: homepage
       </div>
     </div>
   </div>
-  
+
 </section>

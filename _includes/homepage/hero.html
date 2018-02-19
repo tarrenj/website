@@ -42,17 +42,23 @@
       <div class="x"></div>
       <div class="x x2"></div>
     </a>
-
+    {% if site.lang == "en" %}
+      {% capture korean_link %}{{ site.baseurl_root }}ko{{ page.url}}{% endcapture %}
+    {% elsif site.lang == "ko" %}
+      {% capture korean_link %}{{ site.baseurl }}{{ page.url}}{% endcapture %}
+    {% endif %}
     <ul>
       <li>
-        <a href="{{site.baseurl_root}}">English</a>
+        <a href="{{ site.baseurl_root }}{{ page.url}}">English</a>
       </li>
       <li>
         <a href="https://ru.zensystem.io/">Russian</a>
       </li>
+      {% comment %}
       <li>
-        <a href="{{site.baseurl_root}}ko/">Korean</a>
+        <a href="{{korean_link}}">Korean</a>
       </li>
+      {% endcomment %}
     </ul>
   </div>
 

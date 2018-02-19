@@ -482,7 +482,7 @@ h2.section-title {
     animation-fill-mode: both;
     animation-delay: 1.5s;
     animation-duration: 5s;
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -545,9 +545,15 @@ h2.section-title {
       margin: 0;
       font-weight: 400;
     }
+    .lead {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
     span {
       display: inline-block;
-      margin-top: 6px;
+      // margin-bottom: -6px;
     }
     .btn {
       letter-spacing: 2px;
@@ -1592,7 +1598,7 @@ section#tech {
       margin: 0 auto 1.4rem;
       @include bgimagecover(white, '', center);
       // @include grayscale_element(100%);
-      
+
       transform-style: preserve-3d;
       transition: transform 200ms;
       transform: scaleX(1) scaleY(1) scaleZ(1);
@@ -1716,7 +1722,7 @@ section#tech {
         margin: 0 auto 1.4rem;
         @include bgimagecover(white, '', center);
         // @include grayscale_element(100%);
-        
+
         transform-style: preserve-3d;
         transition: transform 200ms;
         transform: scaleX(1) scaleY(1) scaleZ(1);

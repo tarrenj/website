@@ -113,8 +113,14 @@
           <a class="nav-link" href="{{link_base}}#blog">blog</a>
         </li>
 
+        {% if site.lang == 'en' %}
+          {% capture current_language %}{% t global.english %}{% endcapture %}
+        {% elsif site.lang == 'ko' %}
+          {% capture current_language %}{% t global.korean %}{% endcapture %}
+        {% endif %}
+
         <li class="nav-item dropdown">
-          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">ENG</a>
+          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{current_language}}</a>
         </li>
       </ul>
     </div>

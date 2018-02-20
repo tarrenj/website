@@ -1567,6 +1567,8 @@ section#tech {
   }
   .team-section {
     margin-top: 4rem;
+    // padding-left: 0;
+    // padding-right: 0;
     .lined-subtext {
       color: $green;
       font-weight: 700;
@@ -1579,6 +1581,9 @@ section#tech {
     }
   }
   .team-group {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
     div[class^="col-"] {
       padding: 1px;
     }
@@ -1689,6 +1694,8 @@ section#tech {
     &:hover {
       .headshot {
         transform: scaleX(1.04) scaleY(1.04) scaleZ(1);
+        -webkit-backface-visibility: hidden;
+        -webkit-font-smoothing: subpixel-antialiased;
       }
       .profile-link {
         opacity: 1;
@@ -1947,6 +1954,7 @@ section#tech {
     .nav-link {
       display: flex;
       align-items: center;
+      justify-content: center;
       span {
         display: flex;
         flex-direction: column;
@@ -2008,6 +2016,7 @@ section#tech {
       color: darken(white, 35%);
     }
     .select2-container--default {
+      width: 100% !important;
       .select2-selection--single {
         font-weight: 400;
         height: 50px;
@@ -2036,6 +2045,7 @@ section#tech {
     }
   }
   .copyright {
+    margin-top: 2rem;
     small {
       color: #185e94;
     }

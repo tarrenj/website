@@ -68,6 +68,7 @@ section:not(#hero) {
   &:hover {
     color: $text-color;
     background-color: $green;
+    box-shadow: none;
   }
 }
 .btn-inverse {

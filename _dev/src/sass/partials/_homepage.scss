@@ -2563,3 +2563,18 @@ section#tech {
     }
   }
 }
+
+@media (hover: none) {
+  #team-details {
+    .team-card {
+      .profile-link {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+      }
+      .social-links {
+        opacity: 1;
+        transform: translateX(0px) translateY(-10px) translateZ(0px);
+      }
+    }
+  }
+}

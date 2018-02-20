@@ -525,7 +525,7 @@ function MeasureConnectionSpeed() {
 function initBlazyVid(speedMbps) {
   // If basic speed test looks good
   // Init a new instance of bLazy using a different selector for vids
-  if (speedMbps >= 1) {
+  if (speedMbps >= 0.5) {
     // console.log('should be fast enough');
     var bLazyVid = new Blazy({
       selector: '.b-lazy-vid',

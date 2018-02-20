@@ -68,7 +68,7 @@
           "name": "Idan Gelbourt",
           "photo": "",
           "title": "Sr Software Developer",
-          "bio": "",
+          "bio": "Idan has been involved with security, cyber and crypto related project in various roles and is passionate about creating products that combine unique technologies and user experience.\n\nIdan holds a B.Sc & M.Sc in computer science and worked in startups that were acquired by Facebook and Apple.",
           "social": {
             "twitter": "",
             "linkedin": "idan-b-y-86907165",
@@ -106,6 +106,28 @@
             "twitter": "",
             "linkedin": "",
             "discord": "anarch3, UTC -5"
+          }
+        },
+        {
+          "name": "Franck De Girolami",
+          "photo": "",
+          "title": "Sr Software Developer",
+          "bio": "Franck has over 25 years of experience in high performance software application development including extensive work in video games for PC, console and mobile platforms.  As software architect and lead programmer, Franck was directly responsible for a number of groundbreaking video games including Alone in the Dark, Cyberia and Tron 2.0: Killer App. Franck co-founded Code Particle, Inc. in 2008 as an advanced web and mobile application development studio in Los Angeles, CA where his skills were applied on revolutionary mobile apps like Viddy and high-end distributed applications for companies such as Activision (Call of Duty), Crowdstrike, Tenable and LINE (Skullgirls). Additionally, Franck is also in charge of all corporate, finance, legal, and HR matters at Code Particle.\n\nFranck received his MS in Computer Science in 1993 from National Institute of Applied Sciences (INSA) in Villeurbanne, France, one of the top French engineering universities.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Pierre Schiro",
+          "photo": "",
+          "title": "Sr Software Developer",
+          "bio": "Pierre Schiro is an experienced, hands-on software architect and software engineering manager. He’s involved in the architecture, design, and implementation of micro-services architectures, service-oriented architectures, and distributed systems. He has been in the software industry for over 26 years and has significant experience and expertise in application, integration, and enterprise architecture. After several leadership roles at Yahoo, Pierre co-founded Code Particle Inc in 2008 where he applied his skills on a wide range of projects including MVP for early-stage startups, web-services API for mobile digital games supporting millions of players, and massive, high-availability, distributed applications for clients such as Activision, Crowdstrike and Tenable.\n\nPierre holds a bachelor’s degree in computer science from IUT Lyon 1.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
           }
         },
         {
@@ -186,10 +208,10 @@
           }
         },
         {
-          "name": "James McCourt Cordingley",
+          "name": "James McCourt Cordingley (Mac)",
           "photo": "",
           "title": "Infrastructure",
-          "bio": "",
+          "bio": "Mac spent the last 8 years developing Asset integrity and risk management systems for the oil and gas industry. An experienced linux sysadmin and database technologies professional with many years development experience. Having come from a heavily service oriented business, Mac decided to contribute to the Zen team initially as a voluntary community member, following which he began guiding the build and operation of both he ZenHelp help desk and knowledge base.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -211,7 +233,7 @@
           "name": "Johncarlo Maddalena",
           "photo": "",
           "title": "Testing",
-          "bio": "",
+          "bio": "Has 19 years of IT experience and has loved computers since his Commodore 64.  He began in career in IT working as a technical customer support representative for one of Australia’s largest Internet Service Providers.  He worked up through the ranks and specialized in network supporting a Network Operations Centre responsible for monitoring and supporting over 30 clients and 5000 devices. After a move to a new city and exposure to the new Microsoft Installer technologies, he transitioned to applications packaging, and quality assurance and testing.\n\nHe’s spent the last 15 years troubleshooting, resolving, and quality controlling deployed applications in various deployment environments (AD/GP, Citrix Metaframe/Presentation Server, SCCM 2007, and SCCM 2012). He holds a  Bachelor of Pharmaceutical Science and Bachelor of Applied Sciences (Honour) degrees.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -222,7 +244,7 @@
           "name": "Spencer Whetstone",
           "photo": "",
           "title": "Testing",
-          "bio": "",
+          "bio": "A graduate of the University of South Carolina School of Business, Spencer spent much of his career navigating the technological waves that reshaped the printing industry. His background includes a partnership in an award-winning typography studio and service bureau, as well as Technology Director for a medium-sized commercial printer. He is a cryptocurrency miner and a Secure Node operator. He brings his long-standing passion for user-education to his role as Community Manager and QA  Engineer.",
           "social": {
             "twitter": "",
             "linkedin": "garnetandblock",
@@ -261,7 +283,7 @@
           "name": "Jonathan Dumaine",
           "photo": "",
           "title": "Front-End Engineer",
-          "bio": "",
+          "bio": "Over ten years of professional experience in the industry, and programming since 11. In addition to working with companies like Intel, Siemens, Syfy, and many others in the Building Automation Systems industry also lead the development efforts of Silicon Valley startups. Keenly interested in investing & financial markets, machine learning, artificial intelligence and cryptocurrencies. When he’s not behind his computer, he can be found practicing MMA, Muay Thai, playing video games, swing dancing, rock climbing or traveling. He’s excited to provide ZenCash users with new tools and cool apps.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -272,7 +294,7 @@
           "name": "Vitalik Denim",
           "photo": "",
           "title": "User Experience Designer",
-          "bio": "",
+          "bio": "Vitalik started his career in consulting, helping companies around the world optimize their business models, design technology solutions and improve customer service. He holds an MBA in Strategic Management and Marketing from the University of St. Thomas, Minneapolis MN. Vitalik's biggest passion is User Experience. He strongly believes in simplicity and applies this belief while building all of his products and services.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -311,7 +333,7 @@
           "name": "James Coleman-Powell",
           "photo": "/assets/img/people/james.jpg",
           "title": "Marketing Technology Lead",
-          "bio": "",
+          "bio": "James is an IT project manager coming from a creative background. He has a passion for all things technical, and enjoys the challenge of breaking things down to understand how they work. Based in the UK, James is an active participant in the blockchain/cryptocurrency community and in his free time, enjoys traveling and other related adventures with his family.",
           "social": {
             "twitter": "",
             "linkedin": "jamescolemanpowell",
@@ -422,6 +444,17 @@
             "linkedin": "jeremy-wan-557ba1107",
             "discord": "Jmiii"
           }
+        },
+        {
+          "name": "Philippe Fürst",
+          "photo": "",
+          "title": "Team Member",
+          "bio": "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
         }
       ]
     },
@@ -499,7 +532,7 @@
           "name": "Angie Villareal",
           "photo": "/assets/img/people/angie.jpg",
           "title": "Country Manager: Mexico",
-          "bio": "",
+          "bio": "Angie is using her  background in Industrial & Systems Engineering by Monterrey Institute of Technology and Higher Education (ITESM University) to have a great impact in the cryptoworld, which she’s devoted herself to in the past years. Her focus areas are Project Management, Business Development, and Strategic Planning. She’s a people person and believes life is about continuously learning and listening to people. She loves challenges and change!",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -510,7 +543,7 @@
           "name": "Luca Cermelli",
           "photo": "/assets/img/people/luca.jpg",
           "title": "Country Manager: Italy",
-          "bio": "",
+          "bio": "Luca has a Master's Degree in Economics and is passionate about mathematics and technology.  After completing his studies in Denmark, Luca moved to Germany for a Community Manager position in a videogame company of 5000+ employees. He then became the Marketing Manager of a leading software company. With several years of activity in the blockchain industry, and always willing to help, Luca became a reference point in the Italian contest of crypto enthusiasts and is excited to bring his experience to ZenCash!",
           "social": {
             "twitter": "",
             "linkedin": "cermelli",
@@ -543,7 +576,7 @@
           "name": "Sebastian Dienst",
           "photo": "",
           "title": "Country Representative: Japan",
-          "bio": "",
+          "bio": "After completing an apprenticeship as IT Systems Engineer in Germany and working in the IT sector for overall 10 years, he decided to study automotive engineering with main focus on electronics and IT implementation.\n\nThings turned out slightly different as he became more interested and involved in mechanical engineering during studies. He realized his dream to work and live in Japan since 2012. With the growing popularity of blockchain technology and cryptocurrencies, he introduced himself to IT and is focusing on mining and researching blockchain. He is committed to spread the ZenCash message in Japan.",
           "social": {
             "twitter": "",
             "linkedin": "sebastiandienst",
@@ -554,7 +587,7 @@
           "name": "Ruben Elizondo",
           "photo": "",
           "title": "Country Representative: Mexico",
-          "bio": "",
+          "bio": "Ruben is a Mechatronic Engineer and have worked in international companies such as John Deere and Heineken, working as a PLC programmer and as a Design Engineer. He has a keen interest in cryptocurrencies and state of the art technologies, always eager to be learning new things, passionate on how things work and solving engineering problems. Nowadays Ruben's attention is headed towards blockchain to witness and form part of this revolutionary technology.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -570,6 +603,17 @@
             "twitter": "",
             "linkedin": "hugh-ayara-82ab5a77",
             "discord": ""
+          }
+        },
+        {
+          "name": "Alex Zabuga",
+          "photo": "",
+          "title": "Country Representative: Russia",
+          "bio": "After experiencing bureaucracy of a post-soviet state firsthand, Alex realized the need for an alternate banking and private peer-to-peer economy. Alex’s formal background is in science and IT. He is a supporter of independent journalism, such as zona.media. Alex's hope is to leverage blockchain technology to make a difference in the world. Competitive by nature he plans to push ZenCash to it's potential.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Alex Z"
           }
         },
         {

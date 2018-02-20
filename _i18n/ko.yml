@@ -23,7 +23,7 @@ homepage:
           link: '#roadmap'
           icon: /assets/img/icons/roadmap.png
         - title: Team
-          link: '#team'
+          link: '#team-overview'
           icon: /assets/img/icons/team.png
         - title: 백서
           link: '#white-paper'

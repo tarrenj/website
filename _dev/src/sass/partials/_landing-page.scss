@@ -325,15 +325,38 @@ section.content {
 }
 
 @media (max-width: 991px) {
+  #bgvid {
+    video {
+      display: none;
+    }
+  }
+  #philosophy,
+  #technology {
+    .interior-header {
+      .page-title {
+        position: relative;
+      }
+    }
+  }
   .interior-header {
     height: auto;
-    min-height: 0;
+    min-height: auto;
     max-height: none;
+    padding: 8rem 0;
     h1 {
       font-size: 44px;
-      max-width: 80%;
-      margin-top: 8rem;
-      margin-bottom: 4rem;
+      // max-width: 80%;
+      // margin-top: 8rem;
+      // margin-bottom: 4rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  .interior-subheader {
+    padding-top: 0;
+    h1 {
+      font-size: 44px;
     }
   }
   section.content {
@@ -374,6 +397,16 @@ section.content {
       }
     }
   }
+  .about-zen-interior {
+    .zentext {
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+  .lined-subtext.mt-5 {
+    margin-top: 1rem !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -383,18 +416,66 @@ section.content {
     padding: 10px 20px;
   }
   .interior-header {
+    padding-bottom: 6rem;
+    padding-left: 15px;
+    padding-right: 15px;
     h1 {
-      font-size: 26px;
-      margin-top: 6rem;
-      margin-bottom: 2rem;
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      line-height: 1.6;
+    }
+    img {
+      &.logo {
+        max-width: 70%;
+      }
+    }
+  }
+  .interior-subheader {
+    padding-top: 2rem;
+    h1 {
+      font-size: 22px;
     }
   }
   section.content {
     padding: 4rem 0 3rem;
+    &.intro {
+      padding-top: 8rem;
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+    .intro-circle-div {
+      height: 150px;
+      width: 150px;
+      top: -60px;
+      margin-left: -75px;
+      img {
+        max-height: 100px;
+        max-width: 100px;
+      }
+    }
     h2:not(.lined-subtext) {
       font-size: 22px;
       line-height: 1.2;
     }
+    ul {
+      margin: 1rem 0;
+      li {
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        padding: .5rem 0 !important;
+      }
+    }
+  }
+  .subsection {
+    margin-bottom: 3rem;
   }
   .zen-iohk {
     max-width: 60%;
@@ -410,9 +491,37 @@ section.content {
       line-height: 1.4;
     }
   }
+  .about-zen-interior {
+    padding-bottom: 3rem;
+    .col {
+      min-width: 100%;
+      margin: 1rem 0;
+    }
+    .zentext {
+      .zenlink {
+        padding: 3rem 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 575px) {
+  .interior-subheader {
+    padding-top: 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  #team {
+    .interior-subheader {
+      padding-top: 0;
+    }
+  }
+  #team-details {
+    .team-section {
+      margin-top: 2rem;
+    }
+  }
   #infographic {
     .iohk-infographic {
       max-width: 100%;

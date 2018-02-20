@@ -757,6 +757,12 @@ h2.section-title {
 
 .about-zen-interior {
   padding-bottom: 8rem;
+  &.full-width {
+    padding-bottom: 0;
+    div[class^="col-"] {
+      padding: 1px;
+    }
+  }
   .col {
     padding: 0 1px;
   }
@@ -1424,6 +1430,9 @@ section#tech {
   }
 }
 
+.card-col {
+  margin: 1rem 0;
+}
 .card {
   display: flex;
   height: 100%;
@@ -2066,6 +2075,11 @@ section#tech {
       }
     }
   }
+  .site-footer {
+    .email-updates {
+      margin-top: 3rem;
+    }
+  }
 }
 
 @media (max-width: 991px) {
@@ -2267,6 +2281,44 @@ section#tech {
       margin: 1rem 0;
     }
   }
+  #team-details {
+    .team-card {
+      padding: 3rem 0 5rem;
+      .headshot {
+        width: 150px;
+        height: 150px;
+      }
+      .profile-link {
+        opacity: 1;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+      }
+      .social-links {
+        opacity: 1;
+        transform: translateX(0px) translateY(-10px) translateZ(0px);
+        .social-link {
+          a {
+            height: 40px;
+          }
+          &.background {
+            a {
+              width: 40px;
+              height: 40px;
+            }
+          }
+          img {
+            width: 25px;
+            height: 25px;
+          }
+          &.linkedin {
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -2316,6 +2368,12 @@ section#tech {
     }
   }
   #about {
+    .lead {
+      &.section-title {
+        font-size: 1.4rem;
+        padding: 2rem 0;
+      }
+    }
     .body-link {
       padding: 25px 0 20px;
       .feature-icon {
@@ -2344,6 +2402,12 @@ section#tech {
   }
   .about-zen {
     margin-bottom: 2rem;
+    padding: 0 15px;
+  }
+  .zentext {
+    .zenlink {
+      padding: 2rem 0;
+    }
   }
   #features {
     padding: 3rem 1rem;
@@ -2380,6 +2444,9 @@ section#tech {
       margin-right: -30px;
       .col {
         padding: 2rem 15px;
+      }
+      p {
+        font-size: 1.2rem;
       }
     }
     .stats-section {
@@ -2482,6 +2549,12 @@ section#tech {
   }
   .site-footer {
     padding: 3rem 0;
+    a {
+      &.nav-link {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
   .footer-nav {
     div[class^="col-"] {

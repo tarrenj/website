@@ -1,20 +1,148 @@
 <footer class="site-footer">
   <div class="container-fluid">
-    <div class="row align-items-center">
+    <div class="row justify-content-center footer-nav text-center">
 
-      <div class="col-md-12 text-center">
-        <div class="social-media-list">
-          <a href="{{site.links.twitter}}" class="social-icon"><img src="/assets/img/icons/Twitter-Icon.png"></a>
-          <a href="{{site.links.discord}}" class="social-icon"><img src="/assets/img/icons/Discord-Logo.png"></a>
-          <a href="{{site.links.reddit}}" class="social-icon"><img src="/assets/img/icons/Reddit-Icon.png"></a>
-          <a href="{{site.links.bitcointalk}}" class="social-icon"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
+      <div class="col-sm-6 col-md-3 col-xl-2">
+        <h2>About</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/technology/">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/philosophy/">Philosophy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/team/">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/zencash/">ZenCash</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/zenchat/">ZenChat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/zenpub/">ZenPub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/zenhide/">ZenHide</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-3 col-xl-2">
+        <h2>Resources</h2>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/exchanges/">Buy ZenCash</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/mining-pools/">Mining Pools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{site.baseurl}}/wallets/">Download Wallets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:support@zencash.com?subject=ZenCash%20Support">Email Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-xl-4">
+        <h2>Community</h2>
+        <div class="row community-columns">
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.twitter}}" target="_blank"><span><img src="/assets/img/icons/twitter-green.png"></span> Twitter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.facebook}}" target="_blank"><span><img src="/assets/img/icons/facebook-green.png"></span> Facebook</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.linkedin}}" target="_blank"><span><img src="/assets/img/icons/linkedin-green.png"></span> LinkedIn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.youtube}}" target="_blank"><span><img src="/assets/img/icons/youtube-green.png"></span> YouTube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.telegram}}" target="_blank"><span><img src="/assets/img/icons/telegram-green.png"></span> Telegram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.discord}}" target="_blank"><span><img src="/assets/img/icons/discord-green.png"></span> Discord</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.bitcointalk}}" target="_blank"><span><img src="/assets/img/icons/bitcointalk-green.png"></span> Bitcoin Talk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.github}}" target="_blank"><span><img src="/assets/img/icons/github-green.png"></span> Github</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.reddit}}" target="_blank"><span><img src="/assets/img/icons/reddit-green.png"></span> Reddit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.forum}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{site.links.blog}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Blog</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div class="col-lg-6 col-xl-4 email-updates">
+        <h2>Get Email Updates</h2>
 
+        <p id="email-success-footer" style="display: none;">
+          Success! Please check your email to confirm we have the right one.
+        </p>
+
+        <form id="email-form-footer" name="mc-embedded-subscribe-form" class="mb-4" action="//zencash.us15.list-manage.com/subscribe/post?u=a2e6f8a8a8a21683874d560ea&id=d60b1a11f5" method="post" novalidate>
+          <div class="form-group">
+            <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="Your first name">
+          </div>
+          <div class="form-group">
+            <input type="text" value="" name="LNAME" class="form-control form-control-lg" id="mce-LNAME" placeholder="Your last name">
+          </div>
+          <div class="form-group">
+            <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="Your email address">
+          </div>
+          <div class="form-group">
+            <select name="MMERGE3" class="custom-select custom-select-lg" id="mce-MMERGE3">
+              <option selected value="">Your Country...</option>
+              {% for country in site.data.countryNames %}
+              <option value="{{country[1]}}">
+                {{country[1]}}
+              </option>
+              {% endfor %}
+            </select>
+
+          </div>
+          <div class="submit_container clear">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+          </div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_a2e6f8a8a8a21683874d560ea_d60b1a11f5" tabindex="-1" value="">
+          </div>
+          <div class="form-control-feedback"></div>
+        </form>
+
+        <h3>Contact Us</h3>
+        <p>
+          <a href="mailto:info@zencash.com">
+            info@zencash.com
+          </a>
+        </p>
+
+      </div>
+
+
+    </div>
+    <div class="row align-items-center copyright">
       <div class="col-md-12 text-center">
         <small>&copy; {{ 'now' | date: "%Y" }} ZenCash. All rights reserved.</small>
       </div>
-
     </div>
   </div>
 </footer>

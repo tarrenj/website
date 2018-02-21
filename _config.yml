@@ -22,22 +22,23 @@ defaults:
     -
 email: mdlorey@gmail.com
 description: A globally accessible and anonymous blockchain
-baseurl:
+baseurl: ""
 url: https://zensystem.io/
 author:
-  name: Mike Lorey
-  email: mdlorey@gmail.com
-  uri:
+  name: Zen
+  email: info@zencash.com
+  uri: https://zensystem.io/
   bio:
-  facebook:
+  facebook: https://www.facebook.com/zencash/
   twitter: zencashofficial
-  linkedin:
+  linkedin: https://www.linkedin.com/company/25052505/
   gplus:
-  youtube:
+  youtube: https://www.youtube.com/channel/UCQ0v_lUnZHIKUQUXJzfgqOg
 links:
   bitcointalk: https://bitcointalk.org/index.php?topic=2047435.0
   blog: https://blog.zensystem.io/
   facebook: https://www.facebook.com/zencash/
+  linkedin: https://www.linkedin.com/company/25052505/
   forum: https://forum.zensystem.io/
   github: https://github.com/ZencashOfficial
   medium: https://medium.com/zencash
@@ -77,6 +78,7 @@ gems:
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-sass-converter
+- jekyll-multiple-languages-plugin
 exclude:
 - _dev
 - bower.json
@@ -90,3 +92,6 @@ exclude:
 - README.md
 - vendor
 - old-homepage.html
+
+languages: ["en"]
+exclude_from_localizations: ["assets"]

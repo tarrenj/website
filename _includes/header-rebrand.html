@@ -1,66 +1,126 @@
 <header class="site-header">
+
+  <div id="home-header" class="row justify-content-center" style="display: none;">
+    <button id="home-header-close" class="btn">
+      <div class="x"></div>
+      <div class="x x2"></div>
+    </button>
+    <div class="col-sm-12 text-center flex-column justify-content-center">
+      <p class="lead">
+        Sign up to receive exclusive updates!
+      </p>
+
+      <p id="email-success" style="display: none;">
+        Success! Please check your email to confirm we have the right one.
+      </p>
+
+      <form id="email-form" name="mc-embedded-subscribe-form" class="form-inline justify-content-center mb-4" action="//zencash.us15.list-manage.com/subscribe/post?u=a2e6f8a8a8a21683874d560ea&id=d60b1a11f5" method="post" novalidate>
+        <div class="form-group">
+          <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="Enter your first name">
+        </div>
+        <div class="form-group">
+          <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="Your email address">
+        </div>
+        <div class="form-group">
+          {% comment %}
+          <select name="MMERGE5" class="custom-select custom-select-lg" id="mce-MMERGE5">
+            <option selected value="">Language...</option>
+            <option value="English">English</option>
+            <option value="Russian">Russian</option>
+            <option value="Spanish">Spanish</option>
+          </select>
+          {% endcomment %}
+          <select name="MMERGE3" class="custom-select custom-select-lg" id="mce-MMERGE3">
+            <option selected value="">Your Country...</option>
+            {% for country in site.data.countryNames %}
+            <option value="{{country[1]}}">
+              {{country[1]}}
+            </option>
+            {% endfor %}
+          </select>
+
+        </div>
+        <div class="submit_container clear">
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+        </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_a2e6f8a8a8a21683874d560ea_d60b1a11f5" tabindex="-1" value="">
+        </div>
+        <div class="form-control-feedback"></div>
+      </form>
+    </div>
+  </div>
+
   <nav class="navbar navbar-expand-lg">
     <button class="hamburger hamburger--squeeze navbar-toggler hidden-lg-up" type="button"data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
     </button>
-    <a class="navbar-brand" href="/"><img class="b-lazy" src="/assets/img/zencash-logo.png" data-src="/assets/img/zencash-logo.png" /></a>
+    <a class="navbar-brand" href="{{site.baseurl}}/"><img class="b-lazy" src="/assets/img/zencash-logo.png" data-src="/assets/img/zencash-logo.png" /></a>
 
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
 
         {% if page.url == '/' %}
+        {% assign link_base = '' %}
+        {% else %}
+        {% capture link_base %}{{site.baseurl}}/{% endcapture %}
+        {% endif %}
+
         <li class="nav-item dropdown" id="about-dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
           <div class="dropdown-menu" aria-labelledby="about">
-            <a class="dropdown-item" href="#features">Features</a>
-            <a class="dropdown-item" href="#roadmap">Roadmap</a>
-            <a class="dropdown-item" href="#white-paper">White Paper</a>
-            {% comment %}<a class="dropdown-item" href="#team">Team</a>{% endcomment %}
+            <a class="dropdown-item" href="{{link_base}}#features">Features</a>
+            <a class="dropdown-item" href="{{link_base}}#roadmap">Roadmap</a>
+            <a class="dropdown-item" href="{{link_base}}#team-overview">Team</a>
+            <a class="dropdown-item" href="{{link_base}}#white-paper">White Paper</a>
             {% comment %}<a class="dropdown-item" href="#">FAQs</a>{% endcomment %}
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#use-zen">use zen</a>
+          <a class="nav-link" href="{{site.baseurl}}/exchanges/">get zencash</a>
         </li>
-        {% else %}
         <li class="nav-item">
-          <a class="nav-link" href="/">home</a>
+          <a class="nav-link" href="{{site.baseurl}}/wallets/">use zen</a>
         </li>
-        {% endif %}
-
         <li class="nav-item">
-          <a class="nav-link" href="/team/">team</a>
+          <a class="nav-link" href="{{site.baseurl}}/mining-pools/">mine zen</a>
         </li>
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
           <div class="dropdown-menu" aria-labelledby="community">
-            <a class="dropdown-item" href="{{site.links.twitter}}">Twitter</a>
-            <a class="dropdown-item" href="{{site.links.discord}}">Discord</a>
-            <a class="dropdown-item" href="{{site.links.telegram}}">Telegram</a>
-            <a class="dropdown-item" href="{{site.links.reddit}}">Reddit</a>
-            <a class="dropdown-item" href="{{site.links.bitcointalk}}">Bitcointalk</a>
-            <a class="dropdown-item" href="{{site.links.blog}}">Blog</a>
-            <a class="dropdown-item" href="{{site.links.forum}}">Forum</a>
-            <a class="dropdown-item" href="{{site.links.github}}">GitHub</a>
+            <a class="dropdown-item" href="{{site.links.twitter}}" target="_blank">Twitter</a>
+            <a class="dropdown-item" href="{{site.links.discord}}" target="_blank">Discord</a>
+            <a class="dropdown-item" href="{{site.links.telegram}}" target="_blank">Telegram</a>
+            <a class="dropdown-item" href="{{site.links.reddit}}" target="_blank">Reddit</a>
+            <a class="dropdown-item" href="{{site.links.bitcointalk}}" target="_blank">Bitcointalk</a>
+            <a class="dropdown-item" href="{{site.links.blog}}" target="_blank">Blog</a>
+            <a class="dropdown-item" href="{{site.links.forum}}" target="_blank">Forum</a>
+            <a class="dropdown-item" href="{{site.links.github}}" target="_blank">GitHub</a>
           </div>
         </li>
         {% comment %}
         <li class="nav-item">
           <a class="nav-link" href="#">resources</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">media</a>
-        </li>
         {% endcomment %}
         <li class="nav-item">
-          <a class="nav-link" href="{{site.links.blog}}">blog</a>
+          <a class="nav-link" href="http://support.zencash.com/">support</a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="{{link_base}}#blog">blog</a>
+        </li>
+
+        {% if site.lang == 'en' %}
+          {% capture current_language %}{% t global.english %}{% endcapture %}
+        {% elsif site.lang == 'ko' %}
+          {% capture current_language %}{% t global.korean %}{% endcapture %}
+        {% endif %}
+
         <li class="nav-item dropdown">
-          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">ENG</a>
+          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{current_language}}</a>
         </li>
       </ul>
     </div>

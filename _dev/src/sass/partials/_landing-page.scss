@@ -1,3 +1,47 @@
+#philosophy,
+#technology {
+  .interior-header {
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+    h1 {
+      text-transform: uppercase;
+    }
+    #bgvid {
+      animation-name: fadeIn;
+      animation-fill-mode: both;
+      animation-delay: 1.5s;
+      animation-duration: 5s;
+
+      height: 100%;
+      width: 100%;
+      video {
+        position: absolute;
+      }
+    }
+    .page-title {
+      position: absolute;
+    }
+  }
+}
+
+#philosophy {
+  .interior-header {
+    @include bgimagecover($darkteal, '../vid/philosophy.jpg', center);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+#technology {
+  .interior-header {
+    @include bgimagecover($darkteal, '../vid/technology.jpg', center);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
 .interior-header {
   display: flex;
   align-items: center;
@@ -11,23 +55,128 @@
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
+  img.logo {
+    max-width: 450px;
+    margin-bottom: 1rem;
+  }
   h1 {
     color: white;
     font-size: 72px;
     text-align: center;
     letter-spacing: 0;
     text-transform: none;
-    max-width: 60%;
-    margin-top: 68px;
+    max-width: 60vw;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+  }
+  h2 {
+    color: white;
+    font-size: 2rem;
+  }
+  h3 {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  #bgvid {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // min-width: 100%;
+    // min-height: 100%;
+    // width: auto;
+    // height: auto;
+    // transform: translateX(-50%) translateY(-50%);
+
+    video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(4, 20, 53, 0.7);
+  }
+}
+
+.interior-subheader {
+  text-align: center;
+  padding-top: 4rem;
+  h1 {
+    color: white;
+    // text-transform: none;
+    letter-spacing: 15px;
+    font-size: 5rem;
+  }
+}
+
+.subsection {
+  margin-bottom: 5rem;
+  .subsection-title {
+    max-width: 60%;
+    color: $darkblue;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid $darkblue;
   }
 }
 
 section.content {
-  padding: 7rem 4rem;
-  h2 {
-    color: #041435;
+  position: relative;
+  padding: 7rem 0;
+  &.intro {
+    padding-top: 12rem;
+    padding-bottom: 3rem;
+    h2 {
+      margin-bottom: 3rem;
+    }
+    p {
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  }
+  ul {
+    li {
+      font-size: 1.4rem !important;
+      font-weight: 300;
+      padding: .8rem 0 !important;
+    }
+  }
+  .intro-circle-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: -90px;
+    left: 50%;
+    margin-left: -125px;
+    background-color: white;
+    border-radius: 12rem;
+    img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+  h2:not(.lined-subtext) {
+    color: $darkblue;
     font-size: 42px;
     line-height: 56px;
     font-weight: 100;
@@ -111,27 +260,110 @@ section.content {
   }
 }
 
+#zencash {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .6), rgba(4, 20, 53, .6)), url('../img/bkg/zencash.jpg');
+    background-position: 0px 0px, 50% 50%;
+  }
+}
+#zenchat {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/zenchat.jpg');
+    background-size: auto, cover;
+  }
+}
+#zenpub {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/zenpub.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+}
+#zenhide {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .2), rgba(4, 20, 53, .2)), url('../img/bkg/zenhide.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+}
+#mining-pools {
+  .interior-header {
+    background-image: linear-gradient(180deg, rgba(4, 20, 53, .7), rgba(4, 20, 53, .7)), url('../img/bkg/miningpools.jpg');
+    background-size: auto, cover;
+  }
+  strong {
+    a {
+      color: #185e94;
+    }
+    font-weight: 700;
+  }
+  .pool-list {
+    background-color: #041435;
+    padding: 4rem 0;
+  }
+}
+#resources {
+  .card {
+    h3 {
+      color: #1B2F5A;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      line-height: 1.4;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .card-body {
+    padding: 3rem 1.5rem 2.25rem;
+  }
+}
+
 @media (max-width: 1199px) {
 
 }
 
 @media (max-width: 991px) {
+  #bgvid {
+    video {
+      display: none;
+    }
+  }
+  #philosophy,
+  #technology {
+    .interior-header {
+      .page-title {
+        position: relative;
+      }
+    }
+  }
   .interior-header {
     height: auto;
-    min-height: 0;
+    min-height: auto;
     max-height: none;
+    padding: 8rem 0;
     h1 {
       font-size: 44px;
-      max-width: 80%;
-      margin-top: 8rem;
-      margin-bottom: 4rem;
+      // max-width: 80%;
+      // margin-top: 8rem;
+      // margin-bottom: 4rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  .interior-subheader {
+    padding-top: 0;
+    h1 {
+      font-size: 44px;
     }
   }
   section.content {
-    h2 {
+    h2:not(.lined-subtext) {
       font-size: 24px;
       line-height: 1.2;
-      margin-bottom: 0;
+      // margin-bottom: 0;
     }
   }
   #infographic {
@@ -165,6 +397,16 @@ section.content {
       }
     }
   }
+  .about-zen-interior {
+    .zentext {
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+  .lined-subtext.mt-5 {
+    margin-top: 1rem !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -174,18 +416,66 @@ section.content {
     padding: 10px 20px;
   }
   .interior-header {
+    padding-bottom: 6rem;
+    padding-left: 15px;
+    padding-right: 15px;
     h1 {
-      font-size: 26px;
-      margin-top: 6rem;
-      margin-bottom: 2rem;
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      line-height: 1.6;
+    }
+    img {
+      &.logo {
+        max-width: 70%;
+      }
+    }
+  }
+  .interior-subheader {
+    padding-top: 2rem;
+    h1 {
+      font-size: 22px;
     }
   }
   section.content {
     padding: 4rem 0 3rem;
-    h2 {
+    &.intro {
+      padding-top: 8rem;
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+    .intro-circle-div {
+      height: 150px;
+      width: 150px;
+      top: -60px;
+      margin-left: -75px;
+      img {
+        max-height: 100px;
+        max-width: 100px;
+      }
+    }
+    h2:not(.lined-subtext) {
       font-size: 22px;
       line-height: 1.2;
     }
+    ul {
+      margin: 1rem 0;
+      li {
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        padding: .5rem 0 !important;
+      }
+    }
+  }
+  .subsection {
+    margin-bottom: 3rem;
   }
   .zen-iohk {
     max-width: 60%;
@@ -201,9 +491,37 @@ section.content {
       line-height: 1.4;
     }
   }
+  .about-zen-interior {
+    padding-bottom: 3rem;
+    .col {
+      min-width: 100%;
+      margin: 1rem 0;
+    }
+    .zentext {
+      .zenlink {
+        padding: 3rem 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 575px) {
+  .interior-subheader {
+    padding-top: 2rem;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  #team {
+    .interior-subheader {
+      padding-top: 0;
+    }
+  }
+  #team-details {
+    .team-section {
+      margin-top: 2rem;
+    }
+  }
   #infographic {
     .iohk-infographic {
       max-width: 100%;

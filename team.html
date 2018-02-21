@@ -1,6 +1,122 @@
 ---
-layout: page-fw
-type: interior
+layout: homepage
+type: homepage
+title: Team
 ---
 
-{% include team.html %}
+<section class="content" id="team-details">
+
+  <div class="container-fluid">
+    <div class="row interior-subheader">
+      <div class="col">
+        <h1>Zen Team</h1>
+        <h4>Combining Expertise From Around The Globe</h4>
+      </div>
+    </div>
+  </div>
+
+  {% for group in site.data.team.groups %}
+  <div class="container-fluid team-section" id="{{group.slug}}" data-aos="fade-down">
+    <div class="row justify-content-center align-items-center">
+      <div class="col">
+        <h2 class="lined-subtext">{{group.name}}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center team-group">
+      {% for member in group.members %}
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="team-card">
+          <div class="team-bio">
+            {% if member.photo.size > 0 %}
+            {% assign headshot = member.photo %}
+            {% else %}
+            {% assign headshot = '/assets/img/people/anon_profile.jpg' %}
+            {% endif %}
+            <div class="headshot b-lazy" data-src="{{headshot}}"></div>
+            <h3>{{member.name}}</h3>
+            <div class="title">{{member.title}}</div>
+            <div class="profile-link">
+              {% if member.bio.size > 0 %}
+              <button type="button" class="btn btn-link"
+                data-toggle="modal"
+                data-target="#team-details-modal"
+                data-group="{{group.name}}"
+                data-name="{{member.name}}"
+                data-headshot="{{headshot}}"
+                data-title="{{member.title}}"
+                data-bio="{{member.bio | newline_to_br}}"
+                data-twitter="{{member.social.twitter}}"
+                data-linkedin="{{member.social.linkedin}}"
+                data-discord="{{member.social.discord}}"
+              >
+                Read {{member.name | truncatewords: 1, ""}}'s Bio
+              </button>
+              {% endif %}
+            </div>
+          </div>
+          <div class="social-links">
+            {% if member.social.twitter.size > 0 %}
+              <div class="social-link twitter background">
+                <a href="{{site.data.team.social.twitter}}{{member.social.twitter}}" target="_blank"><img src="/assets/img/icons/team/twitter.png" /></a>
+              </div>
+            {% endif %}
+            {% if member.social.linkedin.size > 0 %}
+              {% if member.social.linkedin contains "https://www.linkedin.com/company" %}
+              {% assign linkedin = member.social.linkedin %}
+              {% else %}
+              {% assign linkedin = site.data.team.social.linkedin | append: member.social.linkedin %}
+              {% endif %}
+              <div class="social-link linkedin background">
+                <a href="{{linkedin}}" target="_blank"><img src="/assets/img/icons/team/linkedin.png" /></a>
+              </div>
+            {% endif %}
+            {% if member.social.discord.size > 0 %}
+              <div class="social-link discord">
+                <a href="{{site.data.team.social.discord}}" target="_blank"><img src="/assets/img/icons/team/discord.png" />@{{member.social.discord}}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="modal fade" id="team-details-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button id="team-details-close" class="btn" data-dismiss="modal" aria-label="Close">
+            <div class="x" aria-hidden="true"></div>
+            <div class="x x2" aria-hidden="true"></div>
+          </button>
+          <h3 id="modal-name"></h3>
+          <div id="modal-title"></div>
+          <div id="modal-bio">Bio</div>
+
+          {% comment %}
+          <div id="modal-group">Group</div>
+          <div id="modal-headshot">Headshot</div>
+          <div id="modal-twitter">Twitter</div>
+          <div id="modal-linkedin">LinkedIn</div>
+          <div id="modal-discord">Discord</div>
+          {% endcomment %}
+
+          <div class="social-links">
+            <div class="social-link twitter background">
+              <a href="{{site.data.team.social.twitter}}" target="_blank"><img src="/assets/img/icons/team/twitter.png" /></a>
+            </div>
+            <div class="social-link linkedin background">
+              <a href="{{site.data.team.social.linkedin}}" target="_blank"><img src="/assets/img/icons/team/linkedin.png" /></a>
+            </div>
+            <div class="social-link discord">
+              <a href="{{site.data.team.social.discord}}" target="_blank"><img src="/assets/img/icons/team/discord.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

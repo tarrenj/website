@@ -20,6 +20,7 @@ gem "jekyll", "3.5.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+   gem 'ffi', '1.9.18'
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-gist'
    gem 'jekyll-paginate'
@@ -28,4 +29,5 @@ group :jekyll_plugins do
    gem 'jekyll-redirect-from'
    gem 'jekyll-compose'
    gem 'jekyll-sass-converter'
+   gem 'jekyll-multiple-languages-plugin'
 end

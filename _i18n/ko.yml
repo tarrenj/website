@@ -1,0 +1,141 @@
+global:
+  english: 영어
+  korean: 한국어
+  roadmap: 로드맵
+homepage:
+  hero:
+    subtitle: 화폐, 메시지 그리고 미디어를 위한 보안플랫폼
+    announcement: IOHK와 R&D 파트너쉽을 하게 되었습니다
+    announcement-button: 더 알아보기
+  about:
+    title: Zen is a privacy platform with the latest privacy technology, a self-sustaining funding model, and building a protocol-level Decentralized Autonomous Organization (DAO).
+    products:
+      zencash: 화폐를 위한 서비스
+      zenchat: 메시를 보내기 위한 서비스
+      zenpub: 미디어를 위한 서비스
+      zenhide: 웹 트래픽을 위한 서비스
+      development: (in development)
+      nav:
+        - title: 특징
+          link: '#features'
+          icon: /assets/img/icons/features.png
+        - title: 로드맵
+          link: '#roadmap'
+          icon: /assets/img/icons/roadmap.png
+        - title: Team
+          link: '#team-overview'
+          icon: /assets/img/icons/team.png
+        - title: 백서
+          link: '#white-paper'
+          icon: /assets/img/icons/whitepaper.png
+  features:
+    title: ZENCASH는 대중적이고, 비공개이며 익명성을 가집니다
+    cta: IOHK와의 협력에 대해 더 알아보기
+  tech:
+    title: 안전 - 비공개 - 추적불가능 - 탄력적
+    subtitle: Zen은 기술을 선도적으로 이끄는 것과 혁신을 통해 인류에 기여하는 것을 목표로 합니다
+    features:
+      - title: 최고의 개인정보 보호 기술
+        content:
+          - zk-SNARKS - 발신자/수신자의 정보가 숨겨져있는 비공개 거래
+          - Domain Fronting  - 검열을 방지하기 위해 인터넷 연결 끝 점을 숨깁니다
+          - IPFS - 분산 시스템을 통하여 익명으로 데이터를 개시하거나 엑세스합니다
+      - title: 탈 중앙화 된 자율조직(DAO)
+        content:
+          - 경제 이론을 바탕으로 최고의 개인정보보호 기술로 설계 된 재무 모델을 통하여 리소스를 할당합니다
+      - title: 가장 탄력적인 시스템
+        content:
+          - <a href="https://securenodes.na.zensystem.io/">Zen 보안노드</a> → <span id="nodeCount">6640</span> 노드!
+      - title: 연구와 개발에 중점
+        content:
+          - DAO, 차세대 확장성 등과 같은 프로토콜-레벨 솔루션들!
+      - title: 가장 안전한 시스템
+        content:
+          - ZenCash는 노드 간 암호화 기능을 가지고 있습니다 → 첫번째로 출시!
+      - title: Minable
+        content:
+          - Proof-of-work, equihash-based GPU mining
+  roadmap:
+    events:
+      2017:
+        - title: ZenCash 출시
+          icon: /assets/img/icons/launch.png
+          content:
+            - ZenCash가 5.30.17 에 출시 되었습니다
+        - title: 핵심 업데이트
+          icon: /assets/img/icons/updates.png
+          content:
+            - TLS를 통합한 첫 번째 블록체인 (노드 암호화용 SSL 인증서)
+            - 블록체인 개량
+            - 재생 보호
+        - title: 지갑과 제품들
+          icon: /assets/img/icons/wallet.png
+          content:
+            - Tor 기반 ZenCash 노드들
+            - 메시지 채팅
+            - Swing 지갑 - 풀 블록체인
+            - Android 지갑
+            - Arizen 지갑 - 라이트 블록체인
+            - 백서
+        - title: 보안노드
+          icon: /assets/img/icons/encryption.png
+          content:
+            - 탄력적인 종단간 네트워크 암호화
+            - 보안노드 운영자를 위한 지불 시스템
+      2018:
+        - title: 지갑과 제품들
+          icon: /assets/img/icons/voting.png
+          content:
+            - 제안서 제출과 투표 시스템 GUI
+            - iOS 지갑
+            - OpenBazaar 통합
+            - 운영 방식의 투명성
+        - title: 보안노드
+          icon: /assets/img/icons/secure.png
+          content:
+            - 보안노드 시스템 개선
+            - 블록체인 프로토콜 연구에 내장 된 보안노드 시스템
+        - title: 연구 및 개발
+          icon: /assets/img/icons/r-d.png
+          content:
+            - DAO 재무 프로토콜-레벨 투표 시스템
+            - 확장성 연구 - 차세대 블록체인 솔루션
+            - 도메인 프론팅
+            - ZenPub 프로토콜-레벨
+      2019:
+        - title: 시장 출시
+          icon: /assets/img/icons/scalability-study.png
+          content:
+            - DAO 재무 프로토콜-레벨 투표 시스템
+            - 네트워크 스택 익명성을 위한 Dandelion++ 통합
+            - 확장성 솔루션
+            - 보안노드에 게시 된 IPFS
+  whitepaper:
+    subtitle: 백서 개정중입니다. 원본 백서는 거의 80%가 동일 할 것입니다
+    button: 백서 다운로드
+securenodes:
+  hero:
+    title: ZenCash는 화폐와 메시지들 그리고 미디어에 대한 프라이버시를 존중하고 있습니다
+    subtitle: 보안노드는 ZenCash의 네트워크를 보다 더 분산되고 탄력적인 블록체인으로 만들어줍니다
+    cta: 보안노드 설치 지침
+  requirements:
+    title: 요구사항
+    cta: 보안노드 설치 지침
+    list:
+      - title: 42 $의 ZEN
+        subtitle: 노드당 명백한 주소에 있어야 합니다
+        icon: /assets/img/icons/vector-1.png
+      - title: TLS 인증서
+        subtitle: 알려진 기관에서 발급 된 인증서가 필요합니다
+        icon: /assets/img/icons/vector-3.png
+      - title: 컴퓨팅상의 문제
+        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+        icon: /assets/img/icons/vector-2.png
+      - title: ZenCash 블록체인
+        subtitle: ZenCash 블록체인에 관한 모든 사본을 유지해야합니다
+        icon: /assets/img/icons/vector-4.png
+      - title: 92% 이상의 구동률
+        subtitle: 적어도 92% 이상의 구동률로 노드를 증가시키고 가동시켜야합니다
+        icon: /assets/img/icons/vector-1.png
+  footer:
+    title: ZenCash 사고 팔기

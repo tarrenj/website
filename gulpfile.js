@@ -9,8 +9,10 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
-    s3 = require('gulp-s3'),
-    // env = require('./.env.json'),
+    s3 = require('gulp-s3-upload')(
+      {useIAM:true},  // or {} / null
+      { /* S3 Config */ }
+    ),
     browserSync = require('browser-sync').create(),
     stream = browserSync.stream;
 
@@ -18,7 +20,8 @@ var paths = {
     dev: './_dev/',
     src: './_dev/src/',
     bower: './_dev/bower_components/',
-    dist: './assets/'
+    dist: './assets/',
+    site: './_site/'
 }
 
 var messages = {
@@ -83,14 +86,18 @@ gulp.task('concat', function() {
         paths.bower + 'underscore/underscore-min.js',
         paths.bower + 'tether/dist/js/tether.min.js',
         // paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
-        paths.bower + 'enquire/dist/enquire.min.js',
-        paths.bower + 'bLazy/blazy.min.js',
-        paths.bower + 'wow/dist/wow.min.js',
         // paths.bower + 'headroom.js/dist/headroom.min.js',
         // paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
         // paths.bower + 'jquery.countdown/dist/jquery.countdown.min.js',
-        paths.bower + 'ajaxchimp/jquery.ajaxchimp.min.js',
         // paths.bower + 'animsition/dist/js/animsition.min.js',
+        paths.bower + 'enquire/dist/enquire.min.js',
+        paths.bower + 'bLazy/blazy.min.js',
+        paths.bower + 'aos/dist/aos.js',
+        paths.bower + 'lity/dist/lity.js',
+        paths.bower + 'select2/dist/js/select2.min.js',
+        paths.bower + 'ajaxchimp/jquery.ajaxchimp.min.js',
+        paths.bower + 'js-cookie/src/js.cookie.js',
+        paths.bower + 'moment/moment.js',
         paths.src + 'js/vendor/*.js',
         paths.src + 'js/scripts.js'
     ]
@@ -137,6 +144,7 @@ gulp.task('watch', function () {
         '*.{html,md,markdown}',
         '_layouts/**/*.html',
         '_includes/**/*.html',
+        '_i18n/**/*',
         '_posts/*',
         'blog/*'
     ], ['jekyll-rebuild']);
@@ -151,14 +159,16 @@ gulp.task('default', [
     'watch'
 ]);
 
-gulp.task('deploy', function() {
-  var AWS = {
-    "key":    env.AWS_ACCESS_KEY_ID,
-    "secret": env.AWS_SECRET_ACCESS_KEY,
-    "bucket": env.AWS_BUCKET,
-    "region": env.AWS_REGION
-  }
+// AWS_PROFILE=zen gulp upload
 
-  return gulp.src('_site/**')
-      .pipe(s3(AWS));
+gulp.task('upload', function() {
+    gulp.src(paths.site + '**')
+        .pipe(s3({
+            Bucket: 'zen-website', //  Required
+            ACL:    'public-read'  //  Needs to be user-defined
+        }, {
+            // S3 Constructor Options, ie:
+            maxRetries: 5
+        }))
+    ;
 });

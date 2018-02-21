@@ -4,17 +4,15 @@ title: ZenCash is Private Money, Messages, Media
 type: landing-page
 ---
 
-{% for copy in site.data.landingpage %}
-{% if copy.language == 'english' %}
 <div class="interior-page">
   <div class="jumbotron jumbotron-fluid b-lazy" data-src="/assets/img/phone.jpg">
     <div class="container-fluid">
       <div class="row justify-content-center text-center">
         <div class="col-lg-10 col-xl-6">
-          <h1 class="display-3">{{ copy.title }}</h1>
-          <p class="lead mt-5 mb-5">Secure nodes make the ZenCash network the most decentralized & resilient blockchain!</p>
+          <h1 class="display-3">{% translate securenodes.hero.title %}</h1>
+          <p class="lead mt-5 mb-5">{% translate securenodes.hero.subtitle %}</p>
           <p>
-            <a href="https://blockoperations.com/how-to-build-and-operate-a-zencash-secure-node/" class="btn btn-lg btn-light">Instructions to Set Up Secure Nodes</a>
+            <a href="https://blockoperations.com/how-to-build-and-operate-a-zencash-secure-node/" class="btn btn-lg btn-light">{% translate securenodes.hero.cta %}</a>
           </p>
         </div>
       </div>
@@ -25,28 +23,7 @@ type: landing-page
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-10 col-xl-6">
-          <h2 class="content-title">Why ZenCash?</h2>
-          <p class="lead mb-4">
-            A decentralized cryptocurrency which is <strong>Public</strong>, <strong>Private</strong>, and <strong>Anonymous</strong>.
-          </p>
-          <p class="lead mb-4">
-            Has its own blockchain, and is used for <strong>Transactions</strong>, <strong>Communications</strong>, and <strong>Publishing</strong>.
-          </p>
-          <p class="lead mb-1">
-            Designed for long-term operation:
-          </p>
-          <ul>
-            <li>21 million ZenCash cap - no premine, no ICO</li>
-            <li>Thousands of Secure Nodes in operation - 3.5% of mining reward</li>
-            <li>Treasury funds for development, support, marketing - 8.5% of mining reward</li>
-            <li>Strong Team & Representative Governance - Zen Blockchain Foundation</li>
-            <li>Wallets and communication clients for International Users</li>
-            <li>Marketing Globalization - Tailored approach to different markets</li>
-            <li>Secure Nodes provide a resilient, distributed network</li>
-          </ul>
-          <p class="mt-5">
-            <a href="https://blog.zensystem.io/secure-nodes-why-are-they-important/" class="btn btn-lg btn-primary">Why Secure Nodes are Important</a>
-          </p>
+          {% translate_file securenodes/whyzen.md %}
         </div>
       </div>
     </div>
@@ -56,79 +33,32 @@ type: landing-page
       <div class="row justify-content-center">
         <div class="col-lg-10 col-xl-6">
 
-          <h2 class="content-title">Host a secure node, earn mining rewards and become part of ZenCash!</h2>
-          <p class="lead">
-            Secure Node Operators get rewarded with 3.5% of the mining rewards
-          </p>
-          <p>
-            One of the first security features of ZenCash was the encryption of the inter-node communications. This was deployed, and now ZenCash node communication looks like any other encrypted Internet traffic, instead of like Bitcoin traffic. This helps to hide the type of activity taking place, making it less likely that ZenCash users and nodes are blocked.
-          </p>
-          <p>
-            For reliability, we want thousands of secure nodes all over the world that users can connect to quickly and easily, and are willing to provide compensation to the node operators. If we have an extensive, distributed, and reliable network, people can use ZenCash no matter what happens. Secure Nodes enable the security and reliability of the ZenCash system.
-          </p>
+          {% translate_file securenodes/hosting.md %}
 
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-12 col-xl-10">
 
-          <h3 class="mt-5">Requirements</h3>
+          <h3 class="mt-5">{% translate securenodes.requirements.title %}</h3>
 
           <div class="card-deck mb-5 justify-content-center">
+            {% for requirement in site.translations[site.lang].securenodes.requirements.list %}
             <div class="card">
               <div class="card-body">
-                <span class="card-number">1</span>
-                <h4 class="card-title">42 $ZEN</h4>
-                <p class="card-text">in transparent address per node</p>
+                <span class="card-number">{{ forloop.index }}</span>
+                <h4 class="card-title">{{ requirement.title }}</h4>
+                <p class="card-text">{{ requirement.subtitle }}</p>
               </div>
               <div class="card-image">
-                <img src="/assets/img/icons/vector-1.png" />
+                <img src="{{ requirement.icon }}" />
               </div>
             </div>
-            <div class="card">
-              <div class="card-body">
-                <span class="card-number">2</span>
-                <h4 class="card-title">TLS Certificate</h4>
-                <p class="card-text">from a known Certificate Authority</p>
-              </div>
-              <div class="card-image">
-                <img src="/assets/img/icons/vector-3.png" />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <span class="card-number">3</span>
-                <h4 class="card-title">Computational Challenge</h4>
-                <p class="card-text"><small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small></p>
-              </div>
-              <div class="card-image">
-                <img src="/assets/img/icons/vector-2.png" />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <span class="card-number">4</span>
-                <h4 class="card-title">ZenCash Blockchain</h4>
-                <p class="card-text">Maintain a full copy of the ZenCash Blockchain</p>
-              </div>
-              <div class="card-image">
-                <img src="/assets/img/icons/vector-4.png" />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <span class="card-number">5</span>
-                <h4 class="card-title">92%+ Uptime</h4>
-                <p class="card-text">Keep the node up and running at least 92% of the time</p>
-              </div>
-              <div class="card-image">
-                <img src="/assets/img/icons/vector-1.png" />
-              </div>
-            </div>
+            {% endfor %}
           </div>
 
           <p>
-            <a href="https://blockoperations.com/how-to-build-and-operate-a-zencash-secure-node/" class="btn btn-lg btn-primary mt-3">Instructions to Set Up Secure Nodes</a>
+            <a href="https://blockoperations.com/how-to-build-and-operate-a-zencash-secure-node/" class="btn btn-lg btn-primary mt-3">{% translate securenodes.requirements.cta %}</a>
           </p>
 
         </div>
@@ -139,7 +69,7 @@ type: landing-page
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <h2 class="content-title">Buy or Sell ZenCash</h2>
+          <h2 class="content-title">{% translate securenodes.footer.title %}</h2>
           <p class="links">
             <a href="https://bittrex.com/Market/Index?MarketName=BTC-ZEN">ZenCash on Bittrex</a><br />
             <a href="https://www.cryptopia.co.nz/Exchange/?market=ZEN_BTC">ZenCash on Cryptopia</a><br />
@@ -154,5 +84,3 @@ type: landing-page
   </div>
 
 </div>
-{% endif %}
-{% endfor %}

@@ -1,0 +1,32 @@
+<section id="features">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-title">{% translate homepage.features.title %}</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center feature-row odd" data-aos="fade-left">
+      <div class="col-md-4 icon">
+        <img class="img-fluid" src="/assets/img/icons/icon-mining-rewards-web.png">
+      </div>
+      <div class="col-md-8 content">
+        {% translate_file homepage/features-1.md %}
+      </div>
+    </div>
+    <div class="row justify-content-center feature-row even" data-aos="fade-right">
+      <div class="col-md-8 order-1 content">
+        {% translate_file homepage/features-2.md %}
+      </div>
+      <div class="col-md-4 order-12 icon">
+        <img class="img-fluid" src="/assets/img/icons/iohk.png">
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center" data-aos="fade-up">
+      <div class="col text-center">
+        <p>
+          <a href="{{site.baseurl}}/iohk/" class="btn btn-lg btn-primary mt-3">{% translate homepage.features.cta %}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

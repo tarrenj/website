@@ -1,0 +1,65 @@
+<section id="hero" class="jumbotron">
+  <div id="bgvid">
+    <video poster="/assets/vid/cities.jpg" class="b-lazy-vid" playsinline autoplay muted loop>
+      <source data-src="/assets/vid/cities.webm" type="video/webm">
+      <source data-src="/assets/vid/cities.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="color-overlay"></div>
+
+  <div class="container content-block">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1>ZenCash</h1>
+
+        {% if site.lang == 'en' %}
+        <h3>The Secure & Private Platform For</h3>
+        {% endif %}
+        <h2>{% translate homepage.hero.subtitle %}</h2>
+        <p>
+          <a href="{{site.baseurl}}/wallets/" class="btn btn-lg btn-ghost mt-4 mr-2">Get a Wallet</a>
+          <a href="{{site.baseurl}}/exchanges/" class="btn btn-lg btn-ghost mt-4 ml-2">Buy ZenCash</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="social-sidebar animated slideInRight">
+    <a href="{{site.links.twitter}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Twitter-Icon.png"></a>
+    <a href="{{site.links.discord}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Discord-Logo.png"></a>
+    <a href="{{site.links.reddit}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Reddit-Icon.png"></a>
+    <a href="{{site.links.bitcointalk}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
+    <a href="{{site.links.youtube}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Youtube-Icon.png"></a>
+  </div>
+  <div class="announcement-footer animated slideIn">
+    <p class="lead">
+      <span>{% translate homepage.hero.announcement %}</span>
+      <a href="{{site.baseurl}}/iohk/" class="btn btn-primary">{% translate homepage.hero.announcement-button %}</a>
+    </p>
+  </div>
+
+  <div class="language-sidebar">
+    <a href="#" id="languageClose" class="toggle-languages">
+      <div class="x"></div>
+      <div class="x x2"></div>
+    </a>
+    {% if site.lang == "en" %}
+      {% capture korean_link %}{{ site.baseurl_root }}ko{{ page.url}}{% endcapture %}
+    {% elsif site.lang == "ko" %}
+      {% capture korean_link %}{{ site.baseurl }}{{ page.url}}{% endcapture %}
+    {% endif %}
+    <ul>
+      <li>
+        <a href="{{ site.baseurl_root }}{{ page.url}}">English</a>
+      </li>
+      <li>
+        <a href="https://ru.zensystem.io/">Russian</a>
+      </li>
+      {% comment %}
+      <li>
+        <a href="{{korean_link}}">Korean</a>
+      </li>
+      {% endcomment %}
+    </ul>
+  </div>
+
+</section>

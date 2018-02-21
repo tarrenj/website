@@ -1,11 +1,12 @@
 ---
 layout: homepage
 type: homepage
+title: ZenCash and IOHK Partner for Research and Development
 ---
 
 <section class="interior-header">
-  <div class="page-title wow fadeInDown" data-wow-duration="1.5s">
-    <h1>ZenCash and IOHK Partner for Research and Development</h1>
+  <div class="page-title">
+    <h1>{{page.title}}</h1>
   </div>
 </section>
 
@@ -16,7 +17,7 @@ type: homepage
         <img src="/assets/img/zen-iohk.jpg" class="img-fluid zen-iohk" />
       </div>
       <div class="col-md-8 col-lg-7">
-        <h2>The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.</h2>
+        <h2>The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.</h2>
       </div>
     </div>
   </div>
@@ -41,7 +42,7 @@ type: homepage
     <div class="row justify-content-center align-items-center text-center">
       <div class="col">
         <p>
-          <a href="{{site.links.whitepaper}}" class="btn btn-lg btn-primary mt-5">Read the ZenCash White Paper</a>
+          <a href="{{site.baseurl}}{{site.links.whitepaper}}" class="btn btn-lg btn-primary mt-5">Read the ZenCash White Paper</a>
         </p>
       </div>
     </div>
@@ -55,14 +56,14 @@ type: homepage
         <img src="/assets/img/logos/scalability-logo.png" class="img-fluid scalability-logo" />
         <h2 class="text-center">Scalability Study</h2>
         <ul class="text-left">
-          <li>Scaling is a major problem in blockchain projects</li>
-          <li>Protocol upgrade enables high volume, rapid transactions across the network</li>
-          <li>Evaluating next generation blockchain solutions & alternatives like Spectre</li>
+          <li>Scaling is a major problem in blockchain projects.</li>
+          <li>Protocol upgrade enables high-volume rapid transactions across the network.</li>
+          <li>Evaluating next generation blockchain solutions and alternatives like Spectre.</li>
           <li>Radical usability! Unlimited scalability and instant transactions.</li>
           <li>IOHK will evaluate multiple protocol options and provide a recommendation and specifications to ZenCash by Q2 2018.</li>
         </ul>
         <p class="text-center">
-          <a href="/" class="btn btn-lg btn-primary mt-4">Learn More About ZenCash</a>
+          <a href="{{site.baseurl}}/" class="btn btn-lg btn-primary mt-4">Learn More About ZenCash</a>
         </p>
       </div>
     </div>
@@ -78,74 +79,86 @@ type: homepage
     </div>
     <div class="row justify-content-center text-center">
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 card-col">
         <div class="card">
           <div class="card-body">
             <img src="/assets/img/logos/bittrex.jpg" />
             <h3>Bittrex</h3>
           </div>
           <div class="card-footer">
-            <a href="https://bittrex.com/">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+            <a href="https://bittrex.com/" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 card-col">
         <div class="card">
           <div class="card-body">
-            <img src="/assets/img/logos/cryptopia.jpg" />
-            <h3>Cryptopia</h3>
+            <img src="/assets/img/logos/okex.png">
+            <h3>OKEx</h3>
           </div>
           <div class="card-footer">
-            <a href="https://www.cryptopia.co.nz/Exchange/?market=ZEN_BTC">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+            <a href="https://www.okex.com/" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="/assets/img/logos/evercoin.jpg" />
-            <h3>Evercoin (anonymous)</h3>
-          </div>
-          <div class="card-footer">
-            <a href="https://evercoin.com/zencash">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 card-col">
         <div class="card">
           <div class="card-body">
             <img src="/assets/img/logos/upbit.jpg" />
             <h3>UPbit (Korean)</h3>
           </div>
           <div class="card-footer">
-            <a href="https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ZEN">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+            <a href="https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ZEN" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 card-col">
+        <div class="card">
+          <div class="card-body">
+            <img src="/assets/img/logos/cryptopia.jpg" />
+            <h3>Cryptopia</h3>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.cryptopia.co.nz/Exchange/?market=ZEN_BTC" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 card-col">
+        <div class="card">
+          <div class="card-body">
+            <img src="/assets/img/logos/evercoin.jpg" />
+            <h3>Evercoin (anonymous)</h3>
+          </div>
+          <div class="card-footer">
+            <a href="https://evercoin.com/zencash" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 card-col">
         <div class="card">
           <div class="card-body">
             <img src="/assets/img/logos/coss.jpg" />
             <h3>Coss.io</h3>
           </div>
           <div class="card-footer">
-            <a href="https://exchange.coss.io/pair/zen-btc">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+            <a href="https://exchange.coss.io/pair/zen-btc" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 card-col">
         <div class="card">
           <div class="card-body">
             <img src="/assets/img/logos/tradesatoshi.jpg" />
             <h3>TradeSatoshi</h3>
           </div>
           <div class="card-footer">
-            <a href="https://www.tradesatoshi.com/Exchange?market=ZEN_BTC/">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+            <a href="https://tradesatoshi.com/Exchange?market=ZEN_BTC" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
           </div>
         </div>
       </div>

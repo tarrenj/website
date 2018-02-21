@@ -1,46 +1,53 @@
 ---
-layout: page
+layout: homepage
+type: homepage
+title: Mining Pools
 ---
 
-<h1>Mining Pool Information for ZenCash</h1>
+<section class="interior-header">
+  <div class="page-title text-center">
+    <img class="img-fluid logo" src="/assets/img/icons/zencash-white.png" />
+    <h2>Mining Pools</h2>
+  </div>
+</section>
 
-<p>ZenCash on Github &#8211; <a href="https://github.com/ZencashOfficial/zen/">https://github.com/ZencashOfficial/zen/</a></p>
-<p>Zen on CoinMarketCap &#8211; <a href="https://coinmarketcap.com/currencies/zencash/">https://coinmarketcap.com/currencies/zencash/</a></p>
-<hr />
-<h2>Buy or Sell ZenCash</h2>
-<p>{% include content/exchanges.html %}</p>
-<hr />
-<h2>Zen Mining Pools</h2>
-{% include content/mining-pools.html %}
-<p class="mt-4">Zen Mining Profit Calculator &#8211; <a href="https://whattomine.com/coins/185-zen-equihash">https://whattomine.com/coins/185-zen-equihash</a><br />
-Zen Mining Pool Forum Topic &#8211; <a href="https://forum.zensystem.io/t/zen-mining-pools-list/73">https://forum.zensystem.io/t/zen-mining-pools-list/73</a><br /><br />
-ZenCash Block Explorers<br />
-  <ul>
-    <li>
-      <a href="https://explorer.zensystem.io/">https://explorer.zensystem.io/</a>
-    </li>
-    <li>
-      <a href="http://explorer.zenmine.pro/insight/">http://explorer.zenmine.pro/insight/</a>
-    </li>
-    <li>
-      <a href="https://explorer.zen-solutions.io/">https://explorer.zen-solutions.io/</a>
-    </li>
-  </ul>
-</p>
-<hr />
-<h2>GUI Wallets</h2>
-<p>Swing Wallet &#8211; <a href="{{site.wallets.swing}}">{{site.wallets.swing}}</a><br />
-Arizen Wallet &#8211; <a href="{{site.wallets.arizen}}">{{site.wallets.arizen}}</a></p>
-<hr />
-<h2>Reference</h2>
-<p>ZenCash website &#8211; <a href="{{site.url}}">{{site.url}}</a><br />
-ZenCash Blog &#8211; <a href="{{site.links.blog}}">{{site.links.blog}}</a><br />
-ZenCash Github &#8211; <a href="{{site.links.github}}">{{site.links.github}}</a><br />
-ZenCash Forum &#8211; <a href="{{site.links.forum}}">{{site.links.forum}}</a><br />
-ZenCash Discord &#8211; <a href="{{site.links.discord}}">{{site.links.discord}}</a><br />
-ZenCash on BitcoinTalk &#8211; <a href="{{site.links.bitcointalk}}">{{site.links.bitcointalk}}</a><br />
-ZenCash YouTube Channel &#8211; <a href="{{site.links.youtube}}">{{site.links.youtube}}</a><br />
-ZenCash Reddit &#8211; <a href="{{site.links.reddit}}">{{site.links.reddit}}</a><br />
-ZenCash Facebook Page &#8211; <a href="{{site.links.facebook}}">{{site.links.facebook}}</a><br />
-ZenCash Blog on Medium &#8211; <a href="{{site.links.medium}}">{{site.links.medium}}</a>
-</p>
+<section class="content intro">
+  <div class="intro-circle-div">
+    <img src="/assets/img/icons/mining2.png" class="use-zen-feature-icons">
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-7 col-lg-6">
+        <h2>Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.</h2>
+        <p>We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content pool-list">
+  <div class="container-fluid">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
+
+        <div class="row justify-content-center text-center">
+          {% for pool in site.data.miningpools %}
+            <div class="col-sm-6 col-lg-4 card-col">
+              <div class="card">
+                <div class="card-body">
+                  <h3>{{ pool.name }}</h3>
+                </div>
+                <div class="card-footer">
+                  <a href="{{ pool.url }}" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include content/resources.html %}

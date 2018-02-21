@@ -2059,6 +2059,44 @@ section#tech {
   }
 }
 
+@media (min-width: 992px) and (max-height: 900px) {
+  .jumbotron {
+    @include transition(all 0.2s ease-in-out);
+    h1, h2, h3, .btn-lg {
+      @include transition(all 0.2s ease-in-out);
+    }
+    .social-sidebar {
+      padding-top: 0;
+      padding-bottom: 0;
+      @include transition(all 0.2s ease-in-out);
+    }
+    &.newsletter-visible {
+      padding-top: 220px;
+      @include transition(all 0.2s ease-in-out);
+      h1, h2, h3, .btn-lg {
+        @include transition(all 0.2s ease-in-out);
+      }
+      h1 {
+        font-size: 54px;
+      }
+      h2 {
+        font-size: 28px;
+      }
+      h3 {
+        font-size: 16px;
+      }
+      .btn-lg {
+        padding: 18px 34px;
+      }
+      .social-sidebar {
+        padding-top: 220px;
+        padding-bottom: 106px;
+        @include transition(all 0.2s ease-in-out);
+      }
+    }
+  }
+}
+
 @media (max-width: 1199px) {
   .site-header {
     .navbar-expand-lg {

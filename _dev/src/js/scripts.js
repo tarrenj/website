@@ -444,6 +444,9 @@ if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
   $('#home-header').delay(2800).slideDown( 200, function() {
     // Animation complete.
   });
+  window.setTimeout(function(){
+    $('#hero').addClass('newsletter-visible');
+  }, 2800);
 }
 
 $('#home-header-close').click(function() {
@@ -451,6 +454,7 @@ $('#home-header-close').click(function() {
     // console.log('set cookie');
     Cookies.set('newsletterOptin', 'disabled', { expires: 7 });
   });
+  $('#hero').removeClass('newsletter-visible');
 });
 
 

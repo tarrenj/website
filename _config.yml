@@ -70,6 +70,7 @@ cloudinary:
       fallback_max_width: 800
       steps: 5
       sizes: "(min-width: 50rem) 50rem, 90vw"
+encoding: utf-8
 gems:
 - jekyll-feed
 - jekyll-gist

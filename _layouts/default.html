@@ -30,7 +30,7 @@ layout: compress
           </div>
           {% endraw %}
         </script>
-      <script type="text/javascript" src="{{ "/assets/js/scripts.js" | prepend: site.baseurl_root }}"></script>
+      <script type="text/javascript" src="{{ "/assets/js/scripts.js" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}"></script>
 
         {% elsif page.type != 'landing-page' %}
         {% include header.html %}
@@ -54,12 +54,12 @@ layout: compress
           </div>
           {% endraw %}
         </script>
-        <script type="text/javascript" src="{{ "/assets/js/scripts.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/scripts.js" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}"></script>
 
         {% else %}
         {% include header-lp.html %}
         {{ content }}
-        <script type="text/javascript" src="{{ "/assets/js/landing-page.js" | prepend: site.baseurl_root }}"></script>
+        <script type="text/javascript" src="{{ "/assets/js/landing-page.js" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}"></script>
         {% endif %}
 
         {% include tracking/twitter_univ_tag.html %}

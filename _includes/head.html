@@ -6,11 +6,11 @@
   {% seo %}
   <!-- CSS -->
   {% if page.type == 'landing-page' %}
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/landing-page.css" | prepend: site.baseurl_root }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/landing-page.css" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}">
   {% elsif page.type == 'homepage' %}
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/homepage.css" | prepend: site.baseurl_root }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/homepage.css" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}">
   {% else %}
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | prepend: site.baseurl_root }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}">
   {% endif %}
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ "/assets/fav/apple-touch-icon-57x57.png" | prepend: site.baseurl_root }}" />

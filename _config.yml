@@ -70,7 +70,6 @@ cloudinary:
       fallback_max_width: 800
       steps: 5
       sizes: "(min-width: 50rem) 50rem, 90vw"
-encoding: utf-8
 gems:
 - jekyll-feed
 - jekyll-gist
@@ -79,6 +78,7 @@ gems:
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-sass-converter
+- jekyll-multiple-languages-plugin
 exclude:
 - _dev
 - bower.json
@@ -93,5 +93,5 @@ exclude:
 - vendor
 - old-homepage.html
 
-languages: ["en", "ko"]
+languages: ["en"]
 exclude_from_localizations: ["assets"]

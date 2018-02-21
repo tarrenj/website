@@ -525,24 +525,37 @@ function MeasureConnectionSpeed() {
 function initBlazyVid(speedMbps) {
   // If basic speed test looks good
   // Init a new instance of bLazy using a different selector for vids
-  if (speedMbps >= 0.5) {
-    // console.log('should be fast enough');
-    var bLazyVid = new Blazy({
-      selector: '.b-lazy-vid',
-      success: function(element) {
-        setTimeout(function() {
-          if ($('#bgvid')) {
-            videoControl();
-          }
-          var parent = element.parentNode;
-          parent.className = parent.className.replace(/\bloading\b/,'');
-        }, 200);
-      }
-    });
-  } else {
-    // console.log('not sure');
-    $('#bgvid video').css('display', 'none');
-  }
+  var bLazyVid = new Blazy({
+    selector: '.b-lazy-vid',
+    success: function(element) {
+      setTimeout(function() {
+        if ($('#bgvid')) {
+          videoControl();
+        }
+        var parent = element.parentNode;
+        parent.className = parent.className.replace(/\bloading\b/,'');
+      }, 200);
+    }
+  });
+
+  // if (speedMbps >= 0.5) {
+  //   // console.log('should be fast enough');
+  //   var bLazyVid = new Blazy({
+  //     selector: '.b-lazy-vid',
+  //     success: function(element) {
+  //       setTimeout(function() {
+  //         if ($('#bgvid')) {
+  //           videoControl();
+  //         }
+  //         var parent = element.parentNode;
+  //         parent.className = parent.className.replace(/\bloading\b/,'');
+  //       }, 200);
+  //     }
+  //   });
+  // } else {
+  //   // console.log('not sure');
+  //   $('#bgvid video').css('display', 'none');
+  // }
 }
 
 function videoControl() {

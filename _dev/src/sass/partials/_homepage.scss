@@ -346,9 +346,6 @@ h2.section-title {
     .btn-primary {
       margin-left: 0;
     }
-    #home-header-close {
-      right: 4px;
-    }
   }
   @media (max-width: 575px) {
     #email-form {
@@ -2084,6 +2081,15 @@ section#tech {
 }
 
 @media (max-width: 991px) {
+  #home-header-close {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    right: 20px;
+    .x {
+      width: 20px;
+    }
+  }
   .site-header {
     border: 0;
     .navbar {

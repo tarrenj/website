@@ -341,17 +341,6 @@
           }
         },
         {
-          "name": "Philippe Fürst",
-          "photo": "/assets/img/people/philippe.jpg",
-          "title": "Team Member",
-          "bio": "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": ""
-          }
-        },
-        {
           "name": "Ross Kenyon",
           "photo": "/assets/img/people/ross.jpg",
           "title": "Communication Strategy",
@@ -442,6 +431,17 @@
           "social": {
             "twitter": "thebitcoincpa",
             "linkedin": "kirk-phillips-cpa",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Philippe Fürst",
+          "photo": "/assets/img/people/philippe.jpg",
+          "title": "Program Manager",
+          "bio": "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
             "discord": ""
           }
         },

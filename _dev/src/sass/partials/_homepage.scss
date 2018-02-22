@@ -2367,6 +2367,30 @@ section#tech {
 }
 
 @media (max-width: 575px) {
+  .site-header {
+    &.headroom--top {
+      #home-header {
+        height: 100vh;
+        opacity: 1;
+        visibility: visible;
+        background-color: rgba(white, .98);
+        padding: 0 20px;
+        @include transition(all 0.3s ease-in-out);
+        .flex-column {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+    #home-header {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      padding: 0 20px;
+      @include transition(all 0.3s ease-in-out);
+    }
+  }
+
   section:not(#hero) {
     ul {
       li {

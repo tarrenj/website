@@ -77,7 +77,7 @@
         },
         {
           "name": "Nicola Onassis",
-          "photo": "",
+          "photo": "/assets/img/people/nicola.jpg",
           "title": "Sr Software Developer",
           "bio": "Nicola is an experienced technical manager with 20 years of software engineering and 15+ years of architecture development. His work spans many aspects of technology development –from web platform architecture to system integration, database architecture to data warehousing, API architecture to system engineering, and more. Nicola co-founded Code Particle with De Girolami and Schiro and since then has been in charge of training and mentoring new developers and interns, leading the client side and database team, architecting platforms for different startups like Viddy, Symptify, Boldride, integration system and UI frameworks for different customers like Crowdstrike, Tenable, Activision.\n\nNicola expertise is in Database architecture (both SQL and no-SQL) and clients side UI-X frameworks implementation.",
           "social": {
@@ -292,8 +292,8 @@
         },
         {
           "name": "Vitalik Denim",
-          "photo": "",
-          "title": "User Experience Designer",
+          "photo": "/assets/img/people/vitalik.jpg",
+          "title": "Information Architect",
           "bio": "Vitalik started his career in consulting, helping companies around the world optimize their business models, design technology solutions and improve customer service. He holds an MBA in Strategic Management and Marketing from the University of St. Thomas, Minneapolis MN. Vitalik's biggest passion is User Experience. He strongly believes in simplicity and applies this belief while building all of his products and services.",
           "social": {
             "twitter": "",
@@ -447,7 +447,7 @@
         },
         {
           "name": "Jeremy Wan",
-          "photo": "",
+          "photo": "/assets/img/people/jeremy.jpg",
           "title": "Operations Intern",
           "bio": "",
           "social": {

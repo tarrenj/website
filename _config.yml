@@ -23,7 +23,7 @@ defaults:
 email: mdlorey@gmail.com
 description: A globally accessible and anonymous blockchain
 baseurl: ""
-url: https://zensystem.io/
+url: https://zensystem.io
 author:
   name: Zen
   email: info@zencash.com

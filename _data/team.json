@@ -143,13 +143,13 @@
         },
         {
           "name": "Joseph Nicholas Alcantara",
-          "photo": "",
+          "photo": "/assets/img/people/joseph.jpg",
           "title": "Software Developer",
-          "bio": "",
+          "bio": "Joseph has been in the retail and finance industry for 5 years. He has helped develop applications for the self checkout machines and integrated devices for these. A graduate of Silliman University, majoring in Computer Engineering, he strongly believes that through his experience and expertise, he can help the Zen Team better by creating new innovations. And having the skills and knowledge on embedded systems programming, he can create and integrate applications to work not only on platform level, but on hardware, as well. Joseph joined the Zen Team because his beliefs align with what Zen stands for: privacy and security.",
           "social": {
-            "twitter": "",
+            "twitter": "theHungryDevMan",
             "linkedin": "joseph-nicholas-alcantara-43586195",
-            "discord": "JosephNic"
+            "discord": "JosephNic, UTC +8"
           }
         },
         {
@@ -510,7 +510,7 @@
           "name": "Levis Caycedo",
           "photo": "",
           "title": "Region Lead: North America",
-          "bio": "",
+          "bio": "After graduating from the University of Florida with a bachelor's degree in industrial engineering, Levis spent the next 12 years as a project engineer and project manager in the U.S. Air Force. After separating from the Air Force, Levis joined an engineering consulting firm advising the Air Force on strategy for space and launch acquisitions. Recently while working on his Finance MBA at UCLA Anderson, Levis became extremely passionate about crypto currencies and began contributing to the Zen team as a part time intern. Now Levis is joining the Zen team full time to contribute his project management and strategy experience to grow the Zen community in Latin America.",
           "social": {
             "twitter": "",
             "linkedin": "leviscaycedo",

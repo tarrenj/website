@@ -90,6 +90,7 @@ exclude:
 - LICENSE.md
 - node_modules
 - package.json
+- package-lock.json
 - README.md
 - vendor
 - old-homepage.html

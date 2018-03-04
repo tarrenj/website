@@ -3,7 +3,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- SEO -->
-  {% seo %}
+  {% if page.seo-page-title != '' %}
+    <title>{{ page.seo-page-title }}</title>
+    <meta property="og:title" content="{{ page.seo-page-title }}">
+  {% else %}
+      <title>{{ page.title }}</title>
+      <meta property="og:title" content="{{ page.title }}">
+  {% endif %}
+  {% if page.meta-description != '' %}
+      <meta name="description" content="{{ page.meta-description }}">
+      <meta property="og:description" content="{{ page.meta-description }}">
+  {% else %}
+      <meta name="description" content="{{ site.description }}">
+      <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Corporation",
+    "name": "ZenCash",
+    "alternateName": "ZenSystem",
+    "url": "{{site.url}}",
+    "logo": "{{site.logo}}",
+    "sameAs": [
+      "{{site.links.facebook}}",
+      "{{site.links.twitter}}",
+      "{{site.links.youtube}}",
+      "{{site.links.linkedin}}",
+      "{{site.links.github}}"
+    ]
+  }
+  </script>
   <!-- CSS -->
   {% if page.type == 'landing-page' %}
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/landing-page.css" | prepend: site.baseurl_root }}?{{site.time | date: '%s%N'}}">
@@ -26,7 +59,7 @@
   <link rel="icon" type="image/png" href="{{ "/assets/fav/favicon-32x32.png" | prepend: site.baseurl_root }}" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ "/assets/fav/favicon-16x16.png" | prepend: site.baseurl_root }}" sizes="16x16" />
   <link rel="icon" type="image/png" href="{{ "/assets/fav/favicon-128.png" | prepend: site.baseurl_root }}" sizes="128x128" />
-  <meta name="application-name" content="ZenCash"/>
+  <meta name="application-name" content="{{site.title}}"/>
   <meta name="msapplication-TileColor" content="#FFFFFF" />
   <meta name="msapplication-TileImage" content="{{ "/assets/fav/mstile-144x144.png" | prepend: site.baseurl_root }}" />
   <meta name="msapplication-square70x70logo" content="{{ "/assets/fav/mstile-70x70.png" | prepend: site.baseurl_root }}" />

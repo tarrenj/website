@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zensystem.io/sitemap.xml
+Sitemap: https://zencash.com/sitemap.xml

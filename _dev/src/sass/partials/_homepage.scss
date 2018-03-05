@@ -330,7 +330,7 @@ h2.section-title {
   }
   @media (max-width: 991px) {
     display: none;
-    
+
     padding-left: 15px;
     padding-right: 15px;
     #email-form {
@@ -475,10 +475,14 @@ h2.section-title {
   }
   h2 {
     font-size: 36px;
+    margin-bottom: 1.5rem;
   }
   h3 {
     font-size: 20px;
     line-height: 38px;
+  }
+  .btn-ghost {
+    margin: .5rem 0.5rem;
   }
   @include bgimagecover($darkteal, '../vid/cities.jpg', center);
   #bgvid {
@@ -900,7 +904,8 @@ section#features {
     background-repeat: no-repeat;
     margin-left: -65px;
     margin-right: -65px;
-    .col {
+    .col,
+    > div[class^="col"] {
       padding: 120px 5%;
       & > .row {
         height: 100%;
@@ -2415,6 +2420,8 @@ section#tech {
     h3 {
       font-size: 16px;
       letter-spacing: 1px;
+      line-height: 1.3;
+      margin: 1rem 0;
     }
     .lead {
       font-size: 1rem;
@@ -2630,6 +2637,31 @@ section#tech {
   .footer-nav {
     div[class^="col-"] {
       margin: 1rem 0;
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .jumbotron {
+    display: block;
+    min-height: 0;
+    padding-top: 6rem;
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 17px;
+      letter-spacing: 1px;
+      max-width: 100%;
+      margin-bottom: 0.7rem;
+    }
+    h3 {
+      font-size: 12px;
+      margin: 0.8rem 0;
+    }
+    .btn-ghost {
+      font-size: 12px;
+      padding: 10px;
     }
   }
 }

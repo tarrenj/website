@@ -440,14 +440,21 @@ var newsletterCookie = Cookies.get('newsletterOptin');
 // var host = window.location.host;
 //
 // if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' || host === 'localhost:4000' ) {
-if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
-  $('#home-header').delay(2800).slideDown( 200, function() {
-    // Animation complete.
-  });
-  window.setTimeout(function(){
-    $('#hero').addClass('newsletter-visible');
-  }, 2800);
-}
+enquire.register("screen and (min-width:992px)", {
+    match: function() {
+      if ( newsletterCookie != 'disabled' && newsletterCookie != 'subscribed' ) {
+        $('#home-header').delay(2800).slideDown( 200, function() {
+          // Animation complete.
+        });
+        window.setTimeout(function(){
+          $('#hero').addClass('newsletter-visible');
+        }, 2800);
+      }
+    },
+    unmatch: function() {
+      $('#home-header').hide();
+    }
+});
 
 $('#home-header-close').click(function() {
   $('#home-header').slideUp( 200, function() {

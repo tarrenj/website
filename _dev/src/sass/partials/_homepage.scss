@@ -329,6 +329,8 @@ h2.section-title {
     margin-left: 30px;
   }
   @media (max-width: 991px) {
+    display: none;
+    
     padding-left: 15px;
     padding-right: 15px;
     #email-form {

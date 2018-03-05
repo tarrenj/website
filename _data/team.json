@@ -44,7 +44,7 @@
         },
         {
           "name": "Pier Stabilini",
-          "photo": "",
+          "photo": "/assets/img/people/pier.jpg",
           "title": "Software Manager",
           "bio": "Pier started using a computer at age 11 learning Basic and 6502 Assembly on Apple II. Today he has 20+ years of experience in software architecture and development with a strong Java, J2EE, C, GoLang, Python, data grid and networking expertise. Pier has designed and developed real time networking frameworks and high performance stacks used in financial applications, audio and video conference and in the automotive industry. His main areas of interest are cryptocurrencies, decentralized and distributed systems, networking protocols, audio and video encoders, embedded devices, kernel and system programming.",
           "social": {
@@ -55,7 +55,7 @@
         },
         {
           "name": "Pierre Schiro",
-          "photo": "",
+          "photo": "/assets/img/people/pierre.jpg",
           "title": "Sr Software Developer",
           "bio": "Pierre Schiro is an experienced, hands-on software architect and software engineering manager. He’s involved in the architecture, design, and implementation of micro-services architectures, service-oriented architectures, and distributed systems. He has been in the software industry for over 26 years and has significant experience and expertise in application, integration, and enterprise architecture. After several leadership roles at Yahoo, Pierre co-founded Code Particle Inc in 2008 where he applied his skills on a wide range of projects including MVP for early-stage startups, web-services API for mobile digital games supporting millions of players, and massive, high-availability, distributed applications for clients such as Activision, Crowdstrike and Tenable.\n\nPierre holds a bachelor’s degree in computer science from IUT Lyon 1.",
           "social": {
@@ -66,7 +66,7 @@
         },
         {
           "name": "Franck De Girolami",
-          "photo": "",
+          "photo": "/assets/img/people/franck.jpg",
           "title": "Sr Software Developer",
           "bio": "Franck has over 25 years of experience in high performance software application development including extensive work in video games for PC, console and mobile platforms.  As software architect and lead programmer, Franck was directly responsible for a number of groundbreaking video games including Alone in the Dark, Cyberia and Tron 2.0: Killer App. Franck co-founded Code Particle, Inc. in 2008 as an advanced web and mobile application development studio in Los Angeles, CA where his skills were applied on revolutionary mobile apps like Viddy and high-end distributed applications for companies such as Activision (Call of Duty), Crowdstrike, Tenable and LINE (Skullgirls). Additionally, Franck is also in charge of all corporate, finance, legal, and HR matters at Code Particle.\n\nFranck received his MS in Computer Science in 1993 from National Institute of Applied Sciences (INSA) in Villeurbanne, France, one of the top French engineering universities.",
           "social": {
@@ -93,7 +93,7 @@
           "bio": "Idan has been involved with security, cyber and crypto related project in various roles and is passionate about creating products that combine unique technologies and user experience.\n\nIdan holds a B.Sc & M.Sc in computer science and worked in startups that were acquired by Facebook and Apple.",
           "social": {
             "twitter": "",
-            "linkedin": "idan-b-y-86907165",
+            "linkedin": "idange",
             "discord": ""
           }
         },
@@ -123,7 +123,7 @@
           "name": "Allan Dumaine",
           "photo": "/assets/img/people/allan.jpg",
           "title": "Sr Software Developer",
-          "bio": "",
+          "bio": "A seasoned professional with over 28 years experience in Information Technology including a variety of executive level roles.  His broad technical background and expertise helps in translating difficult concepts into simple designs and transforming complex business processes into practical software solutions. As a serial entrepreneur, he has been a partner in numerous start-ups and continues to enjoy exploring new opportunities helping organizations create solid business foundations. He is excited to be a part of building the next generation of financial infrastructure and optimistic about the resulting societal changes. In his off time Allan can be found swimming, hiking or mountain biking.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Robin Guyard",
-          "photo": "",
+          "photo": "/assets/img/people/robin.jpg",
           "title": "Software Developer Intern",
           "bio": "",
           "social": {
@@ -231,11 +231,11 @@
         },
         {
           "name": "Johncarlo Maddalena",
-          "photo": "",
+          "photo": "/assets/img/people/johncarlo.jpg",
           "title": "Testing",
           "bio": "Has 19 years of IT experience and has loved computers since his Commodore 64.  He began in career in IT working as a technical customer support representative for one of Australia’s largest Internet Service Providers.  He worked up through the ranks and specialized in network supporting a Network Operations Centre responsible for monitoring and supporting over 30 clients and 5000 devices. After a move to a new city and exposure to the new Microsoft Installer technologies, he transitioned to applications packaging, and quality assurance and testing.\n\nHe’s spent the last 15 years troubleshooting, resolving, and quality controlling deployed applications in various deployment environments (AD/GP, Citrix Metaframe/Presentation Server, SCCM 2007, and SCCM 2012). He holds a  Bachelor of Pharmaceutical Science and Bachelor of Applied Sciences (Honour) degrees.",
           "social": {
-            "twitter": "",
+            "twitter": "Psyrax_Aus",
             "linkedin": "",
             "discord": "psyrax, UTC +11"
           }
@@ -353,9 +353,9 @@
         },
         {
           "name": "Medar",
-          "photo": "",
-          "title": "Content Creation",
-          "bio": "",
+          "photo": "/assets/img/people/medar.jpg",
+          "title": "Grassroots Marketing Associate",
+          "bio": "Crypto enthusiast since 2012, core believer in privacy rights and father of two. Front-end developer. Enjoys spreading knowledge about ZenCash and focus marketing at the grassroots level. In his downtime, spending time in nature and learning new things.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -414,7 +414,7 @@
       "members": [
         {
           "name": "Cogent Law",
-          "photo": "",
+          "photo": "/assets/img/people/cogent.jpg",
           "title": "Legal",
           "bio": "",
           "social": {
@@ -425,7 +425,7 @@
         },
         {
           "name": "Kirk Phillips",
-          "photo": "",
+          "photo": "/assets/img/people/kirk.jpg",
           "title": "Accounting",
           "bio": "",
           "social": {

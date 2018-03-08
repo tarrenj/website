@@ -406,12 +406,6 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   modal.find('#modal-title').text(title);
   modal.find('#modal-bio').html(bio);
 
-  console.log(twitter);
-  console.log(twitterBase);
-  console.log(linkedin);
-  console.log(linkedinBase);
-  console.log(discord);
-
   if ( twitter.length > 0 ) {
     var twitterLink = twitterBase + twitter;
     modal.find('.social-links .twitter a').attr('href', twitterLink);

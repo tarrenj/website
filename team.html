@@ -46,7 +46,9 @@ title: Team
                 data-title="{{member.title}}"
                 data-bio="{{member.bio | newline_to_br}}"
                 data-twitter="{{member.social.twitter}}"
+                data-twitterbase="{{site.data.team.social.twitter}}"
                 data-linkedin="{{member.social.linkedin}}"
+                data-linkedinbase="{{site.data.team.social.linkedin}}"
                 data-discord="{{member.social.discord}}"
               >
                 Read {{member.name | truncatewords: 1, ""}}'s Bio

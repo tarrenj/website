@@ -16,7 +16,7 @@ $(function() {
 
 // Smooth page scroll to an anchor on the same page
 $(function() {
-    $('a[href*="#"]:not([href="#"]):not([data-toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
+    $('a[href*="#"]:not([href="#"]):not([--toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -393,7 +393,9 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   var title = button.data('title');
   var bio = button.data('bio');
   var twitter = button.data('twitter');
+  var twitterBase = button.data('twitterbase');
   var linkedin = button.data('linkedin');
+  var linkedinBase = button.data('linkedinbase');
   var discord = button.data('discord');
   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
   // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
@@ -404,8 +406,14 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
   modal.find('#modal-title').text(title);
   modal.find('#modal-bio').html(bio);
 
+  console.log(twitter);
+  console.log(twitterBase);
+  console.log(linkedin);
+  console.log(linkedinBase);
+  console.log(discord);
+
   if ( twitter.length > 0 ) {
-    var twitterLink = modal.find('.social-links .twitter a').attr('href') + twitter;
+    var twitterLink = twitterBase + twitter;
     modal.find('.social-links .twitter a').attr('href', twitterLink);
   } else {
     modal.find('.social-links .twitter').css('display', 'none');
@@ -415,7 +423,7 @@ $('#team-details-modal').on('show.bs.modal', function (event) {
     if ( linkedin.startsWith('https://www.linkedin.com/company') ) {
       var linkedinLink = linkedin;
     } else {
-      var linkedinLink = modal.find('.social-links .linkedin a').attr('href') + linkedin;
+      var linkedinLink = linkedinBase + linkedin;
     }
     modal.find('.social-links .linkedin a').attr('href', linkedinLink);
   } else {

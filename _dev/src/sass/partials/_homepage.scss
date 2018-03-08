@@ -209,6 +209,62 @@ h2.section-title {
       }
     }
   }
+  @media (max-width: 991px) {
+    // Mobile navigation refinements
+    #mainNav {
+      padding: 0;
+      .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .nav-item {
+          display: flex;
+          flex-grow: 1;
+          align-content: center;
+          justify-content: center;
+          .nav-link {
+            padding: 10px 15px;
+            &.dropdown-toggle {
+              padding-right: 25px;
+            }
+          }
+          &:last-of-type {
+            padding-bottom: 0
+          }
+        }
+      }
+
+      .dropdown-menu {
+        position: relative;
+
+        &.show {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+        .dropdown-item {
+          display: flex;
+          flex-grow: 1;
+          align-content: center;
+          justify-content: center;
+          padding: 10px 15px;
+        }
+        // display: flex;
+        // flex-direction: column;
+        // position: fixed;
+        // height: 100vh;
+        // width: 300px;
+        // top: 0;
+        // right: 0;
+        // z-index: 101;
+        // transform: translateX(300px);
+        // transition: all 0.3s ease-in-out;
+        // &.show {
+        //   transform: translateX(0);
+        //   transition: all 0.3s ease-in-out;
+        // }
+      }
+    }
+  }
 }
 
 .site-header {
@@ -2174,10 +2230,10 @@ section#tech {
       }
       #chooseLanguage {
         font-size: 16px;
-        padding-left: 40px;
-        padding-right: 40px;
+        // padding-left: 40px;
+        // padding-right: 40px;
         margin-left: 0;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
       }
     }
   }

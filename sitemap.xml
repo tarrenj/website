@@ -12,3 +12,4 @@ noindex: true
 <changefreq>hourly</changefreq>
 {% if page.url == '/' %}<priority>1.0</priority>{% else %}<priority>0.9</priority>{% endif %}
 </url>{% endif %}{% endfor %}
+</urlset>

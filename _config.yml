@@ -75,7 +75,7 @@ gems:
 - jekyll-feed
 - jekyll-gist
 - jekyll-paginate
-- jekyll-sitemap
+- jekyll-last-modified-at
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-sass-converter

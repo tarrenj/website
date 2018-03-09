@@ -141,7 +141,7 @@ gulp.task('watch', function () {
     gulp.watch(paths.src + 'sass/**/*.scss', ['sass']);
     gulp.watch(paths.src + 'js/**/*.js', ['concat', 'concat-lp']);
     gulp.watch([
-        '*.{html,md,markdown}',
+        '*.{html,md,markdown,xml}',
         '_layouts/**/*.html',
         '_includes/**/*.html',
         '_i18n/**/*',

@@ -296,7 +296,7 @@ if ( document.getElementById("blogPosts") && document.getElementById("template-b
   // get the categories and posts
   $.ajax({
     type: "GET",
-    url: "https://blog.zensystem.io/wp-json/wp/v2/categories",
+    url: "https://blog.zencash.com/wp-json/wp/v2/categories",
     dataType: "json",
     data: {
       per_page: 50
@@ -311,7 +311,7 @@ if ( document.getElementById("blogPosts") && document.getElementById("template-b
       // get the posts
       $.ajax({
         type: "GET",
-        url: "https://blog.zensystem.io/wp-json/wp/v2/posts",
+        url: "https://blog.zencash.com/wp-json/wp/v2/posts",
         dataType: "json",
         data: {
           // categories_include: [1, 33, 39, 48, 56, 57, 63, 72, 73],

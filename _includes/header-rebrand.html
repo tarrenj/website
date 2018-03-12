@@ -113,16 +113,37 @@
           <a class="nav-link" href="{{link_base}}#blog">blog</a>
         </li>
 
-        {% if site.lang == 'en' %}
-          {% capture current_language %}{% t global.english %}{% endcapture %}
-        {% elsif site.lang == 'ko' %}
-          {% capture current_language %}{% t global.korean %}{% endcapture %}
-        {% endif %}
-
+        {% comment %}Retreive current language name from languages data file{% endcomment %}
         <li class="nav-item">
-          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{current_language}}</a>
+          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{ site.data.languages[site.lang] }}</a>
         </li>
       </ul>
     </div>
   </nav>
 </header>
+<div class="language-sidebar">
+  <a href="#" id="languageClose" class="toggle-languages">
+    <div class="x"></div>
+    <div class="x x2"></div>
+  </a>
+  <ul>
+    {% for language in site.data.languages %}
+    <li>
+      {% if language[0] == "en" %}
+      <a href="{{ site.baseurl_root }}{{ page.url}}">{{ language[1] }}</a>
+      {% elsif language[0] == "ko" %}
+      {% comment %}Hiding Korean version until updated translation is complete{% endcomment %}
+      {% else %}
+        {% if site.lang == language[0] %}
+        <a href="{{ site.baseurl }}{{ page.url}}">{{ language[1] }}</a>
+        {% else %}
+        <a href="/{{ language[0] }}{{ page.url }}">{{ language[1] }}</a>
+        {% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+    <li>
+      <a href="https://ru.zensystem.io/">русский</a>
+    </li>
+  </ul>
+</div>

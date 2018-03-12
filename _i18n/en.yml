@@ -1,8 +1,32 @@
 global:
   roadmap: Roadmap
+newsletter:
+  title: Sign up to receive exclusive updates!
+  success: Success! Please check your email to confirm we have the right one.
+  name: Enter your first name
+  email: Your email address
+  country: Your Country...
+  button: subscribe
+nav:
+  top:
+    about: About
+    features: Features
+    roadmap: Roadmap
+    team: Team
+    whitepaper: White Paper
+    exchanges: Get ZenCash
+    wallets: Use Zen
+    miningpools: Mine Zen
+    community: Community
+    support: Support
+    blog: Blog
+  footer:
 homepage:
   hero:
-    subtitle: Money, Messages, & Media
+    subtitle: The Secure & Private Platform For
+    subtitle2: Money, Messages, & Media
+    wallet-button: Get a Wallet
+    buy-button: Buy ZenCash
     announcement: Excited to Announce R&D Partnership with IOHK
     announcement-button: Learn More
   about:

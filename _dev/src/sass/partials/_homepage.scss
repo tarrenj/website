@@ -164,11 +164,13 @@ h2.section-title {
   .nav-link {
     color: $green;
     font-weight: 400;
-    // text-transform: lowercase;
     &:hover,
     &:focus,
     &:active {
         color: #fff;
+    }
+    &:not(.toggle-languages) {
+      text-transform: lowercase;
     }
   }
   @media (max-width: 767px) {
@@ -639,6 +641,11 @@ h2.section-title {
     border-radius: 5rem;
     img {
       width: 35px;
+    }
+    i {
+      color: white;
+      font-size: 28px;
+      line-height: 35px;
     }
     &:hover,
     &:focus {

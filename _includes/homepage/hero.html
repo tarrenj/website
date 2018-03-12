@@ -13,12 +13,12 @@
         <h1>ZenCash</h1>
 
         {% if site.lang == 'en' %}
-        <h3>The Secure & Private Platform For</h3>
+        <h3>{% translate homepage.hero.subtitle %}</h3>
         {% endif %}
-        <h2>{% translate homepage.hero.subtitle %}</h2>
+        <h2>{% translate homepage.hero.subtitle2 %}</h2>
         <p>
-          <a href="{{site.baseurl}}/wallets/" class="btn btn-lg btn-ghost">Get a Wallet</a>
-          <a href="{{site.baseurl}}/exchanges/" class="btn btn-lg btn-ghost">Buy ZenCash</a>
+          <a href="{{site.baseurl}}/wallets/" class="btn btn-lg btn-ghost">{% translate homepage.hero.wallet-button %}</a>
+          <a href="{{site.baseurl}}/exchanges/" class="btn btn-lg btn-ghost">{% translate homepage.hero.buy-button %}</a>
         </p>
       </div>
     </div>
@@ -29,6 +29,9 @@
     <a href="{{site.links.reddit}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Reddit-Icon.png"></a>
     <a href="{{site.links.bitcointalk}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
     <a href="{{site.links.youtube}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Youtube-Icon.png"></a>
+    {% if site.lang == 'zh' %}
+    <a href="#" class="social-icon" data-toggle="tooltip" data-placement="left" title="<span>ZenCashOfficial</span><img src='/assets/img/icons/wechat.png' />"><i class="fa fa-weixin"></i></a>
+    {% endif %}
   </div>
   <div class="announcement-footer animated slideIn">
     <p class="lead">

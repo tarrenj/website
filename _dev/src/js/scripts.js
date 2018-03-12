@@ -16,7 +16,7 @@ $(function() {
 
 // Smooth page scroll to an anchor on the same page
 $(function() {
-    $('a[href*="#"]:not([href="#"]):not([--toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not(.quote-link)').click(function() {
+    $('a[href*="#"]:not([href="#"]):not([--toggle="collapse"]):not([data-toggle="dropdown"]):not([data-toggle="reveal"]):not([data-toggle="tooltip"]):not(.quote-link)').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -42,6 +42,10 @@ $(function() {
         return false;
       }
     }
+
+    $('[data-toggle="tooltip"]').tooltip({html: true}).click(function(event) {
+      event.preventDefault();
+    });
 });
 
 $('.dropdown-toggle').dropdown();

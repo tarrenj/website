@@ -972,9 +972,10 @@ section#features {
       padding: 120px 5%;
       & > .row {
         height: 100%;
-        .col-md-9 {
+        div[class^="col"] {
           display: flex;
           flex-direction: column;
+          padding: 0 4%;
         }
         .content {
           flex-grow: 1;

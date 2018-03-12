@@ -77,6 +77,29 @@ homepage:
       - title: Minable
         content:
           - Proof-of-work, equihash-based GPU mining
+    techcards:
+      - title: Philosophy
+        content: With a deep focus in research and development, our mission is to level the economic playing field through technology.
+        cta:
+          text: Learn More
+          link: '/philosophy/'
+      - title: Technology
+        content: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and IPFS.
+        cta:
+          text: Learn More
+          link: '/technology/'
+    stats:
+      title: Stats
+      sections:
+        - title: Total Supply
+          id: totalSupply
+          content: 21M
+        - title: Circulating Supply
+          id: circSupply
+          content: 3,401,100
+        - title: Secure Nodes
+          id: secureNodes
+          content: 7,870
   roadmap:
     events:
       2017:

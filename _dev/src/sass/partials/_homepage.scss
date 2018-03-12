@@ -980,6 +980,9 @@ section#features {
           flex-grow: 1;
         }
       }
+      @media (max-width: 575px) {
+        padding: 20px 15px;
+      }
     }
     .icon {
       background-color: $green;

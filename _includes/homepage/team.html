@@ -4,8 +4,8 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2>A Global Team</h2>
-          <p class="subhead-large mb-4">The ZenCash team is comprised of over 50 members from around the globe</p>
+          <h2>{% translate homepage.team.title %}</h2>
+          <p class="subhead-large mb-4">{% translate homepage.team.subtitle %}</p>
         </div>
       </div>
       <div class="row">
@@ -15,7 +15,7 @@
       </div>
       <div class="row justify-content-center">
         <p>
-          <a href="{{site.baseurl}}/team/" class="btn btn-lg btn-inverse">See the Entire Team</a>
+          <a href="{{site.baseurl}}{% translate homepage.team.button.link %}" class="btn btn-lg btn-inverse">{% translate homepage.team.button.text %}</a>
         </p>
       </div>
     </div>

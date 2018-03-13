@@ -21,6 +21,40 @@ nav:
     support: Support
     blog: Blog
   footer:
+    about:
+      title: About
+      items:
+        - title: Technology
+          link: '/technology/'
+        - title: Philosophy
+          link: '/philosophy/'
+        - title: Team
+          link: '/team/'
+        - title: ZenCash
+          link: '/zencash/'
+        - title: ZenChat
+          link: '/zenchat/'
+        - title: ZenPub
+          link: '/zenpub/'
+        - title: ZenHide
+          link: '/zenhide/'
+    resources:
+      title: Resources
+      items:
+        - title: Buy ZenCash
+          link: '/exchanges/'
+        - title: Mining Pool
+          link: '/mining-pools/'
+        - title: Download Wallets
+          link: '/wallets/'
+        - title: Email Support
+          link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
+          type: mailto
+    community:
+      title: Community
+      items:
+        - title:
+          link: ''
 homepage:
   hero:
     subtitle: The Secure & Private Platform For
@@ -158,6 +192,48 @@ homepage:
   whitepaper:
     subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
     button: Download White Paper
+  team:
+    title: A Global Team
+    subtitle: The ZenCash team is comprised of over 50 members from around the globe
+    button:
+      text: See the Entire Team
+      link: '/team/'
+  usezen:
+    title: Use Zen
+    subtitle: Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!
+    features:
+      - title: Buy ZenCash
+        image: /assets/img/icons/money.png
+        link: '/exchanges/'
+      - title: Download Wallets
+        image: /assets/img/icons/safe.png
+        link: '/wallets/'
+      - title: Mining Pools
+        image: /assets/img/icons/mining.png
+        link: '/mining-pools/'
+    merchants:
+      title: Merchants
+      subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.
+  resources:
+    subtitle: These resources will help you better understand the Zen brand and how to properly represent it.
+    items:
+      - title: Legal
+        buttons:
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+            link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
+      - title: Block Explorers
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+  blog:
+    title: Blog
+    button:
+      text: More Blog Posts
+      link: https://blog.zencash.com/
 securenodes:
   hero:
     title: ZenCash is Private Money, Messages, Media

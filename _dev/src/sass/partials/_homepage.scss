@@ -1413,6 +1413,9 @@ section#tech {
   // }
   .feature-item {
     margin: 3rem 0;
+    @media (min-width: 576px) {
+      padding: 0 4rem;
+    }
     h4 {
       color: $green;
       font-weight: 700;

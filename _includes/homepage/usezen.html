@@ -2,65 +2,36 @@
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center text-center">
       <div class="col-lg-6">
-        <h2 class="section-title mb-2">Use Zen</h2>
-        <p class="subhead-large mb-2">Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!</p>
+        <h2 class="section-title mb-2">{% translate homepage.usezen.title %}</h2>
+        <p class="subhead-large mb-2">{% translate homepage.usezen.subtitle %}</p>
       </div>
     </div>
     <div class="row justify-content-center align-items-center text-center use-zen-link-row">
+
+      {% for feature in site.translations[site.lang].homepage.usezen.features %}
       <div class="col use-zen-link">
-        <a href="{{site.baseurl}}/exchanges/" class="use-zen-link-block wobble">
-          <img src="/assets/img/icons/money.png" class="icon">
-          <h4>Buy ZenCash</h4>
+        <a href="{{site.baseurl}}{{ feature.link }}" class="use-zen-link-block wobble">
+          <img src="{{ feature.image }}" class="icon">
+          <h4>{{ feature.title }}</h4>
         </a>
       </div>
-      <div class="col use-zen-link">
-        <a href="{{site.baseurl}}/wallets/" class="use-zen-link-block wobble">
-          <img src="/assets/img/icons/safe.png" class="icon">
-          <h4>Download Wallets</h4>
-        </a>
-      </div>
-      <div class="col use-zen-link">
-        <a href="{{site.baseurl}}/mining-pools/" class="use-zen-link-block wobble">
-          <img src="/assets/img/icons/mining.png" class="icon">
-          <h4>Mining Pools</h4>
-        </a>
-      </div>
+      {% endfor %}
+
     </div>
   </div>
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center text-center">
       <div class="col-lg-6">
-        <h2 class="lined-subtext green">Merchants</h2>
-        <p class="subhead-large mb-2 mt-5">A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.</p>
+        <h2 class="lined-subtext green">{% translate homepage.usezen.merchants.title %}</h2>
+        <p class="subhead-large mb-2 mt-5">{% translate homepage.usezen.merchants.subtitle %}</p>
       </div>
     </div>
     <div class="row justify-content-center feature-row">
-      <div class="col-lg-3">
-        <div class="feature-item">
-          <h4>Merchant Services Integration</h4>
-          <ul>
-            <li><a href="https://www.coinpayments.net/store-directory-coin-ZEN" target="_blank">CoinPayments</a></li>
-            <li><a href="https://www.youtube.com/watch?v=eM_dYQKCqlI" data-lity>Cointopay</a> - Shopify stores can now accept ZEN!</li>
-            <li><a href="https://coss.io/" target="_blank">Coss.io</a> - merchant plugin with automatic currency conversion</li>
-            <li>OpenBazaar (1Q 2018)</li>
-          </ul>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        {% translate_file homepage/merchants-1.md %}
       </div>
-      <div class="col-lg-1"></div>
-      <div class="col-lg-3">
-        <div class="feature-item">
-          <h4>Payment Systems</h4>
-          <ul>
-            <li><a href="http://welto.io/" target="_blank">Welto App</a> integration to pay your bills</li>
-          </ul>
-        </div>
-        <div class="feature-item">
-          <h4>Peer-to-Peer Payments</h4>
-          <ul>
-            <li>BitCash App integration (1Q 2018)</li>
-            <li>Zen Wallets Business-to-Business!</li>
-          </ul>
-        </div>
+      <div class="col-md-6 col-lg-4">
+        {% translate_file homepage/merchants-2.md %}
       </div>
     </div>
   </div>

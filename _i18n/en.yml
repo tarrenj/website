@@ -4,6 +4,8 @@ newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.
   name: Enter your first name
+  firstname: Your first name
+  lastname: Your last name
   email: Your email address
   country: Your Country...
   button: subscribe
@@ -52,9 +54,12 @@ nav:
           type: mailto
     community:
       title: Community
-      items:
-        - title:
-          link: ''
+    email:
+      title: Get Email Updates
+      contact:
+        title: Contact Us
+        email: info@zencash.com
+    copyright: All rights reserved.
 homepage:
   hero:
     subtitle: The Secure & Private Platform For

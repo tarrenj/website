@@ -8,7 +8,7 @@ newsletter:
   lastname: Your last name
   email: Your email address
   country: Your Country...
-  button: subscribe
+  button: Subscribe
 nav:
   top:
     about: About
@@ -45,7 +45,7 @@ nav:
       items:
         - title: Buy ZenCash
           link: '/exchanges/'
-        - title: Mining Pool
+        - title: Mining Pools
           link: '/mining-pools/'
         - title: Download Wallets
           link: '/wallets/'

@@ -1,36 +1,36 @@
 global:
-  roadmap: Roadmap
+  roadmap: 路线图
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.
-  name: Enter your first name
-  firstname: Your first name
-  lastname: Your last name
-  email: Your email address
-  country: Your Country...
-  button: subscribe
+  name: 您的名字
+  firstname: 您的名字
+  lastname: 您的姓氏
+  email: 您的邮件地址
+  country: 您的国家
+  button: 订阅
 nav:
   top:
-    about: About
-    features: Features
-    roadmap: Roadmap
-    team: Team
-    whitepaper: White Paper
-    exchanges: Get ZenCash
-    wallets: Use Zen
-    miningpools: Mine Zen
-    community: Community
-    support: Support
-    blog: Blog
+    about: 关于
+    features: 亮点
+    roadmap: 路线图
+    team: 团队
+    whitepaper: 白皮书
+    exchanges: 购买 ZenCash
+    wallets: 使用 zen
+    miningpools: 挖掘 zen
+    community: 社区
+    support: 支持
+    blog: 博客
   footer:
     about:
-      title: About
+      title: 关于
       items:
-        - title: Technology
+        - title: 技术
           link: '/technology/'
-        - title: Philosophy
+        - title: 哲学理念
           link: '/philosophy/'
-        - title: Team
+        - title: 团队
           link: '/team/'
         - title: ZenCash
           link: '/zencash/'
@@ -41,192 +41,192 @@ nav:
         - title: ZenHide
           link: '/zenhide/'
     resources:
-      title: Resources
+      title: 资源
       items:
-        - title: Buy ZenCash
+        - title: 购买 ZenCash
           link: '/exchanges/'
-        - title: Mining Pool
+        - title: 矿池
           link: '/mining-pools/'
-        - title: Download Wallets
+        - title: 下载钱包
           link: '/wallets/'
-        - title: Email Support
+        - title: 邮件支持
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto
     community:
-      title: Community
+      title: 社区
     email:
-      title: Get Email Updates
+      title: 获取更新邮件
       contact:
-        title: Contact Us
+        title: 联系我们
         email: info@zencash.com
-    copyright: All rights reserved.
+    copyright: 版权所有
 homepage:
   hero:
-    subtitle: The Secure & Private Platform For
-    subtitle2: Money, Messages, & Media
-    wallet-button: Get a Wallet
-    buy-button: Buy ZenCash
-    announcement: Excited to Announce R&D Partnership with IOHK
-    announcement-button: Learn More
+    subtitle: 一个安全、私密的平台
+    subtitle2: 为资金、信息、媒体而打造的
+    wallet-button: 下载钱包
+    buy-button: 购买 ZenCash
+    announcement: 喜讯：我们已经与 IOHK 达成了研发合作关系
+    announcement-button: 了解更多
   about:
-    title: Zen is a platform with the latest privacy technology and a self-sustaining funding model with protocol-level solutions
+    title: Zen 作为一个平台，采用了最新的隐私保护技术，通过协议层解决方案构建了一套自给自足的融资模式
     products:
-      zencash: For Money
-      zenchat: For Messaging
-      zenpub: For Media
-      zenhide: For Web Traffic
-      development: (in development)
+      zencash: 用于支付
+      zenchat: 用于即时通信
+      zenpub: 用于媒体
+      zenhide: 用于网络浏览
+      development: (开发中)
       nav:
-        - title: Features
+        - title: 亮点
           link: '#features'
           icon: /assets/img/icons/features.png
-        - title: Roadmap
+        - title: 路线图
           link: '#roadmap'
           icon: /assets/img/icons/roadmap.png
-        - title: Team
+        - title: 团队
           link: '#team-overview'
           icon: /assets/img/icons/team.png
-        - title: White Paper
+        - title: 白皮书
           link: '#white-paper'
           icon: /assets/img/icons/whitepaper.png
   features:
-    title: ZenCash is Public, Private, and Anonymous
-    cta: More about the IOHK Partnership
+    title: ZENCASH 既是公共的 也是私密的 更是匿名的
+    cta: 了解我们和 IOHK 的合作伙伴关系
   tech:
-    title: Secure - Private - Untraceable - Resilient
-    subtitle: Zen aims to lead the technological forefront & contribute to humanity through innovation
+    title: 私密性 - 安全性 - 反追踪 - 抗破坏 - 可挖矿
+    subtitle: Zen 致力于引领技术前沿，并通过创新造福全人类
     features:
-      - title: Best Privacy Tech
+      - title: 最棒的隐私保护技术
         content:
-          - zk-SNARKS - Private transactions with hidden sender/receiver information
-          - Domain Fronting - Hides internet connection endpoints to prevent censorship
-          - IPFS - Publish or access data anonymously via a distributed system
-      - title: Decentralized Autonomous Organization (DAO)
+          - zk-SNARKS - 通过隐藏交易双方信息，实现交易私密
+          - 域名前置 - 隐藏互联网连接端点以防止审查
+          - IPFS - 通过分散式系统匿名地传播和访问数据
+      - title: 去中心化自治组织 (DAO)
         content:
-          - Allocate resources through the most advanced Treasury Model designed with the best privacy tech coupled with economic theory
-      - title: Most Resilient System
+          - 得益于高超的隐私保护技术及经济学原理，我们采用最先进的储备金模式分配资源
+      - title: 牢不可破的系统
         content:
-          - <a href="https://securenodes.na.zensystem.io/">Zen Secure Nodes</a> → <span id="nodeCount">6640</span> Nodes!
-      - title: Research and Development Focus
+          - <a href="https://securenodes.na.zensystem.io/">Zen 的安全节点数量</a> → 已达到 <span id="nodeCount">6640</span> 个！
+      - title: 关注研发
         content:
-          - Protocol-level solutions like DAO,  next generation Scaling, and more!
-      - title: Most Secure System
+          - 包括 DAO 在内的协议层解决方案，次时代延展技术，及其他相关技术
+      - title: 极度安全的系统
         content:
-          - ZenCash has node-to-node encryption → 1st to market!
-      - title: Minable
+          - ZenCash 采用了节点对节点加密技术 → 市面首家！
+      - title: 可挖矿
         content:
-          - Proof-of-work, equihash-based GPU mining
+          - 采用工作量证明机制 (PoW)，基于 Equihash 算法的 GPU 挖矿模式
     techcards:
-      - title: Philosophy
-        content: With a deep focus in research and development, our mission is to level the economic playing field through technology.
+      - title: 哲学理念
+        content: 我们高度关注研发，致力于通过科技实现经济公平
         cta:
-          text: Learn More
+          text: 了解更多
           link: '/philosophy/'
-      - title: Technology
-        content: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and IPFS.
+      - title: 技术
+        content: Zen 采用 zk-SNARKS 技术，拥有节点加密，域名前置及 IPFS 作为额外层
         cta:
-          text: Learn More
+          text: 了解更多
           link: '/technology/'
     stats:
-      title: Stats
+      title: 统计数据
       sections:
-        - title: Total Supply
+        - title: 总量
           id: totalSupply
           content: 21M
-        - title: Circulating Supply
+        - title: 流通量
           id: circSupply
           content: 3,401,100
-        - title: Secure Nodes
+        - title: 安全节点数量
           id: secureNodes
           content: 7,870
   roadmap:
     events:
       2017:
-        - title: ZenCash Launch
+        - title: ZenCash 项目启动
           icon: /assets/img/icons/launch.png
           content:
-            - ZenCash launched on 5.30.17
-        - title: Core Updates
+            - ZenCash 项目于 2017年5月30日启动
+        - title: 核心更新
           icon: /assets/img/icons/updates.png
           content:
-            - First blockchain with TLS integration (SSL cert for node encryption)
-            - Blockchain improvements
-            - Replay protection
-        - title: Wallets and Products
+            - 第一个整合 TLS 协议的区块链 (通过 SSL 证书进行节点加密)
+            - 改进区块链
+            - 重放攻击保护
+        - title: 钱包及产品
           icon: /assets/img/icons/wallet.png
           content:
-            - Tor ZenCash Nodes
-            - Chat messaging
-            - Swing Wallet - full blockchain
-            - Android Wallet
-            - Arizen Wallet - lite blockchain
-            - Paper Wallet
-        - title: Secure Nodes
+            - Tor(洋葱路由) ZenCash 节点
+            - 聊天工具
+            - Swing 钱包 - 包含所有区块数据
+            - 安卓钱包
+            - Arizen 钱包 - 包含部分区块数据
+            - 纸钱包
+        - title: 安全节点
           icon: /assets/img/icons/encryption.png
           content:
-            - Resilient end-to-end network encryption
-            - Payment system for secure node operators
+            - 牢不可破的端对端加密网络
+            - 为运行安全节点的人设计的支付系统
       2018:
-        - title: Wallets and Projects
+        - title: 钱包及项目
           icon: /assets/img/icons/voting.png
           content:
-            - Proposal Submission and Voting System GUI
-            - iOS Wallet
-            - OpenBazaar Integration
-            - Operation Radical Transparency
-        - title: Secure Node
+            - 议案递交及投票机制的 GUI
+            - iOS 钱包
+            - 整合 OpenBazaar
+            - 运作彻底透明化
+        - title: 安全节点
           icon: /assets/img/icons/secure.png
           content:
-            - Secure Node system improvements
-            - Secure Node system built into blockchain protocol study
-        - title: Research and Development
+            - 改善安全节点系统
+            - 研究如何将安全节点系统纳进区块链协议
+        - title: 研究与开发
           icon: /assets/img/icons/r-d.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Scaling study - next generation blockchain solution
-            - Domain Fronting
-            - ZenPub Protocol-level
+            - 基于协议层的 DAO 储备金投票机制
+            - 可延展性研究 - 次时代区块链解决方案
+            - 域名前置
+            - ZenPub 协议层
       2019:
-        - title: Deliver to Market
+        - title: 市场投放
           icon: /assets/img/icons/scalability-study.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Dandelion++ Integration for Network Stack Anonymity
-            - Scalability Solution
-            - IPFS published on Secure Nodes
+            - 基于协议层的 DAO 储备金投票机制
+            - 整合 Dandelion++ 实现网络堆栈匿名化
+            - 可延展性解决方案
+            - 在安全节点上发布 IPFS
   whitepaper:
-    subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
-    button: Download White Paper
+    subtitle: "白皮书正在修订中。原始白皮书中约 80% 的内容不变："
+    button: 载白皮书
   team:
-    title: A Global Team
-    subtitle: The ZenCash team is comprised of over 50 members from around the globe
+    title: 全球性的团队
+    subtitle: ZenCash 团队成员超过50位，来自世界各地
     button:
-      text: See the Entire Team
+      text: 查看完整团队
       link: '/team/'
   usezen:
-    title: Use Zen
-    subtitle: Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!
+    title: 使用 ZEN
+    subtitle: 我们立志于让 ZenCash 成为市面上最有用的私密虚拟币！
     features:
-      - title: Buy ZenCash
+      - title: 购买 ZENCASH
         image: /assets/img/icons/money.png
         link: '/exchanges/'
-      - title: Download Wallets
+      - title: 下载钱包
         image: /assets/img/icons/safe.png
         link: '/wallets/'
-      - title: Mining Pools
+      - title: 矿池
         image: /assets/img/icons/mining.png
         link: '/mining-pools/'
     merchants:
-      title: Merchants
-      subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.
+      title: 商户
+      subtitle: 令 ZenCash 变得有用，关键在于将各种支付系统与商户服务结合起来
   resources:
-    subtitle: These resources will help you better understand the Zen brand and how to properly represent it.
+    subtitle: 这些资源能帮助您进一步了解 Zen 品牌，并得知如何正确引用
     items:
-      - title: Legal
+      - title: 法律备忘录
         buttons:
-          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> 下载'
             link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
-      - title: Block Explorers
+      - title: 区块浏览器
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -235,9 +235,9 @@ homepage:
           - text: 3
             link: https://explorer.zen-solutions.io/
   blog:
-    title: Blog
+    title: 博客
     button:
-      text: More Blog Posts
+      text: 更多博文
       link: https://blog.zencash.com/
 securenodes:
   hero:

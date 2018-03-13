@@ -1,5 +1,5 @@
-### With a Focus on Research and Development
-**Partnered with IOHK, a leading blockchain R&D company**
-- Governance and Protocol Level Treasury System
-- Scalability Study
-- Network Stack Anonymization
+### 研发始终是我们的关注点
+**与 IOHK 建立合作伙伴关系 - 这是一家顶级的区块链研发公司**
+- 治理模式 及 基于协议层的储备金体制
+- 可延展性研究
+- 网络堆栈匿名化

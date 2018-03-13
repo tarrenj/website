@@ -1,7 +1,7 @@
 <div class="feature-item" markdown="1">
-#### Merchant Services Integration
+#### 商户服务整合
 - [CoinPayments](https://www.coinpayments.net/store-directory-coin-ZEN){:target="_blank"}
-- [Cointopay](https://www.youtube.com/watch?v=eM_dYQKCqlI){:data-lity=""} - Shopify stores can now accept ZEN!
-- [Coss.io](https://coss.io/){:target="_blank"} - merchant plugin with automatic currency conversion
-- OpenBazaar (1Q 2018)
+- [Cointopay](https://www.youtube.com/watch?v=eM_dYQKCqlI){:data-lity=""} - Shopify 网店现在可接受 ZEN 作为支付手段！
+- [Coss.io](https://coss.io/){:target="_blank"} - 支持货币自动转换的商户插件
+- OpenBazaar (2018 第一季度)
 </div>

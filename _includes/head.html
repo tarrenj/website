@@ -3,20 +3,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- SEO -->
-  {% if page.url == '/' %}
-  <title>{{site.title}}{% if page.title %} | {{ page.title }}{% endif %}</title>
-  {% else %}
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{site.title}}</title>
-  {% endif %}
+  <title>{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}</title>
   <meta property="og:title" content="{{ page.title }}">
-  {% if page.meta-description != '' %}
-      <meta name="description" content="{{ page.meta-description }}">
-      <meta property="og:description" content="{{ page.meta-description }}">
+  {% if page.description != '' %}
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}">
   {% else %}
-      <meta name="description" content="{{ site.description }}">
-      <meta property="og:description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
   {% endif %}
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  {% for language in site.languages %}
+  {% if language == 'en' %}
+  <link rel="alternate" href="{{site.url}}" hreflang="{{language}}" />
+  {% else %}
+  <link rel="alternate" href="{{site.url}}/{{language}}/" hreflang="{{language}}" />
+  {% endif %}
+  {% endfor %}
   <meta property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <script type="application/ld+json">

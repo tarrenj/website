@@ -1,0 +1,23 @@
+.lng-zh {
+  .btn {
+    font-size: 1rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+  .body-link {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 575px) {
+    #about {
+      .body-link {
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

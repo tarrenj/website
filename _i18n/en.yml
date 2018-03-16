@@ -1,7 +1,9 @@
 global:
   roadmap: Roadmap
 titles:
-  mining-pools: "Mining Pools"
+  mining-pools: "ZenCash Mining Pools"
+descriptions:
+  mining-pools: "List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community."
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.

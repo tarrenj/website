@@ -5,7 +5,10 @@
   <!-- SEO -->
   <title>{% if page.title contains 'titles.' %}{% t page.title %}{% elsif page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}</title>
   <meta property="og:title" content="{{ page.title }}">
-  {% if page.description != '' %}
+  {% if page.description contains 'descriptions.' %}
+  <meta name="description" content="{% t page.description %}">
+  <meta property="og:description" content="{% t page.description %}">
+  {% elsif page.description != '' %}
   <meta name="description" content="{{ page.description }}">
   <meta property="og:description" content="{{ page.description }}">
   {% else %}

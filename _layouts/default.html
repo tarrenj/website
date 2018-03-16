@@ -7,7 +7,7 @@ layout: compress
 
     {% include head.html %}
 
-    {% capture page_id %}{% if page.url == '/' %}homepage{% else %}{{ page.url | slugify }}{% endif %}{% endcapture %}
+    {% capture page_id %}{% if page.url == '/' %}homepage{% elsif page.namespace != '' || !page.namespace %}{{ page.namespace | slugify }}{% else %}{{ page.url | slugify }}{% endif %}{% endcapture %}
 
     <body id="{{ page_id }}" class="lng-{{site.lang}}">
 

@@ -47,6 +47,7 @@ nav:
           link: '/exchanges/'
         - title: Mining Pools
           link: '/mining-pools/'
+          namespace: mining-pools
         - title: Download Wallets
           link: '/wallets/'
         - title: Email Support

@@ -47,6 +47,7 @@ nav:
           link: '/exchanges/'
         - title: 矿池
           link: '/mining-pools/'
+          namespace: mining-pools
         - title: 下载钱包
           link: '/wallets/'
         - title: 邮件支持

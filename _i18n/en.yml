@@ -1,5 +1,7 @@
 global:
   roadmap: Roadmap
+titles:
+  mining-pools: "Mining Pools"
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.

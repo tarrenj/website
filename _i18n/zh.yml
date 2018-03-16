@@ -1,5 +1,7 @@
 global:
   roadmap: 路线图
+titles:
+  mining-pools: "矿池"
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.

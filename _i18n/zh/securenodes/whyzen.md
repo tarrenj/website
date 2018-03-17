@@ -1,21 +1,21 @@
-## Why ZenCash?
+## 为什么 ZenCash?
 {: .content-title}
 
-A decentralized cryptocurrency which is **Public**, **Private**, and **Anonymous**.
+ZENCASH 既是公共的 也是私密的 更是匿名的
 {: .lead .mb-4}
 
-Has its own blockchain, and is used for **Transactions**, **Communications**, and **Publishing**.
+拥有自己的用于交易，通讯和发布的区块链
 {: .lead .mb-4}
 
-Designed for long-term operation:
+为长期运作而设计:
 {: .lead .mb-4}
 
-- 21 million ZenCash cap - no premine, no ICO
-- Thousands of Secure Nodes in operation - 3.5% of mining reward
-- Treasury funds for development, support, marketing - 8.5% of mining reward
-- Strong Team & Representative Governance - Zen Blockchain Foundation
-- Wallets and communication clients for International Users
-- Marketing Globalization - Tailored approach to different markets
-- Secure Nodes provide a resilient, distributed network
+- ZenCash 总量上限为 2100 万 - 无预挖，无 ICO
+- 数千个正在运行的安全节点 - 挖矿奖励的 3.5%
+- 为后续研发、支持和推广预留的储备金 -  挖矿奖励的 8.5%
+- 强大的团队 及 代议制治理模式 - Zen 区块链基金会
+- 针对国际用户设计的钱包及通信客户端
+- 营销全球化 - 为不同市场量身定制解决方案
+- 众多安全节点搭建起了一个牢不可破的分布式网络
 
-[Why Secure Nodes are Important](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}
+[安全节点为何如此重要](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}

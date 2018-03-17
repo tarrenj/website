@@ -29,6 +29,8 @@ global:
     paper: Paper Wallet
   forum: Forum
   go: GO
+  anonymous: anonymous
+  korean: Korean
 titles:
   homepage: A globally accessible and anonymous blockchain
   iohk: ZenCash and IOHK partner for Research and Development
@@ -344,7 +346,6 @@ securenodes:
     cta: Instructions to Set Up Secure Nodes
   requirements:
     title: Requirements
-    cta: Instructions to Set Up Secure Nodes
     list:
       - title: 42 $ZEN
         subtitle: in transparent address per node
@@ -361,5 +362,6 @@ securenodes:
       - title: 92%+ Uptime
         subtitle: Keep the node up and running at least 92% of the time
         icon: /assets/img/icons/vector-1.png
+    cta: Instructions to Set Up Secure Nodes
   footer:
     title: Buy or Sell ZenCash

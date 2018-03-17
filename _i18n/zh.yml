@@ -29,6 +29,8 @@ global:
     paper: 纸钱包
   forum: 论坛
   go: 点击前往
+  anonymous: 匿名
+  korean: 韩文
 titles:
   homepage: ZenCash
   iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
@@ -319,27 +321,27 @@ iohk:
     button: 进一步了解 ZENCASH
 securenodes:
   hero:
-    title: ZenCash is Private Money, Messages, Media
-    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
-    cta: Instructions to Set Up Secure Nodes
+    title: ZenCash 是私密的金钱，信息和媒体
+    subtitle: 安全节点让ZenCash网络成为最去中心化和牢固的区块链
+    cta: 如何建立安全节点说明
   requirements:
-    title: Requirements
-    cta: Instructions to Set Up Secure Nodes
+    title: 要求
     list:
-      - title: 42 $ZEN
-        subtitle: in transparent address per node
+      - title: 42 枚 ZenCash
+        subtitle: 每个节点需要在公开地址上保留
         icon: /assets/img/icons/vector-1.png
-      - title: TLS Certificate
-        subtitle: from a known Certificate Authority
+      - title: TLS 证书
+        subtitle: 从知名认证中心处创建和保存有效的
         icon: /assets/img/icons/vector-3.png
-      - title: Computational Challenge
-        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+      - title: 算力挑战
+        subtitle: 在具备足够的处理器资源及内存的服务器上运行节点，以解决高算力任务
         icon: /assets/img/icons/vector-2.png
-      - title: ZenCash Blockchain
-        subtitle: Maintain a full copy of the ZenCash Blockchain
+      - title: ZenCash 区块链
+        subtitle: 保存 ZenCash 区块链的完整账本
         icon: /assets/img/icons/vector-4.png
-      - title: 92%+ Uptime
-        subtitle: Keep the node up and running at least 92% of the time
+      - title: 92% 以上在线时间
+        subtitle: 保持节点在线，并至少运行 92% 的时间
         icon: /assets/img/icons/vector-1.png
+    cta: 如何建立安全节点说明
   footer:
-    title: Buy or Sell ZenCash
+    title: 购买或出售ZenCash

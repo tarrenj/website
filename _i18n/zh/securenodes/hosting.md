@@ -1,9 +1,9 @@
-## Host a secure node, earn mining rewards and become part of ZenCash!
+## 运行一个安全节点，赚取挖矿奖励，并成为 ZenCash 的一份子吧！
 {: .content-title}
 
-Secure Node Operators get rewarded with 3.5% of the mining rewards
+安全节点运行者获得挖矿奖励的 3.5%
 {: .lead}
 
-One of the first security features of ZenCash was the encryption of the inter-node communications. This was deployed, and now ZenCash node communication looks like any other encrypted Internet traffic, instead of like Bitcoin traffic. This helps to hide the type of activity taking place, making it less likely that ZenCash users and nodes are blocked.
+作为 ZenCash 的首要安全特性之一，节点间通信得到加密。我们已经部署该特性，现在 ZenCash 节点的通信看上去与其他加密互联网流量没什么区别，不像比特币流量那么显眼。这种特性有效地掩藏了实际发生的活动类型，使得 ZenCash 用户和节点很难被屏蔽。
 
-For reliability, we want thousands of secure nodes all over the world that users can connect to quickly and easily, and are willing to provide compensation to the node operators. If we have an extensive, distributed, and reliable network, people can use ZenCash no matter what happens. Secure Nodes enable the security and reliability of the ZenCash system.
+为保证稳定，我们希望有数千个安全节点遍布全球，这样用户可以迅速、方便地与它们建立连接，并且愿意向节点运行者支付报酬。如果我们拥有一个庞大的、分布式的、可靠的网络，人们就可以随时随地使用 ZenCash。安全节点令 ZenCash 系统变得安全可靠。

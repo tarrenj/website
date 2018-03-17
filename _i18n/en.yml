@@ -292,6 +292,27 @@ homepage:
     button:
       text: More Blog Posts
       link: https://blog.zencash.com/
+mining-pools:
+  subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
+  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.'
+  resources:
+    items:
+      - title: Zen Mining Profit Calculator
+        buttons:
+          - text: Go
+            link: https://whattomine.com/coins/185-zen-equihash
+      - title: Zen Mining Pool Forum Topic
+        buttons:
+          - text: Go
+            link: https://forum.zensystem.io/t/zen-mining-pools-list/73
+      - title: Block Explorers
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
 dao-infographic:
   title: Decentralized Autonomous Organization (DAO) Treasury
   subtitle: ZenCash Treasury Model is an inclusive, provably fair, and transparent economic system with incentives to participate.

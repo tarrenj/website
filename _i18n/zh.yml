@@ -272,6 +272,27 @@ homepage:
     button:
       text: 更多博文
       link: https://blog.zencash.com/
+mining-pools:
+  subtitle: 只要拥有一张现代显卡，您就能挖掘 ZenCash。ZenCash 采用工作量证明机制 (PoW)，基于 Equihash 算法进行 GPU 挖矿。
+  content: '我们建议将算力分散在各个矿池中，以抵御 <a href="https://en.bitcoin.it/wiki/Majority_attack">51% 算力攻击</a>.'
+  resources:
+    items:
+      - title: Zen挖矿利润计算器
+        buttons:
+          - text: 点击前往
+            link: https://whattomine.com/coins/185-zen-equihash
+      - title: Zen矿池论坛话题
+        buttons:
+          - text: 点击前往
+            link: https://forum.zensystem.io/t/zen-mining-pools-list/73
+      - title: 区块链浏览器
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
 dao-infographic:
   title: 去中心化自治组织 (DAO) 储备金
   subtitle: ZenCash 储备金模式是一个包容的、被证明是公平的、公开透明的经济机制，激励人们参与进来。

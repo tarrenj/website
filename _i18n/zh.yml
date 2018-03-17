@@ -18,7 +18,10 @@ global:
     business-development: 商业开发
     partners: 合作伙伴
     advisors: 顾问
+  exchanges: 交易所
   mining-pools: 矿池
+  forum: 论坛
+  go: 点击前往
 titles:
   homepage: ZenCash
   iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
@@ -92,8 +95,8 @@ nav:
     copyright: 版权所有
 homepage:
   hero:
-    subtitle: 一个安全、私密的平台
-    subtitle2: 为资金、信息、媒体而打造的
+    subtitle: 一个安全且私密的平台
+    subtitle2: 为资金、信息、媒体而打造
     wallet-button: 下载钱包
     buy-button: 购买 ZenCash
     announcement: 喜讯：我们已经与 IOHK 达成了研发合作关系

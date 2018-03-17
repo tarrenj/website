@@ -18,7 +18,10 @@ global:
     business-development: Business Development
     partners: Partners
     advisors: Advisors
+  exchanges: Exchanges
   mining-pools: Mining Pools
+  forum: Forum
+  go: GO
 titles:
   homepage: A globally accessible and anonymous blockchain
   iohk: ZenCash and IOHK partner for Research and Development

@@ -1,5 +1,8 @@
 global:
   roadmap: 路线图
+  technology: 技术
+  philosophy: 哲学理念
+  mining-pools: 矿池
 titles:
   homepage: ZenCash
   iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
@@ -207,7 +210,7 @@ homepage:
             - 在安全节点上发布 IPFS
   whitepaper:
     subtitle: "白皮书正在修订中。原始白皮书中约 80% 的内容不变："
-    button: 载白皮书
+    button: 下载白皮书
   team:
     title: 全球性的团队
     subtitle: ZenCash 团队成员超过50位，来自世界各地
@@ -250,6 +253,12 @@ homepage:
     button:
       text: 更多博文
       link: https://blog.zencash.com/
+dao-infographic:
+  title: 去中心化自治组织 (DAO) 储备金
+  subtitle: ZenCash 储备金模式是一个包容的、被证明是公平的、公开透明的经济机制，激励人们参与进来。
+  image: '/assets/img/iohk-infographic.png'
+  image-mobile: '/assets/img/iohk-infographic-mobile.png'
+  button: 阅读 ZenCash 白皮书
 securenodes:
   hero:
     title: ZenCash is Private Money, Messages, Media

@@ -1,7 +1,14 @@
 global:
   roadmap: 路线图
 titles:
-  mining-pools: "ZenCash 矿池"
+  homepage: ZenCash
+  iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
+  technology: Zen 技术
+  team: Zen 的团队
+  exchanges: ZenCash 交易所
+  mining-pools: ZenCash 矿池
+  wallets: ZenCash 钱包
+  securenodes: ZenCash 安全节点数量
 descriptions:
 newsletter:
   title: Sign up to receive exclusive updates!
@@ -30,11 +37,11 @@ nav:
       title: 关于
       items:
         - title: 技术
-          link: '/technology/'
+          namespace: technology
         - title: 哲学理念
-          link: '/philosophy/'
+          namespace: philosophy
         - title: 团队
-          link: '/team/'
+          namespace: team
         - title: ZenCash
           link: '/zencash/'
         - title: ZenChat
@@ -47,12 +54,12 @@ nav:
       title: 资源
       items:
         - title: 购买 ZenCash
-          link: '/exchanges/'
+          namespace: exchanges
         - title: 矿池
-          link: '/mining-pools/'
           namespace: mining-pools
         - title: 下载钱包
           link: '/wallets/'
+          namespace: wallets
         - title: 邮件支持
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto

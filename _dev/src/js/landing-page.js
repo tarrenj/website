@@ -24,3 +24,8 @@ $(function() {
         }
     });
 });
+
+$('.toggle-languages').click(function(event) {
+  event.preventDefault();
+  $('.language-sidebar').toggleClass('show');
+});

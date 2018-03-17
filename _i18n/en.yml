@@ -1,9 +1,33 @@
 global:
   roadmap: Roadmap
 titles:
-  mining-pools: "ZenCash Mining Pools"
+  homepage: A globally accessible and anonymous blockchain
+  iohk: ZenCash and IOHK partner for Research and Development
+  philosophy: Changing the world one bit at a time
+  technology: Zen Technology
+  team: Meet Our Team
+  exchanges: ZenCash Exchanges
+  mining-pools: ZenCash Mining Pools
+  wallets: ZenCash Wallets
+  securenodes: ZenCash Secure Nodes
+  zencash: ZenCash for Money
+  zenchat: ZenChat for Secure Messaging
+  zenpub: ZenPub - Decentralized Cloud Storage
+  zenhide: ZenHide for Censorship resistance
 descriptions:
-  mining-pools: "List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community."
+  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
+  iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
+  philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
+  technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
+  team: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
+  exchanges: Looking to buy or trade ZenCash? Find a list of all exchanges that support ZenCash here.
+  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
+  wallets: Store your ZenCash safely and securely. Choose one of our many ZenCash Wallets.
+  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
+  zencash: ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses. T addresses are regular addresses and transactions are similar to bitcoin. Z addresses are called shielded addresses and leverage the latest privacy technology, zk-SNARKS, to obscure sender and recipient addresses, as well as amount sent.
+  zenchat: ZenChat is the most secure and private messaging application on the market and can be used as a standalone product or embedded within ZenCash wallets.
+  zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
+  zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.
@@ -31,11 +55,11 @@ nav:
       title: About
       items:
         - title: Technology
-          link: '/technology/'
+          namespace: technology
         - title: Philosophy
-          link: '/philosophy/'
+          namespace: philosophy
         - title: Team
-          link: '/team/'
+          namespace: team
         - title: ZenCash
           link: '/zencash/'
         - title: ZenChat
@@ -49,11 +73,13 @@ nav:
       items:
         - title: Buy ZenCash
           link: '/exchanges/'
+          namespace: exchanges
         - title: Mining Pools
           link: '/mining-pools/'
           namespace: mining-pools
         - title: Download Wallets
           link: '/wallets/'
+          namespace: wallets
         - title: Email Support
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto

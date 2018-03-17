@@ -7,7 +7,8 @@
         <ul class="nav flex-column">
           {% for item in site.translations[site.lang].nav.footer.about.items %}
           <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}{{ item.link }}">{{ item.title }}</a>
+            {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ site.lang }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
+            <a class="nav-link" href="{{ footer_link }}">{{ item.title }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -20,7 +21,7 @@
             {% if item.type == 'mailto' %}
             <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
             {% else %}
-            {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ language[0] }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
+            {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ site.lang }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
             <a class="nav-link" href="{{ footer_link }}">{{ item.title }}</a>
             {% endif %}
           </li>

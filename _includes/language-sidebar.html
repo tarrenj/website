@@ -1,0 +1,26 @@
+<div class="language-sidebar">
+  <a href="#" id="languageClose" class="toggle-languages">
+    <div class="x"></div>
+    <div class="x x2"></div>
+  </a>
+  <ul>
+    {% for language in site.data.languages %}
+    <li>
+      {% if language[0] == "en" %}
+      <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+      {% elsif language[0] == "ko" %}
+      {% comment %}Hiding Korean version until updated translation is complete{% endcomment %}
+      {% else %}
+        {% if site.lang == language[0] %}
+        <a href="{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+        {% else %}
+        <a href="{{ site.baseurl }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+        {% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+    <li>
+      <a href="https://ru.zensystem.io/">русский</a>
+    </li>
+  </ul>
+</div>

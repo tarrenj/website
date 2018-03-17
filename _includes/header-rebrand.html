@@ -71,10 +71,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/exchanges/">{% translate nav.top.exchanges %}</a>
+          <a class="nav-link" href="{% tl exchanges {{ site.lang }} %}">{% translate nav.top.exchanges %}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/wallets/">{% translate nav.top.wallets %}</a>
+          <a class="nav-link" href="{% tl wallets {{ site.lang }} %}">{% translate nav.top.wallets %}</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% tl mining-pools {{ site.lang }} %}">{% translate nav.top.miningpools %}</a>
@@ -92,11 +92,6 @@
             <a class="dropdown-item" href="{{site.links.github}}" target="_blank">GitHub</a>
           </div>
         </li>
-        {% comment %}
-        <li class="nav-item">
-          <a class="nav-link" href="#">resources</a>
-        </li>
-        {% endcomment %}
         <li class="nav-item">
           <a class="nav-link" href="http://support.zencash.com/">{% translate nav.top.support %}</a>
         </li>
@@ -113,29 +108,4 @@
     </div>
   </nav>
 </header>
-<div class="language-sidebar">
-  <a href="#" id="languageClose" class="toggle-languages">
-    <div class="x"></div>
-    <div class="x x2"></div>
-  </a>
-  <ul>
-    {% for language in site.data.languages %}
-    <li>
-      {% if language[0] == "en" %}
-      <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
-      {% elsif language[0] == "ko" %}
-      {% comment %}Hiding Korean version until updated translation is complete{% endcomment %}
-      {% else %}
-        {% if site.lang == language[0] %}
-        <a href="{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
-        {% else %}
-        <a href="{{ site.baseurl }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
-        {% endif %}
-      {% endif %}
-    </li>
-    {% endfor %}
-    <li>
-      <a href="https://ru.zensystem.io/">русский</a>
-    </li>
-  </ul>
-</div>
+{% include language-sidebar.html %}

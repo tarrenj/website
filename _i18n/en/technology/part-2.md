@@ -19,5 +19,5 @@ Balances in shielded addresses are private. If spending to one or more shielded 
 ZenCash is compatible with Bitcoin- and Z-derived applications, exchanges, and wallets.
 
 {:text-center:}
-[{% translate global.philosophy %}]({% tl philosophy {{site.lang}} %}){: .btn .btn-lg .btn-primary}
+[{% translate global.philosophy.possessive %}]({% tl philosophy {{site.lang}} %}){: .btn .btn-lg .btn-primary}
 {:text-center}

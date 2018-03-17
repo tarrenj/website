@@ -1,7 +1,13 @@
 global:
   roadmap: 路线图
-  technology: 技术
-  philosophy: 哲学理念
+  technology:
+    base: 技术
+    possessive: 我们的技术
+    tagline: 私密性 - 安全性 - 反追踪 - 抗破坏 - 可挖矿
+  philosophy:
+    base: 哲学理念
+    possessive: 我们的哲学理念
+    tagline: 自治性 - 可持续性 - 注重研发
   mining-pools: 矿池
 titles:
   homepage: ZenCash

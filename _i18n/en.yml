@@ -1,7 +1,13 @@
 global:
   roadmap: Roadmap
-  technology: Technology
-  philosophy: Philosophy
+  technology:
+    base: Technology
+    possessive: Our Technology
+    tagline: Private - Secure - Untraceable - Resilient - Minable
+  philosophy:
+    base: Philosophy
+    possessive: Our Philosophy
+    tagline: Autonomous - Sustainable - R&D Focus
   mining-pools: Mining Pools
 titles:
   homepage: A globally accessible and anonymous blockchain

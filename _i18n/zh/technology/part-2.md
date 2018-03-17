@@ -19,5 +19,5 @@ Z 地址被称为受保护地址，利用最新的隐私保护技术将交易双
 ZenCash 与比特币及零币的衍生应用、交易所和钱包相兼容。
 
 {:text-center:}
-[{% translate global.philosophy %}]({% tl philosophy {{site.lang}} %}){: .btn .btn-lg .btn-primary}
+[{% translate global.philosophy.possessive %}]({% tl philosophy {{site.lang}} %}){: .btn .btn-lg .btn-primary}
 {:text-center}

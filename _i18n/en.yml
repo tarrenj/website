@@ -8,6 +8,16 @@ global:
     base: Philosophy
     possessive: Our Philosophy
     tagline: Autonomous - Sustainable - R&D Focus
+  team:
+    base: Team
+    tagline: Combining Expertise from Around the Globe
+    engineering: Engineering
+    user-experience: User Experience
+    marketing: Marketing
+    operations: Operations
+    business-development: Business Development
+    partners: Partners
+    advisors: Advisors
   mining-pools: Mining Pools
 titles:
   homepage: A globally accessible and anonymous blockchain

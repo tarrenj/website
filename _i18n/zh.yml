@@ -8,6 +8,16 @@ global:
     base: 哲学理念
     possessive: 我们的哲学理念
     tagline: 自治性 - 可持续性 - 注重研发
+  team:
+    base: 的团队
+    tagline: 荟萃全球顶尖人才
+    engineering: 工程
+    user-experience: 用户体验
+    marketing: 市场
+    operations: 运营
+    business-development: 商业开发
+    partners: 合作伙伴
+    advisors: 顾问
   mining-pools: 矿池
 titles:
   homepage: ZenCash

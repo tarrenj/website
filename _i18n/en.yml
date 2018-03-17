@@ -20,6 +20,13 @@ global:
     advisors: Advisors
   exchanges: Exchanges
   mining-pools: Mining Pools
+  wallets:
+    base: Wallets
+    wallet: Wallet
+    official: Official Wallets
+    third-party: Third-Party Wallets
+    web: Web Wallet
+    paper: Paper Wallet
   forum: Forum
   go: GO
 titles:

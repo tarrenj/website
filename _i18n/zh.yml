@@ -20,6 +20,13 @@ global:
     advisors: 顾问
   exchanges: 交易所
   mining-pools: 矿池
+  wallets:
+    base: 钱包
+    wallet: 钱包
+    official: 官方钱包
+    third-party: 第三方钱包
+    web: 网页版钱包
+    paper: 纸钱包
   forum: 论坛
   go: 点击前往
 titles:

@@ -326,6 +326,17 @@ dao-infographic:
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
   button: Read the ZenCash White Paper
+iohk:
+  subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'
+  content:
+    title: Scalability Study
+    list:
+      - Scaling is a major problem in blockchain projects.
+      - Protocol upgrade enables high-volume rapid transactions across the network.
+      - Evaluating next-generation blockchain solutions and alternatives like Spectre.
+      - Radical usability! Unlimited scalability and instant transactions.
+      - IOHK will evaluate multiple protocol options and provide a recommendation and specifications to ZenCash by Q2 2018.
+    button: Learn more about ZenCash
 securenodes:
   hero:
     title: ZenCash is Private Money, Messages, Media

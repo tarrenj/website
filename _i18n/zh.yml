@@ -306,6 +306,17 @@ dao-infographic:
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
   button: 阅读 ZenCash 白皮书
+iohk:
+  subtitle: 'ZenCash 与 IOHK 的合作伙伴关系将带来一系列激动人心的研发活动，它们由 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 教授负责领导 -- 他是密码学家、IT 安全研究者、讲师及 IOHK 研究员。'
+  content:
+    title: 可延展性研究
+    list:
+      - 延展性是区块链项目的一大挑战。
+      - 协议升级使得全网大批量快速交易成为可能。
+      - 评估次时代区块链解决方案及其他替代品，譬如 Spectre。
+      - 极强的可用性！无限可延展性与即时交易。
+      - IOHK 将评估多种协议选项，并在 2018 年第二季度结束前为 ZenCash 出具建议及技术规范。
+    button: 进一步了解 ZENCASH
 securenodes:
   hero:
     title: ZenCash is Private Money, Messages, Media

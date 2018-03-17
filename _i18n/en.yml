@@ -271,13 +271,13 @@ homepage:
     features:
       - title: Buy ZenCash
         image: /assets/img/icons/money.png
-        link: '/exchanges/'
+        namespace: exchanges
       - title: Download Wallets
         image: /assets/img/icons/safe.png
-        link: '/wallets/'
+        namespace: wallets
       - title: Mining Pools
         image: /assets/img/icons/mining.png
-        link: '/mining-pools/'
+        namespace: mining-pools
     merchants:
       title: Merchants
       subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.

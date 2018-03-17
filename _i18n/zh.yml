@@ -251,13 +251,13 @@ homepage:
     features:
       - title: 购买 ZENCASH
         image: /assets/img/icons/money.png
-        link: '/exchanges/'
+        namespace: exchanges
       - title: 下载钱包
         image: /assets/img/icons/safe.png
-        link: '/wallets/'
+        namespace: wallets
       - title: 矿池
         image: /assets/img/icons/mining.png
-        link: '/mining-pools/'
+        namespace: mining-pools
     merchants:
       title: 商户
       subtitle: 令 ZenCash 变得有用，关键在于将各种支付系统与商户服务结合起来

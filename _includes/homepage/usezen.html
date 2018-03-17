@@ -10,7 +10,7 @@
 
       {% for feature in site.translations[site.lang].homepage.usezen.features %}
       <div class="col use-zen-link">
-        <a href="{{site.baseurl}}{{ feature.link }}" class="use-zen-link-block wobble">
+        <a href="{% tl {{ feature.namespace }} {{ site.lang }} %}" class="use-zen-link-block wobble">
           <img src="{{ feature.image }}" class="icon">
           <h4>{{ feature.title }}</h4>
         </a>

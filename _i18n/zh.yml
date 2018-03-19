@@ -308,6 +308,28 @@ dao-infographic:
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
   button: 阅读 ZenCash 白皮书
+  steps:
+    1:
+      title: 资金池用于奖励提案
+      image: '/assets/img/icons/infographic/bank.svg'
+    2:
+      title: 任何人都可以提出议案
+      image: '/assets/img/icons/infographic/peers.svg'
+    3:
+      title: 提案经 ZenCash 持有者审核并进行表决
+      image: '/assets/img/icons/infographic/review.svg'
+    4:
+      title: 表决可交由受信任用户代为行使，参与表决的人可获得报酬
+      image: '/assets/img/icons/infographic/scales.svg'
+    5:
+      title: 根据持币数量决定每一票的权重，权重和过程不公开
+      image: '/assets/img/icons/infographic/votes.svg'
+    6:
+      title: 投票结果保密，直至最终赢家宣布，这样可保证公平性
+      image: '/assets/img/icons/infographic/safe.svg'
+    7:
+      title: 进行计票并批准 / 拒绝提案
+      image: '/assets/img/icons/infographic/approve.svg'
 iohk:
   subtitle: 'ZenCash 与 IOHK 的合作伙伴关系将带来一系列激动人心的研发活动，它们由 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 教授负责领导 -- 他是密码学家、IT 安全研究者、讲师及 IOHK 研究员。'
   content:

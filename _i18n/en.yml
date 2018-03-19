@@ -328,6 +328,28 @@ dao-infographic:
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
   button: Read the ZenCash White Paper
+  steps:
+    1:
+      title: A funding pool is available for proposals
+      image: '/assets/img/icons/infographic/bank.svg'
+    2:
+      title: Anyone can submit a proposal
+      image: '/assets/img/icons/infographic/peers.svg'
+    3:
+      title: Proposals are reviewed and voted on by individuals that own ZenCash (stake)
+      image: '/assets/img/icons/infographic/review.svg'
+    4:
+      title: Voting can be delegated to trusted users & voters are paid to participate
+      image: '/assets/img/icons/infographic/scales.svg'
+    5:
+      title: Votes are weighted according to stake and is not public
+      image: '/assets/img/icons/infographic/votes.svg'
+    6:
+      title: Ballot results are secrete until the winnier is announced to ensure fairness
+      image: '/assets/img/icons/infographic/safe.svg'
+    7:
+      title: Votes are counted and the Propoasl is approved or declined
+      image: '/assets/img/icons/infographic/approve.svg'
 iohk:
   subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'
   content:

@@ -46,7 +46,11 @@
                 <a class="nav-link" href="{{site.links.youtube}}" target="_blank"><span><img src="/assets/img/icons/youtube-green.png"></span> YouTube</a>
               </li>
               <li class="nav-item">
+                {% if site.lang == 'zh' %}
+                <a class="nav-link" href="https://t.me/joinchat/CwUKoBHQyC7SldvM0TNTWA" target="_blank"><span><img src="/assets/img/icons/telegram-green.png"></span> 电报</a>
+                {% else %}
                 <a class="nav-link" href="{{site.links.telegram}}" target="_blank"><span><img src="/assets/img/icons/telegram-green.png"></span> Telegram</a>
+                {% endif %}
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{site.links.discord}}" target="_blank"><span><img src="/assets/img/icons/discord-green.png"></span> Discord</a>
@@ -65,11 +69,16 @@
                 <a class="nav-link" href="{{site.links.reddit}}" target="_blank"><span><img src="/assets/img/icons/reddit-green.png"></span> Reddit</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{site.links.forum}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Forum</a>
+                <a class="nav-link" href="{{site.links.forum}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen {% t global.forum %}m</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{site.links.blog}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Blog</a>
+                <a class="nav-link" href="{{site.links.blog}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen {% t nav.top.blog %}</a>
               </li>
+              {% if site.lang == 'zh' %}
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle="tooltip" data-placement="top" title="<span>ZenCashOfficial</span><img src='/assets/img/icons/wechat.png' />"><span><i class="fa fa-weixin"></i></span> 微信</a>
+              </li>
+              {% endif %}
             </ul>
           </div>
         </div>

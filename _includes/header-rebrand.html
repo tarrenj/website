@@ -84,7 +84,12 @@
           <div class="dropdown-menu" aria-labelledby="community">
             <a class="dropdown-item" href="{{site.links.twitter}}" target="_blank">Twitter</a>
             <a class="dropdown-item" href="{{site.links.discord}}" target="_blank">Discord</a>
+            {% if site.lang == 'zh' %}
+            <a class="dropdown-item" href="https://t.me/joinchat/CwUKoBHQyC7SldvM0TNTWA" target="_blank">电报</a>
+            {% else %}
             <a class="dropdown-item" href="{{site.links.telegram}}" target="_blank">Telegram</a>
+            {% endif %}
+
             <a class="dropdown-item" href="{{site.links.reddit}}" target="_blank">Reddit</a>
             <a class="dropdown-item" href="{{site.links.bitcointalk}}" target="_blank">Bitcointalk</a>
             <a class="dropdown-item" href="{{site.links.blog}}" target="_blank">{% translate nav.top.blog %}</a>

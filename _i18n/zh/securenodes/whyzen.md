@@ -1,4 +1,4 @@
-## 为什么 ZenCash?
+## 为什么选择ZenCash
 {: .content-title}
 
 ZENCASH 既是公共的 也是私密的 更是匿名的

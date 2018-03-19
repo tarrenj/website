@@ -1,0 +1,114 @@
+#treasury-model-graphic {
+  display: flex;
+  flex-direction: column;
+  max-width: 1660px;
+  margin: 3rem auto;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &.first {
+      .step {
+        .text {
+          order: 1;
+          align-items: flex-end;
+        }
+        .icon {
+          order: 2;
+          margin-top: 1rem;
+          margin-bottom: 1.4rem;
+        }
+      }
+    }
+    &.middle {
+      // margin-top: 16px;
+      // margin-bottom: 16px;
+    }
+    &.last {
+      .step {
+        .text {
+          order: 2;
+        }
+        .icon {
+          order: 1;
+          margin-top: 1.2rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    max-width: 25%;
+    .text {
+      display: flex;
+      flex-grow: 1;
+      font-size: 1.2rem;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .icon {
+      max-height: 120px;
+      max-width: 120px;
+      margin-left: auto;
+      margin-right: auto;
+      img {
+        display: block;
+        height: 120px;
+      }
+    }
+
+  }
+
+  .label {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 25%;
+    max-width: 25%;
+    height: 100px;
+    position: relative;
+    &:nth-child(n+5) {
+      align-items: flex-end;
+    }
+    &:nth-child(-n+3) {
+      &:after {
+        content:"";
+        position: absolute;
+        z-index: 1;
+        top: 24px;
+        left: 51%;
+        border-top: 3px dotted $green;
+        width: 60%;
+        transform: rotate(37deg);
+        transform-origin: 0% 0%;
+      }
+    }
+    &:nth-child(n+2):nth-child(-n+4) {
+      &:before {
+        content:"";
+        position: absolute;
+        z-index: 1;
+        top: 24px;
+        left: 50%;
+        border-top: 3px dotted $green;
+        width: 60%;
+        transform: rotate(143deg);
+        transform-origin: 0% 0%;
+      }
+    }
+    span {
+      z-index: 2;
+      font-size: 1.2rem;
+      line-height: 33px;
+      height: 36px;
+      width: 36px;
+      background-color: $darkblue;
+      border-radius: 5rem;
+      border: 3px solid $green;
+    }
+  }
+}

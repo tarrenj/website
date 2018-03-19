@@ -42,8 +42,8 @@ titles:
   securenodes: ZenCash 安全节点数量
 descriptions:
 newsletter:
-  title: Sign up to receive exclusive updates!
-  success: Success! Please check your email to confirm we have the right one.
+  title: 邮件登记获取最新资讯
+  success: 递交成功！请查看您的电子邮箱完成确认.
   name: 您的名字
   firstname: 您的名字
   lastname: 您的姓氏

@@ -1,8 +1,12 @@
 ---
 layout: homepage
 type: homepage
-title: Meet Our Team
-description: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
+title: titles.team
+description: descriptions.team
+
+namespace: team
+permalink: /team/
+permalink_zh: /团队/
 ---
 
 <section class="content" id="team-details">
@@ -10,8 +14,8 @@ description: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, 
   <div class="container-fluid">
     <div class="row interior-subheader">
       <div class="col">
-        <h1>Zen Team</h1>
-        <h4>Combining Expertise From Around The Globe</h4>
+        <h1>Zen {% t global.team.base %}</h1>
+        <h4>{% t global.team.tagline %}</h4>
       </div>
     </div>
   </div>
@@ -20,7 +24,7 @@ description: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, 
   <div class="container-fluid team-section" id="{{group.slug}}" data-aos="fade-down">
     <div class="row justify-content-center align-items-center">
       <div class="col">
-        <h2 class="lined-subtext">{{group.name}}</h2>
+        <h2 class="lined-subtext">{% t global.team.{{group.slug}} %}</h2>
       </div>
     </div>
     <div class="row justify-content-center team-group">

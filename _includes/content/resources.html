@@ -6,38 +6,28 @@
       </div>
     </div>
     <div class="row justify-content-center text-center mt-5">
+      {% for item in site.translations[site.lang].mining-pools.resources.items %}
       <div class="col-md-4 col-lg-3">
         <div class="card">
           <div class="card-body">
-            <h3>Zen Mining Profit Calculator</h3>
-            <p>
-              <a href="https://whattomine.com/coins/185-zen-equihash" class="btn btn-lg btn-primary" target="_blank">Go</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Zen Mining Pool Forum Topic</h3>
-            <p>
-              <a href="https://forum.zensystem.io/t/zen-mining-pools-list/73" class="btn btn-lg btn-primary" target="_blank">Go</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Block Explorers</h3>
+            <h3>{{ item.title }}</h3>
+            {% if item.buttons.size > 1 %}
             <div class="inline-buttons">
-              <a href="https://explorer.zensystem.io/" class="btn btn-primary" target="_blank">1</a>
-              <a href="http://explorer.zenmine.pro/insight/" class="btn btn-primary" target="_blank">2</a>
-              <a href="https://explorer.zen-solutions.io/" class="btn btn-primary" target="_blank">3</a>
+              {% for button in item.buttons %}
+              <a href="{{ button.link }}" class="btn btn-primary">{{ button.text }}</a>
+              {% endfor %}
             </div>
+            {% else %}
+            <p>
+              {% for button in item.buttons %}
+              <a href="{{ button.link }}" class="btn btn-lg btn-primary">{{ button.text }}</a>
+              {% endfor %}
+            </p>
+            {% endif %}
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

@@ -1,10 +1,9 @@
 global:
-  english: 영어
-  korean: 한국어
   roadmap: 로드맵
 homepage:
   hero:
-    subtitle: 화폐, 메시지 그리고 미디어를 위한 보안플랫폼
+    subtitle: 
+    subtitle2: 화폐, 메시지 그리고 미디어를 위한 보안플랫폼
     announcement: IOHK와 R&D 파트너쉽을 하게 되었습니다
     announcement-button: 더 알아보기
   about:

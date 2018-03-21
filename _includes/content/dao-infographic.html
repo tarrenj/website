@@ -1,0 +1,129 @@
+<section id="infographic" class="content">
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-lg-8">
+        <h2>{% t dao-infographic.title %}</h2>
+        <p class="lead">
+          {% t dao-infographic.subtitle %}
+        </p>
+      </div>
+    </div>
+    <div id="treasury-model-graphic" class="text-center">
+
+      <div class="row first">
+        <div class="step odd">
+          <div class="text">
+            {% t dao-infographic.steps.1.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.1.image %}">
+          </div>
+        </div>
+        <div class="step odd">
+          <div class="text">
+            {% t dao-infographic.steps.3.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.3.image %}">
+          </div>
+        </div>
+        <div class="step odd">
+          <div class="text">
+            {% t dao-infographic.steps.5.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.5.image %}">
+          </div>
+        </div>
+        <div class="step odd">
+          <div class="text">
+            {% t dao-infographic.steps.7.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.7.image %}">
+          </div>
+        </div>
+      </div>
+      <div class="row middle">
+        <div class="label">
+          <span>1</span>
+        </div>
+        <div class="label">
+          <span>3</span>
+        </div>
+        <div class="label">
+          <span>5</span>
+        </div>
+        <div class="label">
+          <span>7</span>
+        </div>
+        <div class="label">
+          <span>2</span>
+        </div>
+        <div class="label">
+          <span>4</span>
+        </div>
+        <div class="label">
+          <span>6</span>
+        </div>
+      </div>
+      <div class="row last">
+        <div class="step even">
+          <div class="text">
+            {% t dao-infographic.steps.2.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.2.image %}">
+          </div>
+        </div>
+        <div class="step even">
+          <div class="text">
+            {% t dao-infographic.steps.4.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.4.image %}">
+          </div>
+        </div>
+        <div class="step even">
+          <div class="text">
+            {% t dao-infographic.steps.6.title %}
+          </div>
+          <div class="icon">
+            <img src="{% t dao-infographic.steps.6.image %}">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="treasury-model-graphic-mobile" class="text-center">
+      {% for step in site.translations[site.lang].dao-infographic.steps %}
+      <div class="step">
+        <div class="label">
+          <span>{{ step[0] }}</span>
+        </div>
+        <div class="text">
+          {{ step[1].title }}
+        </div>
+        <div class="icon">
+          <img src="{{ step[1].image }}">
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% comment %}
+    <div class="row justify-content-center align-items-center text-center mt-4">
+      <div class="col">
+        <img src="{% t dao-infographic.image %}" class="img-fluid iohk-infographic desktop" />
+        <img src="{% t dao-infographic.image-mobile %}" class="img-fluid iohk-infographic mobile" />
+      </div>
+    </div>
+    {% endcomment %}
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col">
+        <p>
+          <a href="{{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}" class="btn btn-lg btn-primary mt-5">{% t dao-infographic.button %}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

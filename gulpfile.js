@@ -85,6 +85,7 @@ gulp.task('concat', function() {
         paths.bower + 'jquery/dist/jquery.min.js',
         paths.bower + 'underscore/underscore-min.js',
         paths.bower + 'tether/dist/js/tether.min.js',
+        paths.bower + 'popper.js/dist/umd/popper.min.js',
         // paths.bower + 'bootstrap/dist/js/bootstrap.min.js',
         // paths.bower + 'headroom.js/dist/headroom.min.js',
         // paths.bower + 'headroom.js/dist/jQuery.headroom.min.js',
@@ -141,7 +142,7 @@ gulp.task('watch', function () {
     gulp.watch(paths.src + 'sass/**/*.scss', ['sass']);
     gulp.watch(paths.src + 'js/**/*.js', ['concat', 'concat-lp']);
     gulp.watch([
-        '*.{html,md,markdown,xml}',
+        '*.{html,md,markdown,xml,txt}',
         '_layouts/**/*.html',
         '_includes/**/*.html',
         '_i18n/**/*',

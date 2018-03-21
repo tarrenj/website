@@ -7,31 +7,23 @@
     </button>
     <div class="col-sm-12 text-center flex-column justify-content-center">
       <p class="lead">
-        Sign up to receive exclusive updates!
+        {% translate newsletter.title %}
       </p>
 
       <p id="email-success" style="display: none;">
-        Success! Please check your email to confirm we have the right one.
+        {% translate newsletter.success %}
       </p>
 
       <form id="email-form" name="mc-embedded-subscribe-form" class="form-inline justify-content-center mb-4" action="//zencash.us15.list-manage.com/subscribe/post?u=a2e6f8a8a8a21683874d560ea&id=d60b1a11f5" method="post" novalidate>
         <div class="form-group">
-          <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="Enter your first name">
+          <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="{% translate newsletter.name %}">
         </div>
         <div class="form-group">
-          <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="Your email address">
+          <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="{% translate newsletter.email %}">
         </div>
         <div class="form-group">
-          {% comment %}
-          <select name="MMERGE5" class="custom-select custom-select-lg" id="mce-MMERGE5">
-            <option selected value="">Language...</option>
-            <option value="English">English</option>
-            <option value="Russian">Russian</option>
-            <option value="Spanish">Spanish</option>
-          </select>
-          {% endcomment %}
           <select name="MMERGE3" class="custom-select custom-select-lg" id="mce-MMERGE3">
-            <option selected value="">Your Country...</option>
+            <option selected value="">{% translate newsletter.country %}</option>
             {% for country in site.data.countryNames %}
             <option value="{{country[1]}}">
               {{country[1]}}
@@ -41,7 +33,7 @@
 
         </div>
         <div class="submit_container clear">
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+          <input type="submit" value="{% translate newsletter.button %}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
         </div>
         <div style="position: absolute; left: -5000px;" aria-hidden="true">
           <input type="text" name="b_a2e6f8a8a8a21683874d560ea_d60b1a11f5" tabindex="-1" value="">
@@ -69,60 +61,56 @@
         {% endif %}
 
         <li class="nav-item dropdown" id="about-dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
+          <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% translate nav.top.about %}</a>
           <div class="dropdown-menu" aria-labelledby="about">
-            <a class="dropdown-item" href="{{link_base}}#features">Features</a>
-            <a class="dropdown-item" href="{{link_base}}#roadmap">Roadmap</a>
-            <a class="dropdown-item" href="{{link_base}}#team-overview">Team</a>
-            <a class="dropdown-item" href="{{link_base}}#white-paper">White Paper</a>
+            <a class="dropdown-item" href="{{link_base}}#features">{% translate nav.top.features %}</a>
+            <a class="dropdown-item" href="{{link_base}}#roadmap">{% translate nav.top.roadmap %}</a>
+            <a class="dropdown-item" href="{{link_base}}#team-overview">{% translate nav.top.team %}</a>
+            <a class="dropdown-item" href="{{link_base}}#white-paper">{% translate nav.top.whitepaper %}</a>
             {% comment %}<a class="dropdown-item" href="#">FAQs</a>{% endcomment %}
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/exchanges/">get zencash</a>
+          <a class="nav-link" href="{% tl exchanges {{ site.lang }} %}">{% translate nav.top.exchanges %}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/wallets/">use zen</a>
+          <a class="nav-link" href="{% tl wallets {{ site.lang }} %}">{% translate nav.top.wallets %}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}/mining-pools/">mine zen</a>
+          <a class="nav-link" href="{% tl mining-pools {{ site.lang }} %}">{% translate nav.top.miningpools %}</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
+          <a class="nav-link dropdown-toggle" href="#" id="community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% translate nav.top.community %}</a>
           <div class="dropdown-menu" aria-labelledby="community">
             <a class="dropdown-item" href="{{site.links.twitter}}" target="_blank">Twitter</a>
             <a class="dropdown-item" href="{{site.links.discord}}" target="_blank">Discord</a>
+            {% if site.lang == 'zh' %}
+            <a class="dropdown-item" href="https://t.me/joinchat/CwUKoBHQyC7SldvM0TNTWA" target="_blank">电报</a>
+            {% else %}
             <a class="dropdown-item" href="{{site.links.telegram}}" target="_blank">Telegram</a>
+            {% endif %}
+
             <a class="dropdown-item" href="{{site.links.reddit}}" target="_blank">Reddit</a>
             <a class="dropdown-item" href="{{site.links.bitcointalk}}" target="_blank">Bitcointalk</a>
-            <a class="dropdown-item" href="{{site.links.blog}}" target="_blank">Blog</a>
-            <a class="dropdown-item" href="{{site.links.forum}}" target="_blank">Forum</a>
+            <a class="dropdown-item" href="{{site.links.blog}}" target="_blank">{% translate nav.top.blog %}</a>
+            <a class="dropdown-item" href="{{site.links.forum}}" target="_blank">{% translate global.forum %}</a>
             <a class="dropdown-item" href="{{site.links.github}}" target="_blank">GitHub</a>
           </div>
         </li>
-        {% comment %}
         <li class="nav-item">
-          <a class="nav-link" href="#">resources</a>
-        </li>
-        {% endcomment %}
-        <li class="nav-item">
-          <a class="nav-link" href="http://support.zencash.com/">support</a>
+          <a class="nav-link" href="http://support.zencash.com/">{% translate nav.top.support %}</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="{{link_base}}#blog">blog</a>
+          <a class="nav-link" href="{{link_base}}#blog">{% translate nav.top.blog %}</a>
         </li>
 
-        {% if site.lang == 'en' %}
-          {% capture current_language %}{% t global.english %}{% endcapture %}
-        {% elsif site.lang == 'ko' %}
-          {% capture current_language %}{% t global.korean %}{% endcapture %}
-        {% endif %}
-
+        {% comment %}Retreive current language name from languages data file{% endcomment %}
         <li class="nav-item">
-          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{current_language}}</a>
+          <a class="nav-link toggle-languages" href="#" id="chooseLanguage">{{ site.data.languages[site.lang] }}</a>
         </li>
       </ul>
     </div>
   </nav>
 </header>
+{% include language-sidebar.html %}

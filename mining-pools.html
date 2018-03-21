@@ -1,14 +1,18 @@
 ---
 layout: homepage
 type: homepage
-title: ZenCash Mining Pools
-description: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
+title: titles.mining-pools
+description: descriptions.mining-pools
+
+namespace: mining-pools
+permalink: /mining-pools/
+permalink_zh: /矿池/
 ---
 
 <section class="interior-header">
   <div class="page-title text-center">
     <img class="img-fluid logo" src="/assets/img/icons/zencash-white.png" />
-    <h2>Mining Pools</h2>
+    <h2>{% t global.mining-pools %}</h2>
   </div>
 </section>
 
@@ -19,8 +23,8 @@ description: List of the ZenCash mining pools. Choose a mining pool and join the
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-7 col-lg-6">
-        <h2>Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.</h2>
-        <p>We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.</p>
+        <h2>{% t mining-pools.subtitle %}</h2>
+        <p>{% t mining-pools.content %}</p>
       </div>
     </div>
   </div>
@@ -39,7 +43,7 @@ description: List of the ZenCash mining pools. Choose a mining pool and join the
                   <h3>{{ pool.name }}</h3>
                 </div>
                 <div class="card-footer">
-                  <a href="{{ pool.url }}" target="_blank">GO <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
+                  <a href="{{ pool.url }}" target="_blank">{% t global.go %} <img src="/assets/img/icons/down-arrow.png" class="right-arrow"></a>
                 </div>
               </div>
             </div>

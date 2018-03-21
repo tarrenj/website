@@ -3,44 +3,32 @@
     <div class="row justify-content-center text-center">
       <div class="col-lg-7">
         <img class="subhead-image" src="/assets/img/icons/zenresources.png">
-        <h2 class="subhead">These resources will help you better understand the Zen brand and how to properly represent it.</h2>
+        <h2 class="subhead">{% translate homepage.resources.subtitle %}</h2>
       </div>
     </div>
     <div class="row justify-content-center text-center mt-5">
-      {% comment %}
+      {% for item in site.translations[site.lang].homepage.resources.items %}
       <div class="col-md-4 col-lg-3">
         <div class="card">
           <div class="card-body">
-            <h3>Graphics</h3>
-            <p>
-              <a href="#" class="btn btn-lg btn-primary"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> Download</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      {% endcomment %}
-      <div class="col-md-4 col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Legal</h3>
-            <p>
-              <a href="/assets/files/ZenCash_LEGAL MEMORANDUM.pdf" class="btn btn-lg btn-primary"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> Download</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-3">
-        <div class="card">
-          <div class="card-body">
-            <h3>Block Explorers</h3>
+            <h3>{{ item.title }}</h3>
+            {% if item.buttons.size > 1 %}
             <div class="inline-buttons">
-              <a href="https://explorer.zensystem.io/" class="btn btn-primary" target="_blank">1</a>
-              <a href="http://explorer.zenmine.pro/insight/" class="btn btn-primary" target="_blank">2</a>
-              <a href="https://explorer.zen-solutions.io/" class="btn btn-primary" target="_blank">3</a>
+              {% for button in item.buttons %}
+              <a href="{{ button.link }}" class="btn btn-primary">{{ button.text }}</a>
+              {% endfor %}
             </div>
+            {% else %}
+            <p>
+              {% for button in item.buttons %}
+              <a href="{{ button.link }}" class="btn btn-lg btn-primary">{{ button.text }}</a>
+              {% endfor %}
+            </p>
+            {% endif %}
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

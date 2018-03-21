@@ -1,8 +1,11 @@
 ---
 layout: homepage
 type: homepage
-title: A globally accessible and anonymous blockchain
-description: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
+title: titles.homepage
+description: descriptions.homepage
+
+namespace: homepage
+permalink: /
 ---
 
 {% include homepage/hero.html %}
@@ -37,7 +40,7 @@ description: ZenCash is the most resilient and censorship resistant privacy cryp
   <div class="container">
     <div class="row">
       <div class="col">
-        <h2 class="lined-subtext">Blog</h2>
+        <h2 class="lined-subtext">{% translate homepage.blog.title %}</h2>
       </div>
     </div>
     <div class="row">
@@ -46,7 +49,7 @@ description: ZenCash is the most resilient and censorship resistant privacy cryp
           <!--Generated list items will go here-->
         </div>
         <p>
-          <a href="https://blog.zensystem.io/" class="btn btn-lg btn-primary" target="_blank">More Blog Posts</a>
+          <a href="{% translate homepage.blog.button.link %}" class="btn btn-lg btn-primary" target="_blank">{% translate homepage.blog.button.text %}</a>
         </p>
       </div>
     </div>

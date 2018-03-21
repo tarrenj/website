@@ -3,50 +3,33 @@
     <div class="row justify-content-center footer-nav text-center">
 
       <div class="col-sm-6 col-md-3 col-xl-2">
-        <h2>About</h2>
+        <h2>{% translate nav.footer.about.title %}</h2>
         <ul class="nav flex-column">
+          {% for item in site.translations[site.lang].nav.footer.about.items %}
           <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/technology/">Technology</a>
+            {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ site.lang }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
+            <a class="nav-link" href="{{ footer_link }}">{{ item.title }}</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/philosophy/">Philosophy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/team/">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/zencash/">ZenCash</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/zenchat/">ZenChat</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/zenpub/">ZenPub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/zenhide/">ZenHide</a>
-          </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-sm-6 col-md-3 col-xl-2">
-        <h2>Resources</h2>
+        <h2>{% translate nav.footer.resources.title %}</h2>
         <ul class="nav flex-column">
+          {% for item in site.translations[site.lang].nav.footer.resources.items %}
           <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/exchanges/">Buy ZenCash</a>
+            {% if item.type == 'mailto' %}
+            <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+            {% else %}
+            {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ site.lang }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
+            <a class="nav-link" href="{{ footer_link }}">{{ item.title }}</a>
+            {% endif %}
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/mining-pools/">Mining Pools</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/wallets/">Download Wallets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:support@zencash.com?subject=ZenCash%20Support">Email Support</a>
-          </li>
+          {% endfor %}
         </ul>
       </div>
       <div class="col-md-6 col-xl-4">
-        <h2>Community</h2>
+        <h2>{% translate nav.footer.community.title %}</h2>
         <div class="row community-columns">
           <div class="col">
             <ul class="nav flex-column">
@@ -63,7 +46,11 @@
                 <a class="nav-link" href="{{site.links.youtube}}" target="_blank"><span><img src="/assets/img/icons/youtube-green.png"></span> YouTube</a>
               </li>
               <li class="nav-item">
+                {% if site.lang == 'zh' %}
+                <a class="nav-link" href="https://t.me/joinchat/CwUKoBHQyC7SldvM0TNTWA" target="_blank"><span><img src="/assets/img/icons/telegram-green.png"></span> 电报</a>
+                {% else %}
                 <a class="nav-link" href="{{site.links.telegram}}" target="_blank"><span><img src="/assets/img/icons/telegram-green.png"></span> Telegram</a>
+                {% endif %}
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{site.links.discord}}" target="_blank"><span><img src="/assets/img/icons/discord-green.png"></span> Discord</a>
@@ -82,35 +69,40 @@
                 <a class="nav-link" href="{{site.links.reddit}}" target="_blank"><span><img src="/assets/img/icons/reddit-green.png"></span> Reddit</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{site.links.forum}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Forum</a>
+                <a class="nav-link" href="{{site.links.forum}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen {% t global.forum %}m</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{site.links.blog}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen Blog</a>
+                <a class="nav-link" href="{{site.links.blog}}" target="_blank"><span><img src="/assets/img/icons/zen-green.png"></span> Zen {% t nav.top.blog %}</a>
               </li>
+              {% if site.lang == 'zh' %}
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle="tooltip" data-placement="top" title="<span>ZenCashOfficial</span><img src='/assets/img/icons/wechat.png' />"><span><i class="fa fa-weixin"></i></span> 微信</a>
+              </li>
+              {% endif %}
             </ul>
           </div>
         </div>
       </div>
       <div class="col-lg-6 col-xl-4 email-updates">
-        <h2>Get Email Updates</h2>
+        <h2>{% translate nav.footer.email.title %}</h2>
 
         <p id="email-success-footer" style="display: none;">
-          Success! Please check your email to confirm we have the right one.
+          {% translate newsletter.success %}
         </p>
 
         <form id="email-form-footer" name="mc-embedded-subscribe-form" class="mb-4" action="//zencash.us15.list-manage.com/subscribe/post?u=a2e6f8a8a8a21683874d560ea&id=d60b1a11f5" method="post" novalidate>
           <div class="form-group">
-            <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="Your first name">
+            <input type="text" value="" name="FNAME" class="form-control form-control-lg" id="mce-FNAME" placeholder="{% translate newsletter.firstname %}">
           </div>
           <div class="form-group">
-            <input type="text" value="" name="LNAME" class="form-control form-control-lg" id="mce-LNAME" placeholder="Your last name">
+            <input type="text" value="" name="LNAME" class="form-control form-control-lg" id="mce-LNAME" placeholder="{% translate newsletter.lastname %}">
           </div>
           <div class="form-group">
-            <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="Your email address">
+            <input type="email" value="" name="EMAIL" class="required email form-control form-control-lg" id="mce-EMAIL" placeholder="{% translate newsletter.email %}">
           </div>
           <div class="form-group">
             <select name="MMERGE3" class="custom-select custom-select-lg" id="mce-MMERGE3">
-              <option selected value="">Your Country...</option>
+              <option selected value="">{% translate newsletter.country %}</option>
               {% for country in site.data.countryNames %}
               <option value="{{country[1]}}">
                 {{country[1]}}
@@ -120,7 +112,7 @@
 
           </div>
           <div class="submit_container clear">
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+            <input type="submit" value="{% translate newsletter.button %}" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
           </div>
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
             <input type="text" name="b_a2e6f8a8a8a21683874d560ea_d60b1a11f5" tabindex="-1" value="">
@@ -128,10 +120,10 @@
           <div class="form-control-feedback"></div>
         </form>
 
-        <h3>Contact Us</h3>
+        <h3>{% translate nav.footer.email.contact.title %}</h3>
         <p>
-          <a href="mailto:info@zencash.com">
-            info@zencash.com
+          <a href="mailto:{% translate nav.footer.email.contact.email %}">
+            {% translate nav.footer.email.contact.email %}
           </a>
         </p>
 
@@ -141,7 +133,7 @@
     </div>
     <div class="row align-items-center copyright">
       <div class="col-md-12 text-center">
-        <small>&copy; {{ 'now' | date: "%Y" }} ZenCash. All rights reserved.</small>
+        <small>&copy; {{ 'now' | date: "%Y" }} ZenCash. {% translate nav.footer.copyright %}</small>
       </div>
     </div>
   </div>

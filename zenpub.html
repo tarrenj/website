@@ -1,15 +1,17 @@
 ---
 layout: homepage
 type: homepage
-title: ZenPub - Decentralized Cloud Storage
-description: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship.
-product: zenpub
+title: titles.zenpub
+description: descriptions.zenpub
+
+namespace: zenpub
+permalink: /zenpub/
 ---
 
 <section class="interior-header">
   <div class="page-title text-center">
     <img class="img-fluid logo" src="/assets/img/icons/zenpub-white.png" />
-    <h2>For Media</h2>
+    <h2>{% translate homepage.about.products.zenpub %}</h2>
   </div>
 </section>
 
@@ -20,8 +22,7 @@ product: zenpub
   <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
       <div class="col-md-7 col-lg-6">
-        <h2>ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship.</h2>
-        <p>The purpose of ZenPub is to allow individuals to freely publish data or information without fear of reprisal by allowing the individuals to publish from a shielded address (anonymous) via the InterPlanetary File System.</p>
+        {% translate_file zenproducts/zenpub.md %}
       </div>
     </div>
   </div>

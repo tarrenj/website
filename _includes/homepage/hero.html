@@ -11,14 +11,11 @@
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <h1>ZenCash</h1>
-
-        {% if site.lang == 'en' %}
-        <h3>The Secure & Private Platform For</h3>
-        {% endif %}
-        <h2>{% translate homepage.hero.subtitle %}</h2>
+        <h3>{% translate homepage.hero.subtitle %}</h3>
+        <h2>{% translate homepage.hero.subtitle2 %}</h2>
         <p>
-          <a href="{{site.baseurl}}/wallets/" class="btn btn-lg btn-ghost">Get a Wallet</a>
-          <a href="{{site.baseurl}}/exchanges/" class="btn btn-lg btn-ghost">Buy ZenCash</a>
+          <a href="{% tl wallets {{ site.lang }} %}" class="btn btn-lg btn-ghost">{% translate homepage.hero.wallet-button %}</a>
+          <a href="{% tl exchanges {{ site.lang }} %}" class="btn btn-lg btn-ghost">{% translate homepage.hero.buy-button %}</a>
         </p>
       </div>
     </div>
@@ -29,37 +26,14 @@
     <a href="{{site.links.reddit}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Reddit-Icon.png"></a>
     <a href="{{site.links.bitcointalk}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Bitcoin-Icon.png"></a>
     <a href="{{site.links.youtube}}" class="social-icon" target="_blank"><img src="/assets/img/icons/Youtube-Icon.png"></a>
+    {% if site.lang == 'zh' %}
+    <a href="#" class="social-icon" data-toggle="tooltip" data-placement="left" title="<span>ZenCashOfficial</span><img src='/assets/img/icons/wechat.png' />"><i class="fa fa-weixin"></i></a>
+    {% endif %}
   </div>
   <div class="announcement-footer animated slideIn">
     <p class="lead">
       <span>{% translate homepage.hero.announcement %}</span>
-      <a href="{{site.baseurl}}/iohk/" class="btn btn-primary">{% translate homepage.hero.announcement-button %}</a>
+      <a href="{% tl iohk {{ site.lang }} %}" class="btn btn-primary">{% translate homepage.hero.announcement-button %}</a>
     </p>
   </div>
-
-  <div class="language-sidebar">
-    <a href="#" id="languageClose" class="toggle-languages">
-      <div class="x"></div>
-      <div class="x x2"></div>
-    </a>
-    {% if site.lang == "en" %}
-      {% capture korean_link %}{{ site.baseurl_root }}ko{{ page.url}}{% endcapture %}
-    {% elsif site.lang == "ko" %}
-      {% capture korean_link %}{{ site.baseurl }}{{ page.url}}{% endcapture %}
-    {% endif %}
-    <ul>
-      <li>
-        <a href="{{ site.baseurl_root }}{{ page.url}}">English</a>
-      </li>
-      <li>
-        <a href="https://ru.zensystem.io/">Russian</a>
-      </li>
-      {% comment %}
-      <li>
-        <a href="{{korean_link}}">Korean</a>
-      </li>
-      {% endcomment %}
-    </ul>
-  </div>
-
 </section>

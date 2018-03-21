@@ -23,77 +23,44 @@
 
     <div class="row justify-content-center technology-cards mt-5">
 
-      <div class="col-sm-6" data-aos="fade-down">
-        <div class="row">
-          <div class="col-md-3">
-            {% comment %}
-            <div class="icon">
-              <img class="img-fluid" src="/assets/img/icons/philosophy-2.png" />
-            </div>
-            {% endcomment %}
-          </div>
-          <div class="col-md-9">
-            <h3>Philosophy</h3>
+      <div class="col-md-10">
+        <div class="row justify-content-center">
+
+          {% for card in site.translations[site.lang].homepage.tech.techcards %}
+          <div class="col-sm-5" data-aos="fade-down">
+            <h3>{{ card.title }}</h3>
             <div class="content">
               <p>
-                With a deep focus in research and development, our mission is to level the economic playing field through technology.
+                {{ card.content }}
               </p>
             </div>
             <p>
-              <a href="{{site.baseurl}}/philosophy/" class="btn btn-lg btn-inverse">Learn More</a>
+              <a href="{{site.baseurl}}{{ card.cta.link }}" class="btn btn-lg btn-inverse">{{ card.cta.text }}</a>
             </p>
           </div>
+          {% endfor %}
+
         </div>
       </div>
 
-      <div class="col-sm-6" data-aos="fade-down">
-        <div class="row">
-          <div class="col-md-9">
-            <h3>Technology</h3>
-            <div class="content">
-              <p>
-                Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and IPFS.
-              </p>
-            </div>
-            <p>
-              <a href="{{site.baseurl}}/technology/" class="btn btn-lg btn-inverse">Learn More</a>
-            </p>
-          </div>
-          <div class="col-md-3">
-            {% comment %}
-            <div class="icon">
-              <img src="/assets/img/icons/technology-2.png" />
-            </div>
-            {% endcomment %}
-          </div>
-        </div>
-
-
-      </div>
     </div>
 
     <div class="stats-section">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
           <div class="circle-dots">
-            <h2>Stats</h2>
+            <h2>{% translate homepage.tech.stats.title %}</h2>
             <img src="/assets/img/circle-dots.png" id="circle-dots-img">
           </div>
         </div>
       </div>
       <div class="row justify-content-center stats">
-        <div class="col" id="totalSupply">
-          <h3 class="stats-headline">Total Supply</h3>
-          <div class="stats-data">21M</div>
+        {% for stat in site.translations[site.lang].homepage.tech.stats.sections %}
+        <div class="col" id="{{ stat.id }}">
+          <h3 class="stats-headline">{{ stat.title }}</h3>
+          <div class="stats-data">{{ stat.content }}</div>
         </div>
-        <div class="col" id="circSupply">
-          <h3 class="stats-headline">Circulating Supply</h3>
-          <div class="stats-data">3,204,050</div>
-        </div>
-        <div class="col" id="secureNodes">
-          <h3 class="stats-headline">Secure Nodes</h3>
-          <div class="stats-data">7000</div>
-        </div>
+        {% endfor %}
         {% comment %}
         <div class="col" id="currentPrice">
           <h3 class="stats-headline">Current Price</h3>

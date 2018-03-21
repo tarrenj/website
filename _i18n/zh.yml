@@ -1,0 +1,369 @@
+global:
+  roadmap: 路线图
+  technology:
+    base: 技术
+    possessive: 我们的技术
+    tagline: 私密性 - 安全性 - 反追踪 - 抗破坏 - 可挖矿
+  philosophy:
+    base: 哲学理念
+    possessive: 我们的哲学理念
+    tagline: 自治性 - 可持续性 - 注重研发
+  team:
+    base: 的团队
+    tagline: 荟萃全球顶尖人才
+    engineering: 工程
+    user-experience: 用户体验
+    marketing: 市场
+    operations: 运营
+    business-development: 商业开发
+    partners: 合作伙伴
+    advisors: 顾问
+  exchanges: 交易所
+  mining-pools: 矿池
+  wallets:
+    base: 钱包
+    wallet: 钱包
+    official: 官方钱包
+    third-party: 第三方钱包
+    web: 网页版钱包
+    paper: 纸钱包
+  forum: 论坛
+  go: 点击前往
+  anonymous: 匿名
+  korean: 韩文
+titles:
+  homepage: ZenCash
+  iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
+  technology: Zen 技术
+  team: Zen 的团队
+  exchanges: ZenCash 交易所
+  mining-pools: ZenCash 矿池
+  wallets: ZenCash 钱包
+  securenodes: ZenCash 安全节点数量
+descriptions:
+newsletter:
+  title: 邮件登记获取最新资讯
+  success: 递交成功！请查看您的电子邮箱完成确认.
+  name: 您的名字
+  firstname: 您的名字
+  lastname: 您的姓氏
+  email: 您的邮件地址
+  country: 您的国家
+  button: 订阅
+nav:
+  top:
+    about: 关于
+    features: 亮点
+    roadmap: 路线图
+    team: 团队
+    whitepaper: 白皮书
+    exchanges: 购买 ZenCash
+    wallets: 使用 zen
+    miningpools: 挖掘 zen
+    community: 社区
+    support: 支持
+    blog: 博客
+  footer:
+    about:
+      title: 关于
+      items:
+        - title: 技术
+          namespace: technology
+        - title: 哲学理念
+          namespace: philosophy
+        - title: 团队
+          namespace: team
+        - title: ZenCash
+          link: '/zencash/'
+        - title: ZenChat
+          link: '/zenchat/'
+        - title: ZenPub
+          link: '/zenpub/'
+        - title: ZenHide
+          link: '/zenhide/'
+    resources:
+      title: 资源
+      items:
+        - title: 购买 ZenCash
+          namespace: exchanges
+        - title: 矿池
+          namespace: mining-pools
+        - title: 下载钱包
+          link: '/wallets/'
+          namespace: wallets
+        - title: 邮件支持
+          link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
+          type: mailto
+    community:
+      title: 社区
+    email:
+      title: 获取更新邮件
+      contact:
+        title: 联系我们
+        email: info@zencash.com
+    copyright: 版权所有
+homepage:
+  hero:
+    subtitle: 一个安全且私密的平台
+    subtitle2: 为资金、信息、媒体而打造
+    wallet-button: 下载钱包
+    buy-button: 购买 ZenCash
+    announcement: 喜讯：我们已经与 IOHK 达成了研发合作关系
+    announcement-button: 了解更多
+  about:
+    title: Zen 作为一个平台，采用了最新的隐私保护技术，通过协议层解决方案构建了一套自给自足的融资模式
+    products:
+      zencash: 用于支付
+      zenchat: 用于即时通信
+      zenpub: 用于媒体
+      zenhide: 用于网络浏览
+      development: (开发中)
+      nav:
+        - title: 亮点
+          link: '#features'
+          icon: /assets/img/icons/features.png
+        - title: 路线图
+          link: '#roadmap'
+          icon: /assets/img/icons/roadmap.png
+        - title: 团队
+          link: '#team-overview'
+          icon: /assets/img/icons/team.png
+        - title: 白皮书
+          link: '#white-paper'
+          icon: /assets/img/icons/whitepaper.png
+  features:
+    title: ZENCASH 既是公共的 也是私密的 更是匿名的
+    cta: 了解我们和 IOHK 的合作伙伴关系
+  tech:
+    title: 私密性 - 安全性 - 反追踪 - 抗破坏 - 可挖矿
+    subtitle: Zen 致力于引领技术前沿，并通过创新造福全人类
+    features:
+      - title: 最棒的隐私保护技术
+        content:
+          - zk-SNARKS - 通过隐藏交易双方信息，实现交易私密
+          - 域名前置 - 隐藏互联网连接端点以防止审查
+          - IPFS - 通过分散式系统匿名地传播和访问数据
+      - title: 去中心化自治组织 (DAO)
+        content:
+          - 得益于高超的隐私保护技术及经济学原理，我们采用最先进的储备金模式分配资源
+      - title: 牢不可破的系统
+        content:
+          - <a href="https://securenodes.na.zensystem.io/">Zen 的安全节点数量</a> → 已达到 <span id="nodeCount">6640</span> 个！
+      - title: 关注研发
+        content:
+          - 包括 DAO 在内的协议层解决方案，次时代延展技术，及其他相关技术
+      - title: 极度安全的系统
+        content:
+          - ZenCash 采用了节点对节点加密技术 → 市面首家！
+      - title: 可挖矿
+        content:
+          - 采用工作量证明机制 (PoW)，基于 Equihash 算法的 GPU 挖矿模式
+    techcards:
+      - title: 哲学理念
+        content: 我们高度关注研发，致力于通过科技实现经济公平
+        cta:
+          text: 了解更多
+          link: '/philosophy/'
+      - title: 技术
+        content: Zen 采用 zk-SNARKS 技术，拥有节点加密，域名前置及 IPFS 作为额外层
+        cta:
+          text: 了解更多
+          link: '/technology/'
+    stats:
+      title: 统计数据
+      sections:
+        - title: 总量
+          id: totalSupply
+          content: 21M
+        - title: 流通量
+          id: circSupply
+          content: 3,401,100
+        - title: 安全节点数量
+          id: secureNodes
+          content: 7,870
+  roadmap:
+    events:
+      2017:
+        - title: ZenCash 项目启动
+          icon: /assets/img/icons/launch.png
+          content:
+            - ZenCash 项目于 2017年5月30日启动
+        - title: 核心更新
+          icon: /assets/img/icons/updates.png
+          content:
+            - 第一个整合 TLS 协议的区块链 (通过 SSL 证书进行节点加密)
+            - 改进区块链
+            - 重放攻击保护
+        - title: 钱包及产品
+          icon: /assets/img/icons/wallet.png
+          content:
+            - Tor(洋葱路由) ZenCash 节点
+            - 聊天工具
+            - Swing 钱包 - 包含所有区块数据
+            - 安卓钱包
+            - Arizen 钱包 - 包含部分区块数据
+            - 纸钱包
+        - title: 安全节点
+          icon: /assets/img/icons/encryption.png
+          content:
+            - 牢不可破的端对端加密网络
+            - 为运行安全节点的人设计的支付系统
+      2018:
+        - title: 钱包及项目
+          icon: /assets/img/icons/voting.png
+          content:
+            - 议案递交及投票机制的 GUI
+            - iOS 钱包
+            - 整合 OpenBazaar
+            - 运作彻底透明化
+        - title: 安全节点
+          icon: /assets/img/icons/secure.png
+          content:
+            - 改善安全节点系统
+            - 研究如何将安全节点系统纳进区块链协议
+        - title: 研究与开发
+          icon: /assets/img/icons/r-d.png
+          content:
+            - 基于协议层的 DAO 储备金投票机制
+            - 可延展性研究 - 次时代区块链解决方案
+            - 域名前置
+            - ZenPub 协议层
+      2019:
+        - title: 市场投放
+          icon: /assets/img/icons/scalability-study.png
+          content:
+            - 基于协议层的 DAO 储备金投票机制
+            - 整合 Dandelion++ 实现网络堆栈匿名化
+            - 可延展性解决方案
+            - 在安全节点上发布 IPFS
+  whitepaper:
+    subtitle: "白皮书正在修订中。原始白皮书中约 80% 的内容不变："
+    button: 下载白皮书
+  team:
+    title: 全球性的团队
+    subtitle: ZenCash 团队成员超过50位，来自世界各地
+    button:
+      text: 查看完整团队
+      link: '/team/'
+  usezen:
+    title: 使用 ZEN
+    subtitle: 我们立志于让 ZenCash 成为市面上最有用的私密虚拟币！
+    features:
+      - title: 购买 ZENCASH
+        image: /assets/img/icons/money.png
+        namespace: exchanges
+      - title: 下载钱包
+        image: /assets/img/icons/safe.png
+        namespace: wallets
+      - title: 矿池
+        image: /assets/img/icons/mining.png
+        namespace: mining-pools
+    merchants:
+      title: 商户
+      subtitle: 令 ZenCash 变得有用，关键在于将各种支付系统与商户服务结合起来
+  resources:
+    subtitle: 这些资源能帮助您进一步了解 Zen 品牌，并得知如何正确引用
+    items:
+      - title: 法律备忘录
+        buttons:
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> 下载'
+            link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
+      - title: 区块浏览器
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+  blog:
+    title: 博客
+    button:
+      text: 更多博文
+      link: https://blog.zencash.com/
+mining-pools:
+  subtitle: 只要拥有一张现代显卡，您就能挖掘 ZenCash。ZenCash 采用工作量证明机制 (PoW)，基于 Equihash 算法进行 GPU 挖矿。
+  content: '我们建议将算力分散在各个矿池中，以抵御 <a href="https://en.bitcoin.it/wiki/Majority_attack">51% 算力攻击</a>.'
+  resources:
+    items:
+      - title: Zen挖矿利润计算器
+        buttons:
+          - text: 点击前往
+            link: https://whattomine.com/coins/185-zen-equihash
+      - title: Zen矿池论坛话题
+        buttons:
+          - text: 点击前往
+            link: https://forum.zensystem.io/t/zen-mining-pools-list/73
+      - title: 区块链浏览器
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+dao-infographic:
+  title: 去中心化自治组织 (DAO) 储备金
+  subtitle: ZenCash 储备金模式是一个包容的、被证明是公平的、公开透明的经济机制，激励人们参与进来。
+  image: '/assets/img/iohk-infographic.png'
+  image-mobile: '/assets/img/iohk-infographic-mobile.png'
+  button: 阅读 ZenCash 白皮书
+  steps:
+    1:
+      title: 资金池用于奖励提案
+      image: '/assets/img/icons/infographic/bank.svg'
+    2:
+      title: 任何人都可以提出议案
+      image: '/assets/img/icons/infographic/peers.svg'
+    3:
+      title: 提案经 ZenCash 持有者审核并进行表决
+      image: '/assets/img/icons/infographic/review.svg'
+    4:
+      title: 表决可交由受信任用户代为行使，参与表决的人可获得报酬
+      image: '/assets/img/icons/infographic/scales.svg'
+    5:
+      title: 根据持币数量决定每一票的权重，权重和过程不公开
+      image: '/assets/img/icons/infographic/votes.svg'
+    6:
+      title: 投票结果保密，直至最终赢家宣布，这样可保证公平性
+      image: '/assets/img/icons/infographic/safe.svg'
+    7:
+      title: 进行计票并批准 / 拒绝提案
+      image: '/assets/img/icons/infographic/approve.svg'
+iohk:
+  subtitle: 'ZenCash 与 IOHK 的合作伙伴关系将带来一系列激动人心的研发活动，它们由 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 教授负责领导 -- 他是密码学家、IT 安全研究者、讲师及 IOHK 研究员。'
+  content:
+    title: 可延展性研究
+    list:
+      - 延展性是区块链项目的一大挑战。
+      - 协议升级使得全网大批量快速交易成为可能。
+      - 评估次时代区块链解决方案及其他替代品，譬如 Spectre。
+      - 极强的可用性！无限可延展性与即时交易。
+      - IOHK 将评估多种协议选项，并在 2018 年第二季度结束前为 ZenCash 出具建议及技术规范。
+    button: 进一步了解 ZENCASH
+securenodes:
+  hero:
+    title: ZenCash 是私密的金钱，信息和媒体
+    subtitle: 安全节点让ZenCash网络成为最去中心化和牢固的区块链
+    cta: 如何建立安全节点说明
+  requirements:
+    title: 要求
+    list:
+      - title: 42 枚 ZenCash
+        subtitle: 每个节点需要在公开地址上保留
+        icon: /assets/img/icons/vector-1.png
+      - title: TLS 证书
+        subtitle: 从知名认证中心处创建和保存有效的
+        icon: /assets/img/icons/vector-3.png
+      - title: 算力挑战
+        subtitle: 在具备足够的处理器资源及内存的服务器上运行节点，以解决高算力任务
+        icon: /assets/img/icons/vector-2.png
+      - title: ZenCash 区块链
+        subtitle: 保存 ZenCash 区块链的完整账本
+        icon: /assets/img/icons/vector-4.png
+      - title: 92% 以上在线时间
+        subtitle: 保持节点在线，并至少运行 92% 的时间
+        icon: /assets/img/icons/vector-1.png
+    cta: 如何建立安全节点说明
+  footer:
+    title: 购买或出售ZenCash

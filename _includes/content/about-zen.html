@@ -3,40 +3,40 @@
 
     <div class="col-xl-8">
       <div class="row justify-content-center align-items-center text-center">
-        {% if page.product != 'zencash' %}
+        {% if page.namespace != 'zencash' %}
         <div class="col zentext">
           <a class="zenlink" href="{{site.baseurl}}/zencash/">
             <img src="/assets/img/icons/zencash.png" />
-            <h3>For Money</h3>
+            <h3>{% translate homepage.about.products.zencash %}</h3>
           </a>
         </div>
         {% endif %}
-        {% if page.product != 'zenchat' %}
+        {% if page.namespace != 'zenchat' %}
         <div class="col zentext">
           <a class="zenlink" href="{{site.baseurl}}/zenchat/">
             <img src="/assets/img/icons/zenchat.png" />
-            <h3>For Messaging</h3>
+            <h3>{% translate homepage.about.products.zenchat %}</h3>
           </a>
         </div>
         {% endif %}
-        {% if page.product != 'zenpub' %}
+        {% if page.namespace != 'zenpub' %}
         <div class="col zentext">
           <a class="zenlink" href="{{site.baseurl}}/zenpub/">
             <img src="/assets/img/icons/zenpub.png" />
-            <h3>For Media</h3>
+            <h3>{% translate homepage.about.products.zenpub %}</h3>
             <p>
-              (in development)
+              {% translate homepage.about.products.development %}
             </p>
           </a>
         </div>
         {% endif %}
-        {% if page.product != 'zenhide' %}
+        {% if page.namespace != 'zenhide' %}
         <div class="col zentext">
           <a class="zenlink" href="{{site.baseurl}}/zenhide/">
             <img src="/assets/img/icons/zenhide.png" />
-            <h3>For Web Traffic</h3>
+            <h3>{% translate homepage.about.products.zenhide %}</h3>
             <p>
-              (in development)
+              {% translate homepage.about.products.development %}
             </p>
           </a>
         </div>

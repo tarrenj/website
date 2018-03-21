@@ -677,6 +677,18 @@
             "discord": ""
           }
         }
+        ,
+        {
+          "name": "Blue-Frontiers",
+          "photo": "/assets/img/people/blue_frontiers.jpg",
+          "title": "Partner",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        }
       ]
     },
     {

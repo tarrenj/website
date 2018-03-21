@@ -21,6 +21,8 @@ global:
   exchanges: Exchanges
   mining-pools: Mining Pools
   wallets:
+    full-chain: Full Chain
+    lite-chain: Lite Chain
     base: Wallets
     wallet: Wallet
     official: Official Wallets

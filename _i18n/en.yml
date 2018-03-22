@@ -238,6 +238,7 @@ homepage:
             - iOS Wallet
             - OpenBazaar Integration
             - Operation Radical Transparency
+            - Hardware Wallets
         - title: Secure Node
           icon: /assets/img/icons/secure.png
           content:

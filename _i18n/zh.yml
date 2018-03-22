@@ -59,7 +59,6 @@ descriptions:
   zenchat: ZenChat 是市面上最安全的即时通信应用，可以作为独立的产品使用，也可以在我们的钱包产品中使用。
   zenpub: ZenPub 赋予用户匿名发布数据、文档及媒体的能力，并且可以防止审查。
   zenhide: ZenCash采用域名前置来跨越任何一种网络审查。 域名前置是一种通用的审查规避技术，能够隐藏通信的远程端点。
-descriptions:
 newsletter:
   title: 邮件登记获取最新资讯
   success: 递交成功！请查看您的电子邮箱完成确认.

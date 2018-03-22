@@ -21,8 +21,8 @@ global:
   exchanges: Exchanges
   mining-pools: Mining Pools
   wallets:
-    full-chain: Full Chain
-    lite-chain: Lite Chain
+    full-chain: Full Client
+    lite-chain: Lite Client
     base: Wallets
     wallet: Wallet
     official: Official Wallets
@@ -339,7 +339,7 @@ dao-infographic:
       title: Anyone can submit a proposal
       image: '/assets/img/icons/infographic/peers.svg'
     3:
-      title: Proposals are reviewed and voted on by individuals that own ZenCash (stake)
+      title: Proposals are reviewed and voted on by individuals that own ZenCash
       image: '/assets/img/icons/infographic/review.svg'
     4:
       title: Voting can be delegated to trusted users & voters are paid to participate

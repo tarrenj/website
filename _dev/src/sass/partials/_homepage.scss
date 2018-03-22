@@ -539,9 +539,9 @@ h2.section-title {
     font-size: 20px;
     line-height: 38px;
   }
-  .btn-ghost {
-    margin: .5rem 0.5rem;
-  }
+  // .btn-ghost {
+  //   margin: .5rem 0.5rem;
+  // }
   @include bgimagecover($darkteal, '../vid/cities.jpg', center);
   #bgvid {
     animation-name: fadeIn;
@@ -671,6 +671,7 @@ h2.section-title {
     background-color: $green;
     @include transition(all 0.3s ease-in-out);
     .feature-icon {
+      transform-style: preserve-3d;
       transform: translateY(-5px);
       @include transition(all 0.3s ease-in-out);
     }
@@ -681,6 +682,7 @@ h2.section-title {
   }
   .feature-icon {
     max-width: 100px;
+    transform-style: preserve-3d;
     transform: translateY(0);
     @include transition(all 0.3s ease-in-out);
   }

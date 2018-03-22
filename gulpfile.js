@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant'),
     cache = require('gulp-cache'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
@@ -143,8 +142,7 @@ gulp.task('img', function() {
 		.pipe(cache(imagemin({
 			interlaced: true,
 			progressive: true,
-			svgoPlugins: [{removeViewBox: false}],
-			use: [pngquant()]
+			svgoPlugins: [{removeViewBox: false}]
 		})))
     .pipe(gulp.dest('_site/assets/img'))
     .pipe(browserSync.reload({stream:true}));

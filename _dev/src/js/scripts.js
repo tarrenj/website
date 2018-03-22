@@ -53,7 +53,7 @@ $('#about-dropdown .dropdown-item').click(function() {
   $(this).parent().dropdown('toggle');
 });
 
-
+// Animate on scroll
 AOS.init({
   offset: 200
 });

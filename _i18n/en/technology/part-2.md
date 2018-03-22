@@ -2,11 +2,11 @@
 {: .subsection-title}
 ## Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based cryptocurrency and works well for GPU mining.
 
-{:text-center: .text-center .mt-5 .mb-5}
-[{% translate global.mining-pools %}]({% tl mining-pools {{site.lang}} %}){: .btn .btn-lg .btn-primary .ml-2 .mr-2}
-[{% translate global.philosophy.possessive %}]({% tl philosophy {{site.lang}} %}){: .btn .btn-lg .btn-primary .ml-2 .mr-2}
-{:text-center}
-
-{:text-center:}
-
-{:text-center}
+<div class="row justify-content-center">
+  <div class="col-lg-12 col-xl-6 mb-3">
+    <a href="{% tl mining-pools {{site.lang}} %}" class="btn btn-lg btn-block btn-primary">{% translate global.mining-pools %}</a>
+  </div>
+  <div class="col-lg-12 col-xl-6 mb-3">
+    <a href="{% tl philosophy {{site.lang}} %}" class="btn btn-lg btn-block btn-primary">{% translate global.philosophy.possessive %}</a>
+  </div>
+</div>

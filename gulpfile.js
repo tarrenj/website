@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
-    cache = require('gulp-cache'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
     s3 = require('gulp-s3-upload')(
@@ -139,11 +138,11 @@ gulp.task('concat-lp', function() {
 // Compression images
 gulp.task('img', function() {
 	return gulp.src('assets/img/**/*')
-		.pipe(cache(imagemin({
+		.pipe(imagemin({
 			interlaced: true,
 			progressive: true,
 			svgoPlugins: [{removeViewBox: false}]
-		})))
+		}))
     .pipe(gulp.dest('_site/assets/img'))
     .pipe(browserSync.reload({stream:true}));
 });

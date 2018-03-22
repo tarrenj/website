@@ -15,15 +15,20 @@
   <meta name="description" content="{{ site.description }}">
   <meta property="og:description" content="{{ site.description }}">
   {% endif %}
-  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  {% if site.lang == 'en' %}
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  <meta property="og:url" content="{{site.url}}{{page.url}}">
+  {% else %}
+  <link rel="canonical" href="{{site.url}}/{{site.lang}}{{page.url}}">
+  <meta property="og:url" content="{{site.url}}/{{site.lang}}{{page.url}}">
+  {% endif %}
   {% for language in site.languages %}
   {% if language == 'en' %}
-  <link rel="alternate" href="{{site.url}}" hreflang="{{language}}" />
+  <link rel="alternate" href="{{site.url}}{{page.url}}" hreflang="{{language}}" />
   {% else %}
-  <link rel="alternate" href="{{site.url}}/{{language}}/" hreflang="{{language}}" />
+  <link rel="alternate" href="{{site.url}}/{{language}}{{page.url}}" hreflang="{{language}}" />
   {% endif %}
   {% endfor %}
-  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
   <script type="application/ld+json">
   {

@@ -13,14 +13,17 @@
     "child_process": "^1.0.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^1.0.2",
     "gulp-clean-css": "^2.0.13",
     "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-s3-upload": "^1.7.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.7.3",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.10",
+    "imagemin-pngquant": "^5.1.0",
     "pump": "^1.0.1"
   }
 }

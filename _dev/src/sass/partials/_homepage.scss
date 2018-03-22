@@ -671,6 +671,7 @@ h2.section-title {
     background-color: $green;
     @include transition(all 0.3s ease-in-out);
     .feature-icon {
+      transform-style: preserve-3d;
       transform: translateY(-5px);
       @include transition(all 0.3s ease-in-out);
     }
@@ -681,6 +682,7 @@ h2.section-title {
   }
   .feature-icon {
     max-width: 100px;
+    transform-style: preserve-3d;
     transform: translateY(0);
     @include transition(all 0.3s ease-in-out);
   }

@@ -7,6 +7,9 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+    cache = require('gulp-cache'),
     autoprefixer = require('gulp-autoprefixer'),
     cp = require('child_process'),
     s3 = require('gulp-s3-upload')(
@@ -134,6 +137,19 @@ gulp.task('concat-lp', function() {
         .pipe(gulp.dest(paths.dist + 'js'))
 });
 
+// Compression images
+gulp.task('img', function() {
+	return gulp.src('assets/img/**/*')
+		.pipe(cache(imagemin({
+			interlaced: true,
+			progressive: true,
+			svgoPlugins: [{removeViewBox: false}],
+			use: [pngquant()]
+		})))
+    .pipe(gulp.dest('_site/assets/img'))
+    .pipe(browserSync.reload({stream:true}));
+});
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
@@ -141,6 +157,7 @@ gulp.task('concat-lp', function() {
 gulp.task('watch', function () {
     gulp.watch(paths.src + 'sass/**/*.scss', ['sass']);
     gulp.watch(paths.src + 'js/**/*.js', ['concat', 'concat-lp']);
+    gulp.watch('assets/img/**/*', ['img']);
     gulp.watch([
         '*.{html,md,markdown,xml,txt}',
         '_layouts/**/*.html',

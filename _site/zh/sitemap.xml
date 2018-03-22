@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zencash.com/zh/交易所/</loc>
+    <loc>https://zencash.com/zh/exchanges/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
@@ -19,37 +19,37 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/矿池/</loc>
+    <loc>https://zencash.com/zh/mining-pools/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/哲学理念/</loc>
+    <loc>https://zencash.com/zh/philosophy/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/安全节点数量/</loc>
+    <loc>https://zencash.com/zh/securenodes/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/团队/</loc>
+    <loc>https://zencash.com/zh/team/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/技术/</loc>
+    <loc>https://zencash.com/zh/technology/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://zencash.com/zh/钱包/</loc>
+    <loc>https://zencash.com/zh/wallets/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

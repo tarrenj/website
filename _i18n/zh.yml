@@ -32,14 +32,33 @@ global:
   anonymous: 匿名
   korean: 韩文
 titles:
-  homepage: ZenCash
-  iohk: ZenCash 与 IOHK 达成研发合作伙伴关系
-  technology: Zen 技术
-  team: Zen 的团队
-  exchanges: ZenCash 交易所
-  mining-pools: ZenCash 矿池
-  wallets: ZenCash 钱包
-  securenodes: ZenCash 安全节点数量
+  homepage: 一个全球性的匿名区块链
+  iohk: ZenCash和IOHK达成研发合作关系
+  philosophy: ZenCash理念 - 改变世界，点滴做起
+  technology: Zen技术
+  team: ZenCash团队
+  exchanges: ZenCash交易所
+  mining-pools: ZenCash矿池
+  wallets: ZenCash钱包
+  securenodes: ZenCash安全节点
+  zencash: ZenCash用于货币流通
+  zenchat: ZenChat用于安全的即时通信
+  zenpub: ZenPub-去中心化云储存
+  zenhide: ZenHide用于反审查
+descriptions:
+  homepage: ZenCash是目前最具抗破坏性和避审核的私密虚拟货币区块链。我们的用户的交易是私密的，匿名的，也是不可被追踪的。 以我们的安全节点技术作为运作力，我们的网络活动无法被识别，由此而不能被阻蔽。
+  iohk: ZenCash 与 IOHK 的合作伙伴关系将带来一系列激动人心的研发活动，它们由 Roman Oliynykov 教授负责领导 。这个合作关系包含了以去中心自主组织为协议层的应用，和像Spectre或Phantom协议这样的新一代扩展方案。点入了解更多！
+  philosophy: Zen是建立在一个我们日益升级的去中心化治理模式上。摒弃了中央集权和单点故障（SPoF），ZenCash比任何一个组织都要牢不可破。
+  technology: Zen采用zk-SNARKS技术，同时拥有节点加密，域名前置以及IPFS作为额外层。
+  team: 了解我们的团队。ZenCash团队由联合创始人Rob Viglione和Rolf Versluis带领，组成队员是一群对区块链的发展充满热情和动力个体。ZenCash的目标是通过创新为区块链产业和人类文明做出贡献。
+  exchanges: 想要购买或交易ZenCash吗？这里是所有出售ZenCash的交易所的列表。
+  mining-pools: ZenCash矿池列表。矿池资源集合任您选择，并请加入ZenCash网上社区。
+  wallets: 请小心保管好您的ZenCash钱包。您可以从ZenCash的多种钱包中选择一种。
+  securenodes: ZenCash安全节点为匿名交易，即时通信和媒体发布搭建了一个活跃的和牢不可破的系统。
+  zencash: 利用 ZenCash常规 (T) 地址和私密 (Z) 地址转账十分简单。T 地址是常规地址，其交易类似于比特币。T地址被称为受保护地址，利用最新的隐私保护技术将交易双方地址和交易金额隐藏起来。
+  zenchat: ZenChat 是市面上最安全的即时通信应用，可以作为独立的产品使用，也可以在我们的钱包产品中使用。
+  zenpub: ZenPub 赋予用户匿名发布数据、文档及媒体的能力，并且可以防止审查。
+  zenhide: ZenCash采用域名前置来跨越任何一种网络审查。 域名前置是一种通用的审查规避技术，能够隐藏通信的远程端点。
 descriptions:
 newsletter:
   title: 邮件登记获取最新资讯
@@ -115,7 +134,7 @@ homepage:
     products:
       zencash: 用于支付
       zenchat: 用于即时通信
-      zenpub: 用于媒体
+      zenpub: 用于媒体发布
       zenhide: 用于网络浏览
       development: (开发中)
       nav:
@@ -136,7 +155,7 @@ homepage:
     cta: 了解我们和 IOHK 的合作伙伴关系
   tech:
     title: 私密性 - 安全性 - 反追踪 - 抗破坏 - 可挖矿
-    subtitle: Zen 致力于引领技术前沿，并通过创新造福全人类
+    subtitle: Zen 致力于引领技术前沿，并通过创新为人类文明做出贡献
     features:
       - title: 最棒的隐私保护技术
         content:

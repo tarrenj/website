@@ -347,10 +347,10 @@ dao-infographic:
       title: Votes are weighted according to stake and is not public
       image: '/assets/img/icons/infographic/votes.svg'
     6:
-      title: Ballot results are secrete until the winnier is announced to ensure fairness
+      title: Ballot results are secret until the winner is announced to ensure fairness
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: Votes are counted and the Propoasl is approved or declined
+      title: Votes are counted and the Propoasl is approved \ declined
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
   subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'

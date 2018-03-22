@@ -23,7 +23,6 @@
     "gulp-sourcemaps": "^1.7.3",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.10",
-    "imagemin-pngquant": "^5.1.0",
     "pump": "^1.0.1"
   },
   "dependencies": {}

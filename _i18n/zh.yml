@@ -1,5 +1,6 @@
 global:
   roadmap: 路线图
+  resources: 资源
   technology:
     base: 技术
     possessive: 我们的技术
@@ -21,6 +22,8 @@ global:
   exchanges: 交易所
   mining-pools: 矿池
   wallets:
+    full-chain: Full Client
+    lite-chain: Lite Client
     base: 钱包
     wallet: 钱包
     official: 官方钱包

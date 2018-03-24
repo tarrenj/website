@@ -1,5 +1,6 @@
 global:
   roadmap: Roadmap
+  resources: Resources
   technology:
     base: Technology
     possessive: Our Technology

@@ -104,6 +104,11 @@ section:not(#hero) {
   box-shadow: none;
 }
 
+.logo-text {
+  text-transform: lowercase;
+  color: $darkblue;
+  line-height: 1;
+}
 .section-title {
   text-align: center;
 }
@@ -786,6 +791,12 @@ h2.section-title {
 }
 
 #about {
+  .logo-text {
+    font-size: 3.7rem;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
   .lead.section-title {
     color: $darkblue;
     font-size: 28px;
@@ -960,6 +971,7 @@ section#features {
       h2 {
         margin-bottom: 0;
         font-size: 24px;
+        padding-left: 8px;
       }
       img {
         width: 250px;
@@ -1159,6 +1171,10 @@ section#tech {
   background-position: 0px 0px;
   background-size: 960px;
   padding: 8rem 0;
+  .logo-text {
+    font-size: 6rem;
+    letter-spacing: -5px;
+  }
   .subhead-image {
     max-width: 520px;
     margin-bottom: 2rem;

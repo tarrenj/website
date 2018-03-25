@@ -32,6 +32,7 @@ global:
     paper: Paper Wallet
   forum: Forum
   go: GO
+  footeron: 'on'
   anonymous: anonymous
   korean: Korean
 titles:

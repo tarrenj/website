@@ -113,6 +113,9 @@ nav:
         - title: 下载钱包
           link: '/wallets/'
           namespace: wallets
+        - title: Public Keys
+          link: 'https://github.com/zencashofficial/keys'
+          type: external
         - title: 邮件支持
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto

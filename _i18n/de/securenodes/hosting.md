@@ -1,7 +1,7 @@
-## Hosten Sie einen Secure Node, sammeln Sie Bergbauprämien und werden Sie Teil von ZenCash!
+## Hosten Sie einen Secure Node, sammeln Sie Mining Reward und werden Sie Teil von ZenCash!
 {: .content-title}
 
-Secure Node Betreiber werden mit 3,5% der Bergbauprämien belohnt
+Secure Node Betreiber werden mit 3,5% der Mining Reward belohnt
 {: .lead}
 
 Eine der ersten Sicherheitsfunktionen von ZenCash war die Verschlüsselung der Inter-Node-Kommunikation. Dies wurde implementiert, und jetzt sieht die ZenCash-Node-Kommunikation wie jeder andere verschlüsselte Internet-Datenverkehr statt wie Bitcoin-Verkehr aus. Dies hilft, die Art der stattfindenden Aktivität zu verbergen, wodurch es weniger wahrscheinlich wird, dass ZenCash Benutzer und Knoten blockiert sind.

@@ -373,9 +373,9 @@ securenodes:
   hero:
     title: ZenCash ist privates Geld, Nachrichten und Medien
     subtitle: Secure nodes machen das ZenCash-Netzwerk zur dezentralsten und widerstandsfähigsten Blockchain!
-    cta: Anweisungen zum Einrichten sicherer Knoten
+    cta: Anweisungen zum Einrichten eines sicheren Knoten
   requirements:
-    title: Bedarf
+    title: Vorraussetzung
     list:
       - title: 42 $ZEN
         subtitle: in transparenter Adresse pro Knoten
@@ -390,8 +390,8 @@ securenodes:
         subtitle: Pflegen Sie eine vollständige Kopie der ZenCash Blockchain
         icon: /assets/img/icons/vector-4.png
       - title: 92%+ Betriebszeit
-        subtitle: Halten Sie den Knoten mindestens 92% der Zeit aktiv
+        subtitle: Halten Sie den Knoten mindestens 92% der Zeit online
         icon: /assets/img/icons/vector-1.png
-    cta: Anweisungen zum Einrichten sicherer Knoten
+    cta: Anweisungen zum Einrichten eines sicheren Knoten
   footer:
     title: ZenCash Kaufen oder Verkaufen

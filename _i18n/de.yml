@@ -115,7 +115,7 @@ nav:
         - title: Wallet Herunterladen
           link: '/wallets/'
           namespace: wallets
-        - title: Public Keys
+        - title: Öffentliche Schlüssel
           link: 'https://github.com/zencashofficial/keys'
           type: external
         - title: E-Mail-Support

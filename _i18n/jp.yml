@@ -265,38 +265,38 @@ homepage:
             - スケーラビリティーに関する対策
             - セキュアノード上におけるIPFS
   whitepaper:
-    subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
-    button: Download White Paper
+    subtitle: "ホワイトペーパーを改訂中です。初版ホワイトペーパーの内容のうち、約80％が達成されました。"
+    button: ホワイトペーパーをダウンロード
   team:
-    title: A Global Team
-    subtitle: The ZenCash team is comprised of over 50 members from around the globe
+    title: グローバルなチーム
+    subtitle: ZenCashチームは、50を超える世界中のメンバーたちにより構成されています
     button:
-      text: See the Entire Team
+      text: チームメンバーを見る
       link: '/team/'
   usezen:
-    title: Use Zen
-    subtitle: Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!
+    title: Zenの使用
+    subtitle: 私たちは、プライバシーコインの中で ZenCashを最も実用的な暗号通貨とすることを目指しています!
     features:
-      - title: Buy ZenCash
+      - title: ZenCashを購入する
         image: /assets/img/icons/money.png
         namespace: exchanges
-      - title: Download Wallets
+      - title: ウォレットをダウンロードする
         image: /assets/img/icons/safe.png
         namespace: wallets
-      - title: Mining Pools
+      - title: マイニングプール
         image: /assets/img/icons/mining.png
         namespace: mining-pools
     merchants:
-      title: Merchants
-      subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.
+      title: 事業者
+      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスおよび事業者サービスとの統合が非常に大切となります。
   resources:
-    subtitle: These resources will help you better understand the Zen brand and how to properly represent it.
+    subtitle: Zenのブランド詳細に関しては、以下のリソースをご覧ください。
     items:
-      - title: Legal
+      - title: 法律関連事項
         buttons:
-          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> ダウンロード'
             link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
-      - title: Block Explorers
+      - title: ブロックエクスプローラー
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -305,9 +305,9 @@ homepage:
           - text: 3
             link: https://explorer.zen-solutions.io/
   blog:
-    title: Blog
+    title: ブログ
     button:
-      text: More Blog Posts
+      text: 他のブログ記事も見る
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.

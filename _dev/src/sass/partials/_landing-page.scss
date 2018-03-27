@@ -75,6 +75,16 @@
       margin-bottom: 0;
       line-height: 1;
       letter-spacing: -6px;
+      strong {
+        font-weight: 500 !important;
+      }
+      @media (max-width: 767px) {
+        font-size: 5rem;
+        letter-spacing: -3px;
+      }
+      @media (max-width: 575px) {
+        font-size: 4rem;
+      }
     }
   }
   h2 {
@@ -148,6 +158,9 @@
   border-bottom: 1px solid $darkblue;
   &:first-of-type {
     margin-top: 0;
+  }
+  @media (max-width: 575px) {
+    max-width: 100%;
   }
 }
 
@@ -527,7 +540,8 @@ section.content {
   .interior-subheader {
     padding-top: 2rem;
     h1 {
-      font-size: 2rem;
+      font-size: 1.4rem;
+      letter-spacing: 0.8rem;
     }
   }
   #team {

@@ -108,6 +108,7 @@ section:not(#hero) {
   text-transform: lowercase;
   color: $darkblue;
   line-height: 1;
+  word-wrap: break-word;
 }
 .section-title {
   text-align: center;
@@ -611,7 +612,7 @@ h2.section-title {
     right: auto;
     width: 100%;
     background-color: #041435;
-    padding: 2rem 0;
+    padding: 2rem 15px;
     p {
       margin: 0;
       font-weight: 400;
@@ -913,7 +914,7 @@ section#features {
         div[class^="col"] {
           display: flex;
           flex-direction: column;
-          padding: 0 4%;
+          padding: 15px 4%;
         }
         .content {
           flex-grow: 1;
@@ -1174,6 +1175,9 @@ section#tech {
   .logo-text {
     font-size: 6rem;
     letter-spacing: -5px;
+    @media (max-width: 767px) {
+      font-size: 4rem;
+    }
   }
   .subhead-image {
     max-width: 520px;
@@ -2441,6 +2445,9 @@ section#tech {
     }
     .lead {
       font-size: 1rem;
+    }
+    .btn-ghost {
+      margin-bottom: 1.4rem;
     }
     .featured-announcement {
       padding: 15px 15px 5px;

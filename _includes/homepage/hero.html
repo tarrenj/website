@@ -11,8 +11,12 @@
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <h1>ZenCash</h1>
+        {% if site.translations[site.lang].homepage.hero.subtitle != null %}
         <h3>{% translate homepage.hero.subtitle %}</h3>
+        {% endif %}
+        {% if site.translations[site.lang].homepage.hero.subtitle2 != null %}
         <h2>{% translate homepage.hero.subtitle2 %}</h2>
+        {% endif %}
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <a href="{% tl wallets {{ site.lang }} %}" class="btn btn-lg btn-block btn-ghost">{% translate homepage.hero.wallet-button %}</a>

@@ -14,7 +14,7 @@
         {% if site.lang == language[0] %}
         <a href="{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
         {% else %}
-        <a href="{{ site.baseurl }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+        <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
         {% endif %}
       {% endif %}
     </li>

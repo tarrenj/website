@@ -95,5 +95,5 @@ exclude:
 - vendor
 - old-homepage.html
 
-languages: ["en", "zh"]
+languages: ["en", "zh", "de"]
 exclude_from_localizations: ["assets"]

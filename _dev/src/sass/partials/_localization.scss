@@ -10,6 +10,11 @@
     }
   }
 }
+.lng-jp {
+  .btn-lg, .btn-group-lg>.btn {
+    letter-spacing: 0;
+  }
+}
 .lng-jp,
 .lng-zh {
   h3 {

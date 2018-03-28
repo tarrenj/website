@@ -78,7 +78,11 @@
   <meta name="msapplication-square310x310logo" content="{{ "/assets/fav/mstile-310x310.png" | prepend: site.baseurl_root }}" />
 
   {% if page.type == 'homepage' %}
-  <link rel="stylesheet" href="https://use.typekit.net/elr1akh.css">
+    {% if site.lang == 'jp' %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    {% else %}
+    <link rel="stylesheet" href="https://use.typekit.net/elr1akh.css">
+    {% endif %}
   {% else %}
   <link href="https://fonts.googleapis.com/css?family=Exo+2:300,600|Roboto:300,500" rel="stylesheet">
   {% endif %}

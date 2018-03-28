@@ -1,2 +1,2 @@
-## ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship.
-The purpose of ZenPub is to allow individuals to freely publish data or information without fear of reprisal by allowing the individuals to publish from a shielded address (anonymous) via the InterPlanetary File System.
+## ZenPubを利用することで、検閲に怯えることなく、匿名で文書や動画などのデータを公開することが可能となります。
+ZenPubの目的は、人々が検閲処罰の恐れを抱くことなく、自由にデータ・情報を発信できるようにすることです。これは、シールドされたアドレス (匿名) からIPFS経由で情報を発信することにより実現されます。

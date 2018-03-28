@@ -310,19 +310,19 @@ homepage:
       text: 他のブログ記事も見る
       link: https://blog.zencash.com/
 mining-pools:
-  subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
-  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.'
+  subtitle: ZenCashはプルーフ・オブ・ワークおよびEquihashを採用した暗号通貨であり、GPUマイニングにうってつけです。標準的なグラフィックカードを用いることで、誰でもマイニングを行うことが可能です。
+  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタックへ</a></strong> の防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
   resources:
     items:
-      - title: Zen Mining Profit Calculator
+      - title: Zenマイニング収益計算機
         buttons:
-          - text: Go
+          - text: 詳細
             link: https://whattomine.com/coins/185-zen-equihash
-      - title: Zen Mining Pool Forum Topic
+      - title: Zenマイニングプールフォーラム
         buttons:
-          - text: Go
+          - text: 詳細
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73
-      - title: Block Explorers
+      - title: ブロックエクスプローラー
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -331,67 +331,67 @@ mining-pools:
           - text: 3
             link: https://explorer.zen-solutions.io/
 dao-infographic:
-  title: Decentralized Autonomous Organization (DAO) Treasury
-  subtitle: ZenCash Treasury Model is an inclusive, provably fair, and transparent economic system with incentives to participate.
+  title: 自律分散型組織 (DAO) モデルのトレジャリーシステム
+  subtitle: ZenCashのトレジャリーモデルは、インクルーシブで透明性が高く、その公正さが証明された経済システムです。また、システム内の活動に参加する上でのインセンティブが存在します。
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
-  button: Read the ZenCash White Paper
+  button: ZenCashホワイトペーパーを読む
   steps:
     1:
-      title: A funding pool is available for proposals
+      title: 提案・企画に対する資金プールを用意
       image: '/assets/img/icons/infographic/bank.svg'
     2:
-      title: Anyone can submit a proposal
+      title: 誰でも提案・企画を提出することが可能
       image: '/assets/img/icons/infographic/peers.svg'
     3:
-      title: Proposals are reviewed and voted on by individuals that own ZenCash
+      title: ZenCashを所有する人々が提案・企画に対するレビュー・投票を実行
       image: '/assets/img/icons/infographic/review.svg'
     4:
-      title: Voting can be delegated to trusted users & voters are paid to participate
+      title: 投票権は信頼できるユーザーに委任可能。また、 投票により金銭的報酬を受取ることも可能
       image: '/assets/img/icons/infographic/scales.svg'
     5:
-      title: Votes are weighted according to stake and is not public
+      title: 票はステークの比率に基づいて計算され、投票内容が他人に公開されることはありません
       image: '/assets/img/icons/infographic/votes.svg'
     6:
-      title: Ballot results are secret until the winner is announced to ensure fairness
+      title: 公正さを保つために、当選提案・企画が決定するまで投票 (途中) 結果は公開されません
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: Votes are counted and the Proposal is approved \ declined
+      title: 票計数が行われ、提案・企画の採用・不採用が決定されます
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
-  subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'
+  subtitle: 'ZenCashとIOHKのパートナーシップでは、注目すべき数々の研究開発が計画されています。研究開発は、 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 教授 (暗号学者、ITセキュリティ研究者、IOHK研究フェロー) により主導されます。'
   content:
-    title: Scalability Study
+    title: スケーラビリティに関する研究
     list:
-      - Scaling is a major problem in blockchain projects.
-      - Protocol upgrade enables high-volume rapid transactions across the network.
-      - Evaluating next-generation blockchain solutions and alternatives like Spectre.
-      - Radical usability! Unlimited scalability and instant transactions.
-      - IOHK will evaluate multiple protocol options and provide a recommendation and specifications to ZenCash by Q2 2018.
-    button: Learn more about ZenCash
+      - ブロックチェーンプロジェクトにおいて、スケーリングは重要な課題です。
+      - プロトコルのアップグレードを行うことで、ネットワーク上における大量かつ高速のトランザクションが可能となります。
+      - Spectreなどといった、次世代型ブロックチェーンソリューションの研究を行います。
+      - 使いやすさに徹底的にこだわります。限りないスケーラビリティおよび即時のトランザクション実現を目指します。
+      - IOHKは様々なプロトコルに関して精査したのち、Zenチームに対し2018年第2四半期までに、提案ならびにプロトコル仕様を提供します。
+    button: ZenCashについて詳しく知る
 securenodes:
   hero:
-    title: ZenCash is Private Money, Messages, Media
-    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
-    cta: Instructions to Set Up Secure Nodes
+    title: ZenCashは、プライベートな通貨・メッセージングシステム・メディア (情報発信手段) です
+    subtitle: ZenCashネットワークが非常に非中央集権化の進んだレジリエントなブロックチェーンであるのは、セキュアノードのおかげです。
+    cta: セキュアノードの設定方法
   requirements:
-    title: Requirements
+    title: セキュアノードとして満たすべき条件
     list:
-      - title: 42 $ZEN
-        subtitle: in transparent address per node
+      - title: 1ノードにつき、Tアドレスで42 ZenCash以上を所有していること
+        subtitle:
         icon: /assets/img/icons/vector-1.png
-      - title: TLS Certificate
-        subtitle: from a known Certificate Authority
+      - title: 信頼できる認証局から発行される有効なTLS証明書を作成・管理すること
+        subtitle:
         icon: /assets/img/icons/vector-3.png
-      - title: Computational Challenge
-        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+      - title: ノードに対する計算課題をこなすのに十分なプロセッサパワーおよびメモリを備えたサーバー上で、ノードを運営すること
+        subtitle:
         icon: /assets/img/icons/vector-2.png
-      - title: ZenCash Blockchain
-        subtitle: Maintain a full copy of the ZenCash Blockchain
+      - title: Zenブロックチェーンの全コピーを管理すること
+        subtitle:
         icon: /assets/img/icons/vector-4.png
-      - title: 92%+ Uptime
-        subtitle: Keep the node up and running at least 92% of the time
+      - title: 1日の時間あたり92％以上の間、ノードが実行されていること。
+        subtitle:
         icon: /assets/img/icons/vector-1.png
-    cta: Instructions to Set Up Secure Nodes
+    cta: セキュアノード設定の方法
   footer:
-    title: Buy or Sell ZenCash
+    title: ZenCashを購入・売却する

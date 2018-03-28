@@ -1,8 +1,8 @@
-## ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses.
-T addresses are regular addresses and transactions similar to bitcoin.
+## ZenCashは、通常のアドレス (T) およびプライベートなアドレス (Z) を用いてスムーズな価値の交換を実現します。
+Tアドレスとは、公開されたパブリックなアドレスをさし、ビットコインにおけるアドレスのような役割を果たします。
 
-Z addresses are called shielded addresses and leverage the latest privacy technology to obscure sender and recipient addresses, as well as amount sent.
+Zアドレスは「シールドされたアドレス」ともいい、ここではプライバシー保護のための最新技術を用いることで送付元、送付先、および送付量が隠されます。
 
-Balances in shielded addresses are private. If spending to one or more shielded addresses, the value stays private but any transparent addresses on the receiving end will deshield the token and reveal the value received on the blockchain.
+シールドされたアドレスにおける残高はプライベート (非公開) です。シールドされたアドレスにZenCashを送付する場合、送付量は非公開となります。一方、送付先に通常のアドレス (Tアドレス) が含まれている場合はシールドが一部解除され、送付量がブロックチェーン上に公開されることとなります。
 
-ZenCash is compatible with Bitcoin- and Z-derived applications, exchanges, and wallets.
+ZenCashは、ビットコインおよびZcashから派生したコインに対応するアプリケーション、取引所、およびウォレットに対する互換性を有しています。

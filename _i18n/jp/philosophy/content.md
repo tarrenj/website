@@ -1,22 +1,22 @@
-### Autonomous
+### 自律的
 {: .subsection-title}
-## Zen is implementing a decentralized governance model. With no central authority or single point of failure, ZenCash is more resilient than a traditional corporation.
+## Zenは、非中央集権的なガバナンスモデルを採用しています。中央権力や単一障害点が存在しないため、ZenCashは、従来の会社組織などと比較するとレジリエントであるといえるでしょう。
 
-Everyone has an equal opportunity to participate in decision making, which empowers stakeholders and makes ZenCash less susceptible to third party influence.
+また、ZenCash保有者は誰でも意思決定に参加する権利を有し、ステークホルダーとしての権限が保証されることとなります。これによりZenCashは、Zenコミュニティ以外の第三者の影響を受けづらくなります。
 
-### Sustainable Economics
+### 持続可能な経済システム
 {: .subsection-title}
-## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+## 私たちZenチームは、強固かつ持続可能なエコシステムを提供するようなテクノロジーおよび経済的インセンティブを通じて世界をより良いものにしていく、という理念を掲げています。なお、具体的なインセンティブとしてのマイニング報酬の内訳は、以下のようになります。
+* マイナー：88%
+* DAO (自律分散型組織)：8.5%
+* セキュアノード運営者：3.5%
 
-### R&D Focus
+### 研究開発への取組み
 {: .subsection-title}
-## We consider it a priority to contribute to the broader cryptocurrency ecosystem and body of knowledge, so we have multiple active R&D projects in the pipeline with many more planned:
-* Decentralized Autonomous Organization Treasury Study
-* Scalability Study
-* Network Stack Anonymization
+## 私たちは、Zenのみならず、より広い枠組みとして暗号通貨全体のエコシステムおよび技術発展に貢献することを重要視しており、様々な研究開発プロジェクトを実行中あるいは計画中です。
+* 自律分散型組織モデルに基づいたトレジャリーシステムの研究
+* スケーラビリティの研究
+* ネットワークスタックの匿名化
 
 {:text-center: .text-center .mt-5 .mb-5}
 [{% translate global.technology.possessive %}]({% tl technology {{site.lang}} %}){: .btn .btn-lg .btn-primary}

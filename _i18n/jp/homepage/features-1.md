@@ -1,8 +1,8 @@
-### Designed for Long-Term Operation
-- 21 million ZenCash cap - no premine, no ICO
-- Thousands of Secure Nodes in operation - 3.5% of mining reward
-- Treasury funds for development, support, marketing - 8.5% of mining reward
-- Strong team & representative governance - Zen Blockchain Foundation
-- Wallets and communication clients for international users
-- Marketing globalization - tailored approach to different markets
-- Secure Nodes provide a resilient, distributed network
+### 長期的に機能できるように設計されています
+- 2100万ZenCashという発行上限 - プレマインや ICO は実施していません
+- 何千ものセキュアノードが稼働中 - マイニング報酬の3.5%が分配されます
+- 開発、運営サポート、マーケティングのためのトレジャリー資金 - マイニング報酬の8.5%が分配されます
+- 充実したチームおよび代議制ガバナンス - Zen ブロックチェーン財団
+- 世界中のユーザーに対応したウォレットおよびコミュニケーションチャネル
+- 世界中で展開するマーケティング - 個々のマーケットに適したアプローチ
+- セキュアノードにより、レジリエントで分散型のネットワークを実現

@@ -20,6 +20,8 @@
           <li class="nav-item">
             {% if item.type == 'mailto' %}
             <a class="nav-link" href="{{ item.link }}">{{ item.title }}</a>
+            {% elsif item.type == 'external' %}
+            <a class="nav-link" href="{{ item.link }}" target="_blank">{{ item.title }}</a>
             {% else %}
             {% capture footer_link %}{% if item.namespace %}{% tl {{ item.namespace }} {{ site.lang }} %}{% else %}{{site.baseurl}}{{ item.link }}{% endif %}{% endcapture %}
             <a class="nav-link" href="{{ footer_link }}">{{ item.title }}</a>

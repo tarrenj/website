@@ -1025,7 +1025,7 @@ section#tech {
   }
 }
 
-section#roadmap {
+#roadmap:not(body) {
   overflow-x: hidden;
   padding: 100px 0 0;
   .zencash-logo {
@@ -2576,7 +2576,7 @@ section#roadmap {
     font-size: 30px;
     line-height: 1.4;
   }
-  #roadmap {
+  #roadmap:not(body) {
     padding-top: 3rem;
     .zencash-logo {
       max-width: 70%;
@@ -2606,6 +2606,7 @@ section#roadmap {
     .entry-text {
       h3 {
         font-size: 24px;
+        line-height: 1.4;
       }
     }
     .entry-icon {

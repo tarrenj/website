@@ -37,16 +37,16 @@ global:
   korean: 韓国
 titles:
   homepage: A globally accessible and anonymous blockchain
-  iohk: ZenCash and IOHK partner for Research and Development
+  iohk: ZenCashとIOHKは研究開発パートナーシップを締結しました
   philosophy: Changing the world one bit at a time
-  technology: Zen Technology
+  technology: Zenテクノロジー
   team: Meet Our Team
-  exchanges: ZenCash Exchanges
-  mining-pools: ZenCash Mining Pools
-  wallets: ZenCash Wallets
-  securenodes: ZenCash Secure Nodes
-  zencash: ZenCash for Money
-  zenchat: ZenChat for Secure Messaging
+  exchanges: ZenCash取引所
+  mining-pools: ZenCashマイニングプール
+  wallets: ZenCashウォレット
+  securenodes: ZenCashセキュアノード
+  zencash: 通貨としてのZenCash
+  zenchat: セキュアメッセージング機能としてのZenChat
   zenpub: ZenPub - Decentralized Cloud Storage
   zenhide: ZenHide for Censorship Resistance
 descriptions:

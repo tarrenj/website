@@ -36,36 +36,36 @@ global:
   anonymous: 匿名プラットフォーム
   korean: 韓国
 titles:
-  homepage: A globally accessible and anonymous blockchain
+  homepage: 世界中で利用可能かつ匿名のブロックチェーン
   iohk: ZenCashとIOHKは研究開発パートナーシップを締結しました
-  philosophy: Changing the world one bit at a time
+  philosophy: 少しずつ世界を変えていく
   technology: Zenテクノロジー
-  team: Meet Our Team
+  team: チーム紹介
   exchanges: ZenCash取引所
   mining-pools: ZenCashマイニングプール
   wallets: ZenCashウォレット
   securenodes: ZenCashセキュアノード
   zencash: 通貨としてのZenCash
   zenchat: セキュアメッセージング機能としてのZenChat
-  zenpub: ZenPub - Decentralized Cloud Storage
-  zenhide: ZenHide for Censorship Resistance
+  zenpub: ZenPub - 非中央集権的なクラウドストレージ
+  zenhide: ZenHide - 検閲回避
 descriptions:
-  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
-  iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
-  philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
-  technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
-  team: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
-  exchanges: Looking to buy or trade ZenCash? Find a list of all exchanges that support ZenCash here.
+  homepage: ZenCashは、極めてレジリエントで高度な検閲耐性を備えたブロックチェーンおよびプライバシーコインです。プライベートかつ匿名であり、追跡不能なトランザクションを実行することが可能となります。また、セキュアノードにより、ZenCash のネットワークトラフィックを識別不可能、すなわちブロック不可能とすることができます。
+  iohk: ZenCashとIOHKのパートナーシップでは、注目すべき数々の研究開発が計画されています。研究開発はRoman Oliynykov 教授により主導され、プロトコルレベルにおける自律分散型組(DAO) 、さらに、SPECTREやPhantomプロトコルといった次世代型スケーリングソリューションの実装研究が行われます。ぜひチェックを！
+  philosophy: Zenは非中央集権的なガバナンスモデルに立脚しており、継続的にアップグレードが行なわれています。中央権力や単一障害点が存在しないため、ZenCashは組織として極めてレジリエントだといえます。
+  technology: zk-SNARKSに加え、Zenでは追加レイヤーとしてのノード暗号化、ドメインフロンティング、および惑星間ファイルシステム (IPFS) を採用しています。
+  team: チームを紹介します。ZenCashチームは、設立者であるRob ViglioneおよびRolf Versluisをリーダーとして、研究開発を通じてブロックチェーン業界を発展させることに情熱を注ぐ、意欲のあるメンバーたちにより構成されています。
+  exchanges: ZenCashの購入・トレードをご検討ですか? ZenCashを取扱う取引所に関しては、以下をご覧ください。
   mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
-  wallets: Store your ZenCash safely and securely. Choose one of our many ZenCash Wallets.
-  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
-  zencash: ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses. T addresses are regular addresses and transactions are similar to bitcoin. Z addresses are called shielded addresses and leverage the latest privacy technology, zk-SNARKS, to obscure sender and recipient addresses, as well as amount sent.
-  zenchat: ZenChat is the most secure and private messaging application on the market and can be used as a standalone product or embedded within ZenCash wallets.
-  zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
-  zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
+  wallets: ZenCashを安全に保管しましょう。ZenCashウォレットは様々なタイプがありますので、必要なものをお使いください。
+  securenodes: ZenCashのセキュアノードによって、プライベートなトランザクション、メッセージングならびに情報発信を可能とするための、強固でレジリエントなシステムが実現されます。
+  zencash: ZenCashは、通常のアドレス (T) およびプライベートなアドレス (Z) を用いてスムーズな価値の交換を実現します。Tアドレスとは、公開されたパブリックなアドレスをさし、ビットコインにおけるアドレスのような役割を果たします。Zアドレスは「シールドされたアドレス」ともいい、ここではプライバシー保護のための最新技術を用いることで送付元、送付先、および送付量が隠されます。
+  zenchat: ZenChatは業界有数のセキュリティを誇るメッセージングアプリであり、これ自体をプロダクト化することもできれば、Zenウォレットに内蔵することも可能です。
+  zenpub: ZenPubを利用することで、検閲に怯えることなく、匿名で文書や動画などのデータを公開することが可能となります。
+  zenhide: ZenCashは、ドメインフロンティングを用いることで、インターネット上のあらゆる検閲を回避することができます。ドメインフロンティングとは、検閲回避のための汎用性の高い技術であり、通信のリモートエンドポイントを隠すことが可能となります。
 newsletter:
-  title: Sign up to receive exclusive updates!
-  success: Success! Please check your email to confirm we have the right one.
+  title: 登録された方限定で最新情報を配信しています！
+  success: 送信が完了しました！受信メールを確認してください。
   name: 名
   firstname: 名
   lastname: 姓

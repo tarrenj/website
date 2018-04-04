@@ -1,8 +1,8 @@
-## ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses.
-T addresses are regular addresses and transactions similar to bitcoin.
+## ZenCash는 일반(T)주소와 개인적인 (Z)주소를 사용하여 쉽게 가치를 이전할 수 있도록 합니다.
+T addresses(주소)는 비트코인과 유사한 일반적인 주소 및 트랜잭션입니다.
 
-Z addresses are called shielded addresses and leverage the latest privacy technology to obscure sender and recipient addresses, as well as amount sent.
+Z addresses(Z-주소)는 차폐된 트랜잭션이라고 부르며 최신 개인 정보 보호 기술을 사용하여 발신자와 수신자의 주소는 물론 전송되는 양까지 알 수 없게 만듭니다.
 
-Balances in shielded addresses are private. If spending to one or more shielded addresses, the value stays private but any transparent addresses on the receiving end will deshield the token and reveal the value received on the blockchain.
+보호된 주소에 있는 밸런스(잔고)는 개인적인 것입니다. 하나 이상의 보호된 주소에 지출하는 경우 이 값은 개인으로 유지되지만 수신 측의 모든 투명 주소는 토큰을 삭제하고 블록체인에 수신 된 값을 표시합니다.
 
-ZenCash is compatible with Bitcoin- and Z-derived applications, exchanges, and wallets.
+ZenCash는 비트코인과 Z에서 파생되어 개발된 어플리케이션, 거래소, 지갑들과 호환됩니다.

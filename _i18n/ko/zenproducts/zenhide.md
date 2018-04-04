@@ -1,6 +1,6 @@
-## Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
-It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+## Domain fronting은 커뮤니케이션의 원격 종점을 숨기는 다목적 검열 우회 기술입니다.
+HTTPS를 사용하는 응용프로그램 계층에서 작동하며 검열을 하는 사람에게 허락을 받은 다른 호스트와 의사소통 하는 것처럼 보이는 동안 금지된 호스트와 의사소통이 가능합니다.
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+주요 아이디어는 서로 다른 의사소통 계층에서 서로 다른 도메인 이름을 사용하는 것입니다. 하나의 도메인은 HTTP 호스트 헤더에 있는 HTTPS 요청(9 DNS 요청과 TLS 서버 이름 표시에서 "내부"에 다른 도메인이 나타나는 중의) 의 "외부"에 표시되며 HTTPS 암호화 아래의 검열자에게 관해서는 보이지 않습니다.(9 DNS 요청과 TLS 서버 이름 표시에서 "내부"에 다른 도메인이 나타납니다.) 프론트와 비 프론트 트래픽을 도메인으로 구분할 수 없는 검열자는 우회 트래픽을 허용하는 것과 값 비싼 부수적인 피해가 발생하는 방법인 도메인 전체적으로 차단하는 것 중에 선택해야합니다.
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+Domain fronting(도메인프론팅)은 네트워크 중개인에 의한 특별한 협력을 필요로 하지 않습니다. 우리는 콘텐츠 제공 네트워크와 같이 도메인 전면 연결을 지언하고 정보 검열에 유용한, 차단하기 어려운 다수의 웹 서비스를 파악하였습니다.

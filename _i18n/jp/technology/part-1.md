@@ -1,36 +1,36 @@
-### Private
+### プライベート
 {: .subsection-title}
-## Zen is a privacy platform built on zero-knowledge Succinct Non-interactive ARguments of Knowledge (zk-SNARKs) technology with a decentralized secure node architecture.
+## いう技術をベースとしたプライバシープラットフォームであり、非中央集権化されたセキュアノードアーキテクチャを擁しています。
 
-### Secure
+### セキュア
 {: .subsection-title}
-## ZenCash is the first cryptocurrency with fully end-to-end encryption at the node and internode level.
-In addition to zk-SNARKs, the Zen architecture includes encryption at the node level. Cryptocurrencies rely on nodes to operate, we require our Secure Node operators to have the latest Information Technology and Network Security to qualify for compensation.
+## ZenCashは、ノードおよびノード間レベルにおいてエンドツーエンド暗号化を施した、最初の暗号通貨です。
+Zk-SNARKSに加え、Zenアーキテクチャにおいてはノードレベルでの暗号化が施されています。暗号通貨が機能する上でノードの存在は重要であり、Zenシステム内のノードはセキュアノードと呼ばれます。セキュアノードは報酬を受取ることができる一方、ネットワークのセキュリティという観点から、ノードは一定の条件を満たす必要があります。
 
-### Untraceable
+### 追跡不可能
 {: .subsection-title}
-## Shielded transactions are fully encrypted, yet can be verified as valid under the network's consensus. The sender, recipient, and amount are hidden on the blockchain, making Zen completely untraceable.
+## シールドされたトランザクションに対しては完全なる暗号化が施されていますが、ネットワークのコンセンサスにより、その内容の正当性を証明することが可能となっています。ここでは、送付元、送付先、および送付額が隠されることとなり、ZenCashは完全に追跡不能となります。
 
 {:text-center: .text-center .mb-5}
 [{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
 {:text-center}
 
-Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication. It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+ドメインフロンティングとは、汎用性の高い、検閲回避のための技術であり、通信のリモートエンドポイントを隠すことができます。この手法は、アプリケーション層においてHTTPSを用いて機能し、検閲者が許可するホストと通信しているように見せかけながら、実際は検閲者が禁止するホストと通信するということが可能となります。
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+ここで重要なのは、通信レイヤーごとに別々のドメイン名を用いるということです。すなわち、ある一つのドメイン名がHTTPリクエストの「外部」(DNSリクエストおよびTLSのサーバー名表示) に現れる一方で、もう一つのドメイン名は「内部」(HTTPホストヘッダ) に現れ、HTTPSの暗号化により、後者は検閲者にとって閲覧不能となります。ここで、検閲者としては一般に、ドメインに対する見せかけのトラフィックおよびそうでないものの区別をつけることができません。したがって、検閲回避のためのトラフィックを許可するか、そのドメイン名を完全にブロックするかのいずれかを選択しなければなりませんが、後者を選ぶ場合はネットワーク上における重大な二次被害が生じることとなります。
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+ドメインフロンティングにあたっては、ネットワーク内の第三者による協調は特別必要ありません。というのも、コンテンツデリバリネットワークなどといった、ブロック困難なウェブサービスを用いることができるからです。こうしたウェブサービスは、検閲回避手段としてのドメインフロンティング実行において有用です。
 
-### Resilient
+### レジリエント
 {: .subsection-title}
-## Zen has one of the most distributed node systems. Learn more about Secure Nodes!
-**[Check out our Secure Node network](https://securenodes.na.zensystem.io/)**
+## Zenは業界有数の分散型ノードシステムを実現しています。セキュアノードに関して、詳しく学びましょう！
+**[Zenセキュアノードネットワークをチェックする](https://securenodes.na.zensystem.io/)**
 
-Zen Secure Nodes enable a distributed and reliable cryptocurrency system that encrypts inter-node communications. Zen node communication looks like any other encrypted internet traffic, instead of like Bitcoin traffic. This effectively hides the type of activity taking place, making it less likely that Zen users and nodes are blocked.
+Zenセキュアノードによって、分散型かつ信頼できる暗号通貨システムが実現し、ノード間通信は暗号化されます。ビットコインにおけるトラフィックとは異なり、Zenにおけるノード間通信は、インターネット上で通常みられる暗号化された通信のごとく振舞います。これによって、Zenシステム内で生じている活動内容が隠されることとなり、Zenユーザーおよびノードがブロックされにくくなります。
 
-The basic requirements of Secure Nodes are:
-* Maintain a minimum of 42 ZenCash in transparent address per node. This sufficiently demonstrates that the operator cares enough about ZenCash and discouraging users with malicious intentions from operating a Secure Node.
-* Create and maintain a valid TLS certificate from a known Certificate Authority. This enables encrypted data transport.
-* Run the node on a server with enough processor power and memory so that it can meet a computational challenge. This protects against DDoS attacks.
-* Maintain a full copy of the Zen blockchain. This makes sure no UTXO’s or commitments are lost.
-* Keep the node up and running at least 92% of the time.
+セキュアノード運営にあたり必要な条件は以下の通りです:
+* 1ノードにつき42 ZenCash以上をTアドレス (透明なアドレス) にて所有していること。これによって、ノード運営者とZenCashの利害が一致するようにし、悪意のあるユーザーがノード運営を行うことを防止します。
+* 信頼できる認証局から発行される有効なTLS証明書を作成・管理すること。これによって、データ通信の暗号化が可能となります。
+* ノードに対する計算課題をこなすのに十分なプロセッサパワーおよびメモリを備えたサーバー上で、ノードを運営すること。これによって、DDoS攻撃からノードを守ります。
+* Zenブロックチェーンの全コピーを管理すること。これによって、UTXOまたはコミットメントが失われないようにします。
+* 1日の時間あたり92％以上の時間、ノードが実行されていること。

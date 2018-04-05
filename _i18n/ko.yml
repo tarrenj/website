@@ -11,7 +11,7 @@ global:
     tagline: 자율 - 지속가능 - R&D 중점
   team:
     base: 팀
-    tagline: Combining Expertise from Around the Globe
+    tagline: 전 세계의 전문성을 결합
     engineering: 엔지니어
     user-experience: 사용자 환경
     marketing: 마케팅
@@ -30,17 +30,17 @@ global:
     third-party: 타사 지갑
     web: 웹 지갑
     paper: 페이퍼 지갑
-  forum: Forum
+  forum: 포럼
   go: 가기
   footeron: 'on'
   anonymous: 익명
   korean: 한국어
 titles:
-  homepage: A globally accessible and anonymous blockchain
+  homepage: 전 세계적에서 엑세스 할 수 있으며 익명성이 보장된 블록체인
   iohk: ZenCash 와 IOHK는 연구개발을 위한 협력을 맺었습니다.
-  philosophy: Changing the world one bit at a time
+  philosophy: 세상을 한번에 조금씩 바꿔나가는 중입니다
   technology: Zen 기술
-  team: Meet Our Team
+  team: 우리의 팀을 만나보세요
   exchanges: ZenCash 거래소
   mining-pools: ZenCash 채굴장
   wallets: ZenCash 지갑
@@ -48,22 +48,22 @@ titles:
   roadmap: ZenCash 로드맵
   zencash: 화폐를 위한 ZenCash
   zenchat: 안전한 메시징을 위한 ZenChat
-  zenpub: ZenPub - Decentralized Cloud Storage
-  zenhide: ZenHide for Censorship Resistance
+  zenpub: ZenPub - 분산 된 클라우드 저장소
+  zenhide: 검열에 탄력적인 ZenHide
 descriptions:
-  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
-  iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
-  philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
-  technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
-  team: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
-  exchanges: Looking to buy or trade ZenCash? Find a list of all exchanges that support ZenCash here.
-  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
-  wallets: Store your ZenCash safely and securely. Choose one of our many ZenCash Wallets.
-  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
-  zencash: ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses. T addresses are regular addresses and transactions are similar to bitcoin. Z addresses are called shielded addresses and leverage the latest privacy technology, zk-SNARKS, to obscure sender and recipient addresses, as well as amount sent.
-  zenchat: ZenChat is the most secure and private messaging application on the market and can be used as a standalone product or embedded within ZenCash wallets.
-  zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
-  zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
+  homepage: ZenCash 는 가장 탄력적이며 검열에 강한 개인 정보 암호화폐 블록체인이머 프라이버시 코인입니다. 우리의 사용자들은 추적이 불가능한 개인적인 거래와 익명의 거래를 모두 수행할 수 있습니다. 우리의 보안 노드 기술로 구동되는 우리의 네트워크 트래픽은 인식될 수 없으며 또한 그렇기때문에 차단할 수 없습니다.
+  iohk: ZenCash 와 IOHK 는 파트너쉽을 맺음으로써 Prof. Roman Olivnvkov 가 연구 개발을 이끌고 있습니다. 이 파트너쉽을 통해 우리는 프로토콜 수준에서의 DAO(탈중앙화 된 분산된 조직)을 구현하는 것과 SPECTRE 또는 팬텀 프로토콜 같은 차세대 확장 솔루션을 연구개발 합니다. 더 알아보세요!
+  philosophy: Zen 은 지속적으로 업그레이드를 진행하는 분산된 거버넌스 모델을 기반으로 구축됩니다. 중앙 집중식 권한이나 단일 단일 장애 지점이 없는 ZenCash는 조직이 할 수 있는 것만큼 탄력적입니다.
+  technology: Zen 은 zk-SNARKS 를 노드간 암호화, 도메인프론팅 및 IPFS의 추가 계층과 함께 사용합니다.
+  team: 우리 팀을 만나보세요. 설립자인 Rob Viglione과 Rolf Versluis 가 이끄는 ZenCash는 연구 및 개발에 리소스를 두고 블록체인 산업을 발전시키고자 노력하는 열정적인 사람들로 구성되어 있습니다. ZenCash는 혁신을 통해 블록체인 산업과 인류에 기여하는 것에 초점을 두고 있습니다.
+  exchanges: ZenCash를 구매할 곳을 찾고 계신가요? 여기에서 ZenCash를 지원하는 모든 거래소 목록을 확인해보세요!
+  mining-pools: ZenCash 의 채굴장 목록입니다. 채굴장을 선택하고 ZenCash 커뮤니티로 들어오세요.
+  wallets: ZenCash를 안전하고 보안성있게 보관하세요. 우리의 여러 ZenCash 지갑들 중 하나를 선택해보세요.
+  securenodes: ZenCash 의 보안 노드는 개인 트랜잭션, 메시징, 게시를 가능하게 하는 강력하고 탄력적인 시스템에 기여하고있습니다.
+  zencash: ZenCash 는 일반(T)주소와 개인적인 (Z)주소를 사용하여 쉽게 가치를 이전할 수 있도록 합니다. T addresses(T-주소)는 비트코인과 유사한 일반적인 주소 및 트랜잭션입니다. zk-SNARKS 기반의 Z addresses(Z-주소) 는 차폐된 트랜잭션이라고 부르며 최신 개인 정보 보호 기술을 사용하여 발신자와 수신자의 주소는 물론 전송되는 양 까지 알수없게 만듭니다.
+  zenchat: ZenChat 는 독립형 제품으로 사용하거나 우리의 Wallet(지갑)에 포함할 수 있는 시장에서 가장 안전한 메시징 어플리케이션입니다.
+  zenpub: ZenPub 은 사용자들이 검열에 대항하는 방식으로 데이터, 문서 그리고 미디어를 익명으로 게시할 수 있는 기능을 제공합니다.
+  zenhide: ZenCash 는 어떤 종류의 인터넷 검열도 우회하기 위해서 도메인프론팅을 사용합니다. 도메인프론팅은 커뮤니케이션의 원격 종점을 숨기는 다목적 검열 우회 기술입니다.
 newsletter:
   title: 우리의 중요한 업데이트를 받고 싶으시다면 등록하세요!
   success: 성공하였습니다! 당신의 이메일 주소를 확인하여 맞는 주소인지 확인해주세요.
@@ -116,7 +116,7 @@ nav:
         - title: 지갑 다운로드
           link: '/wallets/'
           namespace: wallets
-        - title: Public Keys
+        - title: 공용 키
           link: 'https://github.com/zencashofficial/keys'
           type: external
         - title: 이메일 지원
@@ -244,7 +244,7 @@ homepage:
             - iOS 지갑
             - OpenBazaar 통합
             - 운영 방식의 투명성
-            - Hardware Wallets
+            - 하드웨어 지갑
         - title: 보안 노드
           icon: /assets/img/icons/secure.png
           content:

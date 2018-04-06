@@ -1620,6 +1620,7 @@ section#tech {
     }
   }
   .team-card {
+    font-family: proxima-nova,sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1631,7 +1632,11 @@ section#tech {
       position: relative;
       padding: 0 1rem;
     }
+    h1, h2, h3, h4, h5, p {
+      font-family: proxima-nova,sans-serif;
+    }
     h3 {
+      font-weight: 700;
       color: #1b2f59;
       font-size: 1.2rem;
       letter-spacing: 6px;

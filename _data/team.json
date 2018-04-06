@@ -676,8 +676,7 @@
             "linkedin": "https://www.linkedin.com/company/8642/",
             "discord": ""
           }
-        }
-        ,
+        },
         {
           "name": "Blue-Frontiers",
           "photo": "/assets/img/people/blue_frontiers.jpg",
@@ -685,6 +684,17 @@
           "bio": "",
           "social": {
             "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "XEEDA",
+          "photo": "/assets/img/people/xeeda.png",
+          "title": "Mobile Hardware Wallet",
+          "bio": "",
+          "social": {
+            "twitter": "xeedaofficial",
             "linkedin": "",
             "discord": ""
           }

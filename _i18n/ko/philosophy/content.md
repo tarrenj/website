@@ -1,22 +1,22 @@
-### Autonomous
+### 자율
 {: .subsection-title}
-## Zen is implementing a decentralized governance model. With no central authority or single point of failure, ZenCash is more resilient than a traditional corporation.
+## Zen은 분산 된 거버넌스 모델을 구현하고 있습니다. 중앙 권한이나 단일적인 장애지점이 없는 ZenCash는 전통적인 기업들보다 더 탄력적입니다.
 
-Everyone has an equal opportunity to participate in decision making, which empowers stakeholders and makes ZenCash less susceptible to third party influence.
+모든 사람들은 의사 결정에 참여 할 동등한 기회를 갖게 되며, 이것은 이해 당사자들에게 힘을 실어주고 ZenCash가 제 3자의 영향에 덜 취약하게 만들어줍니다.
 
-### Sustainable Economics
+### 지속가능한 경제학
 {: .subsection-title}
-## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+## 우리는 기술과 경제적 인센티브를 통하여 견고하고 지속가능 한 경제를 만드는 것을 제공하여 세상을 바꿀 수 있다고 믿고있습니다.
+* 채굴자들에게 88%
+* 하나 이상의 DAO에 8.5%
+* 보안 노드 운영자들에 3.5%
 
-### R&D Focus
+### R&D에 초점
 {: .subsection-title}
-## We consider it a priority to contribute to the broader cryptocurrency ecosystem and body of knowledge, so we have multiple active R&D projects in the pipeline with many more planned:
-* Decentralized Autonomous Organization Treasury Study
-* Scalability Study
-* Network Stack Anonymization
+## 우리는 보다 광범위한 암호화폐 체계와 지식 체계에 기여하는 것을 우선시합니다. 그래서 우리는 더 많은 계획을 가지고 있는 파이프라인에 여러 개의 활동적인 연구 개발 프로젝트들을 가지고 있습니다:
+* 탈 중앙화 된 자율조직 재정 연구
+* 확장성 연구
+* 네트워크 스택 익명화
 
 {:text-center: .text-center .mt-5 .mb-5}
 [{% translate global.technology.possessive %}]({% tl technology {{site.lang}} %}){: .btn .btn-lg .btn-primary}

@@ -1,9 +1,9 @@
-## Host a secure node, earn mining rewards and become part of ZenCash!
+## セキュアノードを運営することで、マイニング報酬を入手し、ZenCashネットワークに参加しましょう!
 {: .content-title}
 
-Secure Node Operators get rewarded with 3.5% of the mining rewards
+セキュアノード運営者には、マイニング報酬の3.5%が分配されます
 {: .lead}
 
-One of the first security features of ZenCash was the encryption of the inter-node communications. This was deployed, and now ZenCash node communication looks like any other encrypted Internet traffic, instead of like Bitcoin traffic. This helps to hide the type of activity taking place, making it less likely that ZenCash users and nodes are blocked.
+ZenCashのセキュリティ機能として最初に導入されたものの一つとして、ノード間通信の暗号化があります。これはすでに実装され、Zenにおけるノード間通信は、ビットコインネットワークで見られるようなトラフィックとは異なり、インターネット上で通常見られる暗号化された通信のごとく振舞います。これによって、Zenシステム内の活動内容が隠されることとなり、Zenユーザーおよびノードがブロックされにくくなります
 
-For reliability, we want thousands of secure nodes all over the world that users can connect to quickly and easily, and are willing to provide compensation to the node operators. If we have an extensive, distributed, and reliable network, people can use ZenCash no matter what happens. Secure Nodes enable the security and reliability of the ZenCash system.
+ZenCashネットワークを強固なものとするためには、何千ものセキュアノードが世界中に存在し、ユーザーが迅速かつ容易にノードにアクセスできるようでなければなりません。また、セキュアノード運営者は報酬を受取ることができます。このように、広範囲に分散された信頼できるネットワークが存在することにより、有事の際もZenCashシステムは機能し続けることができるようになるのです。だからこそ、ZenCashシステムのセキュリティおよび信頼性を考えるにあたり、セキュアノードは重要なのです。

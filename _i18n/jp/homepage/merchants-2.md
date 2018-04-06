@@ -1,9 +1,9 @@
 <div class="feature-item" markdown="1">
-#### Payment Systems
-- [Welto App](http://welto.io/) integration to pay your bills
+#### 支払いシステム
+- [Welto App](http://welto.io/) を用いた公共料金等の支払い
 </div>
 <div class="feature-item" markdown="1">
-#### Peer-to-Peer Payments
-- BitCash App integration
-- Zen Wallets Business-to-Business!
+#### P2P支払い
+- BitCashアプリに対応
+- B2B Zenウォレット
 </div>

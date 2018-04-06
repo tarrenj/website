@@ -1,6 +1,6 @@
-## Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
-It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+## ドメインフロンティングとは、検閲回避のための汎用性の高い技術であり、通信のリモートエンドポイントを隠すことができます。
+この手法は、アプリケーション層においてHTTPSを用いるここで機能し、検閲者が許可するホストと通信しているように見せかけながら、実際は検閲者が禁止するホストと通信するということが可能となります。
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+ここで重要なのは、通信レイヤーごとに別々のドメイン名を用いるということです。すなわち、ある一つのドメイン名がHTTPリクエストの「外部」(DNSリクエストおよびTLSのサーバー名表示) に現れる一方で、もう一つのドメイン名は「内部」(HTTPホストヘッダ) に現れ、HTTPSの暗号化により、後者は検閲者にとって閲覧不能となります。ここで、検閲者としては一般に、ドメインに対する見せかけのトラフィックおよびそうでないものの区別をつけることができません。したがって、検閲回避のためのトラフィックを許可するか、そのドメイン名を完全にブロックするかのいずれかを選択しなければなりませんが、後者を選ぶ場合はネットワーク上における重大な二次被害が生じることとなります。
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+ドメインフロンティングにあたっては、ネットワーク内の第三者による協調は特別必要ありません。というのも、コンテンツデリバリネットワークなどといった、ブロック困難なウェブサービスを用いることができるからです。こうしたウェブサービスは、検閲回避手段としてのドメインフロンティング実行において有用です。

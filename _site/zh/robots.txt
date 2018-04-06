@@ -2,5 +2,6 @@ User-agent: *
 Disallow: /google23711a33eab179e5.html
 
 Sitemap: https://zencash.com/sitemap.xml
-Sitemap: https://zencash.com/zh/sitemap.xml
 Sitemap: https://zencash.com/de/sitemap.xml
+Sitemap: https://zencash.com/ko/sitemap.xml
+Sitemap: https://zencash.com/zh/sitemap.xml

@@ -1,21 +1,21 @@
-## Why ZenCash?
+## なぜZenCashなのか?
 {: .content-title}
 
-A decentralized cryptocurrency which is **Public**, **Private**, and **Anonymous**.
+パブリック・プライベート・匿名という性質を備えた非中央集権的な暗号通貨
 {: .lead .mb-4}
 
-Has its own blockchain, and is used for **Transactions**, **Communications**, and **Publishing**.
+独自のブロックチェーンを備え、トランザクション、コミュニケーションおよび情報発信に用いることができます。
 {: .lead .mb-4}
 
-Designed for long-term operation:
+長期的な展開を可能とする設計:
 {: .lead .mb-4}
 
-- 21 million ZenCash cap - no premine, no ICO
-- Thousands of Secure Nodes in operation - 3.5% of mining reward
-- Treasury funds for development, support, marketing - 8.5% of mining reward
-- Strong Team & Representative Governance - Zen Blockchain Foundation
-- Wallets and communication clients for International Users
-- Marketing Globalization - Tailored approach to different markets
-- Secure Nodes provide a resilient, distributed network
+- 2100万ZenCashという発行上限 - プレマインや ICO は実施していません
+- 何千ものセキュアノードが稼働中 - マイニング報酬の3.5%が分配されます
+- 開発、運営サポート、マーケティングのためのトレジャリー資金 - マイニング報酬の8.5%が分配されます
+- 充実したチームおよび代議制ガバナンス - Zen ブロックチェーン財団
+- 世界中のユーザーに対応したウォレットおよびコミュニケーションチャネル
+- 世界中で展開するマーケティング - 個々のマーケットに適したアプローチ
+- セキュアノードにより、レジリエントで分散型のネットワークを実現
 
-[Why Secure Nodes are Important](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}
+[なぜセキュアノードが重要なのか](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}

@@ -13,7 +13,11 @@ permalink: /team/
   <div class="container-fluid">
     <div class="row interior-subheader">
       <div class="col">
+        {% if site.lang == 'es' %}
+        <h1>{% t global.team.base %}</h1>
+        {% else %}
         <h1>Zen {% t global.team.base %}</h1>
+        {% endif %}
         <h4>{% t global.team.tagline %}</h4>
       </div>
     </div>

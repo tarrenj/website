@@ -36,7 +36,7 @@ global:
   anonymous: 익명
   korean: 한국어
 titles:
-  homepage: 전 세계적에서 엑세스 할 수 있으며 익명성이 보장된 블록체인
+  homepage: 전 세계에서 엑세스 할 수 있으며 익명성이 보장된 블록체인
   iohk: ZenCash 와 IOHK는 연구개발을 위한 협력을 맺었습니다.
   philosophy: 세상을 한번에 조금씩 바꿔나가는 중입니다
   technology: Zen 기술
@@ -357,7 +357,7 @@ dao-infographic:
       title: 공정한 결과를 위해 정식 발표 전까지는 투표 결과가 비밀입니다.
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: 투표 결과에 따라 제안의 승인\거부 가 결정됩니다.
+      title: 투표 결과에 따라 제안의 승인/거부 가 결정됩니다.
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
   subtitle: 'ZenCash와 IOHK는 파트너쉽을 맺음으로써 암호 전문가이자 IT보안연구원이며 교수인 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 가 IOHK의 연구원들과 함께 일련의 흥미진진한 연구개발을 진행하게 되었습니다.'

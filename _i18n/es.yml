@@ -1,6 +1,6 @@
 global:
   roadmap: Plan de trabajo
-  resources: Resources
+  resources: Recursos
   technology:
     base: Tecnología
     possessive: Nuestra tecnología
@@ -8,28 +8,28 @@ global:
   philosophy:
     base: Filosofía
     possessive: Nuestra filosofía
-    tagline: Autonomous - Sustainable - R&D Focus
+    tagline: Autónomo - Sustentable - Enfoque I&D
   team:
-    base: Equipo
-    tagline: Combining Expertise from Around the Globe
-    engineering: Engineering
-    user-experience: User Experience
-    marketing: Marketing
-    operations: Operations
-    business-development: Business Development
-    partners: Partners
-    advisors: Advisors
-  exchanges: Exchanges
-  mining-pools: Mining Pools
+    base: Equipo Zen
+    tagline: Combinando habilidades de todo el mundo
+    engineering: Ingenería
+    user-experience: Experiencia de usuario
+    marketing: Mercadotecnia
+    operations: Operaciones
+    business-development: Desarrollo de Negocio
+    partners: Asociados
+    advisors: Asesores
+  exchanges: Centros cambiarios
+  mining-pools: Grupos de Mineria
   wallets:
-    full-chain: Full Client
-    lite-chain: Lite Client
-    base: Wallets
-    wallet: Wallet
+    full-chain: Blockchain completa
+    lite-chain: Blockchain ligera
+    base: Carteras
+    wallet: Cartera
     official: Official Wallets
     third-party: Third-Party Wallets
     web: Web Wallet
-    paper: Paper Wallet
+    paper: Cartera de Papel
   forum: Forum
   go: IR
   footeron: 'on'
@@ -45,7 +45,7 @@ titles:
   mining-pools: ZenCash Mining Pools
   wallets: ZenCash Wallets
   securenodes: ZenCash Secure Nodes
-  zencash: ZenCash for Money
+  zencash: ZenCash Para Dinero
   zenchat: ZenChat for Secure Messaging
   zenpub: ZenPub - Decentralized Cloud Storage
   zenhide: ZenHide for Censorship Resistance
@@ -87,7 +87,7 @@ nav:
     blog: Blog
   footer:
     about:
-      title: About
+      title: Obre nosotros
       items:
         - title: Tecnología
           namespace: technology
@@ -211,92 +211,92 @@ homepage:
   roadmap:
     events:
       2017:
-        - title: ZenCash Launch
+        - title: Lanzamiento de ZenCash
           icon: /assets/img/icons/launch.png
           content:
-            - ZenCash launched on 5.30.17
-        - title: Core Updates
+            - ZenCash empezó el 30/5/17
+        - title: Actualizaciones Principales
           icon: /assets/img/icons/updates.png
           content:
-            - First blockchain with TLS integration (SSL cert for node encryption)
-            - Blockchain improvements
-            - Replay protection
-        - title: Wallets and Products
+            - Primera blockchain con integración TLS (certificado SSL para la encriptación de nodo)
+            - Mejora de la blockchain
+            - Protección de doble transacción
+        - title: Productos y Carteras
           icon: /assets/img/icons/wallet.png
           content:
-            - Tor ZenCash Nodes
-            - Chat messaging
-            - Swing Wallet - full blockchain
-            - Android Wallet
-            - Arizen Wallet - lite blockchain
-            - Paper Wallet
-        - title: Secure Nodes
+            - Nodos Tor de ZenCash
+            - Mensajería
+            - Cartera swing- blockchain completa
+            - Cartera Android
+            - Cartera Arizen - blockchain ligera
+            - Cartera de Papel
+        - title: Nodos Seguros
           icon: /assets/img/icons/encryption.png
           content:
-            - Resilient end-to-end network encryption
-            - Payment system for secure node operators
+            - Red resiliente con encriptación punta a punta
+            - Sistema de pago para operadores de nodos seguros
       2018:
-        - title: Wallets and Projects
+        - title: Carteras y Proyectos
           icon: /assets/img/icons/voting.png
           content:
-            - Proposal Submission and Voting System GUI
-            - iOS Wallet
-            - OpenBazaar Integration
-            - Operation Radical Transparency
+            - Entrega de propuesta y sistema de voto interfaz gráfica
+            - Cartera iOS
+            - Integración OpenBazaar
+            - Operacion Radical de Transparencia
             - Hardware Wallets
-        - title: Secure Node
+        - title: Nodo Seguro
           icon: /assets/img/icons/secure.png
           content:
-            - Secure Node system improvements
-            - Secure Node system built into blockchain protocol study
-        - title: Research and Development
+            - Mejora al sistema de Nodos Seguros
+            - Estudio de construcción del Sistema de Nodos Seguros construido en la blockchain
+        - title: Investigación y Desarrollo
           icon: /assets/img/icons/r-d.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Scaling study - next generation blockchain solution
+            - Sistema de Votación a nivel  Protocolo de Tesorería OAD
+            - Estudio de escalabilidad - solución a la siguiente generación blockchain
             - Domain Fronting
-            - ZenPub Protocol-level
+            - ZenPub a nivel protocolo
       2019:
-        - title: Deliver to Market
+        - title: Entregar al mercado
           icon: /assets/img/icons/scalability-study.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Dandelion++ Integration for Network Stack Anonymity
-            - Scalability Solution
-            - IPFS published on Secure Nodes
+            - Sistema de Votación a nivel  Protocolo de Tesorería OAD
+            - Dandelion++ Integración a la pila de red de anonimidad
+            - Solución de escalabilidad
+            - IPFS publicado en los nodos seguros
   whitepaper:
-    subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
-    button: Download White Paper
+    subtitle: "Libro Blanco en revisión. El Libro Blanco está cerca del 80% cumplido."
+    button: Descargar libro blanco
   team:
-    title: A Global Team
-    subtitle: The ZenCash team is comprised of over 50 members from around the globe
+    title: Un equipo global
+    subtitle: El equipo ZenCash está conformado por más de 50 miembros alrededor del mundo.
     button:
-      text: See the Entire Team
+      text: Ver al equipo entero
       link: '/team/'
   usezen:
-    title: Use Zen
-    subtitle: Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!
+    title: Utiliza Zen
+    subtitle: ¡Nuestra meta es hacer que ZenCash sea la criptomoneda de privacidad más útil en el mercado!
     features:
-      - title: Buy ZenCash
+      - title: Compra ZenCash
         image: /assets/img/icons/money.png
         namespace: exchanges
-      - title: Download Wallets
+      - title: Descarga las carteras
         image: /assets/img/icons/safe.png
         namespace: wallets
-      - title: Mining Pools
+      - title: Grupos de Mineria
         image: /assets/img/icons/mining.png
         namespace: mining-pools
     merchants:
-      title: Merchants
-      subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.
+      title: Comerciantes
+      subtitle: Una manera crucial de hacer Zencash útil es integrarlo con múltiples esquemas de pago y servicios mercantiles
   resources:
-    subtitle: These resources will help you better understand the Zen brand and how to properly represent it.
+    subtitle: Estos recursos te ayudarán a entender mejor la marca de Zen y cómo representarla propiamente
     items:
       - title: Legal
         buttons:
-          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Descargar'
             link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
-      - title: Block Explorers
+      - title: Explorador de bloques
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -307,7 +307,7 @@ homepage:
   blog:
     title: Blog
     button:
-      text: More Blog Posts
+      text: Más publicaciones del blog
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
@@ -322,7 +322,7 @@ mining-pools:
         buttons:
           - text: Ir
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73
-      - title: Block Explorers
+      - title: Explorador de bloques
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/

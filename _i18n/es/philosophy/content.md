@@ -1,22 +1,22 @@
-### Autonomous
+### Autónomo
 {: .subsection-title}
-## Zen is implementing a decentralized governance model. With no central authority or single point of failure, ZenCash is more resilient than a traditional corporation.
+## Zen está implementando un modelo de gobernanza descentralizada. Sin ninguna autoridad central o punto de falla. ZenCash es más resiliente que una empresa tradicional.
 
-Everyone has an equal opportunity to participate in decision making, which empowers stakeholders and makes ZenCash less susceptible to third party influence.
+Todos tienen la misma oportunidad de participar en las decisiones, misma que  da poder a las personas interesadas y hace que Zencash sea menos susceptible a influencia de terceros.
 
-### Sustainable Economics
+### Economía Sustentable
 {: .subsection-title}
-## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+## Nosotros creemos en cambiar al mundo mediante tecnología e incentivos económicos que proveen un ecosistema económico sustentable.
+* 88% a los mineros
+* 8.5% a una o más OAD
+* 3.5% a operadores de Nodos Seguros
 
-### R&D Focus
+### Enfoque I&D
 {: .subsection-title}
-## We consider it a priority to contribute to the broader cryptocurrency ecosystem and body of knowledge, so we have multiple active R&D projects in the pipeline with many more planned:
-* Decentralized Autonomous Organization Treasury Study
-* Scalability Study
-* Network Stack Anonymization
+## Nosotros consideramos una prioridad el contribuir a un ecosistema de criptomonedas más amplio y a un cuerpo de conocimiento, lo anterior con el fin de tener múltiples proyectos de I&D activos en nuestra agenda con muchos en planeación:
+* Estudio de la Tesorería de la Organización Autónoma Descentralizada
+* Estudio de la Escalabilidad
+* Anonimización de la pila de red
 
 {:text-center: .text-center .mt-5 .mb-5}
 [{% translate global.technology.possessive %}]({% tl technology {{site.lang}} %}){: .btn .btn-lg .btn-primary}

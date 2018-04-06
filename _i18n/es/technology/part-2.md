@@ -1,6 +1,6 @@
 ### Minable
 {: .subsection-title}
-## Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based cryptocurrency and works well for GPU mining.
+## Cualquiera con una Tarjeta Gráfica moderna puede minar ZenCash, una criptomoneda de prueba de trabajo, basado en equihash que funciona bien con minado de GPU
 
 <div class="row justify-content-center">
   <div class="col-lg-12 col-xl-6 mb-3">

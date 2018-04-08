@@ -109,6 +109,9 @@ section:not(#hero) {
   color: $darkblue;
   line-height: 1;
   word-wrap: break-word;
+  strong {
+    font-weight: 600;
+  }
 }
 .section-title {
   text-align: center;

@@ -18,6 +18,10 @@ h3 {
   letter-spacing: 6px;
 }
 
+.base-font {
+  font-family: proxima-nova,sans-serif !important;
+}
+
 section:not(#hero) {
   position: relative;
   ul {
@@ -105,12 +109,14 @@ section:not(#hero) {
 }
 
 .logo-text {
+  font-weight: 100 !important;
+  font-family: proxima-nova,sans-serif !important;
   text-transform: lowercase;
   color: $darkblue;
   line-height: 1;
   word-wrap: break-word;
   strong {
-    font-weight: 600;
+    font-weight: 600 !important;
   }
 }
 .section-title {
@@ -1425,6 +1431,7 @@ section#tech {
     h3 {
       color: #1b2f59;
       font-size: 28px;
+      font-family: proxima-nova,sans-serif !important;
       line-height: 32px;
       letter-spacing: 0;
       font-weight: 100;

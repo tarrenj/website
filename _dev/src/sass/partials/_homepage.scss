@@ -723,6 +723,10 @@ h2.section-title {
   background-attachment: scroll;
   padding: 4rem 15px;
   // margin-bottom: 6rem;
+  @media (max-width: 767px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .zentext {
@@ -741,9 +745,13 @@ h2.section-title {
     display: block;
     position: relative;
     height: 100%;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 5rem 0;
+    @media (max-width: 767px) {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
     p {
       position: absolute;
       width: 100%;
@@ -789,14 +797,18 @@ h2.section-title {
 .zen-icon {
   width: 400px;
   max-width: 100%;
+  opacity: 0.6;
 }
 
 #about {
   .logo-text {
-    font-size: 3.7rem;
+    font-size: 4.7rem;
     letter-spacing: -3px;
     margin-bottom: 0;
     line-height: 1;
+    @media (max-width: 575px) {
+      font-size: 3.7rem;
+    }
   }
   .lead.section-title {
     color: $darkblue;
@@ -2503,7 +2515,7 @@ section#tech {
     margin-bottom: 3rem;
   }
   .zentext {
-    padding: 1rem 0;
+    padding: 1.4rem 0;
   }
   .zen-icon {
     max-width: 50%;
@@ -2515,7 +2527,7 @@ section#tech {
   }
   .zentext {
     .zenlink {
-      padding: 2rem 0;
+      padding: 0;
     }
   }
   #features {

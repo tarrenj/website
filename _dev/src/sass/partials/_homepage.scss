@@ -896,6 +896,12 @@ section#features {
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
   padding: 160px 50px 0;
+  .container-fluid {
+    max-width: 1800px;
+    &.full-width {
+      max-width: none;
+    }
+  }
   .subhead-large {
     color: $green;
   }
@@ -2006,6 +2012,12 @@ section#tech {
   .community-columns {
     max-width: 440px;
     margin: 0 auto;
+    @media (min-width: 2200px) {
+      max-width: none;
+      .nav-link {
+        justify-content: center;
+      }
+    }
     .nav-item {
       text-align: left;
     }

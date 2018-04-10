@@ -30,10 +30,10 @@ global:
     third-party: 第三者開発のウォレット
     web: ウェブウォレット
     paper: ペーパーウォレット
-  forum: Forum
+  forum: フォーラム
   go: 詳細
   footeron: 'on'
-  anonymous: 匿名プラットフォーム
+  anonymous: 匿名
   korean: 韓国
 titles:
   homepage: 世界中で利用可能かつ匿名のブロックチェーン
@@ -56,7 +56,7 @@ descriptions:
   technology: zk-SNARKSに加え、Zenでは追加レイヤーとしてのノード暗号化、ドメインフロンティング、および惑星間ファイルシステム (IPFS) を採用しています。
   team: チームを紹介します。ZenCashチームは、設立者であるRob ViglioneおよびRolf Versluisをリーダーとして、研究開発を通じてブロックチェーン業界を発展させることに情熱を注ぐ、意欲のあるメンバーたちにより構成されています。
   exchanges: ZenCashの購入・トレードをご検討ですか? ZenCashを取扱う取引所に関しては、以下をご覧ください。
-  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
+  mining-pools: ZenCash マイニングプール一覧。マイニングプールを選択し、ZenCash コミュニティに参加しましょう。
   wallets: ZenCashを安全に保管しましょう。ZenCashウォレットは様々なタイプがありますので、必要なものをお使いください。
   securenodes: ZenCashのセキュアノードによって、プライベートなトランザクション、メッセージングならびに情報発信を可能とするための、強固でレジリエントなシステムが実現されます。
   zencash: ZenCashは、通常のアドレス (T) およびプライベートなアドレス (Z) を用いてスムーズな価値の交換を実現します。Tアドレスとは、公開されたパブリックなアドレスをさし、ビットコインにおけるアドレスのような役割を果たします。Zアドレスは「シールドされたアドレス」ともいい、ここではプライバシー保護のための最新技術を用いることで送付元、送付先、および送付量が隠されます。
@@ -79,9 +79,9 @@ nav:
     roadmap: ロードマップ
     team: チーム
     whitepaper: ホワイトペーパー
-    exchanges: Zenを入手する
-    wallets: Zenを使用する
-    miningpools: Zenを採掘する
+    exchanges: ZenCashの入手
+    wallets: Zenの使用
+    miningpools: Zenの採掘
     community: コミュニティ
     support: サポート
     blog: ブログ
@@ -106,7 +106,7 @@ nav:
     resources:
       title: リソース
       items:
-        - title: ZenCash を購入する
+        - title: ZenCash を購入
           link: '/exchanges/'
           namespace: exchanges
         - title: マイニングプール
@@ -133,12 +133,12 @@ homepage:
   hero:
     subtitle: null
     subtitle2: 通貨・メッセージング・情報発信のためのセキュアでプライベートなプラットフォーム
-    wallet-button: ウォレットを入手する
-    buy-button: ZenCash を購入する
+    wallet-button: ウォレットを入手
+    buy-button: ZenCash を購入
     announcement: IOHK との研究開発パートナーシップを締結しました
     announcement-button: 詳しく知る
   about:
-    title: Zenは、最先端のプライバシーテクノロシー備え、必要資金を自ら確保できるようなプロトコルモデルを採用したプラットフォームです
+    title: Zenは、最先端のプライバシーテクノロジーを備え、必要資金を自ら確保できるようなプロトコルモデルを備えたプラットフォームです
     products:
       zencash: 通貨
       zenchat: メッセージング
@@ -243,7 +243,7 @@ homepage:
             - iOSウォレット
             - OpenBazaar統合
             - 透明性の徹底的な向上
-            - Hardware Wallets
+            - ハードウェアウォレット
         - title: セキュアノード
           icon: /assets/img/icons/secure.png
           content:
@@ -277,7 +277,7 @@ homepage:
     title: Zenの使用
     subtitle: 私たちは、プライバシーコインの中で ZenCashを最も実用的な暗号通貨とすることを目指しています!
     features:
-      - title: ZenCashを購入する
+      - title: ZenCash を購入
         image: /assets/img/icons/money.png
         namespace: exchanges
       - title: ウォレットをダウンロードする
@@ -288,7 +288,7 @@ homepage:
         namespace: mining-pools
     merchants:
       title: 事業者
-      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスおよび事業者サービスとの統合が非常に大切となります。
+      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスや事業者サービスとの統合が非常に大切となります
   resources:
     subtitle: Zenのブランド詳細に関しては、以下のリソースをご覧ください。
     items:

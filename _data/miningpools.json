@@ -19,10 +19,6 @@
   "url": "https://miningpoolhub.com/"
 },
 {
-  "name": "ZenPool.org",
-  "url": "https://zenpool.org/"
-},
-{
   "name": "CloudPools",
   "url": "http://zen.cloudpools.net/"
 },
@@ -31,20 +27,12 @@
   "url": "https://treefrogmines.com/"
 },
 {
-  "name": "Cryptobroker",
-  "url": "https://pool.cryptobroker.io/zen/"
-},
-{
   "name": "MineZ Zone",
   "url": "https://minez.zone/"
 },
 {
   "name": "SG Pool",
   "url": "https://www.sgpool.net/"
-},
-{
-  "name": "SG ZenCash Pool Sexy",
-  "url": "http://zen.pool.sexy"
 },
 {
   "name": "HebUsio Pool",
@@ -65,10 +53,6 @@
 {
   "name": "Nibiru Pool",
   "url": "http://zen.nibirupool.com/"
-},
-{
-  "name": "Blocksucker Nation",
-  "url": "http://zen.blocksuckernation.com/"
 },
 {
   "name": "Catspool",

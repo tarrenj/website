@@ -26,7 +26,7 @@ Domain Fronting erfordert keinerlei spezielle Kooperation durch Mittelsmänner. 
 ## Zen hat eines der am meisten verteilten Knotensysteme. Erfahren Sie mehr über Secure Nodes!
 **[Informieren Sie sich über unser Secure Node Netzwerk](https://securenodes.na.zensystem.io/)**
 
-Zen Secure Nodes ermöglichen ein verteiltes und zuverlässiges Kryptowährungssystem das die Kommunikation zwischen allen Knotenpunkten verschlüsselt. Die Kommunikation zwischen den einzelnen Knotenpunkten erscheint für den Beobachter wie jede andere verschlüsselte Kommunikation im Internet. Somit kann die Art der Kommunikation nicht zugeordnet werden un es ist unwahrscheinlich, dass Zen User oder Knotenpunkte geblockt werden.
+Zen Secure Nodes ermöglichen ein verteiltes und zuverlässiges Kryptowährungssystem das die Kommunikation zwischen allen Knotenpunkten verschlüsselt. Die Kommunikation zwischen den einzelnen Knotenpunkten erscheint für den Beobachter wie jede andere verschlüsselte Kommunikation im Internet. Somit kann die Art der Kommunikation nicht zugeordnet werden und es ist unwahrscheinlich, dass Zen User oder Knotenpunkte geblockt werden.
 
 Die grundlegenden Anforderungen an Secure Nodes sind:
 * Halte mindestens 42 ZenCash in einer transparenten Adresse pro Node. Diese Anforderung soll sicherstellen, dass der jeweilige Betreiber ein Interesse am Wohlergehen des Systems hat und Nutzer mit böswilligen Absichten davon abhalten, eine Secure Node zu betreiben.

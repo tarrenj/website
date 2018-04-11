@@ -1,0 +1,2 @@
+## ZenPub gibt Nutzern die Möglichkeit, Daten, Dokumente und Medien anonym und zensurresistent zu veröffentlichen.
+Der Zweck von ZenPub ist es, Einzelpersonen die Möglichkeit zu geben, Daten oder Informationen frei zu veröffentlichen, ohne Angst vor Repressalien zu haben, indem man es ihnen erlaubt, von einer abgeschirmten Adresse (anonym) aus über das InterPlanetary File System zu veröffentlichen.

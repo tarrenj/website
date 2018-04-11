@@ -104,6 +104,15 @@ section:not(#hero) {
   box-shadow: none;
 }
 
+.logo-text {
+  text-transform: lowercase;
+  color: $darkblue;
+  line-height: 1;
+  word-wrap: break-word;
+  strong {
+    font-weight: 600;
+  }
+}
 .section-title {
   text-align: center;
 }
@@ -606,7 +615,7 @@ h2.section-title {
     right: auto;
     width: 100%;
     background-color: #041435;
-    padding: 2rem 0;
+    padding: 2rem 15px;
     p {
       margin: 0;
       font-weight: 400;
@@ -717,6 +726,10 @@ h2.section-title {
   background-attachment: scroll;
   padding: 4rem 15px;
   // margin-bottom: 6rem;
+  @media (max-width: 767px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 .zentext {
@@ -735,9 +748,13 @@ h2.section-title {
     display: block;
     position: relative;
     height: 100%;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 5rem 0;
+    @media (max-width: 767px) {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
     p {
       position: absolute;
       width: 100%;
@@ -783,9 +800,19 @@ h2.section-title {
 .zen-icon {
   width: 400px;
   max-width: 100%;
+  opacity: 0.2;
 }
 
 #about {
+  .logo-text {
+    font-size: 4.7rem;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    line-height: 1;
+    @media (max-width: 575px) {
+      font-size: 3.7rem;
+    }
+  }
   .lead.section-title {
     color: $darkblue;
     font-size: 28px;
@@ -902,7 +929,7 @@ section#features {
         div[class^="col"] {
           display: flex;
           flex-direction: column;
-          padding: 0 4%;
+          padding: 15px 4%;
         }
         .content {
           flex-grow: 1;
@@ -960,6 +987,7 @@ section#features {
       h2 {
         margin-bottom: 0;
         font-size: 24px;
+        padding-left: 8px;
       }
       img {
         width: 250px;
@@ -1012,8 +1040,8 @@ section#tech {
   }
 }
 
-#roadmap {
-  overflow: hidden;
+#roadmap:not(body) {
+  overflow-x: hidden;
   padding: 100px 0 0;
   .zencash-logo {
     max-width: 338px;
@@ -1159,6 +1187,13 @@ section#tech {
   background-position: 0px 0px;
   background-size: 960px;
   padding: 8rem 0;
+  .logo-text {
+    font-size: 6rem;
+    letter-spacing: -5px;
+    @media (max-width: 767px) {
+      font-size: 4rem;
+    }
+  }
   .subhead-image {
     max-width: 520px;
     margin-bottom: 2rem;
@@ -1600,6 +1635,7 @@ section#tech {
     }
   }
   .team-card {
+    font-family: proxima-nova,sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1611,7 +1647,11 @@ section#tech {
       position: relative;
       padding: 0 1rem;
     }
+    h1, h2, h3, h4, h5, p {
+      font-family: proxima-nova,sans-serif;
+    }
     h3 {
+      font-weight: 700;
       color: #1b2f59;
       font-size: 1.2rem;
       letter-spacing: 6px;
@@ -2426,6 +2466,12 @@ section#tech {
     .lead {
       font-size: 1rem;
     }
+    .btn-ghost {
+      margin-bottom: 1.4rem;
+    }
+    .social-sidebar {
+      padding-bottom: 0;
+    }
     .featured-announcement {
       padding: 15px 15px 5px;
       .btn-lg {
@@ -2472,7 +2518,7 @@ section#tech {
     margin-bottom: 3rem;
   }
   .zentext {
-    padding: 1rem 0;
+    padding: 1.4rem 0;
   }
   .zen-icon {
     max-width: 50%;
@@ -2484,7 +2530,7 @@ section#tech {
   }
   .zentext {
     .zenlink {
-      padding: 2rem 0;
+      padding: 0;
     }
   }
   #features {
@@ -2550,7 +2596,7 @@ section#tech {
     font-size: 30px;
     line-height: 1.4;
   }
-  #roadmap {
+  #roadmap:not(body) {
     padding-top: 3rem;
     .zencash-logo {
       max-width: 70%;
@@ -2580,6 +2626,7 @@ section#tech {
     .entry-text {
       h3 {
         font-size: 24px;
+        line-height: 1.4;
       }
     }
     .entry-icon {

@@ -1,3 +1,45 @@
+.language-sidebar,
+#blog .card-body .card-title {
+  font-family: sans-serif;
+}
+.lng-de {
+  word-wrap: break-word;
+  #tech {
+    .stats-section {
+      .circle-dots {
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+.lng-es {
+  #tech {
+    .stats-section {
+      .circle-dots {
+        h2 {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.lng-ko {
+  #about {
+    .logo-text {
+      line-height: 1.4;
+    }
+  }
+}
+.lng-es,
+.lng-jp {
+  .btn-lg, .btn-group-lg>.btn {
+    letter-spacing: 0;
+  }
+}
+.lng-jp,
+.lng-ko,
 .lng-zh {
   h3 {
     &.subsection-title {

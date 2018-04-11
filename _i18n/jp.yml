@@ -1,0 +1,397 @@
+global:
+  roadmap: ロードマップ
+  resources: リソース
+  technology:
+    base: テクノロジー
+    possessive: Zenのテクノロジー
+    tagline: プライベート - セキュア - 追跡不可能 - レジリエント - マイニング可能
+  philosophy:
+    base: 理念
+    possessive: Zenの理念
+    tagline: 自律的 - 持続可能 - 研究開発への取組み
+  team:
+    base: チーム
+    tagline: 様々な才能を持ったメンバーが、世界中で協力しながら活動しています
+    engineering: エンジニアリング
+    user-experience: ユーザーエクスペリエンス (UX)
+    marketing: マーケティング
+    operations: オペレーション
+    business-development: 事業開発
+    partners: パートナー
+    advisors: アドバイザー
+  exchanges: 取引所
+  mining-pools: マイニングプール
+  wallets:
+    full-chain: フルノード
+    lite-chain: ライトウェイト
+    base: ウォレット
+    wallet: ウォレット
+    official: 公式ウォレット
+    third-party: 第三者開発のウォレット
+    web: ウェブウォレット
+    paper: ペーパーウォレット
+  forum: Forum
+  go: 詳細
+  footeron: 'on'
+  anonymous: 匿名プラットフォーム
+  korean: 韓国
+titles:
+  homepage: 世界中で利用可能かつ匿名のブロックチェーン
+  iohk: ZenCashとIOHKは研究開発パートナーシップを締結しました
+  philosophy: 少しずつ世界を変えていく
+  technology: Zenテクノロジー
+  team: チーム紹介
+  exchanges: ZenCash取引所
+  mining-pools: ZenCashマイニングプール
+  wallets: ZenCashウォレット
+  securenodes: ZenCashセキュアノード
+  zencash: 通貨としてのZenCash
+  zenchat: セキュアメッセージング機能としてのZenChat
+  zenpub: ZenPub - 非中央集権的なクラウドストレージ
+  zenhide: ZenHide - 検閲回避
+descriptions:
+  homepage: ZenCashは、極めてレジリエントで高度な検閲耐性を備えたブロックチェーンおよびプライバシーコインです。プライベートかつ匿名であり、追跡不能なトランザクションを実行することが可能となります。また、セキュアノードにより、ZenCash のネットワークトラフィックを識別不可能、すなわちブロック不可能とすることができます。
+  iohk: ZenCashとIOHKのパートナーシップでは、注目すべき数々の研究開発が計画されています。研究開発はRoman Oliynykov 教授により主導され、プロトコルレベルにおける自律分散型組(DAO) 、さらに、SPECTREやPhantomプロトコルといった次世代型スケーリングソリューションの実装研究が行われます。ぜひチェックを！
+  philosophy: Zenは非中央集権的なガバナンスモデルに立脚しており、継続的にアップグレードが行なわれています。中央権力や単一障害点が存在しないため、ZenCashは組織として極めてレジリエントだといえます。
+  technology: zk-SNARKSに加え、Zenでは追加レイヤーとしてのノード暗号化、ドメインフロンティング、および惑星間ファイルシステム (IPFS) を採用しています。
+  team: チームを紹介します。ZenCashチームは、設立者であるRob ViglioneおよびRolf Versluisをリーダーとして、研究開発を通じてブロックチェーン業界を発展させることに情熱を注ぐ、意欲のあるメンバーたちにより構成されています。
+  exchanges: ZenCashの購入・トレードをご検討ですか? ZenCashを取扱う取引所に関しては、以下をご覧ください。
+  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
+  wallets: ZenCashを安全に保管しましょう。ZenCashウォレットは様々なタイプがありますので、必要なものをお使いください。
+  securenodes: ZenCashのセキュアノードによって、プライベートなトランザクション、メッセージングならびに情報発信を可能とするための、強固でレジリエントなシステムが実現されます。
+  zencash: ZenCashは、通常のアドレス (T) およびプライベートなアドレス (Z) を用いてスムーズな価値の交換を実現します。Tアドレスとは、公開されたパブリックなアドレスをさし、ビットコインにおけるアドレスのような役割を果たします。Zアドレスは「シールドされたアドレス」ともいい、ここではプライバシー保護のための最新技術を用いることで送付元、送付先、および送付量が隠されます。
+  zenchat: ZenChatは業界有数のセキュリティを誇るメッセージングアプリであり、これ自体をプロダクト化することもできれば、Zenウォレットに内蔵することも可能です。
+  zenpub: ZenPubを利用することで、検閲に怯えることなく、匿名で文書や動画などのデータを公開することが可能となります。
+  zenhide: ZenCashは、ドメインフロンティングを用いることで、インターネット上のあらゆる検閲を回避することができます。ドメインフロンティングとは、検閲回避のための汎用性の高い技術であり、通信のリモートエンドポイントを隠すことが可能となります。
+newsletter:
+  title: 登録された方限定で最新情報を配信しています！
+  success: 送信が完了しました！受信メールを確認してください。
+  name: 名
+  firstname: 名
+  lastname: 姓
+  email: メールアドレス
+  country: 国名
+  button: 登録
+nav:
+  top:
+    about: Zen について
+    features: 機能
+    roadmap: ロードマップ
+    team: チーム
+    whitepaper: ホワイトペーパー
+    exchanges: Zenを入手する
+    wallets: Zenを使用する
+    miningpools: Zenを採掘する
+    community: コミュニティ
+    support: サポート
+    blog: ブログ
+  footer:
+    about:
+      title: Zenについて
+      items:
+        - title: テクノロジー
+          namespace: technology
+        - title: 理念
+          namespace: philosophy
+        - title: チーム
+          namespace: team
+        - title: ZenCash
+          link: '/zencash/'
+        - title: ZenChat
+          link: '/zenchat/'
+        - title: ZenPub
+          link: '/zenpub/'
+        - title: ZenHide
+          link: '/zenhide/'
+    resources:
+      title: リソース
+      items:
+        - title: ZenCash を購入する
+          link: '/exchanges/'
+          namespace: exchanges
+        - title: マイニングプール
+          link: '/mining-pools/'
+          namespace: mining-pools
+        - title: ウォレットをダウンロードする
+          link: '/wallets/'
+          namespace: wallets
+        - title: Public Keys
+          link: 'https://github.com/zencashofficial/keys'
+          type: external
+        - title: メールサポート
+          link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
+          type: mailto
+    community:
+      title: コミュニティ
+    email:
+      title: メールでアップデートを受け取る
+      contact:
+        title: コンタクト
+        email: info@zencash.com
+    copyright: All rights reserved.
+homepage:
+  hero:
+    subtitle: null
+    subtitle2: 通貨・メッセージング・情報発信のためのセキュアでプライベートなプラットフォーム
+    wallet-button: ウォレットを入手する
+    buy-button: ZenCash を購入する
+    announcement: IOHK との研究開発パートナーシップを締結しました
+    announcement-button: 詳しく知る
+  about:
+    title: Zenは、最先端のプライバシーテクノロシー備え、必要資金を自ら確保できるようなプロトコルモデルを採用したプラットフォームです
+    products:
+      zencash: 通貨
+      zenchat: メッセージング
+      zenpub: 情報発信・メディア
+      zenhide: ウェブトラフィック
+      development: (開発中)
+      nav:
+        - title: 機能
+          link: '#features'
+          icon: /assets/img/icons/features.png
+        - title: ロードマップ
+          link: '#roadmap'
+          icon: /assets/img/icons/roadmap.png
+        - title: チーム
+          link: '#team-overview'
+          icon: /assets/img/icons/team.png
+        - title: ホワイトペーパー
+          link: '#white-paper'
+          icon: /assets/img/icons/whitepaper.png
+  features:
+    title: ZenCash はパブリック・プライベート・匿名の暗号通貨です
+    cta: IOHKパートナーシップに関する詳細はこちらから
+  tech:
+    title: プライベート - セキュア - 追跡不可能 - レジリエント - マイニング可能
+    subtitle: Zen は、テクノロジーの最先端をリードし、イノベーションを通じて人類に貢献することを目指しています
+    features:
+      - title: プライバシー保護のための最先端の技術
+        content:
+          - zk-SNARKS - 送付元・送付先に関する情報が隠された、プライベートなトランザクション
+          - ドメイン・フロンティング - インターネット接続のエンドポイントを隠すことにより検閲を回避
+          - IPFS - 分散型システムを利用し、データ発信またはデータアクセスを匿名で行うことが可能に
+      - title: 自律分散型組織 (DAO)
+        content:
+          - 最先端のプライバシー保護技術および経済理論に立脚した、最新トレジャリーモデルを用いてリソースを分配
+      - title: 非常にレジリエントなシステム
+        content:
+          - <a href="https://securenodes.na.zensystem.io/">Zen セキュアノード</a> → <span id="nodeCount">6640</span> ノード!
+      - title: 研究開発への取組み
+        content:
+          - DAOや次世代型スケーリングなど、プロトコルレベルにおけるソリューションを研究
+      - title: 非常にセキュアなシステム
+        content:
+          - ZenCash はノード間の暗号化を実現 → 業界初!
+      - title: マイニングが可能
+        content:
+          - プルーフ・オブ・ワーク、Equihashに対応したGPUマイニング
+    techcards:
+      - title: 理念
+        content: Zenは、研究開発に重点をおきながら、テクノロジーによって経済的不平等を是正することをミッションとしています。
+        cta:
+          text: 詳しく知る
+          link: '/philosophy/'
+      - title: テクノロジー
+        content: Zenは、zk-SNARKSをはじめとした複数のレイヤーによるノードの暗号化、ドメインフロンティング、およびIPFSを採用しています。
+        cta:
+          text: 詳しく知る
+          link: '/technology/'
+    stats:
+      title: データ
+      sections:
+        - title: 総供給量
+          id: totalSupply
+          content: 21M
+        - title: 現在の流通量
+          id: circSupply
+          content: 3,401,100
+        - title: セキュアノードの数
+          id: secureNodes
+          content: 7,870
+  roadmap:
+    events:
+      2017:
+        - title: ZenCash 発足
+          icon: /assets/img/icons/launch.png
+          content:
+            - 2017年5月30日にZenCashがローンチされる
+        - title: コアアップデート
+          icon: /assets/img/icons/updates.png
+          content:
+            - ブロックチェーンプロトコルとしては初のTLS統合 (SSL証明書を用いたノード暗号化)
+            - ブロックチェーンの改善
+            - リプレイアタックへの対処
+        - title: ウォレットおよび各種プロダクト
+          icon: /assets/img/icons/wallet.png
+          content:
+            - Torを用いたZenCashノード
+            - メッセージング機能
+            - Swingウォレット (フルノード)
+            - Androidウォレット
+            - Arizenウォレット (ライトウェイト)
+            - ペーパーウォレット
+        - title: セキュアノード
+          icon: /assets/img/icons/encryption.png
+          content:
+            - レジリエントなエンドツーエンドネットワーク暗号化
+            - セキュアノード運営者に対する報酬システム
+      2018:
+        - title: ウォレットおよびプロジェクト
+          icon: /assets/img/icons/voting.png
+          content:
+            - プロポーザル (企画・提案) 提出および投票システムのGUI
+            - iOSウォレット
+            - OpenBazaar統合
+            - 透明性の徹底的な向上
+            - Hardware Wallets
+        - title: セキュアノード
+          icon: /assets/img/icons/secure.png
+          content:
+            - セキュアノードシステムの向上
+            - ブロックチェーンプロトコルに対するセキュアノードの組込み
+        - title: 研究開発
+          icon: /assets/img/icons/r-d.png
+          content:
+            - DAOトレジャリーを用いた、プロトコルレベルの投票システム
+            - スケーリングに関する研究 - 次世代型ブロックチェーンソリューション
+            - ドメインフロンティング
+            - プロトコルレベルにおけるZenPub機能の実装
+      2019:
+        - title: 市場への提供
+          icon: /assets/img/icons/scalability-study.png
+          content:
+            - DAOトレジャリーを用いた、プロトコルレベルの投票システム
+            - Dandelion++ 統合による、ネットワークスタック匿名化
+            - スケーラビリティーに関する対策
+            - セキュアノード上におけるIPFS
+  whitepaper:
+    subtitle: "ホワイトペーパーを改訂中です。初版ホワイトペーパーの内容のうち、約80％が達成されました。"
+    button: ホワイトペーパーをダウンロード
+  team:
+    title: グローバルなチーム
+    subtitle: ZenCashチームは、50を超える世界中のメンバーたちにより構成されています
+    button:
+      text: チームメンバーを見る
+      link: '/team/'
+  usezen:
+    title: Zenの使用
+    subtitle: 私たちは、プライバシーコインの中で ZenCashを最も実用的な暗号通貨とすることを目指しています!
+    features:
+      - title: ZenCashを購入する
+        image: /assets/img/icons/money.png
+        namespace: exchanges
+      - title: ウォレットをダウンロードする
+        image: /assets/img/icons/safe.png
+        namespace: wallets
+      - title: マイニングプール
+        image: /assets/img/icons/mining.png
+        namespace: mining-pools
+    merchants:
+      title: 事業者
+      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスおよび事業者サービスとの統合が非常に大切となります。
+  resources:
+    subtitle: Zenのブランド詳細に関しては、以下のリソースをご覧ください。
+    items:
+      - title: 法律関連事項
+        buttons:
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> ダウンロード'
+            link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
+      - title: ブロックエクスプローラー
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+  blog:
+    title: ブログ
+    button:
+      text: 他のブログ記事も見る
+      link: https://blog.zencash.com/
+mining-pools:
+  subtitle: ZenCashはプルーフ・オブ・ワークおよびEquihashを採用した暗号通貨であり、GPUマイニングにうってつけです。標準的なグラフィックカードを用いることで、誰でもマイニングを行うことが可能です。
+  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタックへ</a></strong> の防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
+  resources:
+    items:
+      - title: Zenマイニング収益計算機
+        buttons:
+          - text: 詳細
+            link: https://whattomine.com/coins/185-zen-equihash
+      - title: Zenマイニングプールフォーラム
+        buttons:
+          - text: 詳細
+            link: https://forum.zensystem.io/t/zen-mining-pools-list/73
+      - title: ブロックエクスプローラー
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+dao-infographic:
+  title: 自律分散型組織 (DAO) モデルのトレジャリーシステム
+  subtitle: ZenCashのトレジャリーモデルは、インクルーシブで透明性が高く、その公正さが証明された経済システムです。また、システム内の活動に参加する上でのインセンティブが存在します。
+  image: '/assets/img/iohk-infographic.png'
+  image-mobile: '/assets/img/iohk-infographic-mobile.png'
+  button: ZenCashホワイトペーパーを読む
+  steps:
+    1:
+      title: 提案・企画に対する資金プールを用意
+      image: '/assets/img/icons/infographic/bank.svg'
+    2:
+      title: 誰でも提案・企画を提出することが可能
+      image: '/assets/img/icons/infographic/peers.svg'
+    3:
+      title: ZenCashを所有する人々が提案・企画に対するレビュー・投票を実行
+      image: '/assets/img/icons/infographic/review.svg'
+    4:
+      title: 投票権は信頼できるユーザーに委任可能。また、 投票により金銭的報酬を受取ることも可能
+      image: '/assets/img/icons/infographic/scales.svg'
+    5:
+      title: 票はステークの比率に基づいて計算され、投票内容が他人に公開されることはありません
+      image: '/assets/img/icons/infographic/votes.svg'
+    6:
+      title: 公正さを保つために、当選提案・企画が決定するまで投票 (途中) 結果は公開されません
+      image: '/assets/img/icons/infographic/safe.svg'
+    7:
+      title: 票計数が行われ、提案・企画の採用・不採用が決定されます
+      image: '/assets/img/icons/infographic/approve.svg'
+iohk:
+  subtitle: 'ZenCashとIOHKのパートナーシップでは、注目すべき数々の研究開発が計画されています。研究開発は、 <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a> 教授 (暗号学者、ITセキュリティ研究者、IOHK研究フェロー) により主導されます。'
+  content:
+    title: スケーラビリティに関する研究
+    list:
+      - ブロックチェーンプロジェクトにおいて、スケーリングは重要な課題です。
+      - プロトコルのアップグレードを行うことで、ネットワーク上における大量かつ高速のトランザクションが可能となります。
+      - Spectreなどといった、次世代型ブロックチェーンソリューションの研究を行います。
+      - 使いやすさに徹底的にこだわります。限りないスケーラビリティおよび即時のトランザクション実現を目指します。
+      - IOHKは様々なプロトコルに関して精査したのち、Zenチームに対し2018年第2四半期までに、提案ならびにプロトコル仕様を提供します。
+    button: ZenCashについて詳しく知る
+securenodes:
+  hero:
+    title: ZenCashは、プライベートな通貨・メッセージングシステム・メディア (情報発信手段) です
+    subtitle: ZenCashネットワークが非常に非中央集権化の進んだレジリエントなブロックチェーンであるのは、セキュアノードのおかげです。
+    cta: セキュアノードの設定方法
+  requirements:
+    title: セキュアノードとして満たすべき条件
+    list:
+      - title: 1ノードにつき、Tアドレスで42 ZenCash以上を所有していること
+        subtitle:
+        icon: /assets/img/icons/vector-1.png
+      - title: 信頼できる認証局から発行される有効なTLS証明書を作成・管理すること
+        subtitle:
+        icon: /assets/img/icons/vector-3.png
+      - title: ノードに対する計算課題をこなすのに十分なプロセッサパワーおよびメモリを備えたサーバー上で、ノードを運営すること
+        subtitle:
+        icon: /assets/img/icons/vector-2.png
+      - title: Zenブロックチェーンの全コピーを管理すること
+        subtitle:
+        icon: /assets/img/icons/vector-4.png
+      - title: 1日の時間あたり92％以上の間、ノードが実行されていること。
+        subtitle:
+        icon: /assets/img/icons/vector-1.png
+    cta: セキュアノード設定の方法
+  footer:
+    title: ZenCashを購入・売却する

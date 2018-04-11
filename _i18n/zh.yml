@@ -1,5 +1,6 @@
 global:
   roadmap: 路线图
+  resources: 资源
   technology:
     base: 技术
     possessive: 我们的技术
@@ -21,6 +22,8 @@ global:
   exchanges: 交易所
   mining-pools: 矿池
   wallets:
+    full-chain: Full Client
+    lite-chain: Lite Client
     base: 钱包
     wallet: 钱包
     official: 官方钱包
@@ -29,6 +32,7 @@ global:
     paper: 纸钱包
   forum: 论坛
   go: 点击前往
+  footeron: 'on'
   anonymous: 匿名
   korean: 韩文
 titles:
@@ -41,6 +45,7 @@ titles:
   mining-pools: ZenCash矿池
   wallets: ZenCash钱包
   securenodes: ZenCash安全节点
+  roadmap: ZenCash路线图
   zencash: ZenCash用于货币流通
   zenchat: ZenChat用于安全的即时通信
   zenpub: ZenPub-去中心化云储存
@@ -109,6 +114,9 @@ nav:
         - title: 下载钱包
           link: '/wallets/'
           namespace: wallets
+        - title: Public Keys
+          link: 'https://github.com/zencashofficial/keys'
+          type: external
         - title: 邮件支持
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto

@@ -8,13 +8,11 @@
     <li>
       {% if language[0] == "en" %}
       <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
-      {% elsif language[0] == "ko" %}
-      {% comment %}Hiding Korean version until updated translation is complete{% endcomment %}
       {% else %}
         {% if site.lang == language[0] %}
         <a href="{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
         {% else %}
-        <a href="{{ site.baseurl }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+        <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
         {% endif %}
       {% endif %}
     </li>

@@ -10,6 +10,10 @@ layout: compress
     {% capture page_id %}{% if page.url == '/' %}homepage{% elsif page.namespace != '' or page.namespace != blank %}{{ page.namespace | slugify }}{% else %}{{ page.url | slugify }}{% endif %}{% endcapture %}
 
     <body id="{{ page_id }}" class="lng-{{site.lang}}">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD8DWK9"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
 
         {% if page.type == 'homepage' %}
         {% include header-rebrand.html %}

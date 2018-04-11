@@ -1,9 +1,9 @@
 <div class="feature-item" markdown="1">
-#### Payment Systems
-- [Welto App](http://welto.io/) integration to pay your bills
+#### 결제 시스템
+- [Welto App](http://welto.io/){:target="_blank"} 청구서를 지불하기 위한 통합
 </div>
 <div class="feature-item" markdown="1">
 #### Peer-to-Peer Payments
-- BitCash App integration (1Q 2018)
-- Zen Wallets Business-to-Business!
+- BitCash App 통합
+- Zen Wallets 비즈니스 대 비즈니스!
 </div>

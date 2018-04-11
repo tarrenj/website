@@ -30,6 +30,7 @@ global:
     third-party: Third-Party Wallets
     web: Web Wallet
     paper: Paper Wallet
+    mobile-hardware: Mobile Hardware Wallet
   forum: Forum
   go: GO
   footeron: 'on'

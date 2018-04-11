@@ -30,6 +30,7 @@ global:
     third-party: 第三者開発のウォレット
     web: ウェブウォレット
     paper: ペーパーウォレット
+    mobile-hardware: モバイルハードウェアウォレット
   forum: フォーラム
   go: 詳細
   footeron: 'on'
@@ -64,10 +65,10 @@ descriptions:
   zenpub: ZenPubを利用することで、検閲に怯えることなく、匿名で文書や動画などのデータを公開することが可能となります。
   zenhide: ZenCashは、ドメインフロンティングを用いることで、インターネット上のあらゆる検閲を回避することができます。ドメインフロンティングとは、検閲回避のための汎用性の高い技術であり、通信のリモートエンドポイントを隠すことが可能となります。
 newsletter:
-  title: 登録された方限定で最新情報を配信しています！
+  title: 登録された方を対象に最新情報を配信しています!
   success: 送信が完了しました！受信メールを確認してください。
-  name: 名
-  firstname: 名
+  name: お名前
+  firstname: お名前
   lastname: 姓
   email: メールアドレス
   country: 国名
@@ -79,7 +80,7 @@ nav:
     roadmap: ロードマップ
     team: チーム
     whitepaper: ホワイトペーパー
-    exchanges: ZenCashの入手
+    exchanges: Zenの入手
     wallets: Zenの使用
     miningpools: Zenの採掘
     community: コミュニティ
@@ -311,7 +312,7 @@ homepage:
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: ZenCashはプルーフ・オブ・ワークおよびEquihashを採用した暗号通貨であり、GPUマイニングにうってつけです。標準的なグラフィックカードを用いることで、誰でもマイニングを行うことが可能です。
-  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタックへ</a></strong> の防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
+  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタック</a></strong> への防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
   resources:
     items:
       - title: Zenマイニング収益計算機
@@ -364,7 +365,7 @@ iohk:
     title: スケーラビリティに関する研究
     list:
       - ブロックチェーンプロジェクトにおいて、スケーリングは重要な課題です。
-      - プロトコルのアップグレードを行うことで、ネットワーク上における大量かつ高速のトランザクションが可能となります。
+      - プロトコルのアップグレードを行うことで、ネットワーク上で大量かつ高速のトランザクションを実行することが可能となります。
       - Spectreなどといった、次世代型ブロックチェーンソリューションの研究を行います。
       - 使いやすさに徹底的にこだわります。限りないスケーラビリティおよび即時のトランザクション実現を目指します。
       - IOHKは様々なプロトコルに関して精査したのち、Zenチームに対し2018年第2四半期までに、提案ならびにプロトコル仕様を提供します。

@@ -1,6 +1,6 @@
-### Schürfbar
+### Minable
 {: .subsection-title}
-## Jeder, der über eine moderne Grafikkarte verfügt kann ZenCash, eine equihash-basierte Kryptowährung, schürfen.
+## Jeder, der über eine moderne Grafikkarte verfügt kann ZenCash, eine Equihash-basierte Kryptowährung, minen.
 
 <div class="row justify-content-center">
   <div class="col-lg-12 col-xl-6 mb-3">

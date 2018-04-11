@@ -4,7 +4,7 @@ global:
   technology:
     base: Technologie
     possessive: Unsere Technologie
-    tagline: Privat - Sicher - Nicht Zurückverfolgbar - Belastbar - Schurfbar
+    tagline: Privat - Sicher - Nicht Zurückverfolgbar - Robust - Minable
   philosophy:
     base: Philosophie
     possessive: Unsere Philosophie
@@ -46,7 +46,7 @@ titles:
   wallets: ZenCash Wallets
   securenodes: ZenCash Secure Nodes
   roadmap: ZenCash Roadmap
-  zencash: ZenCash für Geld
+  zencash: ZenCash als Währung
   zenchat: ZenChat für Sichere Kommunikation
   zenpub: ZenPub - Dezentrale Cloud-Speicherung
   zenhide: ZenHide für Domain-Fronting
@@ -80,11 +80,11 @@ nav:
     roadmap: Roadmap
     team: Team
     whitepaper: White Paper
-    exchanges: ZenCash erhalten
-    wallets: Zen benutzen
-    miningpools: Zen schürfen
-    community: Gemeinschaft
-    support: Unterstützung
+    exchanges: ZenCash kaufen
+    wallets: Zen nutzen
+    miningpools: Zen minen
+    community: Community
+    support: Hilfe
     blog: Blog
   footer:
     about:
@@ -134,16 +134,16 @@ homepage:
   hero:
     subtitle: Die Sichere & Private Pattform Für
     subtitle2: Geld, Nachrichten & Medien
-    wallet-button: Wallet Erhalten
+    wallet-button: Wallet Anlegen
     buy-button: ZenCash Kaufen
-    announcement: Wir freuen uns auf die Ankündigung einer F&E-Partnerschaft mit IOHK
+    announcement: Wir freuen uns eine F&E-Partnerschaft mit IOHK ankündigen zu können
     announcement-button: Mehr Erfahren
   about:
-    title: Zen ist eine Plattform mit der neuesten Datenschutztechnologie und einem sich selbst tragenden Finanzierungsmodell mit Lösungen auf Protokollebene.
+    title: Zen ist eine Plattform mit der neuesten Datenschutztechnologie und einem nachhaltigen Finanzierungsmodell mit Lösungen auf Protokollebene.
     products:
-      zencash: Für Geld
+      zencash: Als Währung
       zenchat: Für Kommunikation
-      zenpub: Für Media
+      zenpub: Für Medien
       zenhide: Für Web Traffic
       development: (in Entwicklung)
       nav:
@@ -160,11 +160,11 @@ homepage:
           link: '#white-paper'
           icon: /assets/img/icons/whitepaper.png
   features:
-    title: ZenCash ist Öffentlich, Privat und Anonym
+    title: ZenCash ist für jeden zugänglich, privat und anonym
     cta: Mehr über die IOHK Partnerschaft
   tech:
-    title: Privat - Sicher - Nicht Zurückverfolgbar - Belastbar - Schurfbar
-    subtitle: Zen zielt darauf ab, technologisch führend zu sein und durch Innovation zur Menschlichkeit beizutragen
+    title: Privat - Sicher - Nicht Zurückverfolgbar - Robust - Minable
+    subtitle: Zen zielt darauf ab, technologisch führend zu sein und durch Innovation der Menschheit einen Dienst zu erweisen
     features:
       - title: Beste Privatsphären Technologie
         content:
@@ -173,7 +173,7 @@ homepage:
           - IPFS - anonymes veröffentlichen oder zugreifen auf Daten über ein verteiltes System
       - title: Dezentrale Autonome Organisation (DAO)
         content:
-          - Zuweisung von Ressourcen durch das fortschrittlichste Schatzkammer-Modell, das mit der besten Datenschutztechnologie und ökonomischer Theorie entwickelt wurde.
+          - Stellt Ressourcen durch das am weitesten entwickelte Treasury Modell mit der besten Datenschutztechnologien nach ökonomischen Gesichtspunkten bereit
       - title: Belastbarstes System
         content:
           - <a href="https://securenodes.na.zensystem.io/">Zen Secure Nodes</a> → <span id="nodeCount">6640</span> Knoten!
@@ -182,28 +182,28 @@ homepage:
           - Lösungen auf Protokollebene wie DAO, "Next Generation" Skalierung und mehr!
       - title: Sicherstes System
         content:
-          - ZenCash hat eine Node-to-Node-Verschlüsselung → 1st to market!
-      - title: Schürfbar
+          - ZenCash hat eine Node-to-Node-Verschlüsselung → Die erste am Markt!
+      - title: Minable
         content:
           - Proof-of-work, equihash-basierter GPU-Algorithmus
     techcards:
       - title: Philosophie
-        content: Mit einem starken Fokus auf Forschung und Entwicklung ist es unsere Mission, die wirtschaftlichen Rahmenbedingungen durch Technologie zu beeinflussen.
+        content: Mit unserem Fokus auf Forschung und Entwicklung ist es unsere Mission, wirtschaftlich faire Wettbewerbsbedingungen durch Technologie zu schaffen.
         cta:
           text: Mehr Erfahren
           link: '/philosophy/'
       - title: Technologie
-        content: Zen verwendet zk-SNARKS mit zusätzlichen Schichten von Knotenverschlüsselung, Domain-Fronting und IPFS.
+        content: Zen verwendet zk-SNARKS mit Endpunktverschlüsselung auf mehreren Ebenen, Domain-Fronting und IPFS.
         cta:
           text: Mehr Erfahren
           link: '/technology/'
     stats:
-      title: Statistik
+      title: Statistiken
       sections:
-        - title: Total Supply
+        - title: Limit
           id: totalSupply
           content: 21M
-        - title: Zirkulierende Supply
+        - title: Menge im Umlauf
           id: circSupply
           content: 3,401,100
         - title: Secure Nodes
@@ -215,8 +215,8 @@ homepage:
         - title: ZenCash Einführung
           icon: /assets/img/icons/launch.png
           content:
-            - ZenCash wurde am 5.30.17 gestartet.
-        - title: Kern-Updates
+            - ZenCash wurde am 30.05.17 gestartet.
+        - title: Die wichtigsten Neuerungen
           icon: /assets/img/icons/updates.png
           content:
             - Erste Blockchain mit TLS-Integration (SSL-Zertifikat für Knotenverschlüsselung)
@@ -225,22 +225,22 @@ homepage:
         - title: Wallet und Produkte
           icon: /assets/img/icons/wallet.png
           content:
-            - Tor ZenCash-Knoten
+            - Tor ZenCash Nodes
             - Chat-Nachrichten
-            - Swing Wallet - volle Blockchain
+            - Swing Wallet - Vollversion
             - Android Wallet
-            - Arizen Wallet - lite blockchain
+            - Arizen Wallet - Lite Version
             - Papier-Wallet
         - title: Secure Nodes
           icon: /assets/img/icons/encryption.png
           content:
             - Widerstandsfähige End-to-End-Netzwerkverschlüsselung
-            - Zahlungssystem für sichere Knotenbetreiber
+            - Kompensation für Secure Node Betreiber
       2018:
         - title: Wallet und Projekte
           icon: /assets/img/icons/voting.png
           content:
-            - GUI für Vorschlagseinreichung und Abstimmungssystem
+            - GUI für das Einreichen von Vorschlägen und Abstimmung über Umsetzung
             - iOS Wallet
             - OpenBazaar-Integration
             - Operation Radikale Transparenz
@@ -253,30 +253,30 @@ homepage:
         - title: Forschung und Entwicklung
           icon: /assets/img/icons/r-d.png
           content:
-            - DAO Schatzkammer Protokoll-Ebenen Wahlsystem
+            - Abstimmung über die Verwendung der DAO Treasury Funds auf Protokollebene
             - Skalierungsstudie - Blockchain Lösung der nächsten Generation
             - Domain-Fronting
             - ZenPub Protokoll-Ebene
       2019:
-        - title: Lieferung an den Markt
+        - title: Fertigstellung
           icon: /assets/img/icons/scalability-study.png
           content:
-            - DAO Schatzkammer Protokoll-Ebenen Wahlsystem
-            - Dandelion++ Integration für Network Stack Anonymität
-            - Skalierbarkeit Lösung
+            - Abstimmung über die Verwendung der DAO Treasury Funds auf Protokollebene
+            - Dandelion++ Integration für Netzwerk Anonymisierung
+            - Antworten zum Skalierungsproblem
             - IPFS veröffentlicht auf Secure Nodes
   whitepaper:
-    subtitle: "Das Whitepaper wird derzeit überarbeitet. Das Original-Whitepaper ist zu fast 80% erfüllt:"
+    subtitle: "Das Whitepaper befindet sich in Revision. Das originale Whitepaper ist zu etwa 80% umgesetzt."
     button: White Paper Herunterladen
   team:
-    title: A Global Team
+    title: Ein globales Team
     subtitle: Das ZenCash-Team besteht aus über 50 Mitgliedern aus der ganzen Welt.
     button:
       text: Das Gesamte Team Ansehen
       link: '/team/'
   usezen:
     title: Zen Benutzen
-    subtitle: Unser Ziel ist es, ZenCash zur nützlichsten Privatsphären-Kryptowährung auf dem Markt zu machen!
+    subtitle: Unser Ziel ist es, ZenCash zur nutzerfreundlichsten privaten Kryptowährung am Markt zu machen
     features:
       - title: ZenCash Kaufen
         image: /assets/img/icons/money.png
@@ -288,10 +288,10 @@ homepage:
         image: /assets/img/icons/mining.png
         namespace: mining-pools
     merchants:
-      title: Handelsvertreter
+      title: Händler
       subtitle: Ein entscheidender Weg, ZenCash nutzbar zu machen, ist die Integration mit mehreren Zahlungssystemen und Händlerservices.
   resources:
-    subtitle: Diese Ressourcen werden Ihnen helfen, die Zen-Marke besser zu verstehen und richtig zu repräsentieren.
+    subtitle: Diese Informationen werden dir helfen das Zen-Projekt besser zu verstehen.
     items:
       - title: Rechtliches
         buttons:
@@ -311,11 +311,11 @@ homepage:
       text: Mehr Blog-Einträge
       link: https://blog.zencash.com/
 mining-pools:
-  subtitle: Jeder, der über eine moderne Grafikkarte verfügt, kann ZenCash, eine auf Equihash basierende GPU-Algorithmus für den Proof-of-Work-Einsatz, schürfen.
-  content: 'Wir empfehlen, den Hash zwischen den Pools zu verteilen, um einen <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51%igen Angriff zu verhindern</a></strong>.'
+  subtitle: Jeder mit einer modernen Grafikkarte kann ZenCash minen. ZenCash ist eine auf Proof-of-Work und dem Equihash Algorithmus basierende Kryptowährung, die für GPU Mining optimiert ist.
+  content: 'Wir empfehlen deine Rechenleistung auf mehrere Pools aufzuteilen, um einem <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% Angriff vorzubeugen</a></strong>.'
   resources:
     items:
-      - title: Zen Mining Profit Kalkulator
+      - title: Zen Mining Profit Rechner
         buttons:
           - text: Go
             link: https://whattomine.com/coins/185-zen-equihash
@@ -323,7 +323,7 @@ mining-pools:
         buttons:
           - text: Go
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73
-      - title: Block Explorers
+      - title: Block Explorer
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -332,8 +332,8 @@ mining-pools:
           - text: 3
             link: https://explorer.zen-solutions.io/
 dao-infographic:
-  title: Dezentrale Autonome Organisation (DAO) Schatzkammer
-  subtitle: ZenCash Schatzkammer Model ist ein integratives, nachweislich faires und transparentes Wirtschaftssystem mit Anreizen zur Teilnahme.
+  title: Dezentrale Autonome Organisation (DAO) Treasury
+  subtitle: Das ZenCash Treasury Model ist ein integratives, nachweislich faires und transparentes Wirtschaftssystem mit Anreizen zur Teilnahme.
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
   button: Lesen Sie Das ZenCash White Paper

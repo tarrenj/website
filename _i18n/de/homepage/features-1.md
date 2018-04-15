@@ -4,5 +4,5 @@
 - Treasury für Entwicklung, Support, Marketing - 8,5% vom mining reward
 - Starkes Team & repräsentative Führung - Zen Blockchain Foundation
 - Wallet und Kommunikations-Clients für internationale Nutzer
-- Globales Marketing - Maßgeschneiderte Herangehensweise an unterschiedliche Märkte
+- Globales Marketing - maßgeschneiderte Herangehensweise an unterschiedliche Märkte
 - Secure Nodes bieten ein belastbares, verteiltes Netzwerk.

@@ -121,7 +121,11 @@
     <div class="row justify-content-center align-items-center text-center">
       <div class="col">
         <p>
+          {% if site.data.whitepapers[site.lang] %}
           <a href="{{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}" class="btn btn-lg btn-primary mt-5">{% t dao-infographic.button %}</a>
+          {% else %}
+          <a href="{{site.baseurl_root}}{{site.data.whitepapers[en]}}" class="btn btn-lg btn-primary mt-5">{% t dao-infographic.button %}</a>
+          {% endif %}
         </p>
       </div>
     </div>

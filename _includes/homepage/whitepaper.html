@@ -7,7 +7,11 @@
           {% translate homepage.whitepaper.subtitle %}
         </p>
         <p>
+          {% if site.data.whitepapers[site.lang] %}
           <a href="{{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}" class="btn btn-lg btn-primary"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
+          {% else %}
+          <a href="{{site.baseurl_root}}{{site.data.whitepapers[en]}}" class="btn btn-lg btn-primary"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
+          {% endif %}
         </p>
       </div>
     </div>

@@ -1,21 +1,21 @@
-## Why ZenCash?
+## Perché ZenCash?
 {: .content-title}
 
-A decentralized cryptocurrency which is **Public**, **Private**, and **Anonymous**.
+Una criptovaluta decentralizzata che è **Pubblica**, **Privata** e **Anonima**.
 {: .lead .mb-4}
 
-Has its own blockchain, and is used for **Transactions**, **Communications**, and **Publishing**.
+Possiede una propria blockchain ed è utilizzata per **Transazioni**, **Comunicazioni** e **Pubblicazioni**.
 {: .lead .mb-4}
 
-Designed for long-term operation:
+Pensato per un'operazione di lungo termine:
 {: .lead .mb-4}
 
-- 21 million ZenCash cap - no premine, no ICO
-- Thousands of Secure Nodes in operation - 3.5% of mining reward
-- Treasury funds for development, support, marketing - 8.5% of mining reward
-- Strong Team & Representative Governance - Zen Blockchain Foundation
-- Wallets and communication clients for International Users
-- Marketing Globalization - Tailored approach to different markets
-- Secure Nodes provide a resilient, distributed network
+- Tetto massimo 21 milioni di ZenCash - no premine, no ICO
+- Migliaia di Secure Nodes operativi - 3.5% della remunerazione del mining
+- Fondo cassa per sviluppo, supporto, marketing - 8.5% della remunerazione del mining
+- Forte Governance del Team e della Rappresentanza - Zen Blockchain Foundation
+- Wallets e comunicazione cliente per Utenti Internazionali
+- Marketing Globale - Approccio su misura ai differenti mercati
+- I Secure Nodes costituiscono una rete resistente e distribuita
 
-[Why Secure Nodes are Important](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}
+[Perché i Secure Nodes sono Importanti](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}

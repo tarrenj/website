@@ -18,6 +18,10 @@ h3 {
   letter-spacing: 6px;
 }
 
+.base-font {
+  font-family: proxima-nova,sans-serif !important;
+}
+
 section:not(#hero) {
   position: relative;
   ul {
@@ -105,12 +109,14 @@ section:not(#hero) {
 }
 
 .logo-text {
+  font-weight: 100 !important;
+  font-family: proxima-nova,sans-serif !important;
   text-transform: lowercase;
   color: $darkblue;
   line-height: 1;
   word-wrap: break-word;
   strong {
-    font-weight: 600;
+    font-weight: 600 !important;
   }
 }
 .section-title {
@@ -800,7 +806,7 @@ h2.section-title {
 .zen-icon {
   width: 400px;
   max-width: 100%;
-  opacity: 0.2;
+  // opacity: 0.2;
 }
 
 #about {
@@ -890,6 +896,12 @@ section#features {
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
   padding: 160px 50px 0;
+  .container-fluid {
+    max-width: 1800px;
+    &.full-width {
+      max-width: none;
+    }
+  }
   .subhead-large {
     color: $green;
   }
@@ -1425,6 +1437,7 @@ section#tech {
     h3 {
       color: #1b2f59;
       font-size: 28px;
+      font-family: proxima-nova,sans-serif !important;
       line-height: 32px;
       letter-spacing: 0;
       font-weight: 100;
@@ -1997,8 +2010,14 @@ section#tech {
     font-size: 1rem;
   }
   .community-columns {
-    max-width: 440px;
+    max-width: 480px;
     margin: 0 auto;
+    @media (min-width: 2200px) {
+      max-width: none;
+      .nav-link {
+        justify-content: center;
+      }
+    }
     .nav-item {
       text-align: left;
     }

@@ -806,7 +806,7 @@ h2.section-title {
 .zen-icon {
   width: 400px;
   max-width: 100%;
-  opacity: 0.2;
+  // opacity: 0.2;
 }
 
 #about {
@@ -2010,7 +2010,7 @@ section#tech {
     font-size: 1rem;
   }
   .community-columns {
-    max-width: 440px;
+    max-width: 480px;
     margin: 0 auto;
     @media (min-width: 2200px) {
       max-width: none;

@@ -26,46 +26,46 @@ global:
     lite-chain: Blockchain ligera
     base: Carteras
     wallet: Cartera
-    official: Official Wallets
-    third-party: Third-Party Wallets
-    web: Web Wallet
+    official: Carteras Oficiales
+    third-party: Carteras de Terceros
+    web: Cartera Web
     paper: Cartera de Papel
-  forum: Forum
+  forum: Foro
   go: IR
   footeron: 'on'
   anonymous: Anónimo
   korean: Coreano
 titles:
-  homepage: A globally accessible and anonymous blockchain
+  homepage: Una blockchain anónima y globalmente accesible
   iohk: ZenCash y IOHK El Asociado para Investigación y Desarrollo
-  philosophy: Changing the world one bit at a time
-  technology: Zen Technology
-  team: Meet Our Team
-  exchanges: ZenCash Exchanges
-  mining-pools: ZenCash Mining Pools
-  wallets: ZenCash Wallets
-  securenodes: ZenCash Secure Nodes
+  philosophy: Cambiando el mundo un paso a la vez
+  technology: Tecnología Zen
+  team: Conoce a nuestro equipo
+  exchanges: Intercambio de ZenCash
+  mining-pools: Grupos de minería colectiva ZenCash
+  wallets: Carteras ZenCash
+  securenodes: Nodos Seguros ZenCash
   zencash: ZenCash Para Dinero
-  zenchat: ZenChat for Secure Messaging
-  zenpub: ZenPub - Decentralized Cloud Storage
-  zenhide: ZenHide for Censorship Resistance
+  zenchat: ZenChat para mensajes seguros
+  zenpub: ZenPub - Almacenamiento en la Nube Descentralizado
+  zenhide: ZenHide para Resistencia a la Censura
 descriptions:
-  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
-  iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
-  philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
-  technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
-  team: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
-  exchanges: Looking to buy or trade ZenCash? Find a list of all exchanges that support ZenCash here.
-  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
-  wallets: Store your ZenCash safely and securely. Choose one of our many ZenCash Wallets.
-  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
-  zencash: ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses. T addresses are regular addresses and transactions are similar to bitcoin. Z addresses are called shielded addresses and leverage the latest privacy technology, zk-SNARKS, to obscure sender and recipient addresses, as well as amount sent.
-  zenchat: ZenChat is the most secure and private messaging application on the market and can be used as a standalone product or embedded within ZenCash wallets.
-  zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
-  zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
+  homepage: ZenCash es la moneda de privacidad con la cadena de bloques privada más fuerte y resistente a la censura. Nuestros usuarios pueden realizar transacciones tanto privadas como anónimas e imposibles de rastrear. Alimentado por nuestra tecnología de los Nodos Seguros, nuestro tráfico de red no puede ser reconocido y por ende, no puede ser bloqueado.
+  iohk: La asociación ZenCash e IOHK implica un emocionante conjunto de investigación y desarrollo dirigida por el Prof. Roman Oliynykov. La asociación consiste en la implementación de una Organización Autónoma Descentralizada (OAD) a nivel de protocolo, y una solución de escalado de próxima generación como los protocolos SPECTRE o Phantom. ¡Ver más!
+  philosophy: Zen se basa en un modelo de gobierno descentralizado que constantemente mejoramos. Sin autoridad central o punto único de falla, ZenCash es tan resistente como una organización puede llegar a ser.
+  technology: Zen utiliza zk-SNARKS con capas adicionales de cifrado de nodo, fronteo de dominio y sistema de archivos interplanetarios (IPFS).
+  team: Conozca a nuestro equipo. Liderados por nuestros fundadores Rob Viglione y Rolf Versluis, ZenCash está formado por personas apasionadas e impulsadas, comprometidas con el avance de la industria de las cadenas de bloques mediante la asignación de recursos a la investigación y el desarrollo. ZenCash tiene como objetivo contribuir a la industria blockchain y la humanidad a través de la innovación.
+  exchanges: ¿Desea comprar o intercambiar ZenCash? Encuentre una lista de todos los exchanges que admiten ZenCash aquí.
+  mining-pools: Lista de los grupos de minería colectiva de  ZenCash. Elija un grupo de minería y únase a la comunidad de ZenCash.
+  wallets: Guarde su ZenCash de forma segura. Elija una de nuestras muchas Carteras ZenCash.
+  securenodes: Los nodos seguros de ZenCash contribuyen a un sistema robusto y resistente que permite transacciones privadas, mensajes y publicaciones.
+  zencash: ZenCash permite una fácil transferencia de valor mediante el uso de direcciones regulares (T) y privadas (Z). Las direcciones T son direcciones regulares y las transacciones son similares a las de bitcoin. Las direcciones Z se denominan direcciones privadas y aprovechan la última tecnología de privacidad, zk-SNARKS, para ocultar las direcciones del remitente y del destinatario, así como también la cantidad enviada.
+  zenchat: ZenChat es la aplicación de mensajería más segura y privada del mercado y se puede utilizar como un producto independiente o integrado en las carteras ZenCash.
+  zenpub: ZenPub ofrece a los usuarios la posibilidad de publicar de forma anónima datos, documentos y medios de manera que sea resistente a la censura
+  zenhide: ZenCash utiliza Fronteo de Dominio para eludir cualquier tipo de censura de Internet. Frente de Dominio es una técnica versátil de elusión a la censura que oculta el punto final remoto de una comunicación.
 newsletter:
   title: ¡Registrate para recibir actualizaciones!
-  success: Success! Please check your email to confirm we have the right one.
+  success: ¡Listo! Favor de revisar tu correo para confirmar que tenemos el correcto.
   name: Tu nombre
   firstname: Tu nombre
   lastname: Tus apellidos
@@ -115,7 +115,7 @@ nav:
         - title: Descargar carteras
           link: '/wallets/'
           namespace: wallets
-        - title: Public Keys
+        - title: Llaves públicas
           link: 'https://github.com/zencashofficial/keys'
           type: external
         - title: Soporte por Correo
@@ -243,7 +243,7 @@ homepage:
             - Cartera iOS
             - Integración OpenBazaar
             - Operacion Radical de Transparencia
-            - Hardware Wallets
+            - Cartera Hardware
         - title: Nodo Seguro
           icon: /assets/img/icons/secure.png
           content:
@@ -310,15 +310,15 @@ homepage:
       text: Más publicaciones del blog
       link: https://blog.zencash.com/
 mining-pools:
-  subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
-  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.'
+  subtitle: Cualquiera que tenga una tarjeta gráfica actual puede minar ZenCash, una criptomoneda de minado GPU basada en Equihash como prueba de trabajo.
+  content: 'Recomendamos distribuir el hash entre los grupos de minería colectiva para evitar un <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">ataque del 51%</a></strong>.'
   resources:
     items:
-      - title: Zen Mining Profit Calculator
+      - title: Calculadora de Ganancias minando Zen
         buttons:
           - text: Ir
             link: https://whattomine.com/coins/185-zen-equihash
-      - title: Zen Mining Pool Forum Topic
+      - title: Foro de Grupos de Minado Colectivo Zen
         buttons:
           - text: Ir
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73
@@ -371,27 +371,27 @@ iohk:
     button: Aprender más sobre ZenCash
 securenodes:
   hero:
-    title: ZenCash is Private Money, Messages, Media
-    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
-    cta: Instructions to Set Up Secure Nodes
+    title: Zencash es dinero, mensajes y multimedia privados
+    subtitle: ¡Los Nodos Seguros hacen que la red ZenCash sea la cadena de bloques más descentralizada y resistente!
+    cta: Instrucciones para configurar Nodos Seguros
   requirements:
-    title: Requirements
+    title: Requisitos
     list:
       - title: 42 $ZEN
-        subtitle: in transparent address per node
+        subtitle: en una dirección transparente (T) por nodo
         icon: /assets/img/icons/vector-1.png
-      - title: TLS Certificate
-        subtitle: from a known Certificate Authority
+      - title: Certificado TLS
+        subtitle: de una autoridad de certificación conocida
         icon: /assets/img/icons/vector-3.png
-      - title: Computational Challenge
-        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+      - title: Desafío computacional
+        subtitle: <small>Ejecute el nodo en un servidor con suficiente procesador y memoria para que pueda cumplir con un desafío computacional</small>
         icon: /assets/img/icons/vector-2.png
-      - title: ZenCash Blockchain
-        subtitle: Maintain a full copy of the ZenCash Blockchain
+      - title: Cadena de Bloques ZenCash
+        subtitle: Tener una copia completa de la Cadena de Bloques de Zencash
         icon: /assets/img/icons/vector-4.png
-      - title: 92%+ Uptime
-        subtitle: Keep the node up and running at least 92% of the time
+      - title: 92%+ en línea
+        subtitle: Mantenga el nodo en línea al menos el 92% del tiempo
         icon: /assets/img/icons/vector-1.png
-    cta: Instructions to Set Up Secure Nodes
+    cta: Instrucciones para configurar Nodos Seguros
   footer:
     title: Compra o vende ZenCash

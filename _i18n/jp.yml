@@ -30,10 +30,11 @@ global:
     third-party: 第三者開発のウォレット
     web: ウェブウォレット
     paper: ペーパーウォレット
-  forum: Forum
+    mobile-hardware: モバイルハードウェアウォレット
+  forum: フォーラム
   go: 詳細
   footeron: 'on'
-  anonymous: 匿名プラットフォーム
+  anonymous: 匿名
   korean: 韓国
 titles:
   homepage: 世界中で利用可能かつ匿名のブロックチェーン
@@ -56,7 +57,7 @@ descriptions:
   technology: zk-SNARKSに加え、Zenでは追加レイヤーとしてのノード暗号化、ドメインフロンティング、および惑星間ファイルシステム (IPFS) を採用しています。
   team: チームを紹介します。ZenCashチームは、設立者であるRob ViglioneおよびRolf Versluisをリーダーとして、研究開発を通じてブロックチェーン業界を発展させることに情熱を注ぐ、意欲のあるメンバーたちにより構成されています。
   exchanges: ZenCashの購入・トレードをご検討ですか? ZenCashを取扱う取引所に関しては、以下をご覧ください。
-  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
+  mining-pools: ZenCash マイニングプール一覧。マイニングプールを選択し、ZenCash コミュニティに参加しましょう。
   wallets: ZenCashを安全に保管しましょう。ZenCashウォレットは様々なタイプがありますので、必要なものをお使いください。
   securenodes: ZenCashのセキュアノードによって、プライベートなトランザクション、メッセージングならびに情報発信を可能とするための、強固でレジリエントなシステムが実現されます。
   zencash: ZenCashは、通常のアドレス (T) およびプライベートなアドレス (Z) を用いてスムーズな価値の交換を実現します。Tアドレスとは、公開されたパブリックなアドレスをさし、ビットコインにおけるアドレスのような役割を果たします。Zアドレスは「シールドされたアドレス」ともいい、ここではプライバシー保護のための最新技術を用いることで送付元、送付先、および送付量が隠されます。
@@ -64,7 +65,7 @@ descriptions:
   zenpub: ZenPubを利用することで、検閲に怯えることなく、匿名で文書や動画などのデータを公開することが可能となります。
   zenhide: ZenCashは、ドメインフロンティングを用いることで、インターネット上のあらゆる検閲を回避することができます。ドメインフロンティングとは、検閲回避のための汎用性の高い技術であり、通信のリモートエンドポイントを隠すことが可能となります。
 newsletter:
-  title: 登録された方限定で最新情報を配信しています！
+  title: 登録された方を対象に最新情報を配信しています!
   success: 送信が完了しました！受信メールを確認してください。
   name: 名
   firstname: 名
@@ -79,9 +80,9 @@ nav:
     roadmap: ロードマップ
     team: チーム
     whitepaper: ホワイトペーパー
-    exchanges: Zenを入手する
-    wallets: Zenを使用する
-    miningpools: Zenを採掘する
+    exchanges: Zenの入手
+    wallets: Zenの使用
+    miningpools: Zenの採掘
     community: コミュニティ
     support: サポート
     blog: ブログ
@@ -106,7 +107,7 @@ nav:
     resources:
       title: リソース
       items:
-        - title: ZenCash を購入する
+        - title: ZenCash を購入
           link: '/exchanges/'
           namespace: exchanges
         - title: マイニングプール
@@ -133,12 +134,12 @@ homepage:
   hero:
     subtitle: null
     subtitle2: 通貨・メッセージング・情報発信のためのセキュアでプライベートなプラットフォーム
-    wallet-button: ウォレットを入手する
-    buy-button: ZenCash を購入する
+    wallet-button: ウォレットを入手
+    buy-button: ZenCash を購入
     announcement: IOHK との研究開発パートナーシップを締結しました
     announcement-button: 詳しく知る
   about:
-    title: Zenは、最先端のプライバシーテクノロシー備え、必要資金を自ら確保できるようなプロトコルモデルを採用したプラットフォームです
+    title: Zenは、最先端のプライバシーテクノロジーを備え、必要資金を自ら確保できるようなプロトコルモデルを備えたプラットフォームです
     products:
       zencash: 通貨
       zenchat: メッセージング
@@ -243,7 +244,7 @@ homepage:
             - iOSウォレット
             - OpenBazaar統合
             - 透明性の徹底的な向上
-            - Hardware Wallets
+            - ハードウェアウォレット
         - title: セキュアノード
           icon: /assets/img/icons/secure.png
           content:
@@ -277,7 +278,7 @@ homepage:
     title: Zenの使用
     subtitle: 私たちは、プライバシーコインの中で ZenCashを最も実用的な暗号通貨とすることを目指しています!
     features:
-      - title: ZenCashを購入する
+      - title: ZenCash を購入
         image: /assets/img/icons/money.png
         namespace: exchanges
       - title: ウォレットをダウンロードする
@@ -288,7 +289,7 @@ homepage:
         namespace: mining-pools
     merchants:
       title: 事業者
-      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスおよび事業者サービスとの統合が非常に大切となります。
+      subtitle: ZenCashを使いやすくするためには、様々な支払いサービスや事業者サービスとの統合が非常に大切となります
   resources:
     subtitle: Zenのブランド詳細に関しては、以下のリソースをご覧ください。
     items:
@@ -311,7 +312,7 @@ homepage:
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: ZenCashはプルーフ・オブ・ワークおよびEquihashを採用した暗号通貨であり、GPUマイニングにうってつけです。標準的なグラフィックカードを用いることで、誰でもマイニングを行うことが可能です。
-  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタックへ</a></strong> の防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
+  content: '<strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51％アタック</a></strong> への防止策として、ハッシュパワーを様々なプールに分散させることをおすすめします。'
   resources:
     items:
       - title: Zenマイニング収益計算機
@@ -364,7 +365,7 @@ iohk:
     title: スケーラビリティに関する研究
     list:
       - ブロックチェーンプロジェクトにおいて、スケーリングは重要な課題です。
-      - プロトコルのアップグレードを行うことで、ネットワーク上における大量かつ高速のトランザクションが可能となります。
+      - プロトコルのアップグレードを行うことで、ネットワーク上で大量かつ高速のトランザクションを実行することが可能となります。
       - Spectreなどといった、次世代型ブロックチェーンソリューションの研究を行います。
       - 使いやすさに徹底的にこだわります。限りないスケーラビリティおよび即時のトランザクション実現を目指します。
       - IOHKは様々なプロトコルに関して精査したのち、Zenチームに対し2018年第2四半期までに、提案ならびにプロトコル仕様を提供します。

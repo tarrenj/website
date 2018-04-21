@@ -1,17 +1,17 @@
 global:
   roadmap: Roadmap
-  resources: Resources
+  resources: Ресурсы
   technology:
-    base: Technology
-    possessive: Our Technology
-    tagline: Private - Secure - Untraceable - Resilient - Minable
+    base: Технология
+    possessive: Технология
+    tagline: Приватность - Безопасность - Невозможно отследить - Устойчивость - Можно майнить
   philosophy:
-    base: Philosophy
-    possessive: Our Philosophy
-    tagline: Autonomous - Sustainable - R&D Focus
+    base: Философия
+    possessive: Философия
+    tagline: Автономность - Экономическая устойчивость  - Внимание на R&D
   team:
-    base: Team
-    tagline: Combining Expertise from Around the Globe
+    base: Команда Zen
+    tagline: Соединяем опыт со всего мира
     engineering: Engineering
     user-experience: User Experience
     marketing: Marketing
@@ -19,35 +19,35 @@ global:
     business-development: Business Development
     partners: Partners
     advisors: Advisors
-  exchanges: Exchanges
-  mining-pools: Mining Pools
+  exchanges: Биржы
+  mining-pools: Майнинг пулы
   wallets:
-    full-chain: Full Client
-    lite-chain: Lite Client
-    base: Wallets
-    wallet: Wallet
-    official: Official Wallets
-    third-party: Third-Party Wallets
-    web: Web Wallet
-    paper: Paper Wallet
+    full-chain: полный блокчейн
+    lite-chain: облегченный блокчейн
+    base: Кошельки
+    wallet: Кошелек
+    official: Официальные кошельки
+    third-party: Независимые кошельки
+    web: Веб кошелек
+    paper: Бумажный кошелек
     mobile-hardware: Mobile Hardware Wallet
-  forum: Forum
-  go: GO
+  forum: форуме
+  go: Перейти
   footeron: 'on'
   anonymous: anonymous
-  korean: Korean
+  korean: Корейский
 titles:
   homepage: A globally accessible and anonymous blockchain
-  iohk: ZenCash and IOHK partner for Research and Development
+  iohk: Партнерство ZenCash и IOHK для исследований и разработки
   philosophy: Changing the world one bit at a time
-  technology: Zen Technology
+  technology: Zen технология
   team: Meet Our Team
-  exchanges: ZenCash Exchanges
-  mining-pools: ZenCash Mining Pools
-  wallets: ZenCash Wallets
-  securenodes: ZenCash Secure Nodes
+  exchanges: ZenCash Биржы
+  mining-pools: ZenCash майнинг пулы
+  wallets: ZenCash кошельки
+  securenodes: ZenCash Защищенные узлы
   roadmap: ZenCash Roadmap
-  zencash: ZenCash for Money
+  zencash: ZenCash как деньги
   zenchat: ZenChat for Secure Messaging
   zenpub: ZenPub - Decentralized Cloud Storage
   zenhide: ZenHide for Censorship Resistance
@@ -66,36 +66,36 @@ descriptions:
   zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
   zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
 newsletter:
-  title: Sign up to receive exclusive updates!
-  success: Success! Please check your email to confirm we have the right one.
-  name: Enter your first name
-  firstname: Your first name
-  lastname: Your last name
-  email: Your email address
-  country: Your Country...
-  button: Subscribe
+  title: Подпишитесь для свежих новостей!
+  success: Успешно! Проверьте email для подтверждения.
+  name: Имя
+  firstname: Имя
+  lastname: Фамилия
+  email: Email адрес
+  country: Страна
+  button: Подписаться
 nav:
   top:
-    about: About
-    features: Features
+    about: О проекте
+    features: Преимущества
     roadmap: Roadmap
-    team: Team
+    team: Команда
     whitepaper: White Paper
-    exchanges: Get ZenCash
-    wallets: Use Zen
-    miningpools: Mine Zen
-    community: Community
-    support: Support
-    blog: Blog
+    exchanges: Получить ZenCash
+    wallets: Использовать Zen
+    miningpools: Майнинг
+    community: Сообщество
+    support: Поддержка
+    blog: Блог
   footer:
     about:
-      title: About
+      title: О проекте
       items:
-        - title: Technology
+        - title: Технология
           namespace: technology
-        - title: Philosophy
+        - title: Философия
           namespace: philosophy
-        - title: Team
+        - title: Команда
           namespace: team
         - title: ZenCash
           link: '/zencash/'
@@ -106,123 +106,123 @@ nav:
         - title: ZenHide
           link: '/zenhide/'
     resources:
-      title: Resources
+      title: Ресурсы
       items:
-        - title: Buy ZenCash
+        - title: Купить ZenCash
           link: '/exchanges/'
           namespace: exchanges
-        - title: Mining Pools
+        - title: Майнинг пулы
           link: '/mining-pools/'
           namespace: mining-pools
-        - title: Download Wallets
+        - title: Скачать кошельки
           link: '/wallets/'
           namespace: wallets
         - title: Public Keys
           link: 'https://github.com/zencashofficial/keys'
           type: external
-        - title: Email Support
+        - title: Email поддержки
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto
     community:
-      title: Community
+      title: Сообщество
     email:
-      title: Get Email Updates
+      title: Свежие новости на Email
       contact:
-        title: Contact Us
+        title: Свяжитесь с нами
         email: info@zencash.com
-    copyright: All rights reserved.
+    copyright: Все права защищены
 homepage:
   hero:
-    subtitle: The Secure & Private Platform For
-    subtitle2: Money, Messages, & Media
-    wallet-button: Get a Wallet
-    buy-button: Buy ZenCash
-    announcement: Excited to Announce R&D Partnership with IOHK
-    announcement-button: Learn More
+    subtitle: Безопасная и приватная платформа для
+    subtitle2: Платежей, сообщений и медиа
+    wallet-button: Получить кошелек
+    buy-button: Купить ZenCash
+    announcement: Рады анонсировать R&D партнерство с IOHK
+    announcement-button: Узнать больше
   about:
-    title: Zen is a platform with the latest privacy technology and a self-sustaining funding model with protocol-level solutions
+    title: Zen - платформа с новейшими приватными технологиями и самоподдерживаемым обеспечением с решениями на уровне протокола
     products:
-      zencash: For Money
-      zenchat: For Messaging
-      zenpub: For Media
-      zenhide: For Web Traffic
-      development: (in development)
+      zencash: как деньги
+      zenchat: для сообщений
+      zenpub: для медиа
+      zenhide: для веб-трафика
+      development: (в разработке)
       nav:
-        - title: Features
+        - title: Характеристики
           link: '#features'
           icon: /assets/img/icons/features.png
         - title: Roadmap
           link: '#roadmap'
           icon: /assets/img/icons/roadmap.png
-        - title: Team
+        - title: Команда
           link: '#team-overview'
           icon: /assets/img/icons/team.png
         - title: White Paper
           link: '#white-paper'
           icon: /assets/img/icons/whitepaper.png
   features:
-    title: ZenCash is Public, Private, and Anonymous
-    cta: More about the IOHK Partnership
+    title: ZenCash - публичный, приватный и анонимный
+    cta: Узнать больше о партнерстве с IOHK
   tech:
-    title: Private - Secure - Untraceable - Resilient - Minable
-    subtitle: Zen aims to lead the technological forefront & contribute to humanity through innovation
+    title: Приватность - Безопасность - Невозможно отследить - Устойчивость - Можно майнить
+    subtitle: Zen стремиться  стать технологическим лидером и внести вклад в человечество через инновации
     features:
-      - title: Best Privacy Tech
+      - title: Лучшие технологии приватности
         content:
-          - zk-SNARKS - Private transactions with hidden sender/receiver information
-          - Domain Fronting - Hides internet connection endpoints to prevent censorship
-          - IPFS - Publish or access data anonymously via a distributed system
-      - title: Decentralized Autonomous Organization (DAO)
+          - zk-SNARKs  - Приватные транзакции где скрыта информация о отправителе/получателе
+          - Domain Fronting - Прячет конечные пункты интернет соединения для обхода цензуры
+          - IPFS - Публикации и доступ к данным анонимно через распределенную систему
+      - title: Децентрализованная Автономная Организация (ДАО)
         content:
-          - Allocate resources through the most advanced treasury model designed with the best privacy tech coupled with economic theory
-      - title: Most Resilient System
+          - Распределение ресурсов через самую продвинутую модель казны, спроектированную с лучшими приватными технологиями и экономической теорией
+      - title: Самая устойчивая система
         content:
-          - <a href="https://securenodes.na.zensystem.io/">Zen Secure Nodes</a> → <span id="nodeCount">6640</span> Nodes!
-      - title: Research and Development Focus
+          - <a href="https://securenodes.na.zensystem.io/">Zen Защищенные узлы </a> → <span id="nodeCount">6640</span> узлов!
+      - title: Особое внимание исследованиям и разработкам
         content:
-          - Protocol-level solutions like DAO, next generation scaling, and more!
-      - title: Most Secure System
+          - Решения на уровне протокола, такие как DAO, масштабирование, и другие!
+      - title: Самая безопасная система
         content:
-          - ZenCash has node-to-node encryption → 1st to market!
-      - title: Minable
+          - ZenCash использует шифрование от ноды к ноде → 1ые на рынке!!
+      - title: Майнинг
         content:
-          - Proof-of-work, equihash-based GPU mining
+          - Proof-of-work, equihash GPU майнинг
     techcards:
-      - title: Philosophy
-        content: With a deep focus in research and development, our mission is to level the economic playing field through technology.
+      - title: Философия
+        content: Наша задача обеспечение равных экономических условий с помощью технологий, научных разработок и исследований.
         cta:
-          text: Learn More
+          text: Узнать больше
           link: '/philosophy/'
-      - title: Technology
-        content: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and IPFS.
+      - title: Технология
+        content: Zen использует zk-SNARKs с дополнительным шифрованием узлов, domain fronting и IPFS.
         cta:
-          text: Learn More
+          text: Узнать больше
           link: '/technology/'
     stats:
-      title: Stats
+      title: Статистика
       sections:
-        - title: Total Supply
+        - title: Максимальная эмиссия
           id: totalSupply
           content: 21M
-        - title: Circulating Supply
+        - title: Текущая эмиссия
           id: circSupply
           content: 3,401,100
-        - title: Secure Nodes
+        - title: Защищенные узлы
           id: secureNodes
           content: 7,870
   roadmap:
     events:
       2017:
-        - title: ZenCash Launch
+        - title: ZenCash запуск
           icon: /assets/img/icons/launch.png
           content:
-            - ZenCash launched on 5.30.17
-        - title: Core Updates
+            - ZenCash запущен 30.05.17
+        - title: Обновления протокола
           icon: /assets/img/icons/updates.png
           content:
-            - First blockchain with TLS integration (SSL cert for node encryption)
-            - Blockchain improvements
-            - Replay protection
+            - Первый блокчейн с интегрированным TLS (SSL серт. для шифрования узлов)
+            - Улучшения блокчейна
+            - Replay защита
         - title: Wallets and Products
           icon: /assets/img/icons/wallet.png
           content:

@@ -1,36 +1,36 @@
-### Private
+### Приватность
 {: .subsection-title}
-## Zen is a privacy platform built on zero-knowledge Succinct Non-interactive ARguments of Knowledge (zk-SNARKs) technology with a decentralized secure node architecture.
+## Zen - платформа приватности построенная на доказательствах с нулевым разглашением zero-knowledge Succinct Non-interactive ARguments of Knowledge (zk-SNARKs) с децентрализованной архитектурой защищенных узлов.
 
-### Secure
+### Безопасность
 {: .subsection-title}
-## ZenCash is the first cryptocurrency with fully end-to-end encryption at the node and internode level.
-In addition to zk-SNARKs, the Zen architecture includes encryption at the node level. Cryptocurrencies rely on nodes to operate, we require our Secure Node operators to have the latest Information Technology and Network Security to qualify for compensation.
+## ZenCash - это первая криптовалюта с полным сквозным шифрованием в узлах и между ними.
+Наряду с zk-SNARKS архитектура Zen включает в себя шифрование на уровне  узлов. Криптовалюты нуждаются в узлах для работы, мы требуем от наших операторов защищенных узлов наличие новейшей информационной технологии и сетевой безопасности для получения компенсации.
 
-### Untraceable
+### Невозможно отследить
 {: .subsection-title}
-## Shielded transactions are fully encrypted, yet can be verified as valid under the network's consensus. The sender, recipient, and amount are hidden on the blockchain, making Zen completely untraceable.
+## Защищенные транзакции полностью зашифрованы, тем не менее их можно проверить на валидность в консенсусе сети. Отправитель, получатель и сумма спрятаны в блокчейне, делая Zen полностью не отслеживаемым.
 
 {:text-center: .text-center .mb-5}
 [{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
 {:text-center}
 
-Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication. It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+Domain fronting - это универсальный метод обхода цензуры, который скрывает удаленную конечную точку связи. Это работает на прикладном уровне, используя HTTPS, коммуникация с запрещенным хостом выглядит как коммуникация с каким-то другим хостом, разрешенным цензором.
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+Ключевая идея заключается в использовании различных доменных имен на разных уровнях коммуникации. Один домен появляется на "внешней стороне" запроса HTTPS - в 9 DNS-запросе и индикации имени сервера TLS, в то время как другой домен появляется на "внутренней" - в заголовке хоста HTTP, невидимом цензору под шифрованием HTTPS. Цензор, не способный отличить трафик домена от трафика домена без интерфейса, должен выбирать между разрешением обхода трафика и блокировкой домена целиком, что приводит к дорогостоящему сопутствующему ущербу.
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+Domain fronting не требует специальной кооперации между сетевыми посредниками. Мы идентифицируем  трудно блокируемые веб-сервисы, такие как сеть доставки (и дистрибуции) содержимого (CDN), которые поддерживают доменные соединения и полезны для обхода цензуры.
 
-### Resilient
+### Устойчивость
 {: .subsection-title}
-## Zen has one of the most distributed node systems. Learn more about Secure Nodes!
-**[Check out our Secure Node network](https://securenodes.na.zensystem.io/)**
+## Zen обладает одной из самых распределенных системой узлов. Узнайте больше про защищенные узлы!
+**[Посмотри на нашу сеть защищенных узлов](https://securenodes.na.zensystem.io/)**
 
-Zen Secure Nodes enable a distributed and reliable cryptocurrency system that encrypts inter-node communications. Zen node communication looks like any other encrypted internet traffic, instead of like Bitcoin traffic. This effectively hides the type of activity taking place, making it less likely that Zen users and nodes are blocked.
+Защищенные узлы ZEN создают распределенную и устойчивую криптовалютную систему с шифрованием соединений между узлами. Коммуникация узлов ZEN выглядит точно так же, как любой другой зашифрованный трафик в интернете, а не как трафик Bitcoin-а. Это эффективно скрывает любую необычную активность, что уменьшает вероятность блокировки пользователей и узлов.
 
-The basic requirements of Secure Nodes are:
-* Maintain a minimum of 42 ZenCash in transparent address per node. This sufficiently demonstrates that the operator cares enough about ZenCash and discouraging users with malicious intentions from operating a Secure Node.
-* Create and maintain a valid TLS certificate from a known Certificate Authority. This enables encrypted data transport.
-* Run the node on a server with enough processor power and memory so that it can meet a computational challenge. This protects against DDoS attacks.
-* Maintain a full copy of the Zen blockchain. This makes sure no UTXO’s or commitments are lost.
-* Keep the node up and running at least 92% of the time.
+Базовые требования защищенных узлов:
+* Обладать как минимум 42 ZenCash-ом в прозрачном адресе для каждой ноды. Этим оператор демонстрирует что он достаточно заинтересован в ZenCash и препятствует созданию защищенных узлов со злым умыслом.
+* Создать и поддерживать валидный TLS сертификат от Certificate Authority. Это позволяет шифровать передачу данных.
+* Разместить узел на сервере с достаточным процессорным ресурсом и памятью для прохождения вычислительного испытания. Это защищает от DDoS атак.
+* Поддерживать полную копию блокчейна Zen. Таким образом UTXO и другие обязательства никогда не теряются.
+* Обеспечить бесперебойную работу узла на уровне более 92%.

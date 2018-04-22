@@ -1,6 +1,6 @@
-## Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
-It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+## Domain fronting - это универсальный метод обхода цензуры, который скрывает удаленную конечную точку связи.
+Это работает на прикладном уровне, используя HTTPS, коммуникация с запрещенным хостом выглядит как коммуникация с каким-то другим хостом, разрешенным цензором.
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+Ключевая идея заключается в использовании различных доменных имен на разных уровнях коммуникации. Один домен появляется на "внешней стороне" запроса HTTPS - в 9 DNS-запросе и индикации имени сервера TLS, в то время как другой домен появляется на "внутренней" - в заголовке хоста HTTP, невидимом цензору под шифрованием HTTPS. Цензор, не способный отличить трафик домена от трафика домена без интерфейса, должен выбирать между разрешением обхода трафика и блокировкой домена целиком, что приводит к дорогостоящему сопутствующему ущербу.
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+Domain fronting не требует специальной кооперации между сетевыми посредниками. Мы идентифицируем трудно блокируемые веб-сервисы, такие как **сеть доставки (и дистрибуции) содержимого (CDN)**, которые поддерживают доменные соединения и полезны для обхода цензуры.

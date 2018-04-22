@@ -33,8 +33,8 @@ global:
     mobile-hardware: Mobile Hardware Wallet
   forum: форуме
   go: Перейти
-  footeron: 'on'
-  anonymous: anonymous
+  footeron: 'на'
+  anonymous: анонимно
   korean: Корейский
 titles:
   homepage: A globally accessible and anonymous blockchain
@@ -223,80 +223,80 @@ homepage:
             - Первый блокчейн с интегрированным TLS (SSL серт. для шифрования узлов)
             - Улучшения блокчейна
             - Replay защита
-        - title: Wallets and Products
+        - title: Кошельки и продукты
           icon: /assets/img/icons/wallet.png
           content:
-            - Tor ZenCash Nodes
-            - Chat messaging
-            - Swing Wallet - full blockchain
-            - Android Wallet
-            - Arizen Wallet - lite blockchain
-            - Paper Wallet
-        - title: Secure Nodes
+            - Узлы ZenCash в Tor-е
+            - Сообщения
+            - Кошелек Swing - полный блокчейн
+            - Кошелек Android
+            - Кошелек Arizen - облегченный блокчейн
+            - Бумажный кошелек
+        - title: Защищенные узлы
           icon: /assets/img/icons/encryption.png
           content:
-            - Resilient end-to-end network encryption
-            - Payment system for secure node operators
+            - Устойчивое шифрование сети
+            - Платежная система для операторов защищенных узлов
       2018:
-        - title: Wallets and Projects
+        - title: Кошельки и проекты
           icon: /assets/img/icons/voting.png
           content:
-            - Proposal Submission and Voting System GUI
-            - iOS Wallet
-            - OpenBazaar Integration
-            - Operation Radical Transparency
+            - Графический интерфейс системы голосования и предложений
+            - Кошелек iOS
+            - Интеграция с OpenBazaar
+            - Операция Радикальная Прозрачность
             - Hardware Wallets
-        - title: Secure Node
+        - title: Защищенные узлы
           icon: /assets/img/icons/secure.png
           content:
-            - Secure Node system improvements
-            - Secure Node system built into blockchain protocol study
-        - title: Research and Development
+            - Улучшения системы защищенных узлов
+            - Исследование об интеграции защищенных узлов напрямую в протокол
+        - title: Исследования и разработка
           icon: /assets/img/icons/r-d.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Scaling study - next generation blockchain solution
+            - DAO казна и система голосования на уровне протокола
+            - Масштабирование - решение следующего поколения
             - Domain Fronting
-            - ZenPub Protocol-level
+            - ZenPub на уровне протокола
       2019:
-        - title: Deliver to Market
+        - title: Выпустить на рынок
           icon: /assets/img/icons/scalability-study.png
           content:
-            - DAO Treasury Protocol-level Voting System
-            - Dandelion++ Integration for Network Stack Anonymity
-            - Scalability Solution
-            - IPFS published on Secure Nodes
+            - DAO казна и система голосования на уровне протокола
+            - Интеграция Dandelion++ для анонимизации сетевого стэка
+            - Решение масштабирования
+            - IPFS на защищенных нодах
   whitepaper:
-    subtitle: "White Paper is in revision. Original White Paper is nearly 80% satisfied:"
-    button: Download White Paper
+    subtitle: "White Paper пересматривается. Оригинальная White Paper выполнена на 80%:"
+    button: Скачать White Paper
   team:
-    title: A Global Team
-    subtitle: The ZenCash team is comprised of over 50 members from around the globe
+    title: Глобальная команда
+    subtitle: Команда ZenCash состоит из более 50 участников со всего мира
     button:
-      text: See the Entire Team
+      text: Посмотреть всю команду
       link: '/team/'
   usezen:
-    title: Use Zen
-    subtitle: Our goal is to make ZenCash the most useful privacy cryptocurrency on the market!
+    title: Использовать Zen
+    subtitle: Наша цель сделать ZenCash самой полезной приватной криптовалютой на рынке!
     features:
-      - title: Buy ZenCash
+      - title: Купить ZenCash
         image: /assets/img/icons/money.png
         namespace: exchanges
-      - title: Download Wallets
+      - title: Скачать кошельки
         image: /assets/img/icons/safe.png
         namespace: wallets
-      - title: Mining Pools
+      - title: Майнинг пулы
         image: /assets/img/icons/mining.png
         namespace: mining-pools
     merchants:
-      title: Merchants
-      subtitle: A crucial way to make ZenCash useful is to integrate with multiple payment systems and merchant services.
+      title: Вендоры
+      subtitle: Ключевым элементом ZenCash является интеграция со многими платежными системами и торговыми сервисами
   resources:
-    subtitle: These resources will help you better understand the Zen brand and how to properly represent it.
+    subtitle: Данные ресурсы помогут вам лучше понять брэнд Zen и как верно его презентовать.
     items:
-      - title: Legal
+      - title: Право
         buttons:
-          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Скачать'
             link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
       - title: Block Explorers
         buttons:
@@ -307,9 +307,9 @@ homepage:
           - text: 3
             link: https://explorer.zen-solutions.io/
   blog:
-    title: Blog
+    title: Блог
     button:
-      text: More Blog Posts
+      text: Больше из блога
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
@@ -333,67 +333,67 @@ mining-pools:
           - text: 3
             link: https://explorer.zen-solutions.io/
 dao-infographic:
-  title: Decentralized Autonomous Organization (DAO) Treasury
-  subtitle: ZenCash Treasury Model is an inclusive, provably fair, and transparent economic system with incentives to participate.
+  title: Децентрализованная Автономная Организация (DAO) и казна
+  subtitle: ZenCash казна - всеохватывающая, доказуемо честная и прозрачная экономическая модель с инициативой для участия
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
-  button: Read the ZenCash White Paper
+  button: Прочитать ZenCash White Paper
   steps:
     1:
-      title: A funding pool is available for proposals
+      title: Существует фонд для предложений
       image: '/assets/img/icons/infographic/bank.svg'
     2:
-      title: Anyone can submit a proposal
+      title: Каждый может представить идею
       image: '/assets/img/icons/infographic/peers.svg'
     3:
-      title: Proposals are reviewed and voted on by individuals that own ZenCash
+      title: Держатели ZEN оценивают и выбирают предложения
       image: '/assets/img/icons/infographic/review.svg'
     4:
-      title: Voting can be delegated to trusted users & voters are paid to participate
+      title: Голосование может быть делегированным доверенным лицам, а участие в голосование награждается
       image: '/assets/img/icons/infographic/scales.svg'
     5:
-      title: Votes are weighted according to stake and is not public
+      title: Голоса взвешиваются по доле и не являются публичными
       image: '/assets/img/icons/infographic/votes.svg'
     6:
-      title: Ballot results are secret until the winner is announced to ensure fairness
+      title: Результаты не разглашаются до объявления победителя что гарантирует честность
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: Votes are counted and the Proposal is approved \ declined
+      title: Голоса подсчитываются и предложение принимается/отвергается
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
-  subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'
+  subtitle: 'Партнерство ZenCash с IOHK начинает захватывающую серию исследований и разработки возглавляемую  <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Dr. Roman Oliynykov</a>, криптографом, IT исследователем, лектором, и IOHK Research Fellow.'
   content:
-    title: Scalability Study
+    title: Исследование масштабирования
     list:
-      - Scaling is a major problem in blockchain projects.
-      - Protocol upgrade enables high-volume rapid transactions across the network.
-      - Evaluating next-generation blockchain solutions and alternatives like Spectre.
-      - Radical usability! Unlimited scalability and instant transactions.
-      - IOHK will evaluate multiple protocol options and provide a recommendation and specifications to ZenCash by Q2 2018.
-    button: Learn more about ZenCash
+      - Масштабирование является серьезной проблемой блокчейн проектов.
+      - Улучшения протокола позволяют проводить большой объем транзакций через сеть.
+      - Оценка решений следующего поколения и альтернатив как протокол Spectre.
+      - Радикальная эргономичность! Безлимитное масштабирование и мгновенные транзакции.
+      - IOHK сравнит множество опций и предоставит рекомендации и спецификации ZenCash ко 2-у кварталу 2018 года.
+    button: Узнайте больше о ZenCash
 securenodes:
   hero:
-    title: ZenCash is Private Money, Messages, Media
-    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
-    cta: Instructions to Set Up Secure Nodes
+    title: ZenCash - приватные платежи, сообщения и медиа
+    subtitle: Защищенные узлы делают сеть ZenCash самым децентрализованным и устойчивым блокчейном!
+    cta: Инструкции по настройке защищенного узла
   requirements:
-    title: Requirements
+    title: Требования
     list:
       - title: 42 $ZEN
-        subtitle: in transparent address per node
+        subtitle: в прозрачном адресе на ноду
         icon: /assets/img/icons/vector-1.png
-      - title: TLS Certificate
-        subtitle: from a known Certificate Authority
+      - title: TLS сертификат
+        subtitle: от известного CA
         icon: /assets/img/icons/vector-3.png
-      - title: Computational Challenge
-        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+      - title: Вычислительное испытание
+        subtitle: <small>узел должен быть на сервере с достаточной процессорной мощностью и памятью для прохождения испытания</small>
         icon: /assets/img/icons/vector-2.png
-      - title: ZenCash Blockchain
-        subtitle: Maintain a full copy of the ZenCash Blockchain
+      - title: ZenCash блокчейн
+        subtitle: поддерживать полную копию блокчейна
         icon: /assets/img/icons/vector-4.png
-      - title: 92%+ Uptime
-        subtitle: Keep the node up and running at least 92% of the time
+      - title: Онлайн 92%+
+        subtitle: Узел должен работать более 92% времени
         icon: /assets/img/icons/vector-1.png
-    cta: Instructions to Set Up Secure Nodes
+    cta: Инструкции по настройке защищенных узлов
   footer:
-    title: Buy or Sell ZenCash
+    title: Купить или продать ZenCash

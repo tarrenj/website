@@ -2,6 +2,20 @@
 #blog .card-body .card-title {
   font-family: sans-serif;
 }
+.lng-fr {
+  .jumbotron.newsletter-visible .btn-lg {
+    padding: 1rem;
+  }
+  #tech {
+    .stats-section {
+      .stats {
+        .stats-headline {
+          word-spacing: 0;
+        }
+      }
+    }
+  }
+}
 .lng-de {
   word-wrap: break-word;
   #tech {

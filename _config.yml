@@ -95,6 +95,6 @@ exclude:
 - vendor
 - old-homepage.html
 
-languages: ["en", "es", "de", "it", "ru", "pl", "jp", "ko", "zh"]
+languages: ["en", "es", "fr", "de", "it", "ru", "pl", "jp", "ko", "zh"]
 # languages: ["en", "de", "jp", "ko", "zh",]
 exclude_from_localizations: ["assets"]

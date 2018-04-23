@@ -1,36 +1,36 @@
-### Private
+### PRIVÉ
 {: .subsection-title}
-## Zen is a privacy platform built on zero-knowledge Succinct Non-interactive ARguments of Knowledge (zk-SNARKs) technology with a decentralized secure node architecture.
+## Zen est une plateforme de confidentialité construite sur des arguments de connaissances succincts et non interactifs (zk-SNARKs) avec une architecture de nœuds sécurisés décentralisés.
 
-### Secure
+### SECURISE
 {: .subsection-title}
-## ZenCash is the first cryptocurrency with fully end-to-end encryption at the node and internode level.
-In addition to zk-SNARKs, the Zen architecture includes encryption at the node level. Cryptocurrencies rely on nodes to operate, we require our Secure Node operators to have the latest Information Technology and Network Security to qualify for compensation.
+## ZenCash est la première crypto-monnaie avec un cryptage de bout en bout au niveau des nœuds et entre les nœuds
+En plus de zk-SNARKs, l'architecture Zen inclut le cryptage au niveau du nœud. Les cryptomonnaies reposent sur des nœuds pour fonctionner, nous exigeons que nos opérateurs de nœuds sécurisés disposent des dernières technologies et des dernières sécurités réseaux pour pouvoir prétendre à une compensation.
 
-### Untraceable
+### INTRAÇABLE
 {: .subsection-title}
-## Shielded transactions are fully encrypted, yet can be verified as valid under the network's consensus. The sender, recipient, and amount are hidden on the blockchain, making Zen completely untraceable.
+## Les transactions blindées sont entièrement cryptées, mais peuvent être vérifiées comme étant valides en conformité avec le consensus du réseau. L'expéditeur, le destinataire et le montant sont cachés sur la blockchain, ce qui rend le Zen complètement intraçable.
 
 {:text-center: .text-center .mb-5}
 [{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
 {:text-center}
 
-Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication. It works at the application layer, using HTTPS, to communicate with a forbidden host while appearing to communicate with some other host, permitted by the censor.
+Le domain fronting est une technique polyvalente de contournement de la censure qui cache l'extrémité éloignée d'une communication. Il fonctionne au niveau de la couche application, en utilisant HTTPS, pour communiquer avec un hôte interdit tout en semblant communiquer avec un autre hôte, autorisé par la censure.
 
-The key idea is the use of different domain names at different layers of communication. One domain appears on the “outside” of an HTTPS request–in the 9 DNS request and TLS Server Name Indication, while another domain appears on the “inside”–in the HTTP Host header, invisible to the censor under HTTPS encryption. A censor, unable to distinguish fronted and non-fronted traffic to a domain, must choose between allowing circumvention traffic and blocking the domain entirely, which results in expensive collateral damage.
+Le principe de base est l'utilisation de différents noms de domaine à différents niveaux de communication. Un domaine apparaît à l'"extérieur" d'une requête HTTPS - dans la requête DNS 9 et l'indication de nom de serveur TLS, tandis qu'un autre domaine apparaît à l'"intérieur" - dans l'en-tête HTTP Host, invisible pour le censeur sous cryptage HTTPS. Un censeur, incapable de distinguer le trafic frontal et non frontal vers un domaine, doit choisir entre le contournement du trafic et le blocage total du domaine, ce qui entraîne des dommages collatéraux coûteux.
 
-Domain fronting does not require special cooperation by network intermediaries. We identify a number of hard-to-block web services, such as content delivery networks, that support domain-fronted connections and are useful for censorship circumvention.
+Le domain fronting ne nécessite pas de coopération particulière de la part des intermédiaires de réseau. Nous identifions un certain nombre de services Web difficiles à bloquer, tels que les réseaux de diffusion de contenu, qui prennent en charge les connexions en front de domaine et sont utiles pour contourner la censure.
 
 ### Resilient
 {: .subsection-title}
-## Zen has one of the most distributed node systems. Learn more about Secure Nodes!
-**[Check out our Secure Node network](https://securenodes.na.zensystem.io/)**
+## Zen a l'un des systèmes de nodes les plus distribués. En savoir plus sur les secure nodes!
+**[Jetez un coup d'œil à notre réseau de Secure Nodes](https://securenodes.na.zensystem.io/)**
 
-Zen Secure Nodes enable a distributed and reliable cryptocurrency system that encrypts inter-node communications. Zen node communication looks like any other encrypted internet traffic, instead of like Bitcoin traffic. This effectively hides the type of activity taking place, making it less likely that Zen users and nodes are blocked.
+Zen Secure Nodes permet un système de crypto-monnaie distribué et fiable qui crypte les communications entre les nœuds. La communication des noeuds zen ressemble à n'importe quel autre trafic Internet crypté, contrairement au trafic Bitcoin. Cela cache effectivement le type d'activité qui a lieu, ce qui rend moins probable que les utilisateurs et les nœuds zen soient bloqués.
 
-The basic requirements of Secure Nodes are:
-* Maintain a minimum of 42 ZenCash in transparent address per node. This sufficiently demonstrates that the operator cares enough about ZenCash and discouraging users with malicious intentions from operating a Secure Node.
-* Create and maintain a valid TLS certificate from a known Certificate Authority. This enables encrypted data transport.
-* Run the node on a server with enough processor power and memory so that it can meet a computational challenge. This protects against DDoS attacks.
-* Maintain a full copy of the Zen blockchain. This makes sure no UTXO’s or commitments are lost.
-* Keep the node up and running at least 92% of the time.
+Les exigences de base des Secure Nodes sont:
+* Maintenir un minimum de 42 ZenCash en adresse transparente par noeud. Cela démontre suffisamment que l'opérateur se soucie suffisamment de ZenCash et décourage les utilisateurs aux intentions malveillantes d'utiliser un secure node.
+* Créer et maintenir un certificat TLS valide à partir d'une autorité de certification connue. Ceci permet le transport de données cryptées.
+* Exécutez le nœud sur un serveur doté d'une puissance de processeur et d'une mémoire suffisantes pour qu'il puisse relever un défi informatique. Ceci protège contre les attaques DDoS.
+* Maintenir une copie complète de la blockchain Zen. Cela garantit que les UTXO ou les engagements ne sont pas perdus.
+* Maintenir le nœud en état de marche au moins 92 % du temps.

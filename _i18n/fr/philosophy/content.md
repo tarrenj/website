@@ -1,22 +1,22 @@
-### Autonomous
+### Autonome
 {: .subsection-title}
-## Zen is implementing a decentralized governance model. With no central authority or single point of failure, ZenCash is more resilient than a traditional corporation.
+## Zen met en œuvre un modèle de gouvernance décentralisée. Sans autorité centrale ou point de défaillance unique, ZenCash est plus résilient qu'une société traditionnelle.
 
-Everyone has an equal opportunity to participate in decision making, which empowers stakeholders and makes ZenCash less susceptible to third party influence.
+Tout le monde a une chance égale de participer à la prise de décision, ce qui responsabilise les parties prenantes et rend ZenCash moins vulnérable à l'influence des tiers.
 
-### Sustainable Economics
+### Économie Durable
 {: .subsection-title}
-## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+## Nous croyons qu'il faut changer le monde par le biais de la technologie et d'incitatifs économiques qui fournissent un écosystème robuste et durable.
+* 88% aux mineurs
+* 8,5 % à un ou plusieurs DAOs
+* 3,5% aux Opérateurs de Secure Nodes
 
-### R&D Focus
+### PRIORITÉ A LA RECHERCHE ET DEVELOPPEMENT
 {: .subsection-title}
-## We consider it a priority to contribute to the broader cryptocurrency ecosystem and body of knowledge, so we have multiple active R&D projects in the pipeline with many more planned:
-* Decentralized Autonomous Organization Treasury Study
-* Scalability Study
-* Network Stack Anonymization
+## Nous considérons qu'il est prioritaire de contribuer à un écosystème de crypto-monnaie plus large et à un corpus de connaissances, de ce fait nous avons de multiples projets de R&D actifs en cours de réalisation et de bien d'autres sont prévus :
+* Etude de Trésorerie d'une Organisation Autonome Décentralisée
+* Etudes de scalabilité
+* Anonymisation de la pile réseau
 
 {:text-center: .text-center .mt-5 .mb-5}
 [{% translate global.technology.possessive %}]({% tl technology {{site.lang}} %}){: .btn .btn-lg .btn-primary}

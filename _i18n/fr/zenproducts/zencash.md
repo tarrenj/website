@@ -1,8 +1,8 @@
-## ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses.
-T addresses are regular addresses and transactions similar to bitcoin.
+## ZenCash permet un transfert de valeur facile en utilisant des adresses régulières (T) et privées (Z).
+Les adresses T sont des adresses régulières et des transactions similaires à bitcoin.
 
-Z addresses are called shielded addresses and leverage the latest privacy technology to obscure sender and recipient addresses, as well as amount sent.
+Les adresses Z sont appelées transactions protégées et utilisent les dernières technologies de protection de la vie privée pour obscurcir les adresses de l'expéditeur et du destinataire, ainsi que le montant envoyé.
 
-Balances in shielded addresses are private. If spending to one or more shielded addresses, the value stays private but any transparent addresses on the receiving end will deshield the token and reveal the value received on the blockchain.
+Les soldes dans les adresses blindées sont privés. Si vous dépensez à une ou plusieurs adresses blindées, la valeur reste privée, mais toute adresse transparente sur l'extrémité réceptrice détruira le jeton et révélera la valeur reçue sur la blockchain.
 
-ZenCash is compatible with Bitcoin- and Z-derived applications, exchanges, and wallets.
+ZenCash est compatible avec les applications, les échanges et les portefeuilles dérivés du bitcoin et du Z.

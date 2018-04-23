@@ -93,7 +93,7 @@ nav:
       items:
         - title: Technologie
           namespace: technology
-        - title: Philosophy
+        - title: Philosophie
           namespace: philosophy
         - title: L'Équipe
           namespace: team
@@ -312,19 +312,19 @@ homepage:
       text: PLUS D'ARTICLES
       link: https://blog.zencash.com/
 mining-pools:
-  subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
-  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.'
+  subtitle: N'importe qui avec une carte graphique moderne peut miner du ZenCash, une crypto-monnaie, un proof of work, de minage GPU basée sur de l'equihash.
+  content: 'Nous recommandons de répartir le hachage entre les pools pour éviter une <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">attaque à 51%</a></strong>.'
   resources:
     items:
-      - title: Zen Mining Profit Calculator
+      - title: CALCULATEUR DE PROFIT MINAGE ZEN
         buttons:
           - text: Go
             link: https://whattomine.com/coins/185-zen-equihash
-      - title: Zen Mining Pool Forum Topic
+      - title: ZEN MINING POOL FORUM TOPIC
         buttons:
           - text: Go
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73
-      - title: Block Explorers
+      - title: EXPLORATEUR DE BLOCS
         buttons:
           - text: 1
             link: https://explorer.zensystem.io/
@@ -333,44 +333,44 @@ mining-pools:
           - text: 3
             link: https://explorer.zen-solutions.io/
 dao-infographic:
-  title: Decentralized Autonomous Organization (DAO) Treasury
-  subtitle: ZenCash Treasury Model is an inclusive, provably fair, and transparent economic system with incentives to participate.
+  title: Trésorerie basée su une organisation autonome décentralisée (DAO)
+  subtitle: Le modèle de trésorerie ZenCash est un système économique inclusif, fiable et transparent avec des incitations à participer.
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
-  button: Read the ZenCash White Paper
+  button: LIRE LE LIVRE BLANC ZENCASH
   steps:
     1:
-      title: A funding pool is available for proposals
+      title: Un pool de financement est disponible pour les propositions
       image: '/assets/img/icons/infographic/bank.svg'
     2:
-      title: Anyone can submit a proposal
+      title: N'importe qui peut soumettre une proposition
       image: '/assets/img/icons/infographic/peers.svg'
     3:
-      title: Proposals are reviewed and voted on by individuals that own ZenCash
+      title: Les propositions sont examinées et votées par des individus qui possèdent des ZenCash (enjeu)
       image: '/assets/img/icons/infographic/review.svg'
     4:
-      title: Voting can be delegated to trusted users & voters are paid to participate
+      title: Le vote peut être délégué aux utilisateurs de confiance et les électeurs sont payés pour participer
       image: '/assets/img/icons/infographic/scales.svg'
     5:
-      title: Votes are weighted according to stake and is not public
+      title: Les votes sont pesés selon l'enjeu et ne sont pas publics
       image: '/assets/img/icons/infographic/votes.svg'
     6:
-      title: Ballot results are secret until the winner is announced to ensure fairness
+      title: Les résultats du scrutin sont secrets jusqu'à ce que le gagnant soit annoncé afin d'assurer l'équité
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: Votes are counted and the Proposal is approved \ declined
+      title: Les votes sont comptés et la proposition est approuvée / refusée
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
-  subtitle: 'The ZenCash and IOHK partnership will entail an exciting series of research and development led by <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, a cryptographer, IT security researcher, lecturer, and IOHK Research Fellow.'
+  subtitle: Le partenariat ZenCash et IOHK implique une série passionnante de recherche et développement dirigée par le <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">professeur Roman Oliynykov</a>. Le partenariat consiste en la mise en œuvre d'une organisation autonome décentralisée (DAO) au niveau du protocole et d'une solution de mise à l'échelle de nouvelle génération telle que les protocoles SPECTER ou Phantom. En savoir plus!
   content:
-    title: Scalability Study
+    title: ÉTUDE DE SCALABILITE
     list:
-      - Scaling is a major problem in blockchain projects.
-      - Protocol upgrade enables high-volume rapid transactions across the network.
-      - Evaluating next-generation blockchain solutions and alternatives like Spectre.
-      - Radical usability! Unlimited scalability and instant transactions.
-      - IOHK will evaluate multiple protocol options and provide a recommendation and specifications to ZenCash by Q2 2018.
-    button: Learn more about ZenCash
+      - La scalabilité est un problème majeur dans les projets en chaîne de blocs.
+      - La mise à niveau du protocole permet des transactions rapides à volume élevé sur le réseau.
+      - Évaluer les solutions de la prochaine génération blockchain et les alternatives comme Spectre.
+      - Utilité radicale! Évolutivité illimitée et transactions instantanées.
+      - IOHK évaluera plusieurs options de protocole et fournira une recommandation et des spécifications à ZenCash d'ici le T2 2018.
+    button: EN SAVOIR PLUS SUR ZENCASH
 securenodes:
   hero:
     title: ZenCash is Private Money, Messages, Media
@@ -396,4 +396,4 @@ securenodes:
         icon: /assets/img/icons/vector-1.png
     cta: Instructions to Set Up Secure Nodes
   footer:
-    title: Buy or Sell ZenCash
+    title: ACHETER OU VENDRE ZENCASH

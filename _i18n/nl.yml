@@ -1,6 +1,8 @@
 global:
   roadmap: Roadmap
   resources: Hulpbronnen
+  whitepaper:
+    new: New Zen White Paper
   technology:
     base: Technologie
     possessive: Onze Technologie

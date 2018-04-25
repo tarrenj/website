@@ -1,6 +1,8 @@
 global:
   roadmap: Roadmap
   resources: Risorse
+  whitepaper:
+    new: New Zen White Paper
   technology:
     base: Tecnologia
     possessive: La Nostra Tecnologia
@@ -52,7 +54,7 @@ titles:
   zenhide: ZenHide per la Resistenza alla Censura
 descriptions:
   homepage: ZenCash è la privacy blockchain e la criptovaluta privacy più resiliente e più resistente alla censura. I nostri utenti possono effettuare transazioni non tracciabili allo stesso tempo private e anonime. Sostenuto dalla nostra tecnologia dei Secure Nodes, il traffico sulla nostra rete non può essere riconosciuto e perciò non può essere bloccato.
-  iohk: La partnership tra ZenCash e IOHK comporterà un'esaltante serie di ricerche e miglioramenti condotti dl Professor Prof. Roman Oliynykov. La partnership consiste nell'implementazione di una Decentralized Autonomous Organization (DAO) a livello di protocollo e una soluzione alla scalabilità di nuova generazione come i protocolli SPECTRE o Phantom. Scopri di più!
+  iohk: La partnership tra ZenCash e IOHK comporterà un'esaltante serie di ricerche e miglioramenti condotti dal Professor Prof. Roman Oliynykov, un crittografico, studioso della sicurezza informatica, docente e ricercatore presso IOHK.
   philosophy: Zen è costruito intorno ad un modello di governance decentralizzato che continuiamo ad aggiornare costantemente. Senza un'autorità centrale o un singolo punto debole, ZenCash è tanto resistente quanto un'organizzazione non potrà mai diventare.
   technology: Zen utilizza zk-SNARKS con strati aggiuntivi di crittografia dei nodi, domain fronting e InterPlanetary File System (IPFS).
   team: Incontra il Nostro Team. Guidato dai nostri fondatori Rob Viglione e Rolf Versluis, ZenCash è composto da individui guidati dalla passione, impegnati a far avanzare l'industria blockchain destinando risorse alla ricerca e sviluppo. ZenCash intende contribuire all'industria blockchain e all'umanità attraverso l'innovazione.
@@ -61,7 +63,7 @@ descriptions:
   wallets: Deposita i tuoi ZenCash in modo sicuro. Scegli uno dei nostri tanti ZenCash Wallets.
   securenodes: I Secure Nodes di ZenCash contribuiscono a creare un sistema robusto e resistente che consente transazioni private, messaggistica e la pubblicazione.
   zencash: ZenCash permette il trasferimento facile di valore utilizzando sia indirizzi regolari (T) che privati (Z). Gli indirizzi T sono indirizzi e transazioni regolari simili a quelle di bitcoin. Gli indirizzi Z sono chiamati transazioni protette e sfruttano le ultime tecnologie privacy, zk-SNARKS, per oscurare gli indirizzi mittenti e destinatari, così come l'ammontare inviato.
-  zenchat: ZenChat è l'applicazione di messaggistica più sicura e privata sul mercato e può essere usata come un prodotto a sé stante o inserita nei wallet ZenCash.
+  zenchat: ZenChat è l'applicazione di messaggistica più sicura sul mercato e può essere usata come un prodotto a sé stante o inserita nei nostri Wallets.
   zenpub: ZenPub offre agli utenti la possibilità di pubblicare anonimamente dati, documenti e notizie in un modo che è resistente alla censura.
   zenhide: ZenCash utilizza il Domain Fronting per bypassare qualsiasi tipo di censura internet. Il Domain fronting è una tecnica versatile di aggiramento della censura che nasconde l'endpoint remoto di una comunicazione.
 newsletter:
@@ -72,7 +74,7 @@ newsletter:
   lastname: Cognome
   email: Indirizzo email
   country: Paese
-  button: Isciriviti
+  button: Iscriviti
 nav:
   top:
     about: scopri
@@ -80,7 +82,7 @@ nav:
     roadmap: Roadmap
     team: Team
     whitepaper: White Paper
-    exchanges: Ottieni ZenCash
+    exchanges: Compra ZenCash
     wallets: Usa Zen
     miningpools: Mina Zen
     community: Community
@@ -113,7 +115,7 @@ nav:
         - title: Mining Pools
           link: '/mining-pools/'
           namespace: mining-pools
-        - title: Scarica I Wallets
+        - title: Scarica i Wallets
           link: '/wallets/'
           namespace: wallets
         - title: Chiavi Pubbliche

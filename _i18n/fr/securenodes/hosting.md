@@ -1,9 +1,9 @@
-## Host a secure node, earn mining rewards and become part of ZenCash!
+## Hébergez un Secure Node, gagnez des récompenses minières et devenez membre de ZenCash !
 {: .content-title}
 
-Secure Node Operators get rewarded with 3.5% of the mining rewards
+Les opérateurs de Secure Nodes sont récompensés par 3,5 % des récompenses minières.
 {: .lead}
 
-One of the first security features of ZenCash was the encryption of the inter-node communications. This was deployed, and now ZenCash node communication looks like any other encrypted Internet traffic, instead of like Bitcoin traffic. This helps to hide the type of activity taking place, making it less likely that ZenCash users and nodes are blocked.
+L'une des premières caractéristiques de sécurité de ZenCash a été le cryptage des communications inter-nodes. Ceci a été déployé, et maintenant la communication de nodes ZenCash ressemble à n'importe quel autre trafic Internet crypté, contrairement au trafic Bitcoin. Cela permet de masquer le type d'activité, ce qui rend moins probable le blocage des utilisateurs et des nodes ZenCash.
 
-For reliability, we want thousands of secure nodes all over the world that users can connect to quickly and easily, and are willing to provide compensation to the node operators. If we have an extensive, distributed, and reliable network, people can use ZenCash no matter what happens. Secure Nodes enable the security and reliability of the ZenCash system.
+Pour la fiabilité, nous voulons des milliers de secure nodes dans le monde entier auxquels les utilisateurs peuvent se connecter rapidement et facilement, et nous sommes prêts à fournir une compensation aux opérateurs de nodes. Si nous disposons d'un réseau étendu, distribué et fiable, les gens peuvent utiliser ZenCash quoi qu'il arrive. Les nodes sécurisés permettent d'assurer la sécurité et la fiabilité du système ZenCash.

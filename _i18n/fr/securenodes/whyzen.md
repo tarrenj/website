@@ -1,10 +1,10 @@
-## Why ZenCash?
+## Pourquoi ZenCash ?
 {: .content-title}
 
-A decentralized cryptocurrency which is **Public**, **Private**, and **Anonymous**.
+Une crypto-monnaie décentralisée qui est **publique**, **privée** et **anonyme**.
 {: .lead .mb-4}
 
-Has its own blockchain, and is used for **Transactions**, **Communications**, and **Publishing**.
+Possède sa propre blockchain et est utilisée pour **les transactions**, **les communications** et **la publication**.
 {: .lead .mb-4}
 
 Conçu pour un fonctionnement à long terme
@@ -18,4 +18,4 @@ Conçu pour un fonctionnement à long terme
 - Marketing Mondialisé - Une approche personnalisée pour les différents marchés
 - Les secure nodes fournissent un réseau distribué et résilient.
 
-[Why Secure Nodes are Important](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}
+[Pourquoi les secure nodes sont importants](https://blog.zensystem.io/secure-nodes-why-are-they-important/){: .btn .btn-lg .btn-primary}

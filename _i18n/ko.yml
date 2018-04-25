@@ -1,6 +1,8 @@
 global:
   roadmap: 로드맵
   resources: 자원
+  whitepaper:
+    new: New Zen White Paper
   technology:
     base: 기술
     possessive: 우리의 기술

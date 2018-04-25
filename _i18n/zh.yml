@@ -1,6 +1,8 @@
 global:
   roadmap: 路线图
   resources: 资源
+  whitepaper:
+    new: Zen新增订白皮书
   technology:
     base: 技术
     possessive: 我们的技术

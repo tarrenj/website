@@ -3,23 +3,23 @@ global:
   resources: Hulpbronnen
   technology:
     base: Technologie
-    possessive: Our Technology
-    tagline: Private - Secure - Untraceable - Resilient - Minable
+    possessive: Onze Technologie
+    tagline: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
   philosophy:
     base: Filosofie
-    possessive: Our Philosophy
-    tagline: Autonomous - Sustainable - R&D Focus
+    possessive: Onze Filosofie
+    tagline: Autonoom - Duurzaam - Onderzoeksfocus
   team:
     base: Team
-    tagline: Combining Expertise from Around the Globe
-    engineering: Engineering
-    user-experience: User Experience
+    tagline: WERELDWIJDE EXPERTISE SAMENGEBRACHT
+    engineering: Techniek
+    user-experience: GEBRUIKERSERVARING
     marketing: Marketing
     operations: Operations
     business-development: Business Development
     partners: Partners
-    advisors: Advisors
-  exchanges: Exchanges
+    advisors: ADVISEURS
+  exchanges: Handelsplatformen
   mining-pools: Mining Pools
   wallets:
     full-chain: Full Client
@@ -37,7 +37,7 @@ global:
   anonymous: anonymous
   korean: Korean
 titles:
-  homepage: A globally accessible and anonymous blockchain
+  homepage: Een wereldwijd toegankelijke en anonieme blockchain
   iohk: ZenCash and IOHK partner for Research and Development
   philosophy: Changing the world one bit at a time
   technology: Zen Technology
@@ -52,7 +52,7 @@ titles:
   zenpub: ZenPub - Decentralized Cloud Storage
   zenhide: ZenHide for Censorship Resistance
 descriptions:
-  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
+  homepage: ZenCash is de meest solide en censuurbestendige blockchain en virtuele munteenheid gericht op privacy. Gebruikers van ZenCash kunnen anonieme, niet-traceerbare transacties uitvoeren de hoogstmogelijke privacy. Dankzij onze onderliggende Secure Node technologie kan ons netwerkverkeer niet worden herkend en niet worden geblokkeerd.
   iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
   philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
   technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
@@ -68,28 +68,28 @@ descriptions:
 newsletter:
   title: Sign up to receive exclusive updates!
   success: Success! Please check your email to confirm we have the right one.
-  name: Enter your first name
-  firstname: Your first name
-  lastname: Your last name
-  email: Your email address
-  country: Your Country...
-  button: Subscribe
+  name: Voornaam
+  firstname: Voornaam
+  lastname: Achternaam
+  email: E-mailadres
+  country: Land
+  button: Aanmelden
 nav:
   top:
-    about: About
+    about: Over ZenCash
     features: Features
     roadmap: Roadmap
     team: Team
     whitepaper: White Paper
-    exchanges: Get ZenCash
-    wallets: Use Zen
-    miningpools: Mine Zen
+    exchanges: ZenCash kopen
+    wallets: zen gebruiken
+    miningpools: zen minen
     community: Community
-    support: Support
+    support: Ondersteuning
     blog: Blog
   footer:
     about:
-      title: About
+      title: Over ZenCash
       items:
         - title: Technologie
           namespace: technology
@@ -106,29 +106,29 @@ nav:
         - title: ZenHide
           link: '/zenhide/'
     resources:
-      title: Resources
+      title: Hulpbronnen
       items:
-        - title: Buy ZenCash
+        - title: ZenCash kopen
           link: '/exchanges/'
           namespace: exchanges
         - title: Mining Pools
           link: '/mining-pools/'
           namespace: mining-pools
-        - title: Download Wallets
+        - title: Wallet Downloaden
           link: '/wallets/'
           namespace: wallets
         - title: Public Keys
           link: 'https://github.com/zencashofficial/keys'
           type: external
-        - title: Email Support
+        - title: E-mail ondersteuning
           link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
           type: mailto
     community:
       title: Community
     email:
-      title: Get Email Updates
+      title: Ontvang e-mail updates
       contact:
-        title: Contact Us
+        title: Neem contact op
         email: info@zencash.com
     copyright: All rights reserved.
 homepage:
@@ -164,7 +164,7 @@ homepage:
     title: ZenCash is Public, Private, and Anonymous
     cta: More about the IOHK Partnership
   tech:
-    title: Private - Secure - Untraceable - Resilient - Minable
+    title: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
     subtitle: Zen aims to lead the technological forefront & contribute to humanity through innovation
     features:
       - title: Best Privacy Tech

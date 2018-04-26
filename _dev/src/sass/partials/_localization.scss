@@ -16,6 +16,25 @@
     }
   }
 }
+.lng-nl {
+  .jumbotron .btn-lg {
+    padding: 1rem;
+  }
+  #tech {
+    .stats-section {
+      .circle-dots {
+        h2 {
+          font-size: 18px;
+        }
+      }
+      .stats {
+        .stats-headline {
+          word-spacing: 0;
+        }
+      }
+    }
+  }
+}
 .lng-de {
   word-wrap: break-word;
   #tech {

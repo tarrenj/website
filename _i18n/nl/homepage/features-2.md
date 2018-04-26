@@ -1,5 +1,5 @@
-### With a Focus on Research and Development
-**Partnered with IOHK, a leading blockchain R&D company**
-- Governance and Protocol Level Treasury System
-- Scalability Study
-- Network Stack Anonymization
+### Met het accent op Onderzoek en Ontwikkeling
+**Partnerschap met IOHK, een leidende blockchain onderzoeks- en ontwikkelingsorganisatie**
+- Governance en Financieel Beheer op protocolniveau
+- Schaalbaarheidsstudie
+- Netwerk-stack Anonimisering

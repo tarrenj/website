@@ -1,6 +1,6 @@
-### Minable
+### MIJNBAAR
 {: .subsection-title}
-## Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based cryptocurrency and works well for GPU mining.
+## Iedereen met een recente grafische kaart kan ZenCash verdienen, een virtuele munt op basis van het Equihash Proof-Of-Work (POW) algoritme.
 
 <div class="row justify-content-center">
   <div class="col-lg-12 col-xl-6 mb-3">

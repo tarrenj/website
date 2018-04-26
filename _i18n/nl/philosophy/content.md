@@ -1,22 +1,22 @@
-### Autonomous
+### AUTONOOM
 {: .subsection-title}
-## Zen is implementing a decentralized governance model. With no central authority or single point of failure, ZenCash is more resilient than a traditional corporation.
+## Zen implementeert een decentraal bestuursmodel. Zonder een centraal bestuur of enkelvoudige systeemstructuur is ZenCash stabieler en resistenter dan traditionele organisaties
 
-Everyone has an equal opportunity to participate in decision making, which empowers stakeholders and makes ZenCash less susceptible to third party influence.
+Iedereen heeft gelijkwaardige mogelijkheden om deel te nemen aan besluitvorming, wat stakeholders sterk maakt en ZenCash ongevoelig maakt voor invloeden van buitenaf.
 
-### Sustainable Economics
+### DUURZAME ECONOMIE
 {: .subsection-title}
-## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+## Wij geloven positief te kunnen bijdragen aan een betere wereld door te bouwen aan een innovatief, resistent en duurzaam ecosysteem met economische incentives voor iedereen.
+* 88% naar miners
+* 8,5% naar één of meerdere DAO's
+* 3,5% naar Secure Node beheerders
 
-### R&D Focus
+### ONDERZOEKSFOCUS
 {: .subsection-title}
-## We consider it a priority to contribute to the broader cryptocurrency ecosystem and body of knowledge, so we have multiple active R&D projects in the pipeline with many more planned:
-* Decentralized Autonomous Organization Treasury Study
-* Scalability Study
-* Network Stack Anonymization
+## We hechten veel belang aan het leveren van een bijdrage aan de algemene kennisontwikkeling rondom het cryptovaluta ecosysteem. Daarom werken we actief aan een reeks van onderzoeksprojecten, met enkele nieuwe in het vooruitzicht:
+* studie: Decentrale Autonome Organisatie voor financieel beheer
+* Schaalbaarheidsstudie
+* Network Stack anonimisering
 
 {:text-center: .text-center .mt-5 .mb-5}
 [{% translate global.technology.possessive %}]({% tl technology {{site.lang}} %}){: .btn .btn-lg .btn-primary}

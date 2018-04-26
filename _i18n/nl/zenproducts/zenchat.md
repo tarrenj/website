@@ -1,7 +1,7 @@
-## ZenChat is the most secure messaging application on the market and can be used as a standalone product or embedded within our Wallets.
-Users are able to communicate 1-on-1, through group messaging, or set up dedicated private channels. Channel communication costs a minimal amount of ZenCash to prevent clutter and spam.
+## ZenChat is de meest veilige manier om berichten uit te wisselen en kan worden gebruikt als zelfstandige applicatie of binnen onze wallets
+Gebruikers kunnen onderling of in groepsverband communiceren, of binnen speciaal gecrëerde privé-kanalen. Bij kanaalcommunicatie ontstaan minimale ZenCash verzendkosten, dit om spam of ophoping van berichten te voorkomen.
 
-ZenChat messages are stored permanently in the blockchain to prevent metadata leakage and are encrypted with algorithms such as AES-256 with Perfect Forward Secrecy (PFS), matching current standards of encryption for secure communication. Secure Nodes communication relay is non-traceable.
+ZenChat-berichten worden permanent in de blockchain opgeslagen om uitlezen van metadata te voorkomen en zijn versleuteld met algoritmes zoals AES-256 met Perfect Forward Secrecy (PFS), in overeenstemming met actuele versleutelingsnormen voor beveiligde communicatie. De communicatie-doorgifte via het Secure Node netwerk is niet-traceerbaar.
 
 <div class="row justify-content-center mt-5">
   <div class="col-lg-12 col-xl-6 mb-3">

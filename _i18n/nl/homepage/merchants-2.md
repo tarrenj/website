@@ -1,5 +1,5 @@
 <div class="feature-item" markdown="1">
-#### Peer-to-Peer Payments
-- BitCash App integration
-- Zen Wallets Business-to-Business!
+#### Onderlinge betalingen
+- BitCash App-integratie
+- Zen Wallets voor zakelijk gebruik
 </div>

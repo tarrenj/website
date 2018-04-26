@@ -1,0 +1,2 @@
+## ZenPub permet aux utilisateurs de publier anonymement des données, des documents et des médias en général d'une manière qui résiste à la censure
+Le but de ZenPub est de permettre aux individus de publier librement des données ou des informations sans crainte de représailles en proposant aux individus de publier à partir d'une adresse protégée (anonyme) via le Système de Fichier Interplanétaire.

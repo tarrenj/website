@@ -1,9 +1,9 @@
-## Host a secure node, earn mining rewards and become part of ZenCash!
+## Запустите защищенный узел, зарабатывайте награду и становитесь частью ZenCash!
 {: .content-title}
 
-Secure Node Operators get rewarded with 3.5% of the mining rewards
+Операторы защищенных узлов награждаются 3.5%-ой частью награды майнеров
 {: .lead}
 
-One of the first security features of ZenCash was the encryption of the inter-node communications. This was deployed, and now ZenCash node communication looks like any other encrypted Internet traffic, instead of like Bitcoin traffic. This helps to hide the type of activity taking place, making it less likely that ZenCash users and nodes are blocked.
+Одним из первых улучшений безопасности в ZenCash стало шифрование межузловых сообщений. Теперь сообщения узлов ZenCash выглядят как любой другой зашифрованный интернет трафик, вместо трафика Bitcoin. Это эффективно скрывает любую необычную активность, что уменьшает вероятность блокировки пользователей и узлов.
 
-For reliability, we want thousands of secure nodes all over the world that users can connect to quickly and easily, and are willing to provide compensation to the node operators. If we have an extensive, distributed, and reliable network, people can use ZenCash no matter what happens. Secure Nodes enable the security and reliability of the ZenCash system.
+Для устойчивости сети мы хотим тысячи защищенных узлов по всему свету, к которым пользователи могут легко и быстро присоединиться, и мы готовы компенсировать расходы операторов таких узлов. Есть у нас проработанная, распределенная и устойчивая сеть, то люди смогут использоваться ZenCash не смотря ни на что. Защищенные узлы - основа безопасности и устойчивость системы ZenCash.

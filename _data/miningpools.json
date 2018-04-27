@@ -1,81 +1,82 @@
-[{
-  "name": "ZenMine Pro",
-  "url": "https://zenmine.pro/"
-},
-{
-  "name": "Luckpool",
-  "url": "http://www.luckpool.org/"
-},
-{
-  "name": "ZHash.pro",
-  "url": "https://zhash.pro/"
-},
-{
-  "name": "Miningspeed",
-  "url": "http://zen.miningspeed.com/"
-},
-{
-  "name": "Mining Pool Hub",
-  "url": "https://miningpoolhub.com/"
-},
-{
-  "name": "CloudPools",
-  "url": "http://zen.cloudpools.net/"
-},
-{
-  "name": "TreeFrog Mines",
-  "url": "https://treefrogmines.com/"
-},
-{
-  "name": "MineZ Zone",
-  "url": "https://minez.zone/"
-},
-{
-  "name": "SG Pool",
-  "url": "https://www.sgpool.net/"
-},
-{
-  "name": "HebUsio Pool",
-  "url": "https://zenpool-eu.hebusio.com"
-},
-{
-  "name": "SuprNova",
-  "url": "https://zen.suprnova.cc/"
-},
-{
-  "name": "Owl Miners' Club",
-  "url": "http://zen.owlminingclub.com/"
-},
-{
-  "name": "Miner Maniac",
-  "url": "http://www.minermaniac.com/"
-},
-{
-  "name": "Nibiru Pool",
-  "url": "http://zen.nibirupool.com/"
-},
-{
-  "name": "Catspool",
-  "url": "http://zen.catspool.org/"
-},
-{
-  "name": "2miners",
-  "url": "https://2miners.com/"
-},
-{
-  "name": "MyZen.Cash EU POOL",
-  "url": "https://myzen.cash/"
-},
-{
-"name": "Coinfoundry",
-"url": "https://coinfoundry.org/"
-},
-{
-"name": "Panda Mines",
-"url": "https://pandamines.com/"
-},
-{
-"name": "MinerBay",
-"url": "https://minerbay.org/"
-}
+[
+  {
+    "name": "ZenMine Pro",
+    "url": "https://zenmine.pro/"
+  },
+  {
+    "name": "Luckpool",
+    "url": "http://www.luckpool.org/"
+  },
+  {
+    "name": "ZHash.pro",
+    "url": "https://zhash.pro/"
+  },
+  {
+    "name": "Miningspeed",
+    "url": "http://zen.miningspeed.com/"
+  },
+  {
+    "name": "Mining Pool Hub",
+    "url": "https://miningpoolhub.com/"
+  },
+  {
+    "name": "CloudPools",
+    "url": "http://zen.cloudpools.net/"
+  },
+  {
+    "name": "TreeFrog Mines",
+    "url": "https://treefrogmines.com/"
+  },
+  {
+    "name": "MineZ Zone",
+    "url": "https://minez.zone/"
+  },
+  {
+    "name": "SG Pool",
+    "url": "https://www.sgpool.net/"
+  },
+  {
+    "name": "HebUsio Pool",
+    "url": "https://zenpool-eu.hebusio.com"
+  },
+  {
+    "name": "SuprNova",
+    "url": "https://zen.suprnova.cc/"
+  },
+  {
+    "name": "Owl Miners' Club",
+    "url": "http://zen.owlminingclub.com/"
+  },
+  {
+    "name": "Miner Maniac",
+    "url": "http://www.minermaniac.com/"
+  },
+  {
+    "name": "Nibiru Pool",
+    "url": "http://zen.nibirupool.com/"
+  },
+  {
+    "name": "Catspool",
+    "url": "http://zen.catspool.org/"
+  },
+  {
+    "name": "2miners",
+    "url": "https://2miners.com/"
+  },
+  {
+    "name": "MyZen.Cash EU POOL",
+    "url": "https://myzen.cash/"
+  },
+  {
+    "name": "Coinfoundry",
+    "url": "https://coinfoundry.org/"
+  },
+  {
+    "name": "Panda Mines",
+    "url": "https://pandamines.com/"
+  },
+  {
+    "name": "MinerBay",
+    "url": "https://minerbay.org/"
+  }
 ]

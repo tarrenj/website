@@ -584,28 +584,6 @@
           }
         },
         {
-          "name": "Adnan Javed",
-          "photo": "/assets/img/people/adnan.jpg",
-          "title": "Country Manager: Australia",
-          "bio": "Adnan is based out of Australia and holds formal Legal and Engineering qualifications. He has worked on numerous blockchain projects to date including large scale bespoke blockchain projects across internet of things, finance and payments sectors. 3 years ago he discovered Bitcoin which led him to explore blockchain applications and use cases. He has a keen interest in how blockchain technology will advance in shaping all industry sectors from an adoption, regulatory and policy perspective.",
-          "social": {
-            "twitter": "",
-            "linkedin": "adnan-javed",
-            "discord": "AJ"
-          }
-        },
-        {
-          "name": "Anson Lau",
-          "photo": "",
-          "title": "Team Member",
-          "bio": "",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": ""
-          }
-        },
-        {
           "name": "Taiga Ikuta",
           "photo": "/assets/img/people/taiga.jpg",
           "title": "Country Representative: Japan",

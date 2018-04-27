@@ -71,9 +71,17 @@
   <div class="container-fluid zencash-video">
     <div class="row justify-content-center align-items-center text-center">
       <div class="col-lg-6">
-        <a href="https://www.youtube.com/watch?v=3q6IvMRWapc" data-lity>
+
+        {% if site.data.assets.videos.whatiszen[site.lang] %}
+        <a href="{{site.baseurl_root}}{{site.data.assets.videos.whatiszen[site.lang]}}" data-lity>
           <img class="img-fluid" src="/assets/img/zencash-video-thumbnail-{{site.lang}}.jpg" />
         </a>
+        {% else %}
+        <a href="{{site.baseurl_root}}{{site.data.assets.videos.whatiszen.en}}" data-lity>
+          <img class="img-fluid" src="/assets/img/zencash-video-thumbnail-{{site.lang}}.jpg" />
+        </a>
+        {% endif %}
+
       </div>
     </div>
   </div>

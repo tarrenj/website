@@ -22,7 +22,7 @@ global:
     partners: Asociados
     advisors: Asesores
   exchanges: Centros cambiarios
-  mining-pools: Grupos de Mineria
+  mining-pools: Grupos de Minería
   wallets:
     full-chain: Cliente Completo
     lite-chain: Cliente Ligero
@@ -89,7 +89,7 @@ nav:
     blog: Blog
   footer:
     about:
-      title: Obre nosotros
+      title: Sobre nosotros
       items:
         - title: Tecnología
           namespace: technology
@@ -111,10 +111,10 @@ nav:
         - title: Comprar ZenCash
           link: '/exchanges/'
           namespace: exchanges
-        - title: Grupos de Mineria
+        - title: Grupos de Minería
           link: '/mining-pools/'
           namespace: mining-pools
-        - title: Descargar carteras
+        - title: Descargar Carteras
           link: '/wallets/'
           namespace: wallets
         - title: Llaves públicas
@@ -285,7 +285,7 @@ homepage:
       - title: Descarga las carteras
         image: /assets/img/icons/safe.png
         namespace: wallets
-      - title: Grupos de Mineria
+      - title: Grupos de Minería
         image: /assets/img/icons/mining.png
         namespace: mining-pools
     merchants:

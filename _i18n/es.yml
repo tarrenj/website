@@ -1,6 +1,8 @@
 global:
   roadmap: Plan de trabajo
   resources: Recursos
+  whitepaper:
+    new: New Zen White Paper
   technology:
     base: Tecnología
     possessive: Nuestra tecnología
@@ -22,8 +24,8 @@ global:
   exchanges: Centros cambiarios
   mining-pools: Grupos de Mineria
   wallets:
-    full-chain: Blockchain completa
-    lite-chain: Blockchain ligera
+    full-chain: Cliente Completo
+    lite-chain: Cliente Ligero
     base: Carteras
     wallet: Cartera
     official: Carteras Oficiales
@@ -191,7 +193,7 @@ homepage:
         cta:
           text: VER MÁS
           link: '/philosophy/'
-      - title: Technology
+      - title: Tecnología
         content: Zen utiliza zk-SNARKS con una capa adicional de encriptación de nodo, domain fronting e IPFS
         cta:
           text: VER MÁS
@@ -226,9 +228,9 @@ homepage:
           content:
             - Nodos Tor de ZenCash
             - Mensajería
-            - Cartera swing- blockchain completa
+            - Cartera Swing - Cliente Completo
             - Cartera Android
-            - Cartera Arizen - blockchain ligera
+            - Cartera Arizen - Cliente Ligero
             - Cartera de Papel
         - title: Nodos Seguros
           icon: /assets/img/icons/encryption.png

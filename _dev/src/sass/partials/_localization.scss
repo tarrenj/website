@@ -2,6 +2,39 @@
 #blog .card-body .card-title {
   font-family: sans-serif;
 }
+.lng-fr {
+  .jumbotron .btn-lg {
+    padding: 1rem;
+  }
+  #tech {
+    .stats-section {
+      .stats {
+        .stats-headline {
+          word-spacing: 0;
+        }
+      }
+    }
+  }
+}
+.lng-nl {
+  .jumbotron .btn-lg {
+    padding: 1rem;
+  }
+  #tech {
+    .stats-section {
+      .circle-dots {
+        h2 {
+          font-size: 18px;
+        }
+      }
+      .stats {
+        .stats-headline {
+          word-spacing: 0;
+        }
+      }
+    }
+  }
+}
 .lng-de {
   word-wrap: break-word;
   #tech {
@@ -51,6 +84,25 @@
     .logo-text {
       line-height: 1.4;
     }
+  }
+}
+.lng-ru {
+  #tech {
+    .stats-section {
+      .circle-dots {
+        h2 {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  @media (max-height: 900px) and (min-width: 992px) {
+    .jumbotron.newsletter-visible .btn-lg {
+      padding: 1rem;
+    }
+  }
+  .btn-lg {
+    padding: 1rem;
   }
 }
 .lng-es,

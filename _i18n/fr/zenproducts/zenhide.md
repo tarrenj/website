@@ -1,0 +1,6 @@
+## Le domain fronting est une technique polyvalente de contournement de la censure qui masque l'extrémité distante d'une communication.
+Il fonctionne au niveau de la couche application, en utilisant HTTPS, pour communiquer avec un hôte interdit tout en semblant communiquer avec un autre hôte, autorisé par le censeur.
+
+L'idée clé est l'utilisation de différents noms de domaine à différentes couches de communication. Un domaine apparaît à l'extérieur d'une requête HTTPS - dans la requête des 9 DNS et l'indication de nom de serveur TLS, tandis qu'un autre domaine apparaît dans l'en-tête HTTP Host, invisible à la censure sous le cryptage HTTPS. Un censeur, incapable de distinguer le trafic frontal et non frontal d'un domaine, doit choisir entre autoriser le trafic de contournement et bloquer complètement le domaine, ce qui entraîne des dommages collatéraux coûteux.
+
+Le domaine fronting ne nécessite pas de coopération particulière de la part des intermédiaires réseau. Nous identifions un certain nombre de services Web difficiles à bloquer, tels que les réseaux de diffusion de contenu, qui prennent en charge les connexions à domaine et qui sont utiles pour le contournement de la censure.

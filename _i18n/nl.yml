@@ -1,0 +1,401 @@
+global:
+  roadmap: Roadmap
+  resources: Hulpbronnen
+  whitepaper:
+    new: New Zen White Paper
+  technology:
+    base: Technologie
+    possessive: Onze Technologie
+    tagline: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
+  philosophy:
+    base: Filosofie
+    possessive: Onze Filosofie
+    tagline: Autonoom - Duurzaam - Onderzoeksfocus
+  team:
+    base: Team
+    tagline: WERELDWIJDE EXPERTISE SAMENGEBRACHT
+    engineering: Techniek
+    user-experience: GEBRUIKERSERVARING
+    marketing: Marketing
+    operations: Operations
+    business-development: Business Development
+    partners: Partners
+    advisors: ADVISEURS
+  exchanges: Handelsplatformen
+  mining-pools: Mining Pools
+  wallets:
+    full-chain: volledige blockchain
+    lite-chain: met online blockchain
+    base: Wallets
+    wallet: Wallet
+    official: Officiële Wallets
+    third-party: Wallets van derden
+    web: Web Wallet
+    paper: Paper Wallet
+    mobile-hardware: Mobile Hardware Wallet
+  forum: Forum
+  go: bezoek
+  footeron: 'on'
+  anonymous: anonieme
+  korean: Koreaans
+titles:
+  homepage: Een wereldwijd toegankelijke en anonieme blockchain
+  iohk: ZenCash en IOHK werken samen op het gebied van Onderzoek en Ontwikkeling
+  philosophy: Verbeter de wereld stukje bij bit-je
+  technology: Zen Technologie
+  team: Maak kennis met ons team
+  exchanges: ZenCash handelsplatformen (Exchanges)
+  mining-pools: ZenCash Mining Pools
+  wallets: ZenCash Wallets
+  securenodes: ZenCash Secure Nodes
+  roadmap: ZenCash Roadmap
+  zencash: ZenCash voor Geld
+  zenchat: ZenChat voor Vertrouwelijke Berichtenuitwisseling
+  zenpub: ZenPub - Gedecentraliseerde Cloud Opslag
+  zenhide: ZenHide voor Censuurbestrijding
+descriptions:
+  homepage: ZenCash is de meest solide en censuurbestendige blockchain en virtuele munteenheid gericht op privacy. Gebruikers van ZenCash kunnen anonieme, niet-traceerbare transacties uitvoeren de hoogstmogelijke privacy. Dankzij onze onderliggende Secure Node technologie kan ons netwerkverkeer niet worden herkend en niet worden geblokkeerd.
+  iohk: Het ZenCash en IOHK samenwerkingsverband omvat een reeks onderzoeks- en ontwikkelingsprojecten onder leiding van Prof. Roman Oliynykov. Het partnerschap betreft de implementatie van een Decentrale Autonome Organisatie (DAO) op protocolniveau, alsmede een nieuwe-generatie schaalbaarheidsoplossing zoals Spectre of Phantom protocollen. Ontdek meer!
+  philosophy: Zen is gebouwd rond een gedecentraliseerd bestuursmodel wat voortdurend wordt verbeterd. De afwezigheid van een centraal bestuursorgaan of de kans op falen van een enkelvoudig centraal systeem, maakt ZenCash net zo sterk als mogelijk is voor welke organisatie dan ook.
+  technology: Zen maakt gebruik van zk-SNARKS technologie, met gelaagde node-encryptie, domain-fronting, en InterPlanetair File Systeem (IPFS)
+  team: Het ZenCash team bestaat uit enthousiaste en gedreven mensen, die de blockchainindustrie vooruit willen helpen middels een gezamenlijke inspanning op het gebied van onderzoek en ontwikkeling. Onder leiding van oprichters Rob Viglione en Rolf Versluis, wordt gewerkt aan een professioneel en innovatief ZenCash-ecosysteem, waarvan alle burgers -waar ook ter wereld- de vruchten kunnen plukken.
+  exchanges: ZenCash aankopen of verkopen? Dit kan via de onderstaande handelsplatformen
+  mining-pools: Lijst van Mining Pools. Kies er een en word deel van de ZenCash-community!
+  wallets: Bewaar je ZenCash veilig. Dit kan met onze onderstaande wallets (portemonnee's)
+  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
+  zencash: ZenCash is ideaal voor eenvoudige waardeoverdracht tussen reguliere (T) of vertrouwelijke (Z) betaaladressen. T-adressen worden gebruikt voor reguliere transacties vergelijkbaar met bitcoin. Z-adressen zijn afgeschermde adressen gebruiken de meest recente zk-SNARKS privacytechnologie, om zowel zend- en ontvangadressen als de verzonden bedragen te verbergen.
+  zenchat: ZenChat is de meest veilige manier om berichten uit te wisselen en kan worden gebruikt als zelfstandige applicatie of binnen onze wallets
+  zenpub: ZenPub biedt gebruikers de mogelijkheid om anoniem data, documenten en media te publiceren, op een manier die censuur effectief tegengaat.
+  zenhide: ZenCash maakt gebruik van Domain Fronting om elke vorm van internetcensuur te voorkomen. Bij Domain Fronting is voor derden niet zichtbaar op welke wijze of met wie wordt gecommuniceerd.
+newsletter:
+  title: Sign up to receive exclusive updates!
+  success: Success! Please check your email to confirm we have the right one.
+  name: Voornaam
+  firstname: Voornaam
+  lastname: Achternaam
+  email: E-mailadres
+  country: Land
+  button: Aanmelden
+nav:
+  top:
+    about: Over ZenCash
+    features: Features
+    roadmap: Roadmap
+    team: Team
+    whitepaper: White Paper
+    exchanges: ZenCash kopen
+    wallets: zen gebruiken
+    miningpools: zen minen
+    community: Community
+    support: Ondersteuning
+    blog: Blog
+  footer:
+    about:
+      title: Over ZenCash
+      items:
+        - title: Technologie
+          namespace: technology
+        - title: Filosofie
+          namespace: philosophy
+        - title: Team
+          namespace: team
+        - title: ZenCash
+          link: '/zencash/'
+        - title: ZenChat
+          link: '/zenchat/'
+        - title: ZenPub
+          link: '/zenpub/'
+        - title: ZenHide
+          link: '/zenhide/'
+    resources:
+      title: Hulpbronnen
+      items:
+        - title: ZenCash kopen
+          link: '/exchanges/'
+          namespace: exchanges
+        - title: Mining Pools
+          link: '/mining-pools/'
+          namespace: mining-pools
+        - title: Wallet Downloaden
+          link: '/wallets/'
+          namespace: wallets
+        - title: Public Keys
+          link: 'https://github.com/zencashofficial/keys'
+          type: external
+        - title: E-mail ondersteuning
+          link: 'mailto:support@zencash.com?subject=ZenCash%20Support'
+          type: mailto
+    community:
+      title: Community
+    email:
+      title: Ontvang e-mail updates
+      contact:
+        title: Neem contact op
+        email: info@zencash.com
+    copyright: All rights reserved.
+homepage:
+  hero:
+    subtitle: HET VEILIGE EN VERTROUWELIJKE PLATFORM VOOR
+    subtitle2: GELD, BERICHTEN & MEDIA
+    wallet-button: WALLET DOWNLOADEN
+    buy-button: ZENCASH KOPEN
+    announcement: 'aankondiging: Onderzoeks & Ontwikkelingspartnerschap met IOHK'
+    announcement-button: ervaar meer
+  about:
+    title: Zencash is een platform op basis van de meest recente privacy-technologie, met een zelfvoorzienend financieringsmodel met oplossingen op protocolniveau
+    products:
+      zencash: voor Geld
+      zenchat: voor Berichten
+      zenpub: voor Media
+      zenhide: voor Webverkeer
+      development: (in ontwikkeling)
+      nav:
+        - title: Features
+          link: '#features'
+          icon: /assets/img/icons/features.png
+        - title: Roadmap
+          link: '#roadmap'
+          icon: /assets/img/icons/roadmap.png
+        - title: Team
+          link: '#team-overview'
+          icon: /assets/img/icons/team.png
+        - title: White Paper
+          link: '#white-paper'
+          icon: /assets/img/icons/whitepaper.png
+  features:
+    title: ZENCASH IS OPENBAAR, VERTROUWELIJK EN ANONIEM
+    cta: MEER OVER DE SAMENWERKING MET IOHK
+  tech:
+    title: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
+    subtitle: Zen streeft naar een betere mensheid en ambieert daarin een innoverende en technologische leidersrol
+    features:
+      - title: Toonaangevende Privacy Technologie
+        content:
+          - zk-Snarks - Privé-transacties met verborgen zender/ontvanger informatie
+          - Domain Fronting - Verbergt verbindingen om censuur effectief te voorkomen
+          - IPFS - Publiceer of ontvang data volledig anoniem dankzij een gedecentraliseerd systeem
+      - title: Decentrale Autonome Organisatie (DAO)
+        content:
+          - Financieel beheer met het meest geavanceerde kassysteem op basis van de allerbeste privacy-technologie, op economisch-wetenschappelijke basis
+      - title: Maximaal Resistent
+        content:
+          - <a href="https://securenodes.na.zensystem.io/">Zen Secure Nodes</a>; meer dan <span id="nodeCount">6640</span> netwerkknooppunten!
+      - title: Focus op Onderzoek & Ontwikkeling
+        content:
+          - Oplossingen op protocolniveau, zoals Decentrale Autonome Organisatie (DAO), schaalbaarheid, en meer!
+      - title: Maximale Veiligheid
+        content:
+          - ZenCash is het eerste systeem met encryptie tussen de netwerkknooppunten
+      - title: Zelf ZenCash minen
+        content:
+          - Proof-of-Work mining (Equihash-algoritme) met Grafische kaarten
+    techcards:
+      - title: Filosofie
+        content: Met een focus op onderzoek en ontwikkeling is het onze missie om technologie in te zetten om gelijke economische kansen te creëren voor iedereen.
+        cta:
+          text: ervaar meer
+          link: '/philosophy/'
+      - title: Technologie
+        content: Zen maakt gebruik van zk-SNARKS aangevuld met node-encryptie, domain fronting en IPFS.
+        cta:
+          text: ervaar meer
+          link: '/technology/'
+    stats:
+      title: STATISTIEK
+      sections:
+        - title: SUPPLY (TOTAAL)
+          id: totalSupply
+          content: 21M
+        - title: SUPPLY (IN OMLOOP)
+          id: circSupply
+          content: 3,401,100
+        - title: Secure Nodes
+          id: secureNodes
+          content: 7,870
+  roadmap:
+    events:
+      2017:
+        - title: ZenCash lancering
+          icon: /assets/img/icons/launch.png
+          content:
+            - ZenCash is gelanceerd op 30 mei 2017
+        - title: Belangrijke updates
+          icon: /assets/img/icons/updates.png
+          content:
+            - Eerste blockchain met TLS-integratie (SSL-certificaat voor node-encryptie)
+            - Blockchain verbeteringen
+            - Bescherming tegen dubbele transacties (replay protection)
+        - title: Wallets en Producten
+          icon: /assets/img/icons/wallet.png
+          content:
+            - Tor Zencash Nodes
+            - Chatberichten
+            - Swing Wallet (volledige blockchain)
+            - Wallet app voor Android
+            - Arizen Wallet (met online blockchain)
+            - Paper Wallet (offline wallet)
+        - title: Secure Nodes
+          icon: /assets/img/icons/encryption.png
+          content:
+            - Resistente end-to-end netwerkversleuteling
+            - Betaalsysteem voor Secure Node beheerders
+      2018:
+        - title: Wallets en projecten
+          icon: /assets/img/icons/voting.png
+          content:
+            - Gebruikersinterface voor het indienen en afstemmen van voorstellen
+            - Wallet app voor iOS
+            - Integratie met OpenBazaar
+            - Operatie "Radicale Transparantie"
+            - Hardware Wallets
+        - title: Secure Node
+          icon: /assets/img/icons/secure.png
+          content:
+            - Systeemverbeteringen
+            - 'studie: Blockchainintegratie van het Secure Node-systeem'
+        - title: Onderzoek & Ontwikkeling
+          icon: /assets/img/icons/r-d.png
+          content:
+            - 'DAO: inspraak rondom financieel beheer op protocolniveau'
+            - Schaalbaarheidsstudie - next-generation blockchainoplossingen
+            - Domain Fronting
+            - ZenPub Protocol-level
+      2019:
+        - title: Oplevering en implementatie
+          icon: /assets/img/icons/scalability-study.png
+          content:
+            - 'DAO: inspraak rondom financieel beheer op protocolniveau'
+            - Dandelion++ integratie voor netwerk-stack anonimiteit
+            - Schaalbaarheidsoplossing
+            - IPFS gepubliceerd op Secure Nodes
+  whitepaper:
+    subtitle: "De White Paper is momenteel in bewerking. De oorspronkelijke white paper is voor ca. 80% actueel:"
+    button: WHITE PAPER DOWNLOADEN
+  team:
+    title: EEN WERELDWIJD TEAM
+    subtitle: Het ZenCash team bestaat uit meer dan 50 personen van overal ter wereld
+    button:
+      text: MAAK KENNIS MET HET GEHELE TEAM
+      link: '/team/'
+  usezen:
+    title: ZEN GEBRUIKEN
+    subtitle: Het is ons doel van ZenCash de meest privacy-gerichte en nuttige virtuele munteenheid te maken!
+    features:
+      - title: ZENCASH KOPEN
+        image: /assets/img/icons/money.png
+        namespace: exchanges
+      - title: WALLET DOWNLOADEN
+        image: /assets/img/icons/safe.png
+        namespace: wallets
+      - title: Mining Pools
+        image: /assets/img/icons/mining.png
+        namespace: mining-pools
+    merchants:
+      title: BETAALMOGELIJKHEDEN
+      subtitle: Integratie met diverse betaalsystemen op vele verkooppunten is bepalend voor het gebruiksgemak van ZenCash.
+  resources:
+    subtitle: Dit materiaal maakt het Zen-merk inzichtelijk en helpt bij het uitdragen van het merk.
+    items:
+      - title: JURIDISCH
+        buttons:
+          - text: '<img src="/assets/img/icons/download-arrow.png" class="download-arrow"> Download'
+            link: '/assets/files/ZenCash_LEGAL MEMORANDUM.pdf'
+      - title: BLOCK EXPLORERS
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+  blog:
+    title: Blog
+    button:
+      text: MEER BLOG BIJDRAGEN
+      link: https://blog.zencash.com/
+mining-pools:
+  subtitle: Iedereen met een recente grafische kaart kan ZenCash verdienen, een virtuele munt op basis van het Equihash Proof-Of-Work (POW) algoritme.
+  content: 'Wij adviseren om de miningcapaciteit over meerdere pools te verdelen om een zg. <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51%-aanval</a></strong> te voorkomen.'
+  resources:
+    items:
+      - title: ZEN MINING WINSTCALCULATOR
+        buttons:
+          - text: Go
+            link: https://whattomine.com/coins/185-zen-equihash
+      - title: Zen Mining Pool Forum Topic
+        buttons:
+          - text: Go
+            link: https://forum.zensystem.io/t/zen-mining-pools-list/73
+      - title: Block Explorers
+        buttons:
+          - text: 1
+            link: https://explorer.zensystem.io/
+          - text: 2
+            link: http://explorer.zenmine.pro/insight/
+          - text: 3
+            link: https://explorer.zen-solutions.io/
+dao-infographic:
+  title: Decentrale Autonome Organisatie (DAO) liquiditeiten beheer (treasury)
+  subtitle: ZenCash Treasury Model is een inclusief, aantoonbaar eerlijk en transparant economisch systeem met deelname-incentives.
+  image: '/assets/img/iohk-infographic.png'
+  image-mobile: '/assets/img/iohk-infographic-mobile.png'
+  button: LEES DE ZENCASH WHITE PAPER
+  steps:
+    1:
+      title: Er is een financiële reserve ten behoeve van voorstellen
+      image: '/assets/img/icons/infographic/bank.svg'
+    2:
+      title: Iedereen kan bestedingsvoorstellen indienen
+      image: '/assets/img/icons/infographic/peers.svg'
+    3:
+      title: Voorstellen worden beoordeeld en in stemming gebracht door houders van ZenCash (stake)
+      image: '/assets/img/icons/infographic/review.svg'
+    4:
+      title: Stemmen kan worden gedelegeerd aan vertrouwde personen en stemmers worden beloond voor hun deelname
+      image: '/assets/img/icons/infographic/scales.svg'
+    5:
+      title: Stemmen worden gewogen naar verhouding van hun stake-aandeel en zijn niet openbaar
+      image: '/assets/img/icons/infographic/votes.svg'
+    6:
+      title: Stemresultaten zijn geheim totdat de winnaar is bepaald om een eerlijke voortgang te waarborgen
+      image: '/assets/img/icons/infographic/safe.svg'
+    7:
+      title: Stemmen worden geteld waarna voorstellen worden aangenomen of geweigerd
+      image: '/assets/img/icons/infographic/approve.svg'
+iohk:
+  subtitle: 'Het ZenCash en IOHK samenwerkingsverband omvat een reeks onderzoeks- en ontwikkelingsprojecten onder leiding van <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, cryptografisch expert, IT-beveiligingsonderzoeker, lector en IOHK Research Fellow.'
+  content:
+    title: SCHAALBAARHEIDSSTUDIE
+    list:
+      - Schaalbaarheid vormt in blockchainprojecten een substantieel probleem.
+      - Protocol-upgrade maakt snelle transacties op het netwerk mogelijk bij hoge volumes.
+      - Evaluatie van nieuwe-generatie blockchain oplossingen en alternatieven zoals Spectre.
+      - Radicale toepasbaarheid! Grenzenloze schaalbaarheid en instant-transacties.
+      - IOHK evalueert diverse protocol-opties en formuleert aanbevelingen en specificaties voor ZenCash in Q2 2018.
+    button: IOHK evalueert diverse protocol-opties en formuleert aanbevelingen en specificaties voor ZenCash in Q2 2018.
+securenodes:
+  hero:
+    title: ZenCash is Private Money, Messages, Media
+    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
+    cta: Instructions to Set Up Secure Nodes
+  requirements:
+    title: Requirements
+    list:
+      - title: 42 $ZEN
+        subtitle: in transparent address per node
+        icon: /assets/img/icons/vector-1.png
+      - title: TLS Certificate
+        subtitle: from a known Certificate Authority
+        icon: /assets/img/icons/vector-3.png
+      - title: Computational Challenge
+        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+        icon: /assets/img/icons/vector-2.png
+      - title: ZenCash Blockchain
+        subtitle: Maintain a full copy of the ZenCash Blockchain
+        icon: /assets/img/icons/vector-4.png
+      - title: 92%+ Uptime
+        subtitle: Keep the node up and running at least 92% of the time
+        icon: /assets/img/icons/vector-1.png
+    cta: Instructions to Set Up Secure Nodes
+  footer:
+    title: KOOP OF VERKOOP ZENCASH

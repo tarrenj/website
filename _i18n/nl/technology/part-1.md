@@ -11,10 +11,6 @@ Naast de toepassing van zk-SNARKS, maakt de Zen architectuur gebruik van versleu
 {: .subsection-title}
 ## Afgeschermde transacties zijn volledig versleuteld, maar kunnen worden getoetst aan de consensus-criteria van het netwerk. Zender, ontvanger en bedragen zijn verborgen op de blockchain, wat Zen volledig privé en niet-traceerbaar maakt.
 
-{:text-center: .text-center .mb-5}
-[{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
-{:text-center}
-
 Domain Fronting (domeinvoorspiegeling) is een veelzijdige techniek om censuur te omzeilen, waarbij de communicatiepartner onzichtbaar wordt gemaakt voor derden. Het werkt op applicatieniveau, gebruikmakend van HTTPS, om te communiceren met een verboden of geblokkeerde gesprekspartner of platform, waarbij het lijkt alsof met een andere, wèl toegestane partij wordt gecommuniceerd.
 
 Het idee achter domain fronting bestaat uit het gebruikmaken van verschillende domeinnamen op verschillende niveau's. Aan de "buitenkant" van een HTTPS-verzoek (in het 9 DNS verzoek en de TLS naamserver indicatie) wordt een toegestaan domein voorgespiegeld, terwijl aan de "binnenkant" in de Host Header een ander domein wordt gebruikt, onzichtbaar voor controlerende instanties dankzij HTTPS-versleuteling. Daar de controlerence instantie geen onderscheid kan maken tussen zg. "fronted" en "non-fronted" dataverkeer naar een domein, blijft deze geen andere keus dan het verkeer toe te staan of alle verkeer naar het toegestane domein te blokkeren, wat echter grote negatieve gevolgen voor de controlerende instantie met zich mee kan brengen.

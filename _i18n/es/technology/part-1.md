@@ -11,10 +11,6 @@ En adición a zk-SNARKS, la arquitectura Zen incluye encriptación a nivel nodo.
 {: .subsection-title}
 ## Las transacciones privadas son completamente encriptadas, sin embargo pueden ser verificadas en el consenso de la red. El remitente, recipiente y la cantidad son ocultas en la blockchain, haciendo a Zen imposible de rastrear.
 
-{:text-center: .text-center .mb-5}
-[{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
-{:text-center}
-
 Domain fronting es una técnica de evasión de censura que esconde el punto final de conexión de una comunicación. Trabaja a nivel aplicación, usando HTTPS, para comunicarse a sitios prohibidos aparentando que la comunicación es con otro sitio, permitido por el censor.
 
 La idea principal es el uso de diferentes nombres de dominio en diferentes capas de comunicación. Un dominio aparece por la parte de “afuera” de una solicitud de un HTTPS- en la solicitud de 9 DNS y el Indicador de Nombre de Servidor TLS, mientras otro dominio aparece por la parte de “adentro”- en el encabezado HTTP del anfitrión,invisible para el censor sobre encriptación HTTPS. El censor, incapaz de distinguir entre tráfico fronted y non-fronted a un dominio, debe escoger entre permitir la elusión de tráfico y bloquear el dominio completamente, lo cual resulta en un daño colateral costoso.

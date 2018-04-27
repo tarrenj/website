@@ -7,16 +7,16 @@
           {% translate homepage.whitepaper.subtitle %}
         </p>
         <p>
-          {% if site.data.whitepapers[site.lang] %}
-          <a href="{{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
+          {% if site.data.documents.whitepaper[site.lang] %}
+          <a href="{{site.baseurl_root}}{{site.data.documents.whitepaper[site.lang]}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
           {% else %}
-          <a href="{{site.baseurl_root}}{{site.data.whitepapers[en]}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
+          <a href="{{site.baseurl_root}}{{site.data.documents.whitepaper.en}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% translate homepage.whitepaper.button %}</a>
           {% endif %}
 
-          {% if site.lang == 'zh' %}
-          <a href="/assets/files/Zen-Application-Platform-Whitepaper-Chinese.pdf" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% t global.whitepaper.new %}</a>
+          {% if site.data.documents.whitepaper2[site.lang] %}
+          <a href="{{site.baseurl_root}}{{site.data.documents.whitepaper2[site.lang]}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% t global.whitepaper.new %}</a>
           {% else %}
-          <a href="/assets/files/Zen-Application-Platform-Whitepaper.pdf" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% t global.whitepaper.new %}</a>
+          <a href="{{site.baseurl_root}}{{site.data.documents.whitepaper2.en}}" class="btn btn-lg btn-primary mt-4 ml-2 mr-2"><img src="/assets/img/icons/download-arrow.png" class="download-arrow" /> {% t global.whitepaper.new %}</a>
           {% endif %}
         </p>
       </div>

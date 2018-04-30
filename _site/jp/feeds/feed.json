@@ -1,0 +1,326 @@
+
+[
+
+  
+  {
+      "title": "404: Page not found",
+      "content": "\n  \n\n    \n      \n        404: Page not found\n      \n    \n\n    \n      \n        Sorry, we've misplaced that URL or it's pointing to something\n        that doesn't exist.\n        Head back home to try finding it\n        again.\n      \n    \n\n  \n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenCash取引所",
+      "content": "\n\n  \n\n    \n      \n        取引所\n      \n    \n\n    \n  \n    \n\n      \n        \n          \n            \n            Bittrex\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            OKEx\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            UPbit (韓国)\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Cryptopia\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Evercoin (匿名)\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coss.io\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            TradeSatoshi\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Indacoin\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coinmonkey\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coindirect\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            OpenLedger\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            CryptoWolf\n          \n          \n            詳細\n          \n        \n      \n\n    \n  \n\n\n\n\n    \n      \n        ウォレットを入手\n      \n    \n\n  \n\n\n\n  \n    \n    \n      \n        \n        通貨\n      \n    \n    \n    \n    \n      \n        \n        メッセージング\n      \n    \n    \n    \n    \n      \n        \n        情報発信・メディア\n        \n          (開発中)\n        \n      \n    \n    \n    \n    \n      \n        \n        ウェブトラフィック\n        \n          (開発中)\n        \n      \n    \n    \n  \n\n\n"
+  }
+  
+  
+
+  
+
+  
+
+  
+  ,{
+      "title": "世界中で利用可能かつ匿名のブロックチェーン",
+      "content": "{% include homepage/hero.html %}\n\n{% include homepage/about.html %}\n\n{% include homepage/features.html %}\n\n{% include homepage/tech.html %}\n\n{% include homepage/roadmap.html %}\n\n{% include homepage/whitepaper.html %}\n\n{% include homepage/team.html %}\n\n{% include homepage/usezen.html %}\n\n{% include homepage/resources.html %}\n\n{% comment %}\n\n  \n    \n      Zen Featured In\n    \n  \n\n{% endcomment %}\n\n\n  \n    \n      \n        {% translate homepage.blog.title %}\n      \n    \n    \n      \n        \n          \n        \n        \n          {% translate homepage.blog.button.text %}\n        \n      \n    \n  \n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenCashとIOHKは研究開発パートナーシップを締結しました",
+      "content": "\n  \n    {% t page.title %}\n  \n\n\n\n  \n    \n      \n        \n      \n      \n        {% t iohk.subtitle %}\n      \n    \n  \n\n\n{% include content/dao-infographic.html %}\n\n\n  \n    \n      \n        \n        {% t iohk.content.title %}\n        \n          {% for bullet in site.translations[site.lang].iohk.content.list %}\n          {{ bullet }}\n          {% endfor %}\n        \n        \n          {% t iohk.content.button %}\n        \n      \n    \n  \n\n\n\n  \n    \n      \n        {% t global.exchanges %}\n      \n    \n    {% include content/exchanges.html %}\n\n  \n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenCashマイニングプール",
+      "content": "\n  \n    zencash\n    {% t global.mining-pools %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% t mining-pools.subtitle %}\n        {% t mining-pools.content %}\n      \n    \n  \n\n\n\n  \n    \n      \n\n        \n          {% for pool in site.data.miningpools %}\n            \n              \n                \n                  {{ pool.name }}\n                \n                \n                  {% t global.go %} \n                \n              \n            \n          {% endfor %}\n        \n\n      \n    \n  \n\n\n{% include content/resources.html %}\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "少しずつ世界を変えていく",
+      "content": "\n  \n    \n      \n      \n    \n  \n  \n\n  \n    {% t global.philosophy.base %}\n    {% t global.philosophy.tagline %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file philosophy/content.md %}\n      \n    \n  \n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenCash Roadmap",
+      "content": "\n  \n    zencash\n    {% translate global.roadmap %}\n  \n\n\n\n  \n    \n  \n\n  \n    \n      {% include content/roadmap.html %}\n    \n  \n\n\n"
+  }
+  
+  
+
+  
+
+  
+  ,{
+      "title": "ZenCashセキュアノード",
+      "content": "\n  \n    \n      \n        \n          {% translate securenodes.hero.title %}\n          {% translate securenodes.hero.subtitle %}\n          \n            {% translate securenodes.hero.cta %}\n          \n        \n      \n      \n    \n  \n  \n    \n      \n        \n          {% translate_file securenodes/whyzen.md %}\n        \n      \n    \n  \n  \n    \n      \n        \n          {% translate_file securenodes/hosting.md %}\n        \n      \n      \n        \n\n          {% translate securenodes.requirements.title %}\n\n          \n            {% for requirement in site.translations[site.lang].securenodes.requirements.list %}\n            \n              \n                {{ forloop.index }}\n                {{ requirement.title }}\n                {{ requirement.subtitle }}\n              \n              \n                \n              \n            \n            {% endfor %}\n          \n\n          \n            {% translate securenodes.requirements.cta %}\n          \n\n        \n      \n    \n  \n  \n    \n      \n        \n          {% translate securenodes.footer.title %}\n          \n            ZenCash {% t global.footeron %} Bittrex\n            ZenCash {% t global.footeron %} Cryptopia\n            ZenCash {% t global.footeron %} Evercoin ({% t global.anonymous %})\n            ZenCash {% t global.footeron %} UPbit ({% t global.korean %})\n            ZenCash {% t global.footeron %} Coss.io\n            ZenCash {% t global.footeron %} TradeSatoshi\n          \n        \n      \n    \n  \n\n\n"
+  }
+  
+  
+
+  
+
+  
+  ,{
+      "title": "チーム紹介",
+      "content": "\n\n  \n    \n      \n        {% if site.lang == 'es' or site.lang == 'ru' %}\n        {% t global.team.base %}\n        {% else %}\n        Zen {% t global.team.base %}\n        {% endif %}\n        {% t global.team.tagline %}\n      \n    \n  \n\n  {% for group in site.data.team.groups %}\n  \n    \n      \n        {% t global.team.{{group.slug}} %}\n      \n    \n    \n      {% for member in group.members %}\n      \n        \n          \n            {% if member.photo.size > 0 %}\n            {% assign headshot = member.photo %}\n            {% else %}\n            {% assign headshot = '/assets/img/people/anon_profile.jpg' %}\n            {% endif %}\n            \n            {{member.name}}\n            {{member.title}}\n            \n              {% if member.bio.size > 0 %}\n              \n                Read {{member.name | truncatewords: 1, \"\"}}'s Bio\n              \n              {% endif %}\n            \n          \n          \n            {% if member.social.twitter.size > 0 %}\n              \n                \n              \n            {% endif %}\n            {% if member.social.linkedin.size > 0 %}\n              {% if member.social.linkedin contains \"https://www.linkedin.com/company\" %}\n              {% assign linkedin = member.social.linkedin %}\n              {% else %}\n              {% assign linkedin = site.data.team.social.linkedin | append: member.social.linkedin %}\n              {% endif %}\n              \n                \n              \n            {% endif %}\n            {% if member.social.discord.size > 0 %}\n              \n                @{{member.social.discord}}\n              \n            {% endif %}\n          \n        \n      \n      {% endfor %}\n    \n  \n  {% endfor %}\n\n  \n    \n      \n        \n          \n            \n            \n          \n          \n          \n          Bio\n\n          {% comment %}\n          Group\n          Headshot\n          Twitter\n          LinkedIn\n          Discord\n          {% endcomment %}\n\n          \n            \n              \n            \n            \n              \n            \n            \n              \n            \n          \n        \n      \n    \n  \n\n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "Zenテクノロジー",
+      "content": "\n  \n    \n      \n      \n    \n  \n  \n\n  \n    {% t global.technology.base %}\n    {% t global.technology.tagline %}\n  \n\n\n\n  \n    \n  \n\n  \n    \n      \n        {% translate_file technology/part-1.md %}\n      \n    \n  \n\n\n\n{% include content/dao-infographic.html %}\n\n\n  \n    \n      \n        {% translate_file technology/part-2.md %}\n      \n    \n  \n\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenCashウォレット",
+      "content": "\n\n  \n\n    \n      \n        {% t global.wallets.base %}\n      \n    \n\n    \n      \n\n        \n          \n            {% t global.wallets.official %}\n          \n        \n\n        \n\n          \n            \n              \n                \n                Windows\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                Mac OS\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                Ubuntu Linux\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.web %}\n              \n              \n                myzenwallet.io\n              \n            \n          \n\n          \n            \n              \n                \n                Android\n              \n              \n                Zen {% t global.wallets.wallet %}\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.paper %}\n              \n              \n                zenpaperwallet.com\n              \n            \n          \n\n        \n\n        \n          \n            {% t global.wallets.third-party %}\n          \n        \n\n        \n          \n            \n              \n                \n                Android\n              \n              \n                Coinomi\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.mobile-hardware %}\n              \n              \n                XEEDA\n              \n            \n          \n        \n\n      \n    \n\n    \n      \n        {% t homepage.hero.buy-button %}\n      \n    \n\n  \n\n\n{% include content/about-zen-fw.html %}\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "通貨としてのZenCash",
+      "content": "\n  \n    zencash\n    {% translate homepage.about.products.zencash %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zencash.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "セキュアメッセージング機能としてのZenChat",
+      "content": "\n  \n    zenchat\n    {% translate homepage.about.products.zenchat %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenchat.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenHide - 検閲回避",
+      "content": "\n  \n    zenhide\n    {% translate homepage.about.products.zenhide %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenhide.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n"
+  }
+  
+  
+
+  
+  ,{
+      "title": "ZenPub - 非中央集権的なクラウドストレージ",
+      "content": "\n  \n    zenpub\n    {% translate homepage.about.products.zenpub %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenpub.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n"
+  }
+  
+  
+
+  
+
+
+
+    
+    ,{
+        "title": "404: Page not found",
+        "content": "\n  \n\n    \n      \n        404: Page not found\n      \n    \n\n    \n      \n        Sorry, we've misplaced that URL or it's pointing to something\n        that doesn't exist.\n        Head back home to try finding it\n        again.\n      \n    \n\n  \n\n",
+        "link": "/jp/404",
+        "date": null,
+        "excerpt": null,
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.exchanges",
+        "content": "\n\n  \n\n    \n      \n        取引所\n      \n    \n\n    \n  \n    \n\n      \n        \n          \n            \n            Bittrex\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            OKEx\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            UPbit (韓国)\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Cryptopia\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Evercoin (匿名)\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coss.io\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            TradeSatoshi\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Indacoin\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coinmonkey\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            Coindirect\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            OpenLedger\n          \n          \n            詳細\n          \n        \n      \n\n      \n        \n          \n            \n            CryptoWolf\n          \n          \n            詳細\n          \n        \n      \n\n    \n  \n\n\n\n\n    \n      \n        ウォレットを入手\n      \n    \n\n  \n\n\n\n  \n    \n    \n      \n        \n        通貨\n      \n    \n    \n    \n    \n      \n        \n        メッセージング\n      \n    \n    \n    \n    \n      \n        \n        情報発信・メディア\n        \n          (開発中)\n        \n      \n    \n    \n    \n    \n      \n        \n        ウェブトラフィック\n        \n          (開発中)\n        \n      \n    \n    \n  \n\n\n",
+        "link": "/jp/exchanges/",
+        "date": null,
+        "excerpt": "descriptions.exchanges",
+        "search_omit": ""
+    }
+    
+    
+
+    
+
+    
+
+    
+    ,{
+        "title": "titles.homepage",
+        "content": "{% include homepage/hero.html %}\n\n{% include homepage/about.html %}\n\n{% include homepage/features.html %}\n\n{% include homepage/tech.html %}\n\n{% include homepage/roadmap.html %}\n\n{% include homepage/whitepaper.html %}\n\n{% include homepage/team.html %}\n\n{% include homepage/usezen.html %}\n\n{% include homepage/resources.html %}\n\n{% comment %}\n\n  \n    \n      Zen Featured In\n    \n  \n\n{% endcomment %}\n\n\n  \n    \n      \n        {% translate homepage.blog.title %}\n      \n    \n    \n      \n        \n          \n        \n        \n          {% translate homepage.blog.button.text %}\n        \n      \n    \n  \n\n",
+        "link": "/jp/",
+        "date": null,
+        "excerpt": "descriptions.homepage",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.iohk",
+        "content": "\n  \n    {% t page.title %}\n  \n\n\n\n  \n    \n      \n        \n      \n      \n        {% t iohk.subtitle %}\n      \n    \n  \n\n\n{% include content/dao-infographic.html %}\n\n\n  \n    \n      \n        \n        {% t iohk.content.title %}\n        \n          {% for bullet in site.translations[site.lang].iohk.content.list %}\n          {{ bullet }}\n          {% endfor %}\n        \n        \n          {% t iohk.content.button %}\n        \n      \n    \n  \n\n\n\n  \n    \n      \n        {% t global.exchanges %}\n      \n    \n    {% include content/exchanges.html %}\n\n  \n\n",
+        "link": "/jp/iohk/",
+        "date": null,
+        "excerpt": "descriptions.iohk",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.mining-pools",
+        "content": "\n  \n    zencash\n    {% t global.mining-pools %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% t mining-pools.subtitle %}\n        {% t mining-pools.content %}\n      \n    \n  \n\n\n\n  \n    \n      \n\n        \n          {% for pool in site.data.miningpools %}\n            \n              \n                \n                  {{ pool.name }}\n                \n                \n                  {% t global.go %} \n                \n              \n            \n          {% endfor %}\n        \n\n      \n    \n  \n\n\n{% include content/resources.html %}\n",
+        "link": "/jp/mining-pools/",
+        "date": null,
+        "excerpt": "descriptions.mining-pools",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.philosophy",
+        "content": "\n  \n    \n      \n      \n    \n  \n  \n\n  \n    {% t global.philosophy.base %}\n    {% t global.philosophy.tagline %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file philosophy/content.md %}\n      \n    \n  \n\n",
+        "link": "/jp/philosophy/",
+        "date": null,
+        "excerpt": "descriptions.philosophy",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.roadmap",
+        "content": "\n  \n    zencash\n    {% translate global.roadmap %}\n  \n\n\n\n  \n    \n  \n\n  \n    \n      {% include content/roadmap.html %}\n    \n  \n\n\n",
+        "link": "/jp/roadmap/",
+        "date": null,
+        "excerpt": "descriptions.homepage",
+        "search_omit": ""
+    }
+    
+    
+
+    
+
+    
+    ,{
+        "title": "titles.securenodes",
+        "content": "\n  \n    \n      \n        \n          {% translate securenodes.hero.title %}\n          {% translate securenodes.hero.subtitle %}\n          \n            {% translate securenodes.hero.cta %}\n          \n        \n      \n      \n    \n  \n  \n    \n      \n        \n          {% translate_file securenodes/whyzen.md %}\n        \n      \n    \n  \n  \n    \n      \n        \n          {% translate_file securenodes/hosting.md %}\n        \n      \n      \n        \n\n          {% translate securenodes.requirements.title %}\n\n          \n            {% for requirement in site.translations[site.lang].securenodes.requirements.list %}\n            \n              \n                {{ forloop.index }}\n                {{ requirement.title }}\n                {{ requirement.subtitle }}\n              \n              \n                \n              \n            \n            {% endfor %}\n          \n\n          \n            {% translate securenodes.requirements.cta %}\n          \n\n        \n      \n    \n  \n  \n    \n      \n        \n          {% translate securenodes.footer.title %}\n          \n            ZenCash {% t global.footeron %} Bittrex\n            ZenCash {% t global.footeron %} Cryptopia\n            ZenCash {% t global.footeron %} Evercoin ({% t global.anonymous %})\n            ZenCash {% t global.footeron %} UPbit ({% t global.korean %})\n            ZenCash {% t global.footeron %} Coss.io\n            ZenCash {% t global.footeron %} TradeSatoshi\n          \n        \n      \n    \n  \n\n\n",
+        "link": "/jp/securenodes/",
+        "date": null,
+        "excerpt": "descriptions.securenodes",
+        "search_omit": ""
+    }
+    
+    
+
+    
+
+    
+    ,{
+        "title": "titles.team",
+        "content": "\n\n  \n    \n      \n        {% if site.lang == 'es' or site.lang == 'ru' %}\n        {% t global.team.base %}\n        {% else %}\n        Zen {% t global.team.base %}\n        {% endif %}\n        {% t global.team.tagline %}\n      \n    \n  \n\n  {% for group in site.data.team.groups %}\n  \n    \n      \n        {% t global.team.{{group.slug}} %}\n      \n    \n    \n      {% for member in group.members %}\n      \n        \n          \n            {% if member.photo.size > 0 %}\n            {% assign headshot = member.photo %}\n            {% else %}\n            {% assign headshot = '/assets/img/people/anon_profile.jpg' %}\n            {% endif %}\n            \n            {{member.name}}\n            {{member.title}}\n            \n              {% if member.bio.size > 0 %}\n              \n                Read {{member.name | truncatewords: 1, \"\"}}'s Bio\n              \n              {% endif %}\n            \n          \n          \n            {% if member.social.twitter.size > 0 %}\n              \n                \n              \n            {% endif %}\n            {% if member.social.linkedin.size > 0 %}\n              {% if member.social.linkedin contains \"https://www.linkedin.com/company\" %}\n              {% assign linkedin = member.social.linkedin %}\n              {% else %}\n              {% assign linkedin = site.data.team.social.linkedin | append: member.social.linkedin %}\n              {% endif %}\n              \n                \n              \n            {% endif %}\n            {% if member.social.discord.size > 0 %}\n              \n                @{{member.social.discord}}\n              \n            {% endif %}\n          \n        \n      \n      {% endfor %}\n    \n  \n  {% endfor %}\n\n  \n    \n      \n        \n          \n            \n            \n          \n          \n          \n          Bio\n\n          {% comment %}\n          Group\n          Headshot\n          Twitter\n          LinkedIn\n          Discord\n          {% endcomment %}\n\n          \n            \n              \n            \n            \n              \n            \n            \n              \n            \n          \n        \n      \n    \n  \n\n\n",
+        "link": "/jp/team/",
+        "date": null,
+        "excerpt": "descriptions.team",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.technology",
+        "content": "\n  \n    \n      \n      \n    \n  \n  \n\n  \n    {% t global.technology.base %}\n    {% t global.technology.tagline %}\n  \n\n\n\n  \n    \n  \n\n  \n    \n      \n        {% translate_file technology/part-1.md %}\n      \n    \n  \n\n\n\n{% include content/dao-infographic.html %}\n\n\n  \n    \n      \n        {% translate_file technology/part-2.md %}\n      \n    \n  \n\n",
+        "link": "/jp/technology/",
+        "date": null,
+        "excerpt": "descriptions.technology",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.wallets",
+        "content": "\n\n  \n\n    \n      \n        {% t global.wallets.base %}\n      \n    \n\n    \n      \n\n        \n          \n            {% t global.wallets.official %}\n          \n        \n\n        \n\n          \n            \n              \n                \n                Windows\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                Mac OS\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                Ubuntu Linux\n              \n              \n                {% t global.wallets.full-chain %}\n                {% t global.wallets.lite-chain %}\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.web %}\n              \n              \n                myzenwallet.io\n              \n            \n          \n\n          \n            \n              \n                \n                Android\n              \n              \n                Zen {% t global.wallets.wallet %}\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.paper %}\n              \n              \n                zenpaperwallet.com\n              \n            \n          \n\n        \n\n        \n          \n            {% t global.wallets.third-party %}\n          \n        \n\n        \n          \n            \n              \n                \n                Android\n              \n              \n                Coinomi\n              \n            \n          \n\n          \n            \n              \n                \n                {% t global.wallets.mobile-hardware %}\n              \n              \n                XEEDA\n              \n            \n          \n        \n\n      \n    \n\n    \n      \n        {% t homepage.hero.buy-button %}\n      \n    \n\n  \n\n\n{% include content/about-zen-fw.html %}\n",
+        "link": "/jp/wallets/",
+        "date": null,
+        "excerpt": "descriptions.wallets",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.zencash",
+        "content": "\n  \n    zencash\n    {% translate homepage.about.products.zencash %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zencash.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n",
+        "link": "/jp/zencash/",
+        "date": null,
+        "excerpt": "descriptions.zencash",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.zenchat",
+        "content": "\n  \n    zenchat\n    {% translate homepage.about.products.zenchat %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenchat.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n",
+        "link": "/jp/zenchat/",
+        "date": null,
+        "excerpt": "descriptions.zenchat",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.zenhide",
+        "content": "\n  \n    zenhide\n    {% translate homepage.about.products.zenhide %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenhide.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n",
+        "link": "/jp/zenhide/",
+        "date": null,
+        "excerpt": "descriptions.zenhide",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
+        "title": "titles.zenpub",
+        "content": "\n  \n    zenpub\n    {% translate homepage.about.products.zenpub %}\n  \n\n\n\n  \n    \n  \n  \n    \n      \n        {% translate_file zenproducts/zenpub.md %}\n      \n    \n  \n\n\n{% include content/about-zen.html %}\n",
+        "link": "/jp/zenpub/",
+        "date": null,
+        "excerpt": "descriptions.zenpub",
+        "search_omit": ""
+    }
+    
+    
+
+    
+
+]

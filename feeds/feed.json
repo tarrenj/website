@@ -1,0 +1,29 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+{% for page in site.pages %}
+  {% if page.title != null and page.title != empty %}
+  {% unless first %},{% endunless %}{
+      "title": {% if page.title contains 'titles.' %}{% capture page_title %}{% t page.title %}{% endcapture %}{{ page_title | jsonify }}{% else %}{{page.title | jsonify}}{% endif %},
+      "content": {% capture page_content %}{{page.content}}{% endcapture %}{{page_content | strip_html | jsonify}}
+  }
+  {% assign first = false %}
+  {% endif %}
+{% endfor %}
+
+{% for page in site.pages %}
+    {% if page.title != null and page.title != empty %}
+    {% unless first %},{% endunless %}{
+        "title": {{page.title | jsonify}},
+        "content": {{page.content | strip_html | jsonify}},
+        "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
+        "date": {{ page.date | jsonify }},
+        "excerpt": {{ page.description | jsonify }},
+        "search_omit": "{{ page.search_omit }}"
+    }
+    {% assign first = false %}
+    {% endif %}
+{% endfor %}
+]

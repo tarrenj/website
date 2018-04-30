@@ -650,6 +650,18 @@
           }
         },
         {
+          "name": "Jonghun Hong",
+          "photo": "/assets/img/people/jonghun.jpg",
+          "title": "Country Representative: Korea",
+          "bio":
+            "Jonghun is a Mechanical Engineer with experience in IOT, MCU programming, application programming, mechanical design, and digital circuit design.\n\nHe is interested in a wide range of fields and has always been naturally attracted to innovative technologies like blockchain, which is how he became aware of ZenCash.\n\nOutside of reppin’ Zen in Korea, Jonghun is leading the development of a 3D printed filament recycling device that he is in the process of registering patents for.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Jonghun, UTC + 9"
+          }
+        },
+        {
           "name": "Hugh Ayara",
           "photo": "/assets/img/people/hugh.jpg",
           "title": "Country Representative: Kenya",

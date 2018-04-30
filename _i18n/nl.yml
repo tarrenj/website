@@ -2,11 +2,11 @@ global:
   roadmap: Roadmap
   resources: Hulpbronnen
   whitepaper:
-    new: New Zen White Paper
+    new: Nieuwe Zen White Paper
   technology:
     base: Technologie
     possessive: Onze Technologie
-    tagline: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
+    tagline: Vertrouwelijk – Veilig – Niet-Traceerbaar – Resistent – Mijnbaar
   philosophy:
     base: Filosofie
     possessive: Onze Filosofie
@@ -32,7 +32,7 @@ global:
     third-party: Wallets van derden
     web: Web Wallet
     paper: Paper Wallet
-    mobile-hardware: Mobile Hardware Wallet
+    mobile-hardware: Mobiele Hardware Wallet
   forum: Forum
   go: bezoek
   footeron: 'on'
@@ -62,14 +62,14 @@ descriptions:
   exchanges: ZenCash aankopen of verkopen? Dit kan via de onderstaande handelsplatformen
   mining-pools: Lijst van Mining Pools. Kies er een en word deel van de ZenCash-community!
   wallets: Bewaar je ZenCash veilig. Dit kan met onze onderstaande wallets (portemonnee's)
-  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
+  securenodes: De ZenCash Secure Nodes dragen bij aan een robuust en krachtig systeem voor vertrouwelijke transacties, berichten en publicaties.
   zencash: ZenCash is ideaal voor eenvoudige waardeoverdracht tussen reguliere (T) of vertrouwelijke (Z) betaaladressen. T-adressen worden gebruikt voor reguliere transacties vergelijkbaar met bitcoin. Z-adressen zijn afgeschermde adressen gebruiken de meest recente zk-SNARKS privacytechnologie, om zowel zend- en ontvangadressen als de verzonden bedragen te verbergen.
   zenchat: ZenChat is de meest veilige manier om berichten uit te wisselen en kan worden gebruikt als zelfstandige applicatie of binnen onze wallets
   zenpub: ZenPub biedt gebruikers de mogelijkheid om anoniem data, documenten en media te publiceren, op een manier die censuur effectief tegengaat.
   zenhide: ZenCash maakt gebruik van Domain Fronting om elke vorm van internetcensuur te voorkomen. Bij Domain Fronting is voor derden niet zichtbaar op welke wijze of met wie wordt gecommuniceerd.
 newsletter:
-  title: Sign up to receive exclusive updates!
-  success: Success! Please check your email to confirm we have the right one.
+  title: Registreer en ontvang exclusieve updates!
+  success: Gelukt! U ontvangt een email, open deze en bevestig uw registratie.
   name: Voornaam
   firstname: Voornaam
   lastname: Achternaam
@@ -135,8 +135,8 @@ nav:
     copyright: All rights reserved.
 homepage:
   hero:
-    subtitle: HET VEILIGE EN VERTROUWELIJKE PLATFORM VOOR
-    subtitle2: GELD, BERICHTEN & MEDIA
+    subtitle: Het Veilige Privacy Platform Voor
+    subtitle2: Geld, Berichten & Media
     wallet-button: WALLET DOWNLOADEN
     buy-button: ZENCASH KOPEN
     announcement: 'aankondiging: Onderzoeks & Ontwikkelingspartnerschap met IOHK'
@@ -166,7 +166,7 @@ homepage:
     title: ZENCASH IS OPENBAAR, VERTROUWELIJK EN ANONIEM
     cta: MEER OVER DE SAMENWERKING MET IOHK
   tech:
-    title: Vertrouwelijk – Veilig – Niet-Traceebaar – Resistent – Mijnbaar
+    title: Vertrouwelijk – Veilig – Niet-Traceerbaar – Resistent – Mijnbaar
     subtitle: Zen streeft naar een betere mensheid en ambieert daarin een innoverende en technologische leidersrol
     features:
       - title: Toonaangevende Privacy Technologie
@@ -348,7 +348,7 @@ dao-infographic:
       title: Iedereen kan bestedingsvoorstellen indienen
       image: '/assets/img/icons/infographic/peers.svg'
     3:
-      title: Voorstellen worden beoordeeld en in stemming gebracht door houders van ZenCash (stake)
+      title: Voorstellen worden beoordeeld en in stemming gebracht door houders van ZenCash (stakeholders)
       image: '/assets/img/icons/infographic/review.svg'
     4:
       title: Stemmen kan worden gedelegeerd aan vertrouwde personen en stemmers worden beloond voor hun deelname
@@ -360,7 +360,7 @@ dao-infographic:
       title: Stemresultaten zijn geheim totdat de winnaar is bepaald om een eerlijke voortgang te waarborgen
       image: '/assets/img/icons/infographic/safe.svg'
     7:
-      title: Stemmen worden geteld waarna voorstellen worden aangenomen of geweigerd
+      title: Stemmen worden geteld waarna voorstellen worden aangenomen of afgewezen
       image: '/assets/img/icons/infographic/approve.svg'
 iohk:
   subtitle: 'Het ZenCash en IOHK samenwerkingsverband omvat een reeks onderzoeks- en ontwikkelingsprojecten onder leiding van <a href="https://iohk.io/team/roman-oliynykov/" target="_blank">Prof. Roman Oliynykov</a>, cryptografisch expert, IT-beveiligingsonderzoeker, lector en IOHK Research Fellow.'
@@ -375,27 +375,27 @@ iohk:
     button: IOHK evalueert diverse protocol-opties en formuleert aanbevelingen en specificaties voor ZenCash in Q2 2018.
 securenodes:
   hero:
-    title: ZenCash is Private Money, Messages, Media
-    subtitle: Secure nodes make the ZenCash network the most decentralized & resilient blockchain!
-    cta: Instructions to Set Up Secure Nodes
+    title: ZenCash is privacy-geld, berichten, media
+    subtitle: Secure Nodes maken van het ZenCash netwerk de meest gedecentraliseerde en robuuste blockchain!
+    cta: Instructies voor het opzetten van Secure Nodes
   requirements:
-    title: Requirements
+    title: Systeemvereisten
     list:
-      - title: 42 $ZEN
-        subtitle: in transparent address per node
+      - title: 42 ZEN
+        subtitle: per node in een transparant adres
         icon: /assets/img/icons/vector-1.png
-      - title: TLS Certificate
-        subtitle: from a known Certificate Authority
+      - title: TLS certificaat
+        subtitle: van een bekende Certificate Authority
         icon: /assets/img/icons/vector-3.png
-      - title: Computational Challenge
-        subtitle: <small>Run the node on a server with enough processor and memory so that it can meet a computational challenge</small>
+      - title: Rekenkundige test doorstaan
+        subtitle: <small>Draai de node op een server met voldoende rekenkracht en werkgeheugen, zodat hij met succes een rekenkundige test kan afleggen</small>
         icon: /assets/img/icons/vector-2.png
       - title: ZenCash Blockchain
-        subtitle: Maintain a full copy of the ZenCash Blockchain
+        subtitle: Aanwezigheid van een volledige kopie van de ZenCash blockchain
         icon: /assets/img/icons/vector-4.png
-      - title: 92%+ Uptime
-        subtitle: Keep the node up and running at least 92% of the time
+      - title: ≥92% uptime
+        subtitle: De node moet een uptime van tenminste 92% hebben
         icon: /assets/img/icons/vector-1.png
-    cta: Instructions to Set Up Secure Nodes
+    cta: Instructies voor het opzetten van Secure Nodes
   footer:
     title: KOOP OF VERKOOP ZENCASH

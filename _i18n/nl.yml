@@ -142,7 +142,7 @@ homepage:
     announcement: 'aankondiging: Onderzoeks & Ontwikkelingspartnerschap met IOHK'
     announcement-button: ervaar meer
   about:
-    title: Zencash is een platform op basis van de meest recente privacy-technologie, met een zelfvoorzienend financieringsmodel met oplossingen op protocolniveau
+    title: ZenCash is een platform op basis van de meest recente privacy-technologie, met een zelfvoorzienend financieringsmodel met oplossingen op protocolniveau
     products:
       zencash: voor Geld
       zenchat: voor Berichten
@@ -228,7 +228,7 @@ homepage:
         - title: Wallets en Producten
           icon: /assets/img/icons/wallet.png
           content:
-            - Tor Zencash Nodes
+            - Tor ZenCash Nodes
             - Chatberichten
             - Swing Wallet (volledige blockchain)
             - Wallet app voor Android

@@ -156,12 +156,13 @@ gulp.task('watch', function () {
     gulp.watch(paths.src + 'js/**/*.js', ['concat', 'concat-lp']);
     gulp.watch('assets/img/**/*', ['img']);
     gulp.watch([
-        '*.{html,md,markdown,xml,txt}',
+        '*.{html,md,markdown,xml,json,txt}',
         '_layouts/**/*.html',
         '_includes/**/*.html',
         '_i18n/**/*',
         '_posts/*',
-        'blog/*'
+        'blog/*',
+        'feeds/*'
     ], ['jekyll-rebuild']);
 });
 

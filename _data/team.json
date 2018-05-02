@@ -13,7 +13,8 @@
           "name": "Rob Viglione",
           "photo": "/assets/img/people/rob.jpg",
           "title": "Team Lead",
-          "bio": "Rob is a former physicist and mathematician with experience working on Bitshares, BlockPay, Zclassic, Seasteading and Bitgate. He's currently a PhD Candidate in Finance researching cryptofinance and teaching “Bitcoin & Blockchain Applications in Finance.\n\nRob holds an MBA in Finance & Marketing and the PMP certification. He is a passionate libertarian who advocates peace, freedom, and respect for individual life.",
+          "bio":
+            "Rob is a former physicist and mathematician with experience working on Bitshares, BlockPay, Zclassic, Seasteading and Bitgate. He's currently a PhD Candidate in Finance researching cryptofinance and teaching “Bitcoin & Blockchain Applications in Finance.\n\nRob holds an MBA in Finance & Marketing and the PMP certification. He is a passionate libertarian who advocates peace, freedom, and respect for individual life.",
           "social": {
             "twitter": "robviglione",
             "linkedin": "robert-viglione-2780634",
@@ -24,7 +25,8 @@
           "name": "Rolf Versluis",
           "photo": "/assets/img/people/rolf.jpg",
           "title": "Chief Engineer",
-          "bio": "Rolf is an experienced business owner in the IT industry and owns a mid-size mining operation.\n\nWith prior experience at Cisco systems, the semiconductor industry, and as a nuclear trained officer in the US Submarine force, Rolf brings leadership, management, and technical operational expertise to the Zen organization",
+          "bio":
+            "Rolf is an experienced business owner in the IT industry and owns a mid-size mining operation.\n\nWith prior experience at Cisco systems, the semiconductor industry, and as a nuclear trained officer in the US Submarine force, Rolf brings leadership, management, and technical operational expertise to the Zen organization",
           "social": {
             "twitter": "RolfVersluis",
             "linkedin": "rolfversluis",
@@ -35,7 +37,8 @@
           "name": "Alberto Garoffolo",
           "photo": "/assets/img/people/alberto.jpg",
           "title": "Sr Software Architect",
-          "bio": "With more than 15 years of experience Alberto gained a deep knowledge on software design and development in many application fields with a strong expertise in different languages such as Java, C and C++.\n\nIn the last years he covered the role of CTO in a startup company, designing the software architecture and selecting the team to create one of the most complete video engagement solutions on the market.",
+          "bio":
+            "With more than 15 years of experience Alberto gained a deep knowledge on software design and development in many application fields with a strong expertise in different languages such as Java, C and C++.\n\nIn the last years he covered the role of CTO in a startup company, designing the software architecture and selecting the team to create one of the most complete video engagement solutions on the market.",
           "social": {
             "twitter": "agaroffolo",
             "linkedin": "alberto-garoffolo-576554",
@@ -46,7 +49,8 @@
           "name": "Pier Stabilini",
           "photo": "/assets/img/people/pier.jpg",
           "title": "Software Manager",
-          "bio": "Pier started using a computer at age 11 learning Basic and 6502 Assembly on Apple II. Today he has 20+ years of experience in software architecture and development with a strong Java, J2EE, C, GoLang, Python, data grid and networking expertise. Pier has designed and developed real time networking frameworks and high performance stacks used in financial applications, audio and video conference and in the automotive industry. His main areas of interest are cryptocurrencies, decentralized and distributed systems, networking protocols, audio and video encoders, embedded devices, kernel and system programming.",
+          "bio":
+            "Pier started using a computer at age 11 learning Basic and 6502 Assembly on Apple II. Today he has 20+ years of experience in software architecture and development with a strong Java, J2EE, C, GoLang, Python, data grid and networking expertise. Pier has designed and developed real time networking frameworks and high performance stacks used in financial applications, audio and video conference and in the automotive industry. His main areas of interest are cryptocurrencies, decentralized and distributed systems, networking protocols, audio and video encoders, embedded devices, kernel and system programming.",
           "social": {
             "twitter": "",
             "linkedin": "pier-stabilini-3a532a1",
@@ -57,7 +61,8 @@
           "name": "Pierre Schiro",
           "photo": "/assets/img/people/pierre.jpg",
           "title": "Sr Software Developer",
-          "bio": "Pierre Schiro is an experienced, hands-on software architect and software engineering manager. He’s involved in the architecture, design, and implementation of micro-services architectures, service-oriented architectures, and distributed systems. He has been in the software industry for over 26 years and has significant experience and expertise in application, integration, and enterprise architecture. After several leadership roles at Yahoo, Pierre co-founded Code Particle Inc in 2008 where he applied his skills on a wide range of projects including MVP for early-stage startups, web-services API for mobile digital games supporting millions of players, and massive, high-availability, distributed applications for clients such as Activision, Crowdstrike and Tenable.\n\nPierre holds a bachelor’s degree in computer science from IUT Lyon 1.",
+          "bio":
+            "Pierre Schiro is an experienced, hands-on software architect and software engineering manager. He’s involved in the architecture, design, and implementation of micro-services architectures, service-oriented architectures, and distributed systems. He has been in the software industry for over 26 years and has significant experience and expertise in application, integration, and enterprise architecture. After several leadership roles at Yahoo, Pierre co-founded Code Particle Inc in 2008 where he applied his skills on a wide range of projects including MVP for early-stage startups, web-services API for mobile digital games supporting millions of players, and massive, high-availability, distributed applications for clients such as Activision, Crowdstrike and Tenable.\n\nPierre holds a bachelor’s degree in computer science from IUT Lyon 1.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -68,7 +73,8 @@
           "name": "Franck De Girolami",
           "photo": "/assets/img/people/franck.jpg",
           "title": "Sr Software Developer",
-          "bio": "Franck has over 25 years of experience in high performance software application development including extensive work in video games for PC, console and mobile platforms.  As software architect and lead programmer, Franck was directly responsible for a number of groundbreaking video games including Alone in the Dark, Cyberia and Tron 2.0: Killer App. Franck co-founded Code Particle, Inc. in 2008 as an advanced web and mobile application development studio in Los Angeles, CA where his skills were applied on revolutionary mobile apps like Viddy and high-end distributed applications for companies such as Activision (Call of Duty), Crowdstrike, Tenable and LINE (Skullgirls). Additionally, Franck is also in charge of all corporate, finance, legal, and HR matters at Code Particle.\n\nFranck received his MS in Computer Science in 1993 from National Institute of Applied Sciences (INSA) in Villeurbanne, France, one of the top French engineering universities.",
+          "bio":
+            "Franck has over 25 years of experience in high performance software application development including extensive work in video games for PC, console and mobile platforms.  As software architect and lead programmer, Franck was directly responsible for a number of groundbreaking video games including Alone in the Dark, Cyberia and Tron 2.0: Killer App. Franck co-founded Code Particle, Inc. in 2008 as an advanced web and mobile application development studio in Los Angeles, CA where his skills were applied on revolutionary mobile apps like Viddy and high-end distributed applications for companies such as Activision (Call of Duty), Crowdstrike, Tenable and LINE (Skullgirls). Additionally, Franck is also in charge of all corporate, finance, legal, and HR matters at Code Particle.\n\nFranck received his MS in Computer Science in 1993 from National Institute of Applied Sciences (INSA) in Villeurbanne, France, one of the top French engineering universities.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -79,7 +85,8 @@
           "name": "Nicola Onassis",
           "photo": "/assets/img/people/nicola.jpg",
           "title": "Sr Software Developer",
-          "bio": "Nicola is an experienced technical manager with 20 years of software engineering and 15+ years of architecture development. His work spans many aspects of technology development –from web platform architecture to system integration, database architecture to data warehousing, API architecture to system engineering, and more. Nicola co-founded Code Particle with De Girolami and Schiro and since then has been in charge of training and mentoring new developers and interns, leading the client side and database team, architecting platforms for different startups like Viddy, Symptify, Boldride, integration system and UI frameworks for different customers like Crowdstrike, Tenable, Activision.\n\nNicola expertise is in Database architecture (both SQL and no-SQL) and clients side UI-X frameworks implementation.",
+          "bio":
+            "Nicola is an experienced technical manager with 20 years of software engineering and 15+ years of architecture development. His work spans many aspects of technology development –from web platform architecture to system integration, database architecture to data warehousing, API architecture to system engineering, and more. Nicola co-founded Code Particle with De Girolami and Schiro and since then has been in charge of training and mentoring new developers and interns, leading the client side and database team, architecting platforms for different startups like Viddy, Symptify, Boldride, integration system and UI frameworks for different customers like Crowdstrike, Tenable, Activision.\n\nNicola expertise is in Database architecture (both SQL and no-SQL) and clients side UI-X frameworks implementation.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -90,7 +97,8 @@
           "name": "Idan Gelbourt",
           "photo": "/assets/img/people/idan.jpg",
           "title": "Sr Software Developer",
-          "bio": "Idan has been involved with security, cyber and crypto related project in various roles and is passionate about creating products that combine unique technologies and user experience.\n\nIdan holds a B.Sc & M.Sc in computer science and worked in startups that were acquired by Facebook and Apple.",
+          "bio":
+            "Idan has been involved with security, cyber and crypto related project in various roles and is passionate about creating products that combine unique technologies and user experience.\n\nIdan holds a B.Sc & M.Sc in computer science and worked in startups that were acquired by Facebook and Apple.",
           "social": {
             "twitter": "",
             "linkedin": "idange",
@@ -101,7 +109,8 @@
           "name": "William Wolf",
           "photo": "/assets/img/people/will.jpg",
           "title": "Sr Software Developer",
-          "bio": "Professional developer/engineer for 12+ years, currently leading payments engineering team at Airbnb. Will has worked on the founding teams of several startups, grown and managed engineering teams from 1 to 30+, built scalable high-volume web-based email hosting solutions, a distributed, scalable cloud computing platform called OpenStack, and global payments systems and infrastructure. Will has been involved in Bitcoin and the crypto space since 2011 and has made contributions to many open source blockchain tools, libraries, and systems.",
+          "bio":
+            "Professional developer/engineer for 12+ years, currently leading payments engineering team at Airbnb. Will has worked on the founding teams of several startups, grown and managed engineering teams from 1 to 30+, built scalable high-volume web-based email hosting solutions, a distributed, scalable cloud computing platform called OpenStack, and global payments systems and infrastructure. Will has been involved in Bitcoin and the crypto space since 2011 and has made contributions to many open source blockchain tools, libraries, and systems.",
           "social": {
             "twitter": "",
             "linkedin": "throughnothing",
@@ -112,7 +121,8 @@
           "name": "Wayne Dawson",
           "photo": "/assets/img/people/wayne.jpg",
           "title": "Sr Software Developer",
-          "bio": "Wayne has an MS in Electrical Engineering and 30+ years experience as a software developer. He began working with alternative currencies in 2000 when he was involved with e-gold, and has written multiple other web-based currency systems.\n\nWayne teaches electronics and programming, and became involved with cryptocurrencies after buying an ASIC miner from a fellow libertarian in 2014. He believes decentralized blockchain technologies are making the world freer, more just, and more inclusive.",
+          "bio":
+            "Wayne has an MS in Electrical Engineering and 30+ years experience as a software developer. He began working with alternative currencies in 2000 when he was involved with e-gold, and has written multiple other web-based currency systems.\n\nWayne teaches electronics and programming, and became involved with cryptocurrencies after buying an ASIC miner from a fellow libertarian in 2014. He believes decentralized blockchain technologies are making the world freer, more just, and more inclusive.",
           "social": {
             "twitter": "",
             "linkedin": "waynedawson",
@@ -123,7 +133,8 @@
           "name": "Allan Dumaine",
           "photo": "/assets/img/people/allan.jpg",
           "title": "Sr Software Developer",
-          "bio": "A seasoned professional with over 28 years experience in Information Technology including a variety of executive level roles.  His broad technical background and expertise helps in translating difficult concepts into simple designs and transforming complex business processes into practical software solutions. As a serial entrepreneur, he has been a partner in numerous start-ups and continues to enjoy exploring new opportunities helping organizations create solid business foundations. He is excited to be a part of building the next generation of financial infrastructure and optimistic about the resulting societal changes. In his off time Allan can be found swimming, hiking or mountain biking.",
+          "bio":
+            "A seasoned professional with over 28 years experience in Information Technology including a variety of executive level roles.  His broad technical background and expertise helps in translating difficult concepts into simple designs and transforming complex business processes into practical software solutions. As a serial entrepreneur, he has been a partner in numerous start-ups and continues to enjoy exploring new opportunities helping organizations create solid business foundations. He is excited to be a part of building the next generation of financial infrastructure and optimistic about the resulting societal changes. In his off time Allan can be found swimming, hiking or mountain biking.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -134,7 +145,8 @@
           "name": "Anarch",
           "photo": "/assets/img/people/anarch3.jpg",
           "title": "Sr Software Developer",
-          "bio": "anarch is a self-taught programmer who has been a project maintainer for various projects ranging from simple password generators to complex cryptocurrencies. Also a twitter addict.",
+          "bio":
+            "anarch is a self-taught programmer who has been a project maintainer for various projects ranging from simple password generators to complex cryptocurrencies. Also a twitter addict.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -145,7 +157,8 @@
           "name": "Joseph Nicholas Alcantara",
           "photo": "/assets/img/people/joseph.jpg",
           "title": "Software Developer",
-          "bio": "Joseph has been in the retail and finance industry for 5 years. He has helped develop applications for the self checkout machines and integrated devices for these. A graduate of Silliman University, majoring in Computer Engineering, he strongly believes that through his experience and expertise, he can help the Zen Team better by creating new innovations. And having the skills and knowledge on embedded systems programming, he can create and integrate applications to work not only on platform level, but on hardware, as well. Joseph joined the Zen Team because his beliefs align with what Zen stands for: privacy and security.",
+          "bio":
+            "Joseph has been in the retail and finance industry for 5 years. He has helped develop applications for the self checkout machines and integrated devices for these. A graduate of Silliman University, majoring in Computer Engineering, he strongly believes that through his experience and expertise, he can help the Zen Team better by creating new innovations. And having the skills and knowledge on embedded systems programming, he can create and integrate applications to work not only on platform level, but on hardware, as well. Joseph joined the Zen Team because his beliefs align with what Zen stands for: privacy and security.",
           "social": {
             "twitter": "theHungryDevMan",
             "linkedin": "joseph-nicholas-alcantara-43586195",
@@ -156,7 +169,8 @@
           "name": "Kendrick Tan",
           "photo": "/assets/img/people/kendrick.jpg",
           "title": "Software Developer",
-          "bio": "Kendrick is a self taught programmer and his areas of interests are machine learning, blockchain, functional programming, and infosec. Doing his free time, he has built a brainfuck interpreter in haskell, a self driving RC car, as well as a face indexer for instagram. He also likes taking photos of his favorite feline: <a href='https://www.instagram.com/mr.miso.oz/'>https://www.instagram.com/mr.miso.oz/</a>",
+          "bio":
+            "Kendrick is a self taught programmer and his areas of interests are machine learning, blockchain, functional programming, and infosec. Doing his free time, he has built a brainfuck interpreter in haskell, a self driving RC car, as well as a face indexer for instagram. He also likes taking photos of his favorite feline: <a href='https://www.instagram.com/mr.miso.oz/'>https://www.instagram.com/mr.miso.oz/</a>",
           "social": {
             "twitter": "kendricktrh",
             "linkedin": "tankendrick",
@@ -167,7 +181,8 @@
           "name": "Lukáš Bureš",
           "photo": "/assets/img/people/lukas.jpg",
           "title": "Software Developer",
-          "bio": "Lukáš is currently a Ph.D. candidate in Cybernetics at the University of West Bohemia and has an MSc in Cybernetics and Artificial Intelligence. He is interested in blockchain technologies, cryptocurrencies, artificial intelligence, security, machine learning, data mining, and computer vision. Lukáš is fully proficiency in many programming languages and with many development libraries and tools. He is a business owner in the IT industry and owns a mid-size mining operation.",
+          "bio":
+            "Lukáš is currently a Ph.D. candidate in Cybernetics at the University of West Bohemia and has an MSc in Cybernetics and Artificial Intelligence. He is interested in blockchain technologies, cryptocurrencies, artificial intelligence, security, machine learning, data mining, and computer vision. Lukáš is fully proficiency in many programming languages and with many development libraries and tools. He is a business owner in the IT industry and owns a mid-size mining operation.",
           "social": {
             "twitter": "",
             "linkedin": "bureslukas",
@@ -200,7 +215,8 @@
           "name": "Cronic",
           "photo": "/assets/img/people/cronic.jpg",
           "title": "Infrastructure Manager",
-          "bio": "cronic is an experienced Linux sysadmin who originally started off in the telecommunications industry. He specializes in virtualization technologies, storage and application containerization. He'll be supporting the Dev Team with creating and running a continuous deployment pipeline and make sure the infrastructure keeps running. He's passionate about privacy in the digital age and prefers to stay pseudonymous.",
+          "bio":
+            "cronic is an experienced Linux sysadmin who originally started off in the telecommunications industry. He specializes in virtualization technologies, storage and application containerization. He'll be supporting the Dev Team with creating and running a continuous deployment pipeline and make sure the infrastructure keeps running. He's passionate about privacy in the digital age and prefers to stay pseudonymous.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -211,7 +227,8 @@
           "name": "James McCourt Cordingley (Mac)",
           "photo": "/assets/img/people/james-mac.jpg",
           "title": "Infrastructure",
-          "bio": "Mac spent the last 8 years developing asset integrity and risk management systems for the oil and gas industry. An experienced linux sysadmin and database technologies professional with many years development experience. Having come from a heavily service-oriented business, Mac decided to contribute to the Zen team initially as a voluntary community member, following which he began guiding the build and operation of both the ZenHelp desk and knowledge base.",
+          "bio":
+            "Mac spent the last 8 years developing asset integrity and risk management systems for the oil and gas industry. An experienced linux sysadmin and database technologies professional with many years development experience. Having come from a heavily service-oriented business, Mac decided to contribute to the Zen team initially as a voluntary community member, following which he began guiding the build and operation of both the ZenHelp desk and knowledge base.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -222,7 +239,8 @@
           "name": "Jake Tarren",
           "photo": "/assets/img/people/jake.jpg",
           "title": "Infrastructure",
-          "bio": "Jake is a volunteer with the development team. He's currently heading up the communications and outreach for the dev team, and plans on taking on more development intensive roles. His day job is a Red Team Engineer at NASA, where he routinely breaks things.",
+          "bio":
+            "Jake is a volunteer with the development team. He's currently heading up the communications and outreach for the dev team, and plans on taking on more development intensive roles. His day job is a Red Team Engineer at NASA, where he routinely breaks things.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -233,7 +251,8 @@
           "name": "Johncarlo Maddalena",
           "photo": "/assets/img/people/johncarlo.jpg",
           "title": "Testing",
-          "bio": "Has 19 years of IT experience and has loved computers since his Commodore 64.  He began in career in IT working as a technical customer support representative for one of Australia’s largest Internet Service Providers.  He worked up through the ranks and specialized in network supporting a Network Operations Centre responsible for monitoring and supporting over 30 clients and 5000 devices. After a move to a new city and exposure to the new Microsoft Installer technologies, he transitioned to applications packaging, and quality assurance and testing.\n\nHe’s spent the last 15 years troubleshooting, resolving, and quality controlling deployed applications in various deployment environments (AD/GP, Citrix Metaframe/Presentation Server, SCCM 2007, and SCCM 2012). He holds a  Bachelor of Pharmaceutical Science and Bachelor of Applied Sciences (Honour) degrees.",
+          "bio":
+            "Has 19 years of IT experience and has loved computers since his Commodore 64.  He began in career in IT working as a technical customer support representative for one of Australia’s largest Internet Service Providers.  He worked up through the ranks and specialized in network supporting a Network Operations Centre responsible for monitoring and supporting over 30 clients and 5000 devices. After a move to a new city and exposure to the new Microsoft Installer technologies, he transitioned to applications packaging, and quality assurance and testing.\n\nHe’s spent the last 15 years troubleshooting, resolving, and quality controlling deployed applications in various deployment environments (AD/GP, Citrix Metaframe/Presentation Server, SCCM 2007, and SCCM 2012). He holds a  Bachelor of Pharmaceutical Science and Bachelor of Applied Sciences (Honour) degrees.",
           "social": {
             "twitter": "Psyrax_Aus",
             "linkedin": "",
@@ -244,7 +263,8 @@
           "name": "Spencer Whetstone",
           "photo": "/assets/img/people/spencer.jpg",
           "title": "Testing",
-          "bio": "A graduate of the University of South Carolina School of Business, Spencer spent much of his career navigating the technological waves that reshaped the printing industry. His background includes a partnership in an award-winning typography studio and service bureau, as well as Technology Director for a medium-sized commercial printer. He is a cryptocurrency miner and a Secure Node operator. He brings his long-standing passion for user-education to his role as Community Manager and QA  Engineer.",
+          "bio":
+            "A graduate of the University of South Carolina School of Business, Spencer spent much of his career navigating the technological waves that reshaped the printing industry. His background includes a partnership in an award-winning typography studio and service bureau, as well as Technology Director for a medium-sized commercial printer. He is a cryptocurrency miner and a Secure Node operator. He brings his long-standing passion for user-education to his role as Community Manager and QA  Engineer.",
           "social": {
             "twitter": "",
             "linkedin": "garnetandblock",
@@ -261,7 +281,8 @@
           "name": "Gustavo Fialho",
           "photo": "/assets/img/people/gustavo.jpg",
           "title": "User Experience Director",
-          "bio": "Gustavo is a web developer and entrepreneur with extensive experience supporting cryptocurrency projects. When not in front of a computer he can be found cycling up hills sporting his Pantani Jersey. He believes life should be kept simple and enjoys helping others.",
+          "bio":
+            "Gustavo is a web developer and entrepreneur with extensive experience supporting cryptocurrency projects. When not in front of a computer he can be found cycling up hills sporting his Pantani Jersey. He believes life should be kept simple and enjoys helping others.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -272,7 +293,8 @@
           "name": "Mike Lorey",
           "photo": "/assets/img/people/mike.jpg",
           "title": "Sr Front-End Engineer",
-          "bio": "Mike is a notable software engineer, marketing technologist, and social entrepreneur. His focus lies at the intersection between raw creative and technical skills, bending the conceptual into the tangible things that other people want or need.\n\nMike holds an MBA in Marketing and is a self-taught programmer.",
+          "bio":
+            "Mike is a notable software engineer, marketing technologist, and social entrepreneur. His focus lies at the intersection between raw creative and technical skills, bending the conceptual into the tangible things that other people want or need.\n\nMike holds an MBA in Marketing and is a self-taught programmer.",
           "social": {
             "twitter": "mdlorey",
             "linkedin": "mikelorey",
@@ -283,7 +305,8 @@
           "name": "Jonathan Dumaine",
           "photo": "",
           "title": "Front-End Engineer",
-          "bio": "Over ten years of professional experience in the industry, and programming since 11. In addition to working with companies like Intel, Siemens, Syfy, and many others in the Building Automation Systems industry also lead the development efforts of Silicon Valley startups. Keenly interested in investing & financial markets, machine learning, artificial intelligence and cryptocurrencies. When he’s not behind his computer, he can be found practicing MMA, Muay Thai, playing video games, swing dancing, rock climbing or traveling. He’s excited to provide ZenCash users with new tools and cool apps.",
+          "bio":
+            "Over ten years of professional experience in the industry, and programming since 11. In addition to working with companies like Intel, Siemens, Syfy, and many others in the Building Automation Systems industry also lead the development efforts of Silicon Valley startups. Keenly interested in investing & financial markets, machine learning, artificial intelligence and cryptocurrencies. When he’s not behind his computer, he can be found practicing MMA, Muay Thai, playing video games, swing dancing, rock climbing or traveling. He’s excited to provide ZenCash users with new tools and cool apps.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -294,7 +317,8 @@
           "name": "Vitalik Demin",
           "photo": "/assets/img/people/vitalik.jpg",
           "title": "Information Architect",
-          "bio": "Vitalik started his career in consulting, helping companies around the world optimize their business models, design technology solutions and improve customer service. He holds an MBA in Strategic Management and Marketing from the University of St. Thomas, Minneapolis MN. Vitalik's biggest passion is User Experience. He strongly believes in simplicity and applies this belief while building all of his products and services.",
+          "bio":
+            "Vitalik started his career in consulting, helping companies around the world optimize their business models, design technology solutions and improve customer service. He holds an MBA in Strategic Management and Marketing from the University of St. Thomas, Minneapolis MN. Vitalik's biggest passion is User Experience. He strongly believes in simplicity and applies this belief while building all of his products and services.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -311,7 +335,8 @@
           "name": "Rosario Pabst",
           "photo": "/assets/img/people/rosario.jpg",
           "title": "Operations & Marketing Director",
-          "bio": "Rosario has over 12 years experience as a technology project manager for satellite, aircraft, and software systems. She has demonstrated expertise in all aspects of project management, leading cross-functional teams, and implementing both Agile and Lean methods. Rosario has a M.S. in Systems Engineering and the PMP certification.",
+          "bio":
+            "Rosario has over 12 years experience as a technology project manager for satellite, aircraft, and software systems. She has demonstrated expertise in all aspects of project management, leading cross-functional teams, and implementing both Agile and Lean methods. Rosario has a M.S. in Systems Engineering and the PMP certification.",
           "social": {
             "twitter": "",
             "linkedin": "rosario-pabst",
@@ -333,7 +358,8 @@
           "name": "James Coleman-Powell",
           "photo": "/assets/img/people/james.jpg",
           "title": "Marketing Technology Lead",
-          "bio": "James is an IT project manager coming from a creative background. He has a passion for all things technical, and enjoys the challenge of breaking things down to understand how they work. Based in the UK, James is an active participant in the blockchain/cryptocurrency community and in his free time, enjoys traveling and other related adventures with his family.",
+          "bio":
+            "James is an IT project manager coming from a creative background. He has a passion for all things technical, and enjoys the challenge of breaking things down to understand how they work. Based in the UK, James is an active participant in the blockchain/cryptocurrency community and in his free time, enjoys traveling and other related adventures with his family.",
           "social": {
             "twitter": "",
             "linkedin": "jamescolemanpowell",
@@ -344,7 +370,8 @@
           "name": "Ross Kenyon",
           "photo": "/assets/img/people/ross.jpg",
           "title": "Communication Strategy",
-          "bio": "Ross Kenyon is a blockchain professional with a background in academia, filmmaking, and business development. He has worked with Tezos, Sweetbridge, Nori, and Blue Frontiers.",
+          "bio":
+            "Ross Kenyon is a blockchain professional with a background in academia, filmmaking, and business development. He has worked with Tezos, Sweetbridge, Nori, and Blue Frontiers.",
           "social": {
             "twitter": "",
             "linkedin": "rmkenyon",
@@ -355,7 +382,8 @@
           "name": "Medar",
           "photo": "/assets/img/people/medar.jpg",
           "title": "Grassroots Marketing Associate",
-          "bio": "Crypto enthusiast since 2012, core believer in privacy rights and father of two. Front-end developer. Enjoys spreading knowledge about ZenCash and focus marketing at the grassroots level. In his downtime, spending time in nature and learning new things.",
+          "bio":
+            "Crypto enthusiast since 2012, core believer in privacy rights and father of two. Front-end developer. Enjoys spreading knowledge about ZenCash and focus marketing at the grassroots level. In his downtime, spending time in nature and learning new things.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -366,7 +394,8 @@
           "name": "Linda Bucksey",
           "photo": "/assets/img/people/linda.jpg",
           "title": "Graphic Designer",
-          "bio": "Linda is a passionate graphic designer with 'can do' attitude. She has 8 years experience working on web and print projects across EMEAI regions. She loves to travel and always are up for new challenges.",
+          "bio":
+            "Linda is a passionate graphic designer with 'can do' attitude. She has 8 years experience working on web and print projects across EMEAI regions. She loves to travel and always are up for new challenges.",
           "social": {
             "twitter": "",
             "linkedin": "linda-bucksey-9ab67466",
@@ -388,7 +417,8 @@
           "name": "Crypto Media Hub",
           "photo": "/assets/img/people/cmh.jpg",
           "title": "Brand, Social Media, Ads",
-          "bio": "Crypto Media Hub is a leading cryptocurrency marketing firm with deep expertise in multimedia marketing, advertising, and growth hacking. The firm was founded in 2015 by Tatiana Moroz, an active member of the bitcoin community; the ZenCash support team includes Chief Marketing Officer Cally Ulbricht, who has a track record of proven results for new-to-market companies, and cypherpunk Chief Technology Officer Brian Sovryn.",
+          "bio":
+            "Crypto Media Hub is a leading cryptocurrency marketing firm with deep expertise in multimedia marketing, advertising, and growth hacking. The firm was founded in 2015 by Tatiana Moroz, an active member of the bitcoin community; the ZenCash support team includes Chief Marketing Officer Cally Ulbricht, who has a track record of proven results for new-to-market companies, and cypherpunk Chief Technology Officer Brian Sovryn.",
           "social": {
             "twitter": "",
             "linkedin": "https://www.linkedin.com/company/9471175/",
@@ -438,7 +468,8 @@
           "name": "Philippe Fürst",
           "photo": "/assets/img/people/philippe.jpg",
           "title": "Program Manager",
-          "bio": "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
+          "bio":
+            "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -466,7 +497,8 @@
           "name": "Rowan Stone",
           "photo": "/assets/img/people/rowan.jpg",
           "title": "Business Development Director",
-          "bio": "Rowan is an experienced business manager who owns and operates a mid-sized mining operation in Scotland.\n\nWith a background in mechanical engineering and IT as well as business development and commercial management, Rowan brings a wealth of experience to the Zen Organisation.",
+          "bio":
+            "Rowan is an experienced business manager who owns and operates a mid-sized mining operation in Scotland.\n\nWith a background in mechanical engineering and IT as well as business development and commercial management, Rowan brings a wealth of experience to the Zen Organisation.",
           "social": {
             "twitter": "RowanRK6",
             "linkedin": "rowan-stone-alterchain",
@@ -477,7 +509,8 @@
           "name": "Davit Mrelashvili",
           "photo": "/assets/img/people/davit.jpg",
           "title": "Region Lead: CIS & Eastern Europe",
-          "bio": "Davit is a seasoned business executive with and entrepreneur originally from Georgia. He has a vast experience in working with post-Soviet states, ranging from exporting used German cars to there as his side business during residency training, to negotiating clinical trials in Georgia, Russia and Ukraine, as part of his Chief Medical Officer duties in a biomedical startup.\n\nDavit has both MD and MBA degrees, and graduated from the Singularity University executive program. He has increased his involvement in future technologies and fintech, and is passionate about making the economy more individualized, efficient, and friction-free.",
+          "bio":
+            "Davit is a seasoned business executive with and entrepreneur originally from Georgia. He has a vast experience in working with post-Soviet states, ranging from exporting used German cars to there as his side business during residency training, to negotiating clinical trials in Georgia, Russia and Ukraine, as part of his Chief Medical Officer duties in a biomedical startup.\n\nDavit has both MD and MBA degrees, and graduated from the Singularity University executive program. He has increased his involvement in future technologies and fintech, and is passionate about making the economy more individualized, efficient, and friction-free.",
           "social": {
             "twitter": "",
             "linkedin": "davit-mrelashvili-md-mba-5b4039121",
@@ -488,7 +521,8 @@
           "name": "Arno Pfefferling",
           "photo": "/assets/img/people/arno.jpg",
           "title": "Region Lead: Central Europe",
-          "bio": "Arno was born, raised and now works in the Free State of Saxony (Germany) as a manufacturing engineer. His career path is placed in the semiconductor industry for more than 5 years, which gives him a direct view in the fabrication of leading edge integrated circuits.\n\nTo keep high integrity and enable continuous improvement in manufacturing processes, Arno gained a B. Eng. in Microtechnology and M.Sc. in Electronic- and Sensormaterials from the Technical University Bergakademie Freiberg. The will to break technology boundaries naturally brought him to blockchain technology, which he views as a game-changing opportunity for society.",
+          "bio":
+            "Arno was born, raised and now works in the Free State of Saxony (Germany) as a manufacturing engineer. His career path is placed in the semiconductor industry for more than 5 years, which gives him a direct view in the fabrication of leading edge integrated circuits.\n\nTo keep high integrity and enable continuous improvement in manufacturing processes, Arno gained a B. Eng. in Microtechnology and M.Sc. in Electronic- and Sensormaterials from the Technical University Bergakademie Freiberg. The will to break technology boundaries naturally brought him to blockchain technology, which he views as a game-changing opportunity for society.",
           "social": {
             "twitter": "mrceebo",
             "linkedin": "arno-pfefferling-65382590",
@@ -499,7 +533,8 @@
           "name": "Andreas Widerøe",
           "photo": "/assets/img/people/andreas.jpg",
           "title": "Region Lead: Scandinavia & Northern Europe",
-          "bio": "Andreas is an IT professional and an entrepreneur. He studied computer science at the University of Oslo before he started working as a technical engineer and hostmaster for a well known ISP in Norway. He went on to become a senior consultant and CTO for a second and third company. Besides this he is an entrepreneur and have started several companies over the years ranging from IT and media to real estate. Today he works as the CEO of young consultancy firm specializing in the new EU privacy law (GDPR). He is also an avid skateboarder and surfer.",
+          "bio":
+            "Andreas is an IT professional and an entrepreneur. He studied computer science at the University of Oslo before he started working as a technical engineer and hostmaster for a well known ISP in Norway. He went on to become a senior consultant and CTO for a second and third company. Besides this he is an entrepreneur and have started several companies over the years ranging from IT and media to real estate. Today he works as the CEO of young consultancy firm specializing in the new EU privacy law (GDPR). He is also an avid skateboarder and surfer.",
           "social": {
             "twitter": "",
             "linkedin": "andreas-wider%C3%B8e-7061a1b9",
@@ -510,7 +545,8 @@
           "name": "Levis Caycedo",
           "photo": "",
           "title": "Region Lead: North America",
-          "bio": "After graduating from the University of Florida with a bachelor's degree in industrial engineering, Levis spent the next 12 years as a project engineer and project manager in the U.S. Air Force. After separating from the Air Force, Levis joined an engineering consulting firm advising the Air Force on strategy for space and launch acquisitions. Recently while working on his Finance MBA at UCLA Anderson, Levis became extremely passionate about crypto currencies and began contributing to the Zen team as a part time intern. Now Levis is joining the Zen team full time to contribute his project management and strategy experience to grow the Zen community in Latin America.",
+          "bio":
+            "After graduating from the University of Florida with a bachelor's degree in industrial engineering, Levis spent the next 12 years as a project engineer and project manager in the U.S. Air Force. After separating from the Air Force, Levis joined an engineering consulting firm advising the Air Force on strategy for space and launch acquisitions. Recently while working on his Finance MBA at UCLA Anderson, Levis became extremely passionate about crypto currencies and began contributing to the Zen team as a part time intern. Now Levis is joining the Zen team full time to contribute his project management and strategy experience to grow the Zen community in Latin America.",
           "social": {
             "twitter": "",
             "linkedin": "leviscaycedo",
@@ -521,7 +557,8 @@
           "name": "Said Mammdov",
           "photo": "/assets/img/people/said.jpg",
           "title": "Country Manager: Turkey",
-          "bio": "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
+          "bio":
+            "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
           "social": {
             "twitter": "",
             "linkedin": "said-mammadov-8699905",
@@ -532,7 +569,8 @@
           "name": "Jane Lippencott",
           "photo": "/assets/img/people/jane.jpg",
           "title": "Academic Programs Lead",
-          "bio": "Jane is co-founder of ZenCash and a champion of community building and cryptoeconomics. She is involved in various projects that leverage blockchain technology to provide the network infrastructure necessary for people to securely express themselves and collaboratively build value. She believes in the power of human choice, that all people have a right to personal privacy, that decentralized (peer to peer) networks and governance models (done right) will lead to global reallocation of wealth and power. Her experience ranges from financial analysis in asset and wealth management to marketing, strategy, innovation, and partnerships in venture capital and FinTech startups.",
+          "bio":
+            "Jane is co-founder of ZenCash and a champion of community building and cryptoeconomics. She is involved in various projects that leverage blockchain technology to provide the network infrastructure necessary for people to securely express themselves and collaboratively build value. She believes in the power of human choice, that all people have a right to personal privacy, that decentralized (peer to peer) networks and governance models (done right) will lead to global reallocation of wealth and power. Her experience ranges from financial analysis in asset and wealth management to marketing, strategy, innovation, and partnerships in venture capital and FinTech startups.",
           "social": {
             "twitter": "janehk",
             "linkedin": "janelippencott",
@@ -543,7 +581,8 @@
           "name": "Alex Zabuga",
           "photo": "/assets/img/people/alex.jpg",
           "title": "Country Representative: Russia",
-          "bio": "After experiencing bureaucracy of a post-soviet state firsthand, Alex realized the need for an alternate banking and private peer-to-peer economy. Alex’s formal background is in science and IT. He is a supporter of independent journalism, such as zona.media. Alex's hope is to leverage blockchain technology to make a difference in the world. Competitive by nature he plans to push ZenCash to it's potential.",
+          "bio":
+            "After experiencing bureaucracy of a post-soviet state firsthand, Alex realized the need for an alternate banking and private peer-to-peer economy. Alex’s formal background is in science and IT. He is a supporter of independent journalism, such as zona.media. Alex's hope is to leverage blockchain technology to make a difference in the world. Competitive by nature he plans to push ZenCash to it's potential.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -554,7 +593,8 @@
           "name": "Luca Cermelli",
           "photo": "/assets/img/people/luca.jpg",
           "title": "Country Manager: Italy",
-          "bio": "Luca has a Master's Degree in Economics and is passionate about mathematics and technology.  After completing his studies in Denmark, Luca moved to Germany for a Community Manager position in a videogame company of 5000+ employees. He then became the Marketing Manager of a leading software company. With several years of activity in the blockchain industry, and always willing to help, Luca became a reference point in the Italian contest of crypto enthusiasts and is excited to bring his experience to ZenCash!",
+          "bio":
+            "Luca has a Master's Degree in Economics and is passionate about mathematics and technology.  After completing his studies in Denmark, Luca moved to Germany for a Community Manager position in a videogame company of 5000+ employees. He then became the Marketing Manager of a leading software company. With several years of activity in the blockchain industry, and always willing to help, Luca became a reference point in the Italian contest of crypto enthusiasts and is excited to bring his experience to ZenCash!",
           "social": {
             "twitter": "",
             "linkedin": "cermelli",
@@ -565,7 +605,8 @@
           "name": "Angie Villarreal",
           "photo": "/assets/img/people/angie.jpg",
           "title": "Country Manager: Mexico",
-          "bio": "Angie is using her  background in Industrial & Systems Engineering by Monterrey Institute of Technology and Higher Education (ITESM University) to have a great impact in the cryptoworld, which she’s devoted herself to in the past years. Her focus areas are Project Management, Business Development, and Strategic Planning. She’s a people person and believes life is about continuously learning and listening to people. She loves challenges and change!",
+          "bio":
+            "Angie is using her  background in Industrial & Systems Engineering by Monterrey Institute of Technology and Higher Education (ITESM University) to have a great impact in the cryptoworld, which she’s devoted herself to in the past years. Her focus areas are Project Management, Business Development, and Strategic Planning. She’s a people person and believes life is about continuously learning and listening to people. She loves challenges and change!",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -576,7 +617,8 @@
           "name": "Ruben Elizondo",
           "photo": "",
           "title": "Country Representative: Mexico",
-          "bio": "Ruben is a Mechatronic Engineer and have worked in international companies such as John Deere and Heineken, working as a PLC programmer and as a Design Engineer. He has a keen interest in cryptocurrencies and state of the art technologies, always eager to be learning new things, passionate on how things work and solving engineering problems. Nowadays Ruben's attention is headed towards blockchain to witness and form part of this revolutionary technology.",
+          "bio":
+            "Ruben is a Mechatronic Engineer and have worked in international companies such as John Deere and Heineken, working as a PLC programmer and as a Design Engineer. He has a keen interest in cryptocurrencies and state of the art technologies, always eager to be learning new things, passionate on how things work and solving engineering problems. Nowadays Ruben's attention is headed towards blockchain to witness and form part of this revolutionary technology.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -587,7 +629,8 @@
           "name": "Taiga Ikuta",
           "photo": "/assets/img/people/taiga.jpg",
           "title": "Country Representative: Japan",
-          "bio": "Taiga is a freelance translator and writer. After dropping out of Keio University, he set out to travel abroad to discover different cultures and the beauty the world has to offer. His natural curiosity then led him to the crypto industry, which he believes has the potential to bring about the positive paradigm shift in the way our society operates.\n\nCurrently he is registered with Glova and Rozetta, translation agencies based in Tokyo, working on various types of documents ranging from textbooks to magazine articles to government publications.",
+          "bio":
+            "Taiga is a freelance translator and writer. After dropping out of Keio University, he set out to travel abroad to discover different cultures and the beauty the world has to offer. His natural curiosity then led him to the crypto industry, which he believes has the potential to bring about the positive paradigm shift in the way our society operates.\n\nCurrently he is registered with Glova and Rozetta, translation agencies based in Tokyo, working on various types of documents ranging from textbooks to magazine articles to government publications.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -598,7 +641,8 @@
           "name": "Sebastian Dienst",
           "photo": "/assets/img/people/sebastian.jpg",
           "title": "Country Representative: Japan",
-          "bio": "After completing an apprenticeship as IT Systems Engineer in Germany and working in the IT sector for overall 10 years, he decided to study automotive engineering with main focus on electronics and IT implementation.\n\nThings turned out slightly different as he became more interested and involved in mechanical engineering during studies. He realized his dream to work and live in Japan since 2012. With the growing popularity of blockchain technology and cryptocurrencies, he introduced himself to IT and is focusing on mining and researching blockchain. He is committed to spread the ZenCash message in Japan.",
+          "bio":
+            "After completing an apprenticeship as IT Systems Engineer in Germany and working in the IT sector for overall 10 years, he decided to study automotive engineering with main focus on electronics and IT implementation.\n\nThings turned out slightly different as he became more interested and involved in mechanical engineering during studies. He realized his dream to work and live in Japan since 2012. With the growing popularity of blockchain technology and cryptocurrencies, he introduced himself to IT and is focusing on mining and researching blockchain. He is committed to spread the ZenCash message in Japan.",
           "social": {
             "twitter": "",
             "linkedin": "sebastiandienst",
@@ -606,10 +650,23 @@
           }
         },
         {
+          "name": "Jonghun Hong",
+          "photo": "/assets/img/people/jonghun.jpg",
+          "title": "Country Representative: Korea",
+          "bio":
+            "Jonghun is a Mechanical Engineer with experience in IOT, MCU programming, application programming, mechanical design, and digital circuit design.\n\nHe is interested in a wide range of fields and has always been naturally attracted to innovative technologies like blockchain, which is how he became aware of ZenCash.\n\nOutside of reppin’ Zen in Korea, Jonghun is leading the development of a 3D printed filament recycling device that he is in the process of registering patents for.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": "Jonghun, UTC + 9"
+          }
+        },
+        {
           "name": "Hugh Ayara",
           "photo": "/assets/img/people/hugh.jpg",
           "title": "Country Representative: Kenya",
-          "bio": "An adrenaline junkie and sustainable development living crusader with unquenchable thirst for digital marketing expertise of 4 years keeping at the forefront of digital trends. He is also passionate about community development.",
+          "bio":
+            "An adrenaline junkie and sustainable development living crusader with unquenchable thirst for digital marketing expertise of 4 years keeping at the forefront of digital trends. He is also passionate about community development.",
           "social": {
             "twitter": "",
             "linkedin": "hugh-ayara-82ab5a77",
@@ -687,7 +744,8 @@
           "name": "Charles Hoskinson",
           "photo": "/assets/img/people/charles.jpg",
           "title": "Strategic Advisor",
-          "bio": "Charles is the CEO of IOHK, the blockchain industry’s leading R&amp;D firm. He is a technology entrepreneur and mathematician, co-founder of Bitshares, Ethereum, and IOHK. Charles was the founding chairman of the Bitcoin Foundation’s education committee and established the Cryptocurrency Research Group in September of 2013. His current projects focus on education of cryptocurrency topics, evangelism of decentralization and making cryptographic tools easier to use for the mainstream.",
+          "bio":
+            "Charles is the CEO of IOHK, the blockchain industry’s leading R&amp;D firm. He is a technology entrepreneur and mathematician, co-founder of Bitshares, Ethereum, and IOHK. Charles was the founding chairman of the Bitcoin Foundation’s education committee and established the Cryptocurrency Research Group in September of 2013. His current projects focus on education of cryptocurrency topics, evangelism of decentralization and making cryptographic tools easier to use for the mainstream.",
           "social": {
             "twitter": "",
             "linkedin": "charles-hoskinson-1a95a4b4",
@@ -698,7 +756,8 @@
           "name": "Steven Nerayoff",
           "photo": "/assets/img/people/steve.jpg",
           "title": "Strategic Advisor",
-          "bio": "Steven is an entrepreneur, disruptor, and venture capitalist interested in smart cities, technology startups, and blockchain. He has tremendous industry experience supporting Ethereum, Lisk, and Zcash. Steve is also the Founder of CloudParc, a disruptive smart-city platform using machine vision and AI.",
+          "bio":
+            "Steven is an entrepreneur, disruptor, and venture capitalist interested in smart cities, technology startups, and blockchain. He has tremendous industry experience supporting Ethereum, Lisk, and Zcash. Steve is also the Founder of CloudParc, a disruptive smart-city platform using machine vision and AI.",
           "social": {
             "twitter": "",
             "linkedin": "nerayoff",

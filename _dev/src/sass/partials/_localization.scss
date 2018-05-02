@@ -3,6 +3,10 @@
   font-family: sans-serif;
 }
 .lng-fr {
+  .site-header .navbar-brand:not(.toggle-languages),
+  .site-header .nav-link:not(.toggle-languages) {
+    text-transform: none;
+  }
   .jumbotron .btn-lg {
     padding: 1rem;
   }

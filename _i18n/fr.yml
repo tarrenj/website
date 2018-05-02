@@ -1,12 +1,12 @@
 global:
   roadmap: Feuille de route
-  resources: Resources
+  resources: Ressources
   whitepaper:
     new: Nouveau Livre Blanc Zen
   technology:
     base: Technologie
     possessive: Nos Technologies
-    tagline: Privé - Sécurise - Intracable - Résilient - Minable
+    tagline: Privé - Sécurisé - Intraçable - Résilient - Minable
   philosophy:
     base: Philosophie
     possessive: Notre Philosophie
@@ -49,7 +49,7 @@ titles:
   wallets: ZenCash Wallets
   securenodes: ZenCash Secure Nodes
   roadmap: ZenCash Feuille de Route
-  zencash: ZenCash pour monnaie
+  zencash: ZenCash pour la monnaie
   zenchat: ZenChat pour une messagerie sécurisée
   zenpub: ZenPub - Stockage en Cloud Décentralisé
   zenhide: ZenHide pour la résistance à la censure
@@ -78,14 +78,14 @@ newsletter:
   button: Abonnez-vous
 nav:
   top:
-    about: A propos
-    features: fonctionnalités
+    about: A Propos
+    features: Fonctionnalités
     roadmap: Feuille de route
     team: L'Équipe
     whitepaper: Livre blanc
-    exchanges: obtenir zencash
-    wallets: utiliser zen
-    miningpools: mine zen
+    exchanges: Obtenir ZenCash
+    wallets: Utiliser ZenCash
+    miningpools: Miner ZenCash
     community: Communauté
     support: Support
     blog: Blog
@@ -136,18 +136,18 @@ nav:
 homepage:
   hero:
     subtitle: UNE PLATEFORME SÉCURISÉE ET PRIVÉE POUR
-    subtitle2: MONNAIE, MESSAGES, & MEDIA
-    wallet-button: OBTENER UN WALLET
-    buy-button: ACHETER ZENCASH
-    announcement: Heureux d'annoncer le partenariat avec IOHK dans le domaine de la R&D
+    subtitle2: La Monnaie, La Messagerie & Les Médias
+    wallet-button: Obtener Un Wallet
+    buy-button: Acheter Des ZenCash
+    announcement: Nous sommes heureux d'annoncer le partenariat avec IOHK dans le domaine de la R&D
     announcement-button: en apprendre plus
   about:
     title: Zen est une plate-forme dotée de la toute dernière technologie en matière de protection de la vie privée et d'un modèle de financement autosuffisant avec des solutions de niveau protocole.
     products:
-      zencash: pour monnaie
-      zenchat: pour messagerie
-      zenpub: pour media
-      zenhide: pour trafic web
+      zencash: pour la monnaie
+      zenchat: pour la messagerie
+      zenpub: pour les médias
+      zenhide: pour le traffic web
       development: (en développement)
       nav:
         - title: Fonctionnalités
@@ -166,7 +166,7 @@ homepage:
     title: ZenCash est Public, Privé et Anonyme
     cta: EN SAVOIR PLUS SUR LE PARTENARIAT AVEC IOHK
   tech:
-    title: Privé - Sécurise - Intracable - Résilient - Minable
+    title: Privé - Sécurisé - Intraçable - Résilient - Minable
     subtitle: Zen vise à mener le front technologique et contribuer à l'humanité par l'innovation
     features:
       - title: Meilleur Tech Privée
@@ -318,11 +318,11 @@ mining-pools:
   content: 'Nous recommandons de répartir le hachage entre les pools pour éviter une <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">attaque à 51%</a></strong>.'
   resources:
     items:
-      - title: CALCULATEUR DE PROFIT MINAGE ZEN
+      - title: Calculateur de profit de minage de Zen
         buttons:
           - text: Go
             link: https://whattomine.com/coins/185-zen-equihash
-      - title: ZEN MINING POOL FORUM TOPIC
+      - title: Topic de recensement des pools de minage sur notre forum
         buttons:
           - text: Go
             link: https://forum.zensystem.io/t/zen-mining-pools-list/73

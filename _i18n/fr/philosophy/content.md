@@ -11,7 +11,7 @@ Tout le monde a une chance égale de participer à la prise de décision, ce qui
 * 8,5 % à un ou plusieurs DAOs
 * 3,5% aux Opérateurs de Secure Nodes
 
-### PRIORITÉ A LA RECHERCHE ET DEVELOPPEMENT
+### À LA RECHERCHE ET DEVELOPPEMENT
 {: .subsection-title}
 ## Nous considérons qu'il est prioritaire de contribuer à un écosystème de crypto-monnaie plus large et à un corpus de connaissances, de ce fait nous avons de multiples projets de R&D actifs en cours de réalisation et de bien d'autres sont prévus :
 * Etude de Trésorerie d'une Organisation Autonome Décentralisée

@@ -11,10 +11,6 @@
 {: .subsection-title}
 ## 受保护交易经过了完全加密，却又可以在全网共识下被验证为真。发送方、接收方及交易金额隐藏在区块链上，使得 Zen 完全无法被追踪。
 
-{:text-center: .text-center .mb-5}
-[{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
-{:text-center}
-
 域名前置是一种多用的审查规避技术，能够隐藏通信的远程端点。该技术作用于应用层，使用 HTTPS 来与被禁止的主机通信，但看上去像是在与那些被审查体允许的普通主机通信，从而避免被审查。
 
 核心思想是在不同的通信层使用不同的域名。其中一个域名出现在 HTTPS 请求的 “外部”  -- 在 9 DNS 请求及 TLS 服务器名称指示中；而另一个域名出现在 “内部” -- 在 HTTP 主机首部字段中，经过 HTTPS 加密后不会被审查者发现。审查者无法辨别前置与非前置域名流量，他要么放行规避审查的流量，要么屏蔽所有的域名，而后者会造成巨大的附带损失。

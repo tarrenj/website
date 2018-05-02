@@ -4,6 +4,8 @@ Disallow: /google23711a33eab179e5.html
 Sitemap: https://zencash.com/sitemap.xml
 Sitemap: https://zencash.com/de/sitemap.xml
 Sitemap: https://zencash.com/it/sitemap.xml
+Sitemap: https://zencash.com/fr/sitemap.xml
+Sitemap: https://zencash.com/ru/sitemap.xml
 Sitemap: https://zencash.com/jp/sitemap.xml
 Sitemap: https://zencash.com/ko/sitemap.xml
 Sitemap: https://zencash.com/zh/sitemap.xml

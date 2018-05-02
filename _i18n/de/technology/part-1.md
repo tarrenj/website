@@ -11,10 +11,6 @@ Zusätzlich zu den zk-SNARKs beinhaltet die Zen-Architektur eine Verschlüsselun
 {: .subsection-title}
 ## Shielded Transaktionen sind voll verschlüsselt, können jedoch trotzdem als gültig verifiziert werden. Der Absender, Empfänger und der Betrag liegen verschlüsselt auf der Blockchain. Somit sind mit Zen durchgeführte Shielded Transaktionen nicht Rückverfolgbar.
 
-{:text-center: .text-center .mb-5}
-[{% translate homepage.whitepaper.button %}]({{site.baseurl_root}}{{site.data.whitepapers[site.lang]}}){: .btn .btn-lg .btn-primary}
-{:text-center}
-
 Domain Fronting ist eine vielseitige Technik zur Umgehung der Zensur, die den entfernten Endpunkt einer Kommunikation verbirgt. Es wird zuerst eine HTTPS Verbindung mit einem vom Zensor zugelassenen Endpunkt etabliert, die daraufhin zum eigentlichen Endpunkt weitergeleitet wird.
 
 Die Idee dahinter ist verschiedene Domains auf unterschiedlichen Ebenen der Kommunikation zu nutzen. Eine Domain erscheint als “äußere Domain” bei einer HTTPS Anfrage - in der DNS Anfrage und der TLS Server Name Indication - während eine zweite “innere Domain” im HTTP Host Header benutzt wird, unsichtbar für den Zensor unter HTTPS Verschlüsselung. Der Zensor kann die nun versteckte Kommunikation nicht identifizieren und muss sich entscheiden ob er den weitergeleiteten Datenverkehr erlaubt, oder die “äußere Domain” vollständig blockt, was zu schwerwiegenden Folgekosten führt.

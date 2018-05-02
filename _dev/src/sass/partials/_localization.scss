@@ -3,6 +3,10 @@
   font-family: sans-serif;
 }
 .lng-fr {
+  .site-header .navbar-brand:not(.toggle-languages),
+  .site-header .nav-link:not(.toggle-languages) {
+    text-transform: none;
+  }
   .jumbotron .btn-lg {
     padding: 1rem;
   }
@@ -21,6 +25,15 @@
     padding: 1rem;
   }
   #tech {
+    .tech-header {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+      h2.section-title {
+        font-size: 18px;
+      }
+    }
     .stats-section {
       .circle-dots {
         h2 {

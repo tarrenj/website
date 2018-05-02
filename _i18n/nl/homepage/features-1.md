@@ -4,5 +4,5 @@
 - Finaniële reserve voor ontwikkeling, ondersteuning, marketing - 8,5% van de mining-opbrengst
 - Sterk team- en representatief bestuur - Zen Blockchain Foundation
 - Wallets (portemonnees) en communicatie-apps voor internationaal gebruik
-- Wereldwijde Marketing - maatwerk voor diverse markten en doelgroepen
+- Wereldwijde marketing - maatwerk voor diverse markten en doelgroepen
 - Secure Nodes garanderen een solide, wijdvertakt netwerk

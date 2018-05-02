@@ -5,9 +5,9 @@ ZenChat-berichten worden permanent in de blockchain opgeslagen om uitlezen van m
 
 <div class="row justify-content-center mt-5">
   <div class="col-lg-12 col-xl-6 mb-3">
-    <a href="https://github.com/ZencashOfficial/ZENChat/releases" target="_blank" class="btn btn-lg btn-block btn-primary">Download Standalone ZenChat</a>
+    <a href="https://github.com/ZencashOfficial/ZENChat/releases" target="_blank" class="btn btn-lg btn-block btn-primary">Download ZenChat (standalone-versie)</a>
   </div>
   <div class="col-lg-12 col-xl-6 mb-3">
-    <a href="{% tl wallets {{site.lang}} %}" class="btn btn-lg btn-block btn-primary">Download ZenChat as part of a wallet</a>
+    <a href="{% tl wallets {{site.lang}} %}" class="btn btn-lg btn-block btn-primary">Download ZenChat (als wallet-onderdeel)</a>
   </div>
 </div>

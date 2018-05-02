@@ -2,7 +2,7 @@ global:
   roadmap: Roadmap
   resources: Ресурсы
   whitepaper:
-    new: New Zen White Paper
+    new: Новая White Paper
   technology:
     base: Технология
     possessive: Технология
@@ -13,7 +13,7 @@ global:
     tagline: Автономность - Экономическая устойчивость  - Внимание на R&D
   team:
     base: Команда Zen
-    tagline: Соединяем опыт со всего мира
+    tagline: Объединяем опыт со всего мира
     engineering: Engineering
     user-experience: User Experience
     marketing: Marketing
@@ -32,41 +32,41 @@ global:
     third-party: Независимые кошельки
     web: Веб кошелек
     paper: Бумажный кошелек
-    mobile-hardware: Mobile Hardware Wallet
-  forum: форуме
+    mobile-hardware: Мобильный холодный кошелек
+  forum: Форум
   go: Перейти
   footeron: 'на'
   anonymous: анонимно
   korean: Корейский
 titles:
-  homepage: A globally accessible and anonymous blockchain
+  homepage: Анонимный блокчейн доступный везде
   iohk: Партнерство ZenCash и IOHK для исследований и разработки
-  philosophy: Changing the world one bit at a time
+  philosophy: Меняем мир небольшими шагами
   technology: Zen технология
-  team: Meet Our Team
+  team: Наша команда
   exchanges: ZenCash Биржы
   mining-pools: ZenCash майнинг пулы
   wallets: ZenCash кошельки
   securenodes: ZenCash Защищенные узлы
   roadmap: ZenCash Roadmap
-  zencash: ZenCash как деньги
-  zenchat: ZenChat for Secure Messaging
-  zenpub: ZenPub - Decentralized Cloud Storage
-  zenhide: ZenHide for Censorship Resistance
+  zencash: ZenCash для денег
+  zenchat: ZenChat для защищенных сообщений
+  zenpub: ZenPub - Децентрализованное облачное хранилище
+  zenhide: ZenHide для цензуроустойчивости
 descriptions:
-  homepage: ZenCash is the most resilient and censorship resistant privacy cryptocurrency blockchain and privacy coin. Our users can perform both private and anonymous, untraceable transactions. Powered by our Secure Nodes technology, our network traffic cannot be recognized and therefore cannot be blocked.
-  iohk: The ZenCash and IOHK partnership entails an exciting series of research and development led by Prof. Roman Oliynykov. The partnership consists in the implementation of a Decentralized Autonomous Organization (DAO) at a protocol level, and a next generation scaling solution such as SPECTRE or Phantom protocols. Find out more!
-  philosophy: Zen is built around a decentralized governance model which we consistently continue to upgrade. With no central authority or single point of failure, ZenCash is as resilient as an organization can ever become.
-  technology: Zen uses zk-SNARKS with additional layers of node encryption, domain fronting, and InterPlanetary File System (IPFS).
-  team: Meet Our Team. Led by our founders Rob Viglione and Rolf Versluis, ZenCash is made of passionate, driven individuals, committed to advancing the blockchain industry by assigning resources to research and development. ZenCash aims to contribute to the blockchain industry and humanity through innovation.
-  exchanges: Looking to buy or trade ZenCash? Find a list of all exchanges that support ZenCash here.
-  mining-pools: List of the ZenCash mining pools. Choose a mining pool and join the ZenCash community.
-  wallets: Store your ZenCash safely and securely. Choose one of our many ZenCash Wallets.
-  securenodes: ZenCash's Secure Nodes contribute to a robust and resilient system that enables private transactions, messaging and publishing.
-  zencash: ZenCash allows for easy transfer of value by using regular (T) and private (Z) addresses. T addresses are regular addresses and transactions are similar to bitcoin. Z addresses are called shielded addresses and leverage the latest privacy technology, zk-SNARKS, to obscure sender and recipient addresses, as well as amount sent.
-  zenchat: ZenChat is the most secure and private messaging application on the market and can be used as a standalone product or embedded within ZenCash wallets.
-  zenpub: ZenPub gives users the ability to anonymously publish data, documents, and media in a way that is resistant to censorship
-  zenhide: ZenCash uses Domain Fronting to bypass any kind of internet censorship. Domain fronting is a versatile censorship circumvention technique that hides the remote endpoint of a communication.
+  homepage: ZenCash наиболее устойчивый и защищенный от цензуры приватный криптовалютный блокчейн и приватная «монета». Наши пользователи могут совершать приватные и анонимные, неотслеживаемые, транзакции. Благодаря технологии защищенных узлов наш сетевой трафик нельзя опознать, а значит нельзя заблокировать.
+  iohk: Партнерство ZenCash с IOHK начинает захватывающую серию исследований и разработки возглавляемую Dr. Романом Олейниковым. Партнерство состоит в разработке Децентрализованной Автономной Организации (ДАО) на уровне протокола, и масштабирования следующего поколения, такое как протоколы SPECTRE или Phantom. Узнайте больше!
+  philosophy: Zen построен вокруг децентрализованной модели управления которую мы постоянно улучшаем. Без центрального управления и без единой точки отказа, ZenCash устойчива как организация насколько возможно.
+  technology: Zen использует zk-SNARKS с дополнениями в виде шифрования трафика, domain fronting, и InterPlanetary File System (IPFS).
+  team: Встречайте нашу команду. Основатели Rob Viglione и Rolf Versluis возглавляют команду ZenCash, которая состоит из мотивированных, активных людей преданных продвижению блокчейн индустрии, распределяя ресурсы на исследования и разработку. ZenCash стремится внести вклад в блокчейн индустрию и человечество через инновации.
+  exchanges: Хотите купить или обменять ZenCash? Здесь вы найдете список бирж которые поддерживают ZenCash
+  mining-pools: Список майнинг пулов ZenCash. Выберите пул и присоединяйтесь к сообществу ZenCash.
+  wallets: Храните свой ZenCash безопасно и надежно. Выберите один из многих ZenCash кошельков.
+  securenodes: Защищенные узлы ZenCash создают надежную и устойчивую систему, которая позволяет приватно совершать транзакции, передавать сообщения и публиковать данные.
+  zencash: ZenCash позволяет легко совершить транзакции используя регулярные (T) и приватные (Z) адреса. Т адреса обычны и транзакции похожи на bitcoin. Z адреса называются защищенными адресами и используют новейшие приватные технологии, что прячет адреса получателя и отправителя, а также отправленное количество.
+  zenchat: ZenChat является самым безопасным приложением для сообщений на рынке и может использоваться как отдельный продукт либо встроенным внутри наших кошельков.
+  zenpub: ZebPub позволяет пользователям анонимно размещать данные, документы и медиа способом устойчивым к цензуре
+  zenhide: ZenCash использует Domain Fronting для обхода интернет-цензуры. Domain fronting — это универсальный метод обхода цензуры, который скрывает удаленную конечную точку связи.
 newsletter:
   title: Подпишитесь для свежих новостей!
   success: Успешно! Проверьте email для подтверждения.
@@ -119,7 +119,7 @@ nav:
         - title: Скачать кошельки
           link: '/wallets/'
           namespace: wallets
-        - title: Public Keys
+        - title: Публичные ключи
           link: 'https://github.com/zencashofficial/keys'
           type: external
         - title: Email поддержки
@@ -144,7 +144,7 @@ homepage:
   about:
     title: Zen - платформа с новейшими приватными технологиями и самоподдерживаемым обеспечением с решениями на уровне протокола
     products:
-      zencash: как деньги
+      zencash: для денег
       zenchat: для сообщений
       zenpub: для медиа
       zenhide: для веб-трафика
@@ -167,16 +167,16 @@ homepage:
     cta: Узнать больше о партнерстве с IOHK
   tech:
     title: Приватность - Безопасность - Невозможно отследить - Устойчивость - Можно майнить
-    subtitle: Zen стремиться  стать технологическим лидером и внести вклад в человечество через инновации
+    subtitle: Zen стремится стать технологическим лидером и внести вклад в человечество через инновации
     features:
       - title: Лучшие технологии приватности
         content:
-          - zk-SNARKs  - Приватные транзакции где скрыта информация о отправителе/получателе
+          - zk-SNARKs — Приватные транзакции где скрыта информация об отправителе/получателе
           - Domain Fronting - Прячет конечные пункты интернет соединения для обхода цензуры
           - IPFS - Публикации и доступ к данным анонимно через распределенную систему
       - title: Децентрализованная Автономная Организация (ДАО)
         content:
-          - Распределение ресурсов через самую продвинутую модель казны, спроектированную с лучшими приватными технологиями и экономической теорией
+          - Распределение ресурсов через самую продвинутую модель казны, спроектированную используя лучшие приватные технологии и экономическую теорию
       - title: Самая устойчивая система
         content:
           - <a href="https://securenodes.na.zensystem.io/">Zen Защищенные узлы </a> → <span id="nodeCount">6640</span> узлов!
@@ -185,7 +185,7 @@ homepage:
           - Решения на уровне протокола, такие как DAO, масштабирование, и другие!
       - title: Самая безопасная система
         content:
-          - ZenCash использует шифрование от ноды к ноде → 1ые на рынке!!
+          - ZenCash использует шифрование от ноды к ноде → первые на рынке!!
       - title: Майнинг
         content:
           - Proof-of-work, equihash GPU майнинг
@@ -205,7 +205,7 @@ homepage:
       sections:
         - title: Максимальная эмиссия
           id: totalSupply
-          content: 21M
+          content: '21,000,000'
         - title: Текущая эмиссия
           id: circSupply
           content: 3,401,100
@@ -247,7 +247,7 @@ homepage:
             - Кошелек iOS
             - Интеграция с OpenBazaar
             - Операция Радикальная Прозрачность
-            - Hardware Wallets
+            - Холодные кошельки
         - title: Защищенные узлы
           icon: /assets/img/icons/secure.png
           content:

@@ -40,7 +40,7 @@ global:
   korean: coréen
 titles:
   homepage: Une blockchain accessible et anonyme dans sa totalité
-  iohk: ZenCash et IOHK partenaire dans le domaine de la recherche et du développement
+  iohk: ZenCash et IOHK partenaires dans le domaine de la recherche et du développement
   philosophy: Changer le monde chaque fois un peu plus
   technology: Technologie Zen
   team: rencontrer notre équipe
@@ -78,7 +78,7 @@ newsletter:
   button: Abonnez-vous
 nav:
   top:
-    about: A Propos
+    about: À Propos
     features: Fonctionnalités
     roadmap: Feuille de route
     team: L'Équipe
@@ -91,7 +91,7 @@ nav:
     blog: Blog
   footer:
     about:
-      title: A propos
+      title: À propos
       items:
         - title: Technologie
           namespace: technology
@@ -108,12 +108,12 @@ nav:
         - title: ZenHide
           link: '/zenhide/'
     resources:
-      title: Resources
+      title: Ressources
       items:
         - title: Acheter ZenCash
           link: '/exchanges/'
           namespace: exchanges
-        - title: Pool de minage
+        - title: Pools de minage
           link: '/mining-pools/'
           namespace: mining-pools
         - title: Wallets à télécharger
@@ -137,7 +137,7 @@ homepage:
   hero:
     subtitle: UNE PLATEFORME SÉCURISÉE ET PRIVÉE POUR
     subtitle2: La Monnaie, La Messagerie & Les Médias
-    wallet-button: Obtener Un Wallet
+    wallet-button: Obtenir Un Wallet
     buy-button: Acheter Des ZenCash
     announcement: Nous sommes heureux d'annoncer le partenariat avec IOHK dans le domaine de la R&D
     announcement-button: en apprendre plus
@@ -256,7 +256,7 @@ homepage:
         - title: Recherche et développement
           icon: /assets/img/icons/r-d.png
           content:
-            - Trésorerie DAO basé sur un système de vote de niveau protocole
+            - Trésorerie DAO basée sur un système de vote de niveau protocole
             - Étude de scalabilité - Solution Blockchain de la nouvelle génération
             - Domain Fronting
             - ZenPub Protocol-level
@@ -264,7 +264,7 @@ homepage:
         - title: Mise sur le marché
           icon: /assets/img/icons/scalability-study.png
           content:
-            - Trésorerie DAO basé sur un système de vote de niveau protocole
+            - Trésorerie DAO basée sur un système de vote de niveau protocole
             - Intégration de Dandelion++ pour un réseau de Stack anonyme
             - Solution de scalabilité
             - IPFS publié sur des Secure Nodes
@@ -281,7 +281,7 @@ homepage:
     title: UTILISER ZEN
     subtitle: Notre objectif est de faire de ZenCash la crypto-monnaie la plus utile sur le marché !
     features:
-      - title: ACHETEZ ZENCASH
+      - title: ACHETEZ DES ZENCASH
         image: /assets/img/icons/money.png
         namespace: exchanges
       - title: WALLETS À TÉLÉCHARGER
@@ -315,7 +315,7 @@ homepage:
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: N'importe qui avec une carte graphique moderne peut miner du ZenCash, une crypto-monnaie, un proof of work, de minage GPU basée sur de l'equihash.
-  content: 'Nous recommandons de répartir le hachage entre les pools pour éviter une <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">attaque à 51%</a></strong>.'
+  content: 'Nous recommandons de répartir le hashrate entre les pools pour éviter une <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">attaque à 51%</a></strong>.'
   resources:
     items:
       - title: Calculateur de profit de minage de Zen
@@ -335,7 +335,7 @@ mining-pools:
           - text: 3
             link: https://explorer.zen-solutions.io/
 dao-infographic:
-  title: Trésorerie basée su une organisation autonome décentralisée (DAO)
+  title: Trésorerie basée sur une organisation autonome décentralisée (DAO)
   subtitle: Le modèle de trésorerie ZenCash est un système économique inclusif, fiable et transparent avec des incitations à participer.
   image: '/assets/img/iohk-infographic.png'
   image-mobile: '/assets/img/iohk-infographic-mobile.png'
@@ -367,7 +367,7 @@ iohk:
   content:
     title: ÉTUDE DE SCALABILITE
     list:
-      - La scalabilité est un problème majeur dans les projets en chaîne de blocs.
+      - La scalabilité est un problème majeur dans les projets blockchain.
       - La mise à niveau du protocole permet des transactions rapides à volume élevé sur le réseau.
       - Évaluer les solutions de la prochaine génération blockchain et les alternatives comme Spectre.
       - Utilité radicale ! Évolutivité illimitée et transactions instantanées.

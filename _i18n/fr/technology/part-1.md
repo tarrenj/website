@@ -27,6 +27,6 @@ Zen Secure Nodes permet un système de crypto-monnaie distribué et fiable qui c
 Les exigences de base des Secure Nodes sont:
 * Maintenir un minimum de 42 ZenCash en adresse transparente par noeud. Cela démontre suffisamment que l'opérateur se soucie suffisamment de ZenCash et décourage les utilisateurs aux intentions malveillantes d'utiliser un secure node.
 * Créer et maintenir un certificat TLS valide à partir d'une autorité de certification connue. Ceci permet le transport de données cryptées.
-* Exécutez le nœud sur un serveur doté d'une puissance de processeur et d'une mémoire suffisantes pour qu'il puisse relever un défi informatique. Ceci protège contre les attaques DDoS.
+* Exécuter le nœud sur un serveur doté d'une puissance de processeur et d'une mémoire suffisantes pour qu'il puisse relever un défi informatique. Ceci protège contre les attaques DDoS.
 * Maintenir une copie complète de la blockchain Zen. Cela garantit que les UTXO ou les engagements ne sont pas perdus.
 * Maintenir le nœud en état de marche au moins 92 % du temps.

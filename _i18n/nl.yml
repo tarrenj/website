@@ -32,6 +32,7 @@ global:
     third-party: Wallets van derden
     web: Web Wallet
     paper: Paper Wallet
+    mobile: Mobiele Wallet
     mobile-hardware: Mobiele Hardware Wallet
   forum: Forum
   go: bezoek

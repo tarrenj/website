@@ -72,3 +72,115 @@
     text-align: left;
   }
 }
+
+.language-select {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 101;
+  background-color: #69ffbd;
+  padding-bottom: 30px;
+
+  // Animate new language select
+  transform: scale(0.9);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  @include transition(all 0.3s ease-in-out);
+  &.show {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+    @include transition(all 0.3s ease-in-out);
+  }
+  @media (max-width: 991px) {
+    padding-bottom: 74px;
+  }
+
+  .language-item {
+    display: flex;
+    flex: 1 1;
+    background-color: transparent;
+    @include transition(all 0.3s ease-in-out);
+    &.active {
+      background-color: rgba(255,255,255,0.6);
+      @include transition(all 0.3s ease-in-out);
+      a {
+        font-weight: 600;
+      }
+    }
+    &:hover {
+      background-color: rgba(255,255,255,0.3);
+      @include transition(all 0.2s ease-in-out);
+    }
+    a {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      color: #1b2f59;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+      @media (max-width: 575px) {
+        font-size: 14px;
+      }
+    }
+  }
+  #languageClose {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    padding-top: 35px;
+    padding-right: 16px;
+    padding-left: 16px;
+    float: none;
+    clear: none;
+    background-color: transparent;
+    @media (max-width: 575px) {
+      width: 45px;
+      height: 45px;
+      padding-top: 21px;
+      padding-right: 9px;
+      padding-left: 9px;
+    }
+  }
+  .x {
+    position: static;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    width: 41px;
+    height: 1px;
+    margin-left: -37px;
+    float: right;
+    background-color: #000;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    @media (max-width: 575px) {
+      width: 26px;
+    }
+  }
+  .x2 {
+    margin-left: 0px;
+    float: right;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: left;
+  }
+}

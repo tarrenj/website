@@ -1,3 +1,27 @@
+<div class="language-select">
+  <a href="#" id="languageClose" class="toggle-languages">
+    <div class="x"></div>
+    <div class="x x2"></div>
+  </a>
+  {% for language in site.data.languages %}
+  {% if language[0] == "en" %}
+  <div class="language-item {% if site.lang == "en" %}active{% endif %}">
+    <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+  </div>
+  {% else %}
+    {% if site.lang == language[0] %}
+    <div class="language-item active">
+      <a href="{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+    </div>
+    {% else %}
+    <div class="language-item">
+      <a href="{{ site.baseurl_root }}{% tl {{ page.namespace }} {{ language[0] }} %}">{{ language[1] }}</a>
+    </div>
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+</div>
+{% comment %}
 <div class="language-sidebar">
   <a href="#" id="languageClose" class="toggle-languages">
     <div class="x"></div>
@@ -17,10 +41,6 @@
       {% endif %}
     </li>
     {% endfor %}
-    {% comment %}
-    <li>
-      <a href="https://ru.zensystem.io/">русский</a>
-    </li>
-    {% endcomment %}
   </ul>
 </div>
+{% endcomment %}

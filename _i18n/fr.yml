@@ -32,6 +32,7 @@ global:
     third-party: Wallets De Tiers
     web: Web Wallet
     paper: Wallet Papier
+    mobile: Wallet Portable
     mobile-hardware: Hardware Wallet Portable
   forum: Forum
   go: GO

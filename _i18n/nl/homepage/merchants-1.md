@@ -4,4 +4,5 @@
 - [Cointopay](https://www.youtube.com/watch?v=eM_dYQKCqlI){:data-lity=""} - Shopify winkels accepteren ZEN!
 - [Coss.io](https://coss.io/){:target="_blank"} - plugin voor online aankopen met automatische valutaconversie
 - [OpenBazaar](https://www.openbazaar.org/){:target="_blank"}
+- [Paytomat](https://paytomat.com/#wallet){:target="_blank"}
 </div>

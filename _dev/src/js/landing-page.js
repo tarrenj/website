@@ -27,5 +27,6 @@ $(function() {
 
 $('.toggle-languages').click(function(event) {
   event.preventDefault();
-  $('.language-sidebar').toggleClass('show');
+  // $('.language-sidebar').toggleClass('show');
+  $('.language-select').toggleClass('show');
 });

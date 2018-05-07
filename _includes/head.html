@@ -26,7 +26,7 @@
   {% if language == 'en' %}
   <link rel="alternate" href="{{site.url}}{{page.url}}" hreflang="{{language}}" />
   {% else %}
-  <link rel="alternate" href="{{site.url}}/{{language}}{{page.url}}" hreflang="{{language}}" />
+  <link rel="alternate" href="{{site.url}}/{{language}}{{page.url}}" hreflang="{% if language == 'jp' %}ja{% else %}{{language}}{% endif %}" />
   {% endif %}
   {% endfor %}
   <meta property="og:site_name" content="{{ site.title }}">

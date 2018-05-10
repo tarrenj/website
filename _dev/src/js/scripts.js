@@ -62,6 +62,14 @@ AOS.init({
 $(window).scroll(function() {
   var theta = $(window).scrollTop() / 75 % Math.PI;
   $('#circle-dots-img').css({ transform: 'rotate(' + theta + 'rad)' });
+
+  var distanceFromTop = $(window).scrollTop();
+  if (distanceFromTop >= 1000) {
+    $('#backToTop').addClass('show');
+  }
+  if (distanceFromTop < 1000) {
+    $('#backToTop').removeClass('show');
+  }
 });
 
 // new WOW({

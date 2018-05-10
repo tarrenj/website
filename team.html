@@ -23,6 +23,20 @@ permalink: /team/
     </div>
   </div>
 
+  <div class="container team-page-header-links">
+    <div class="row justify-content-center align-items-center">
+      <div class="col">
+        <a href="#engineering" class="team-page-link"><h1>Core Team</h1></a>
+      </div>
+      <div class="col">
+        <a href="#partners" class="team-page-link"><h1>Partners</h1></a>
+      </div>
+      <div class="col">
+        <a href="#advisors" class="team-page-link"><h1>Advisors</h1></a>
+      </div>
+    </div>
+  </div>
+
   {% for group in site.data.team.groups %}
   <div class="container-fluid team-section" id="{{group.slug}}" data-aos="fade-down">
     <div class="row justify-content-center align-items-center">
@@ -127,6 +141,10 @@ permalink: /team/
         </div>
       </div>
     </div>
+  </div>
+
+  <div id="backToTop">
+    <a href="#team-details"><img src="/assets/img/icons/nav-arrow.png" /></a>
   </div>
 
 </section>

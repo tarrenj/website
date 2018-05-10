@@ -268,7 +268,7 @@
         {
           "name": "Mike Lorey",
           "photo": "/assets/img/people/mike.jpg",
-          "title": "Sr Front-End Engineer",
+          "title": "Senior Front-End Architect",
           "bio":
             "Mike is a notable software engineer, marketing technologist, and social entrepreneur. His focus lies at the intersection between raw creative and technical skills, bending the conceptual into the tangible things that other people want or need.\n\nMike holds an MBA in Marketing and is a self-taught programmer.",
           "social": {
@@ -286,6 +286,18 @@
           "social": {
             "twitter": "",
             "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Nathan King",
+          "photo": "/assets/img/people/nathan.jpg",
+          "title": "Information Architect",
+          "bio":
+            "Nathan spent the past 9 years developing virtual & physical payment platforms, RESTful API services and subscription systems for global household names such as Samsung, ODEON Cinemas and Microsoft.\n\nWhile building on his experiences and skillset, Nathan has proven to take great pride and fulfillment in his customer & client relations whether technical, business or otherwise.",
+          "social": {
+            "twitter": "",
+            "linkedin": "nathankingck",
             "discord": ""
           }
         }
@@ -312,6 +324,17 @@
           "photo": "/assets/img/people/lucy.jpg",
           "title": "Marketing Analyst",
           "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Jonathan Teplitsky",
+          "photo": "/assets/img/people/jonathan.jpg",
+          "title": "Marketing Analyst",
+          "bio": "Jonathan holds a MBA from Harvard Business School and has marketing experience at Amazon.com, Uber, and Accenture. As a former Army officer, Jonathan led humanitarian assistance missions in Djiobuti, Uganda and Tanzania. He’s also the founder of several retail startups focusing on technology and travel. He's passionate about ZenCash and looking forward to making an impact.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -406,22 +429,23 @@
           }
         },
         {
-          "name": "Kirk Phillips",
-          "photo": "/assets/img/people/kirk.jpg",
-          "title": "Accounting",
-          "bio": "",
-          "social": {
-            "twitter": "thebitcoincpa",
-            "linkedin": "kirk-phillips-cpa",
-            "discord": ""
-          }
-        },
-        {
           "name": "Philippe Fürst",
           "photo": "/assets/img/people/philippe.jpg",
           "title": "Program Manager",
           "bio":
             "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Kamila Bureš-Haller",
+          "photo": "/assets/img/people/kamila.jpg",
+          "title": "Program Manager",
+          "bio":
+            "Kamila has a M.Sc. degree in Dynamics and Mechatronics and has experience in leading and R&D projects through the product lifecycle. She has great interest in everything crypto and blockchain technology especially ZenCash. Kamila is highly proficient in drilling, mining rig assembly, network configuration, modifying GPU BIOS, and programming. Kamila is ecstatic to contribute her skills to community focused projects.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -437,6 +461,35 @@
             "twitter": "Mimish53",
             "linkedin": "jeremy-wan-557ba1107",
             "discord": "Jmiii"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Financing",
+      "slug": "financing",
+      "members": [
+        {
+          "name": "Said Mammadov",
+          "photo": "/assets/img/people/said.jpg",
+          "title": "Finance Manager",
+          "bio":
+            "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
+          "social": {
+            "twitter": "",
+            "linkedin": "said-mammadov-8699905",
+            "discord": "saidtm"
+          }
+        },
+        {
+          "name": "Kirk Phillips",
+          "photo": "/assets/img/people/kirk.jpg",
+          "title": "Accounting",
+          "bio": "",
+          "social": {
+            "twitter": "thebitcoincpa",
+            "linkedin": "kirk-phillips-cpa",
+            "discord": ""
           }
         }
       ]
@@ -503,18 +556,6 @@
             "twitter": "",
             "linkedin": "leviscaycedo",
             "discord": ""
-          }
-        },
-        {
-          "name": "Said Mammadov",
-          "photo": "/assets/img/people/said.jpg",
-          "title": "Country Manager: Turkey",
-          "bio":
-            "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
-          "social": {
-            "twitter": "",
-            "linkedin": "said-mammadov-8699905",
-            "discord": "saidtm"
           }
         },
         {

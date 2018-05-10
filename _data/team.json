@@ -118,18 +118,6 @@
           }
         },
         {
-          "name": "Wayne Dawson",
-          "photo": "/assets/img/people/wayne.jpg",
-          "title": "Sr Software Developer",
-          "bio":
-            "Wayne has an MS in Electrical Engineering and 30+ years experience as a software developer. He began working with alternative currencies in 2000 when he was involved with e-gold, and has written multiple other web-based currency systems.\n\nWayne teaches electronics and programming, and became involved with cryptocurrencies after buying an ASIC miner from a fellow libertarian in 2014. He believes decentralized blockchain technologies are making the world freer, more just, and more inclusive.",
-          "social": {
-            "twitter": "",
-            "linkedin": "waynedawson",
-            "discord": "jongalt0, UTC-5"
-          }
-        },
-        {
           "name": "Allan Dumaine",
           "photo": "/assets/img/people/allan.jpg",
           "title": "Sr Software Developer",
@@ -139,18 +127,6 @@
             "twitter": "",
             "linkedin": "",
             "discord": "devman"
-          }
-        },
-        {
-          "name": "Anarch",
-          "photo": "/assets/img/people/anarch3.jpg",
-          "title": "Sr Software Developer",
-          "bio":
-            "anarch is a self-taught programmer who has been a project maintainer for various projects ranging from simple password generators to complex cryptocurrencies. Also a twitter addict.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": "anarch3, UTC -5"
           }
         },
         {
@@ -292,25 +268,13 @@
         {
           "name": "Mike Lorey",
           "photo": "/assets/img/people/mike.jpg",
-          "title": "Sr Front-End Engineer",
+          "title": "Senior Front-End Architect",
           "bio":
             "Mike is a notable software engineer, marketing technologist, and social entrepreneur. His focus lies at the intersection between raw creative and technical skills, bending the conceptual into the tangible things that other people want or need.\n\nMike holds an MBA in Marketing and is a self-taught programmer.",
           "social": {
             "twitter": "mdlorey",
             "linkedin": "mikelorey",
             "discord": "mdlorey"
-          }
-        },
-        {
-          "name": "Jonathan Dumaine",
-          "photo": "",
-          "title": "Front-End Engineer",
-          "bio":
-            "Over ten years of professional experience in the industry, and programming since 11. In addition to working with companies like Intel, Siemens, Syfy, and many others in the Building Automation Systems industry also lead the development efforts of Silicon Valley startups. Keenly interested in investing & financial markets, machine learning, artificial intelligence and cryptocurrencies. When he’s not behind his computer, he can be found practicing MMA, Muay Thai, playing video games, swing dancing, rock climbing or traveling. He’s excited to provide ZenCash users with new tools and cool apps.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": "Dum"
           }
         },
         {
@@ -322,6 +286,18 @@
           "social": {
             "twitter": "",
             "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Nathan King",
+          "photo": "/assets/img/people/nathan.jpg",
+          "title": "Information Architect",
+          "bio":
+            "Nathan spent the past 9 years developing virtual & physical payment platforms, RESTful API services and subscription systems for global household names such as Samsung, ODEON Cinemas and Microsoft.\n\nWhile building on his experiences and skillset, Nathan has proven to take great pride and fulfillment in his customer & client relations whether technical, business or otherwise.",
+          "social": {
+            "twitter": "",
+            "linkedin": "nathankingck",
             "discord": ""
           }
         }
@@ -355,6 +331,17 @@
           }
         },
         {
+          "name": "Jonathan Teplitsky",
+          "photo": "/assets/img/people/jonathan.jpg",
+          "title": "Marketing Analyst",
+          "bio": "Jonathan holds a MBA from Harvard Business School and has marketing experience at Amazon.com, Uber, and Accenture. As a former Army officer, Jonathan led humanitarian assistance missions in Djiobuti, Uganda and Tanzania. He’s also the founder of several retail startups focusing on technology and travel. He's passionate about ZenCash and looking forward to making an impact.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
           "name": "James Coleman-Powell",
           "photo": "/assets/img/people/james.jpg",
           "title": "Marketing Technology Lead",
@@ -364,18 +351,6 @@
             "twitter": "",
             "linkedin": "jamescolemanpowell",
             "discord": "jcp"
-          }
-        },
-        {
-          "name": "Ross Kenyon",
-          "photo": "/assets/img/people/ross.jpg",
-          "title": "Communication Strategy",
-          "bio":
-            "Ross Kenyon is a blockchain professional with a background in academia, filmmaking, and business development. He has worked with Tezos, Sweetbridge, Nori, and Blue Frontiers.",
-          "social": {
-            "twitter": "",
-            "linkedin": "rmkenyon",
-            "discord": ""
           }
         },
         {
@@ -454,22 +429,23 @@
           }
         },
         {
-          "name": "Kirk Phillips",
-          "photo": "/assets/img/people/kirk.jpg",
-          "title": "Accounting",
-          "bio": "",
-          "social": {
-            "twitter": "thebitcoincpa",
-            "linkedin": "kirk-phillips-cpa",
-            "discord": ""
-          }
-        },
-        {
           "name": "Philippe Fürst",
           "photo": "/assets/img/people/philippe.jpg",
           "title": "Program Manager",
           "bio":
             "After getting his diploma in mechanical engineering, Philippe became project manager for brown and greenfield plant extensions and new buildings. His profession is very diversified as he is working in various industries. That is also one of the main reasons why crypto projects appeal to him as they are also multi discipline: finances, coding, hardware, governance, etc. - it never gets boring. Philippe believes in ZenCash as a project who wants to develop a sustainable crypto economy for creating real innovative value. With his background in project management he matches perfectly for reinforcing our operations team.",
+          "social": {
+            "twitter": "",
+            "linkedin": "",
+            "discord": ""
+          }
+        },
+        {
+          "name": "Kamila Bureš-Haller",
+          "photo": "/assets/img/people/kamila.jpg",
+          "title": "Program Manager",
+          "bio":
+            "Kamila has a M.Sc. degree in Dynamics and Mechatronics and has experience in leading and R&D projects through the product lifecycle. She has great interest in everything crypto and blockchain technology especially ZenCash. Kamila is highly proficient in drilling, mining rig assembly, network configuration, modifying GPU BIOS, and programming. Kamila is ecstatic to contribute her skills to community focused projects.",
           "social": {
             "twitter": "",
             "linkedin": "",
@@ -485,6 +461,35 @@
             "twitter": "Mimish53",
             "linkedin": "jeremy-wan-557ba1107",
             "discord": "Jmiii"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Financing",
+      "slug": "financing",
+      "members": [
+        {
+          "name": "Said Mammadov",
+          "photo": "/assets/img/people/said.jpg",
+          "title": "Finance Manager",
+          "bio":
+            "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
+          "social": {
+            "twitter": "",
+            "linkedin": "said-mammadov-8699905",
+            "discord": "saidtm"
+          }
+        },
+        {
+          "name": "Kirk Phillips",
+          "photo": "/assets/img/people/kirk.jpg",
+          "title": "Accounting",
+          "bio": "",
+          "social": {
+            "twitter": "thebitcoincpa",
+            "linkedin": "kirk-phillips-cpa",
+            "discord": ""
           }
         }
       ]
@@ -543,7 +548,7 @@
         },
         {
           "name": "Levis Caycedo",
-          "photo": "",
+          "photo": "/assets/img/people/levis.jpg",
           "title": "Region Lead: North America",
           "bio":
             "After graduating from the University of Florida with a bachelor's degree in industrial engineering, Levis spent the next 12 years as a project engineer and project manager in the U.S. Air Force. After separating from the Air Force, Levis joined an engineering consulting firm advising the Air Force on strategy for space and launch acquisitions. Recently while working on his Finance MBA at UCLA Anderson, Levis became extremely passionate about crypto currencies and began contributing to the Zen team as a part time intern. Now Levis is joining the Zen team full time to contribute his project management and strategy experience to grow the Zen community in Latin America.",
@@ -551,18 +556,6 @@
             "twitter": "",
             "linkedin": "leviscaycedo",
             "discord": ""
-          }
-        },
-        {
-          "name": "Said Mammdov",
-          "photo": "/assets/img/people/said.jpg",
-          "title": "Country Manager: Turkey",
-          "bio":
-            "Said’s background is in investment finance. He started his career as a financial analyst and a stock trader on Wall Street. Said’s focus has been investing in emerging markets, he co-founded several investment funds catering to financial institutions and high-net-worth individuals. He has traveled extensively performing company valuations and investing internationally. He is currently pursuing an MBA degree in finance at the University of South Carolina, he is a Level 3 CFA Candidate. His interests are in data analytics and crypto currencies.",
-          "social": {
-            "twitter": "",
-            "linkedin": "said-mammadov-8699905",
-            "discord": "saidtm"
           }
         },
         {
@@ -615,7 +608,7 @@
         },
         {
           "name": "Ruben Elizondo",
-          "photo": "",
+          "photo": "/assets/img/people/ruben.jpg",
           "title": "Country Representative: Mexico",
           "bio":
             "Ruben is a Mechatronic Engineer and have worked in international companies such as John Deere and Heineken, working as a PLC programmer and as a Design Engineer. He has a keen interest in cryptocurrencies and state of the art technologies, always eager to be learning new things, passionate on how things work and solving engineering problems. Nowadays Ruben's attention is headed towards blockchain to witness and form part of this revolutionary technology.",

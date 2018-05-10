@@ -118,18 +118,6 @@
           }
         },
         {
-          "name": "Wayne Dawson",
-          "photo": "/assets/img/people/wayne.jpg",
-          "title": "Sr Software Developer",
-          "bio":
-            "Wayne has an MS in Electrical Engineering and 30+ years experience as a software developer. He began working with alternative currencies in 2000 when he was involved with e-gold, and has written multiple other web-based currency systems.\n\nWayne teaches electronics and programming, and became involved with cryptocurrencies after buying an ASIC miner from a fellow libertarian in 2014. He believes decentralized blockchain technologies are making the world freer, more just, and more inclusive.",
-          "social": {
-            "twitter": "",
-            "linkedin": "waynedawson",
-            "discord": "jongalt0, UTC-5"
-          }
-        },
-        {
           "name": "Allan Dumaine",
           "photo": "/assets/img/people/allan.jpg",
           "title": "Sr Software Developer",
@@ -139,18 +127,6 @@
             "twitter": "",
             "linkedin": "",
             "discord": "devman"
-          }
-        },
-        {
-          "name": "Anarch",
-          "photo": "/assets/img/people/anarch3.jpg",
-          "title": "Sr Software Developer",
-          "bio":
-            "anarch is a self-taught programmer who has been a project maintainer for various projects ranging from simple password generators to complex cryptocurrencies. Also a twitter addict.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": "anarch3, UTC -5"
           }
         },
         {
@@ -302,18 +278,6 @@
           }
         },
         {
-          "name": "Jonathan Dumaine",
-          "photo": "",
-          "title": "Front-End Engineer",
-          "bio":
-            "Over ten years of professional experience in the industry, and programming since 11. In addition to working with companies like Intel, Siemens, Syfy, and many others in the Building Automation Systems industry also lead the development efforts of Silicon Valley startups. Keenly interested in investing & financial markets, machine learning, artificial intelligence and cryptocurrencies. When he’s not behind his computer, he can be found practicing MMA, Muay Thai, playing video games, swing dancing, rock climbing or traveling. He’s excited to provide ZenCash users with new tools and cool apps.",
-          "social": {
-            "twitter": "",
-            "linkedin": "",
-            "discord": "Dum"
-          }
-        },
-        {
           "name": "Vitalik Demin",
           "photo": "/assets/img/people/vitalik.jpg",
           "title": "Information Architect",
@@ -364,18 +328,6 @@
             "twitter": "",
             "linkedin": "jamescolemanpowell",
             "discord": "jcp"
-          }
-        },
-        {
-          "name": "Ross Kenyon",
-          "photo": "/assets/img/people/ross.jpg",
-          "title": "Communication Strategy",
-          "bio":
-            "Ross Kenyon is a blockchain professional with a background in academia, filmmaking, and business development. He has worked with Tezos, Sweetbridge, Nori, and Blue Frontiers.",
-          "social": {
-            "twitter": "",
-            "linkedin": "rmkenyon",
-            "discord": ""
           }
         },
         {

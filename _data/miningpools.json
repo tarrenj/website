@@ -20,20 +20,12 @@
     "url": "https://miningpoolhub.com/"
   },
   {
-    "name": "CloudPools",
-    "url": "http://zen.cloudpools.net/"
-  },
-  {
     "name": "TreeFrog Mines",
     "url": "https://treefrogmines.com/"
   },
   {
     "name": "MineZ Zone",
     "url": "https://minez.zone/"
-  },
-  {
-    "name": "SG Pool",
-    "url": "https://www.sgpool.net/"
   },
   {
     "name": "HebUsio Pool",
@@ -68,15 +60,11 @@
     "url": "https://myzen.cash/"
   },
   {
-    "name": "Coinfoundry",
-    "url": "https://coinfoundry.org/"
-  },
-  {
-    "name": "Panda Mines",
-    "url": "https://pandamines.com/"
-  },
-  {
     "name": "MinerBay",
     "url": "https://minerbay.org/"
+  },
+  {
+    "name": "Ambit",
+    "url": "https://www.ambitmining.io/"
   }
 ]

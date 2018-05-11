@@ -219,10 +219,10 @@ $.ajax({
 
 if ( document.getElementById("nodeCount") ) {
   $.ajax({
-    url: 'https://securenodes.na.zensystem.io/api/grid/nodes',
+    url: 'https://securenodes.zensystem.io/api/srvstats',
     dataType: 'json',
     success: function(data) {
-      var nodeValue = data.userdata.global.total;
+      var nodeValue = data.global.total;
       if ( $.isNumeric(nodeValue) ) {
         var nodes = numberWithCommas(nodeValue);
         $('#nodeCount').text(nodes);

@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /assets/
 Disallow: /google23711a33eab179e5.htmlDisallow: /google6d91e4bb1ccb84a8.html
 
 Sitemap: https://zencash.com/sitemap.xml

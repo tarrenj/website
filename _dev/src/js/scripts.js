@@ -245,6 +245,50 @@ if ( document.getElementById("circSupply") ) {
   });
 }
 
+// Update wallet links
+
+if ( window.location.pathname === '/wallets/') {
+  $.ajax({
+    url: 'https://api.github.com/repos/ZencashOfficial/arizen/releases/latest',
+    dataType: 'json',
+    success: function(data) {
+      var assets = data.assets;
+      var downloadLinks = {};
+      for (var i = 0; i < assets.length; i++) {
+        if ( assets[i].name.indexOf(".exe") > -1 ) {
+          downloadLinks.windows = "https://github.com/ZencashOfficial/arizen/releases/download/" + data.name + "/" + assets[i].name;
+        } else if ( assets[i].name.indexOf(".dmg") > -1 ) {
+          downloadLinks.mac = "https://github.com/ZencashOfficial/arizen/releases/download/" + data.name + "/" + assets[i].name;
+        } else if ( assets[i].name.indexOf(".AppImage") > -1 ) {
+          downloadLinks.linux = "https://github.com/ZencashOfficial/arizen/releases/download/" + data.name + "/" + assets[i].name;
+        }
+      }
+      $('#arizenWindowsLink').attr('href', downloadLinks.windows);
+      $('#arizenMacLink').attr('href', downloadLinks.mac);
+      $('#arizenLinuxLink').attr('href', downloadLinks.linux);
+    }
+  });
+  // Starting to look into updating Swing urls as well
+  // $.ajax({
+  //   url: 'https://api.github.com/repos/ZencashOfficial/zencash-swing-wallet-ui/releases',
+  //   dataType: 'json',
+  //   success: function(data) {
+  //     console.log(data);
+  //
+  //     for (var i=0; i < data.length; i++) {
+  //       if ( data[i].name.indexOf("Windows") > -1 ) {
+  //         console.log( data[i].name );
+  //       } else if ( data[i].name.indexOf("Linux") > -1 ) {
+  //         console.log( data[i].name );
+  //       }
+  //     }
+  //
+  //   }
+  // });
+}
+
+
+
 // CORS error
 // if ( document.getElementById("currentPrice") ) {
 //   $.ajax({

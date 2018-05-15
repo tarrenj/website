@@ -247,7 +247,7 @@ if ( document.getElementById("circSupply") ) {
 
 // Update wallet links
 
-if ( window.location.pathname === '/wallets/') {
+if ( window.location.pathname.indexOf("/wallets/") > -1 ) {
   $.ajax({
     url: 'https://api.github.com/repos/ZencashOfficial/arizen/releases/latest',
     dataType: 'json',

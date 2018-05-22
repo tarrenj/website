@@ -31,6 +31,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://zencash.com/de/privacy/</loc>
+    <lastmod>2018-03-15</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://zencash.com/de/roadmap/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
@@ -50,6 +56,12 @@
   </url>
   <url>
     <loc>https://zencash.com/de/technology/</loc>
+    <lastmod>2018-03-15</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://zencash.com/de/terms/</loc>
     <lastmod>2018-03-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

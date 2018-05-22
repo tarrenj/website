@@ -56,6 +56,9 @@
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
+  &.short {
+    max-height: 400px;
+  }
   img.logo {
     max-width: 450px;
     margin-bottom: 1rem;
@@ -180,6 +183,24 @@ section.content {
     p {
       font-size: 1.4rem;
       font-weight: 300;
+    }
+  }
+  &.legal {
+    h2:not(.lined-subtext) {
+      font-weight: 300;
+      font-size: 28px;
+    }
+    h3 {
+      color: #1B2F5A;
+      letter-spacing: 1px;
+      font-size: 22px;
+    }
+    ul, ol {
+      li {
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        padding: .4rem 0 !important;
+      }
     }
   }
   ul {

@@ -187,7 +187,13 @@ section.content {
   }
   &.legal {
     h2:not(.lined-subtext) {
+      font-weight: 300;
       font-size: 28px;
+    }
+    h3 {
+      color: #1B2F5A;
+      letter-spacing: 1px;
+      font-size: 22px;
     }
     ul, ol {
       li {

@@ -8,7 +8,7 @@
     privacyDiv.style.backgroundColor = "#f5f5f5";
     privacyDiv.style.paddingTop = "10px";
     privacyDiv.style.paddingBottom = "10px";
-    privacyDiv.innerHTML = '<p style="margin:0;text-align:center;">This site uses cookies to make the site simpler. Further information is provided in our <a href="https://zencash.com/privacy/">Privacy Policy</a><span id="privacyClose" style="position:absolute;top:10px;right:15px;display:block;height:30px;padding-left:10px;padding-right:10px;cursor:pointer;" onclick="dismissPrivacy()">X</span></p>';
+    privacyDiv.innerHTML = '<p style="margin:0;text-align:center;padding-left:30px;padding-right:30px;">This site uses cookies to make the site simpler. Further information is provided in our <a href="https://zencash.com/privacy/">Privacy Policy</a><span id="privacyClose" style="position:absolute;top:10px;right:5px;display:block;height:30px;padding-left:10px;padding-right:10px;cursor:pointer;" onclick="dismissPrivacy()">X</span></p>';
     if ( siteHeader ) {
       siteHeader.prepend(privacyDiv);
     } else {

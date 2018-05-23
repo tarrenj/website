@@ -1,14 +1,19 @@
 // Cookie/Privacy prompt
 (function () {
   var privacyCookie = getCookie('zenCashPrivacy');
+  var siteHeader = document.getElementsByTagName("header")[0];
   if ( !privacyCookie ) {
     var privacyDiv = document.createElement('div');
     privacyDiv.setAttribute("id", "privacy-notification");
-    privacyDiv.style.backgroundColor = "rgba(27,47,89,0.05)";
+    privacyDiv.style.backgroundColor = "#f5f5f5";
     privacyDiv.style.paddingTop = "10px";
     privacyDiv.style.paddingBottom = "10px";
     privacyDiv.innerHTML = '<p style="margin:0;text-align:center;">This site uses cookies to make the site simpler. Further information is provided in our <a href="https://zencash.com/privacy/">Privacy Policy</a><span id="privacyClose" style="position:absolute;top:10px;right:15px;display:block;height:30px;padding-left:10px;padding-right:10px;cursor:pointer;" onclick="dismissPrivacy()">X</span></p>';
-    document.body.prepend(privacyDiv);
+    if ( siteHeader ) {
+      siteHeader.prepend(privacyDiv);
+    } else {
+      document.body.prepend(privacyDiv);
+    }
   }
 }());
 
@@ -49,17 +54,17 @@ function dismissPrivacy() {
 var header = $('.site-header');
 
 $(function() {
-    header.headroom({
-        "tolerance": 5,
-        "offset": 40,
-        "classes": {
-            "initial": "animated",
-            "pinned": "slideDown",
-            "unpinned": "slideUp",
-            "top": "headroom--top",
-            "notTop": "headroom--not-top"
-        }
-    });
+  header.headroom({
+    "tolerance": 5,
+    "offset": 40,
+    "classes": {
+      "initial": "animated",
+      "pinned": "slideDown",
+      "unpinned": "slideUp",
+      "top": "headroom--top",
+      "notTop": "headroom--not-top"
+    }
+  });
 });
 
 // Smooth page scroll to an anchor on the same page

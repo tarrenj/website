@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /assets/
 
 Disallow: /google23711a33eab179e5.html
 Disallow: /google6d91e4bb1ccb84a8.html

@@ -2121,6 +2121,11 @@ section#tech {
     margin-top: 2rem;
     small {
       color: #185e94;
+      a {
+        color: white;
+        text-decoration: underline;
+        padding: 0 3px;
+      }
     }
   }
 }

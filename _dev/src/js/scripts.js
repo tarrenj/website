@@ -1,17 +1,70 @@
+// Cookie/Privacy prompt
+(function () {
+  var privacyCookie = getCookie('zenCashPrivacy');
+  var siteHeader = document.getElementsByTagName("header")[0];
+  if ( !privacyCookie ) {
+    var privacyDiv = document.createElement('div');
+    privacyDiv.setAttribute("id", "privacy-notification");
+    privacyDiv.style.backgroundColor = "#f5f5f5";
+    privacyDiv.style.paddingTop = "10px";
+    privacyDiv.style.paddingBottom = "10px";
+    privacyDiv.innerHTML = '<p style="margin:0;text-align:center;padding-left:30px;padding-right:30px;">This site uses cookies to make the site simpler. Further information is provided in our <a href="https://zencash.com/privacy/">Privacy Policy</a><span id="privacyClose" style="position:absolute;top:10px;right:5px;display:block;height:30px;padding-left:10px;padding-right:10px;cursor:pointer;" onclick="dismissPrivacy()">X</span></p>';
+    if ( siteHeader ) {
+      siteHeader.prepend(privacyDiv);
+    } else {
+      document.body.prepend(privacyDiv);
+    }
+  }
+}());
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function setCookie(cname, cvalue) {
+  var expires = "expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function dismissPrivacy() {
+  setCookie('zenCashPrivacy', 'accepted');
+  document.getElementById("privacy-notification").remove();
+};
+// END Cookie/Privacy prompt
+
+
+// Delete cookie
+// document.cookie = "zenCashPrivacy=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+
+
+
 var header = $('.site-header');
 
 $(function() {
-    header.headroom({
-        "tolerance": 5,
-        "offset": 40,
-        "classes": {
-            "initial": "animated",
-            "pinned": "slideDown",
-            "unpinned": "slideUp",
-            "top": "headroom--top",
-            "notTop": "headroom--not-top"
-        }
-    });
+  header.headroom({
+    "tolerance": 5,
+    "offset": 40,
+    "classes": {
+      "initial": "animated",
+      "pinned": "slideDown",
+      "unpinned": "slideUp",
+      "top": "headroom--top",
+      "notTop": "headroom--not-top"
+    }
+  });
 });
 
 // Smooth page scroll to an anchor on the same page

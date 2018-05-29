@@ -418,17 +418,6 @@
       "slug": "operations",
       "members": [
         {
-          "name": "Cogent Law",
-          "photo": "/assets/img/people/cogent.jpg",
-          "title": "Legal",
-          "bio": "",
-          "social": {
-            "twitter": "",
-            "linkedin": "https://www.linkedin.com/company/10780416/",
-            "discord": ""
-          }
-        },
-        {
           "name": "Philippe Fürst",
           "photo": "/assets/img/people/philippe.jpg",
           "title": "Program Manager",
@@ -492,6 +481,34 @@
             "discord": ""
           }
         }
+      ]
+    },
+    {
+      "name": "Legal",
+      "slug": "legal",
+      "members": [
+        {
+          "name": "Dean Steinbeck",
+          "photo": "/assets/img/people/dean.jpg",
+          "title": "General Council",
+          "bio": "Dean Steinbeck is a corporate attorney with a focus on data privacy and technology. He has over a decade of experience representing traditional VC-backed software development companies, most recently serving as General Counsel to TigerConnect, a secure and regulatory compliant communication platform used in over 4,000 healthcare facilities. Dean holds a JD from UC Berkeley School of Law and a MSc in Accounting & Finance from the London School of Economics.",
+          "social": {
+            "twitter": "",
+            "linkedin": "dean-steinbeck-79b32b36",
+            "discord": "Dean#9474"
+          }
+        },
+        {
+          "name": "Cogent Law",
+          "photo": "/assets/img/people/cogent.jpg",
+          "title": "Legal",
+          "bio": "",
+          "social": {
+            "twitter": "",
+            "linkedin": "https://www.linkedin.com/company/10780416/",
+            "discord": ""
+          }
+        },
       ]
     },
     {

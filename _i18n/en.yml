@@ -40,6 +40,7 @@ global:
   go: GO
   footeron: 'on'
   anonymous: anonymous
+  instant: instant
   korean: Korean
 titles:
   homepage: A globally accessible and anonymous blockchain

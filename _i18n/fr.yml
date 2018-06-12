@@ -314,6 +314,10 @@ homepage:
     button:
       text: PLUS D'ARTICLES
       link: https://blog.zencash.com/
+research:
+  subtitle: ZenCash is Invested in their Research to Stay on the Cutting Edge of Blockchain Technology
+  intro: 'ZenCash’s goal is to stay on the forefront of development. With 8.5% of mining rewards invested in integrations, engineering, marketing, research and development, ZenCash is constantly investing in ways to improve their platform. Our culture is research-driven, and we believe in transparency and knowledge sharing. Check out some of our white papers and research papers from our developers below to learn about the technology behind ZenCash:'
+  download: TELECHARGER
 mining-pools:
   subtitle: N'importe qui avec une carte graphique moderne peut miner du ZenCash, une crypto-monnaie, un proof of work, de minage GPU basée sur de l'equihash.
   content: 'Nous recommandons de répartir le hashrate entre les pools pour éviter une <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">attaque à 51%</a></strong>.'

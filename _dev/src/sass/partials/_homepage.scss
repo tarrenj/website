@@ -1976,6 +1976,36 @@ section#tech {
   }
 }
 
+#research {
+  .card {
+    background-color: #f5f5f5;
+    h3 {
+      color: $darkblue;
+      font-size: 1.2rem;
+      letter-spacing: 4px;
+      line-height: 1.4;
+    }
+    p {
+      font-weight: 300;
+    }
+    .btn {
+      margin-top: 1rem;
+    }
+    .btn-lg {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .inline-buttons {
+      .btn {
+        margin-left: 6px;
+        margin-right: 6px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+
 #error {
   padding-top: 0;
   padding-bottom: 0;

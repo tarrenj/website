@@ -6,6 +6,9 @@ whitepaper2:
   en: /assets/files/Zen-Application-Platform-Whitepaper.pdf
   es: /assets/files/Zen-Application-Platform-Whitepaper-Spanish.pdf
   zh: /assets/files/Zen-Application-Platform-Whitepaper-Chinese.pdf
+whitepaper3:
+  en: /assets/files/A-Penalty-System-for-Delayed-Block-Submission-by-ZenCash.pdf
+  zh: /assets/files/A-Penalty-System-for-Delayed-Block-Submission-by-ZenCash-Chinese.pdf
 videos:
   whatiszen:
     en: https://www.youtube.com/watch?v=3q6IvMRWapc

@@ -312,6 +312,10 @@ homepage:
     button:
       text: Mehr Blog-Einträge
       link: https://blog.zencash.com/
+research:
+  subtitle: ZenCash is Invested in their Research to Stay on the Cutting Edge of Blockchain Technology
+  intro: 'ZenCash’s goal is to stay on the forefront of development. With 8.5% of mining rewards invested in integrations, engineering, marketing, research and development, ZenCash is constantly investing in ways to improve their platform. Our culture is research-driven, and we believe in transparency and knowledge sharing. Check out some of our white papers and research papers from our developers below to learn about the technology behind ZenCash:'
+  download: Herunterladen
 mining-pools:
   subtitle: Jeder mit einer modernen Grafikkarte kann ZenCash minen. ZenCash ist eine auf Proof-of-Work und dem Equihash Algorithmus basierende Kryptowährung, die für GPU Mining optimiert ist.
   content: 'Wir empfehlen deine Rechenleistung auf mehrere Pools aufzuteilen, um einem <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% Angriff vorzubeugen</a></strong>.'

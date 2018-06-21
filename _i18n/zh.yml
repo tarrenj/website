@@ -309,6 +309,10 @@ homepage:
     button:
       text: 更多博文
       link: https://blog.zencash.com/
+research:
+  subtitle: ZenCash is Invested in their Research to Stay on the Cutting Edge of Blockchain Technology
+  intro: 'ZenCash’s goal is to stay on the forefront of development. With 8.5% of mining rewards invested in integrations, engineering, marketing, research and development, ZenCash is constantly investing in ways to improve their platform. Our culture is research-driven, and we believe in transparency and knowledge sharing. Check out some of our white papers and research papers from our developers below to learn about the technology behind ZenCash:'
+  download: 下载
 mining-pools:
   subtitle: 只要拥有一张现代显卡，您就能挖掘 ZenCash。ZenCash 采用工作量证明机制 (PoW)，基于 Equihash 算法进行 GPU 挖矿。
   content: '我们建议将算力分散在各个矿池中，以抵御 <a href="https://en.bitcoin.it/wiki/Majority_attack">51% 算力攻击</a>.'

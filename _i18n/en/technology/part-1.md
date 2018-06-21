@@ -20,13 +20,6 @@ Domain fronting does not require special cooperation by network intermediaries. 
 ### Resilient
 {: .subsection-title}
 ## Zen has one of the most distributed node systems. Learn more about Secure Nodes!
-**[Check out our Secure Node network](https://securenodes.na.zensystem.io/)**
+Learn more about **[Secure Nodes](https://zencash.com/securenodes/)** and **[Super Nodes](https://zencash.com)**
 
 Zen Secure Nodes enable a distributed and reliable cryptocurrency system that encrypts inter-node communications. Zen node communication looks like any other encrypted internet traffic, instead of like Bitcoin traffic. This effectively hides the type of activity taking place, making it less likely that Zen users and nodes are blocked.
-
-The basic requirements of Secure Nodes are:
-* Maintain a minimum of 42 ZenCash in transparent address per node. This sufficiently demonstrates that the operator cares enough about ZenCash and discouraging users with malicious intentions from operating a Secure Node.
-* Create and maintain a valid TLS certificate from a known Certificate Authority. This enables encrypted data transport.
-* Run the node on a server with enough processor power and memory so that it can meet a computational challenge. This protects against DDoS attacks.
-* Maintain a full copy of the Zen blockchain. This makes sure no UTXO’s or commitments are lost.
-* Keep the node up and running at least 92% of the time.

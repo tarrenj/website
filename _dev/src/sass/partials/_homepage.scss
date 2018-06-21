@@ -850,6 +850,10 @@ h2.section-title {
   }
   .feature-row {
     padding: 2.4rem 0;
+    .icon {
+      display: flex;
+      align-items: center;
+    }
     img {
       display: block;
       max-width: 350px;
@@ -873,6 +877,9 @@ h2.section-title {
       strong {
         font-weight: 700;
       }
+    }
+    ul, ol {
+      margin-bottom: 0;
     }
   }
 }

@@ -7,9 +7,10 @@ Everyone has an equal opportunity to participate in decision making, which empow
 ### Sustainable Economics
 {: .subsection-title}
 ## We believe in changing the world through technology and economic incentives that provide a robust, sustainable ecosystem.
-* 88% to miners
-* 8.5% to one or more DAOs
-* 3.5% to Secure Node Operators
+* 70% to miners
+* 10% to one or more DAOs
+* 10% to Secure Node Operators
+* 10% to Super Node Operators
 
 ### R&D Focus
 {: .subsection-title}

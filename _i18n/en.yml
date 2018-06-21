@@ -319,7 +319,7 @@ homepage:
       link: https://blog.zencash.com/
 mining-pools:
   subtitle: Anyone with a modern Graphic Card can mine ZenCash, a proof-of-work, equihash-based GPU mining cryptocurrency.
-  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://en.bitcoin.it/wiki/Majority_attack">51% attack</a></strong>.'
+  content: 'We recommend to spread the hash between pools to prevent a <strong><a href="https://zencash.com/assets/files/A-Penalty-System-for-Delayed-Block-Submission-by-ZenCash.pdf">51% attack</a></strong>.'
   resources:
     items:
       - title: Zen Mining Profit Calculator
